@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JLPT 道場 — Unlocking...</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:#0c0f16;color:#e9eef6;font-family:'Inter',system-ui,sans-serif;
+      display:flex;align-items:center;justify-content:center;min-height:100vh;padding:2rem;text-align:center}
+    .card{background:#141925;border:1px solid #283042;border-radius:24px;padding:2.5rem 2rem;max-width:360px;width:100%}
+    h1{font-size:1.5rem;font-weight:800;margin-bottom:.5rem}
+    p{color:#9aa6bb;font-size:.9rem;margin-bottom:1.5rem}
+    .btn{display:block;width:100%;background:#ff5d6c;color:#fff;border:none;border-radius:14px;
+      padding:.95rem;font-size:1rem;font-weight:700;text-decoration:none;margin-top:.75rem;cursor:pointer}
+    .btn:hover{opacity:.85}
+    .ok{font-size:2.5rem;margin-bottom:1rem}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="ok">🔓</div>
+    <h1 id="title">Unlocking...</h1>
+    <p id="msg">Please wait.</p>
+    <div id="links"></div>
+  </div>
+  <script>
+    (function(){
+      var params = new URLSearchParams(location.search);
+      var level  = params.get('level') || 'all';
+
+      var ALL = [
+        { key:'n2dojo.unlocked', code:'N2-X9K4P2', label:'N2 道場', path:'n2/' },
+        { key:'n3dojo.unlocked', code:'N3-M7R3Q8', label:'N3 道場', path:'n3/' },
+        { key:'n4dojo.unlocked', code:'N4-B2L5W6', label:'N4 道場', path:'n4/' },
+        { key:'n5dojo.unlocked', code:'N5-T8J1C4', label:'N5 道場', path:'n5/' },
+      ];
+
+      var targets = level === 'all' ? ALL : ALL.filter(function(a){ return a.code === level || a.path.startsWith(level); });
+      if(!targets.length) targets = ALL;
+
+      var unlocked = [];
+      targets.forEach(function(t){
+        try { localStorage.setItem(t.key,'1'); unlocked.push(t); } catch(e){}
+      });
+
+      var title = document.getElementById('title');
+      var msg   = document.getElementById('msg');
+      var links = document.getElementById('links');
+
+      if(unlocked.length){
+        title.textContent = unlocked.length === 1 ? unlocked[0].label + ' unlocked!' : 'All levels unlocked!';
+        msg.textContent   = 'Permanent access saved on this device.';
+        unlocked.forEach(function(t){
+          var a = document.createElement('a');
+          a.className = 'btn';
+          a.href      = t.path;
+          a.textContent = 'Open ' + t.label + ' →';
+          links.appendChild(a);
+        });
+      } else {
+        title.textContent = 'Error';
+        msg.textContent   = 'Could not save access (private browsing?). Try in a regular browser tab.';
+      }
+    })();
+  </script>
+</body>
+</html>
