@@ -4,7 +4,8 @@
 (function () {
   "use strict";
 
-  const GRAMMAR = window.N2_GRAMMAR || [];
+  const GRAMMAR = window.N2_GRAMMAR || window.N3_GRAMMAR || window.N4_GRAMMAR || window.N5_GRAMMAR || [];
+  const _lvl = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.level) || "N2";
   const CATS = window.CATEGORIES || {};
   const TIERS = window.TIERS || {};
   const DAY = 86400000;
@@ -286,7 +287,7 @@
     $("#view-dashboard").innerHTML = `
       <div class="card pad hero">
         <div>
-          <h1>${greet}&nbsp;! Prêt à dompter la grammaire&nbsp;<span class="jp">N2</span>&nbsp;?</h1>
+          <h1>${greet}&nbsp;! Ready to master&nbsp;<span class="jp">${_lvl}</span>&nbsp;grammar?</h1>
           <p>${dueCount > 0
             ? `<b>${dueCount}</b> point${dueCount > 1 ? "s" : ""} to review${newCount ? ` · <b>${newCount}</b> new to discover` : ""}.`
             : newCount > 0 ? `<b>${newCount}</b> grammar point${newCount > 1 ? "s" : ""} waiting for you.`
@@ -296,7 +297,7 @@
             <button class="btn big ghost" data-go="challenge">Speed challenge</button>
           </div>
         </div>
-        ${ringSVG(goalPct, todayRev, `/ ${goal} aujourd'hui`)}
+        ${ringSVG(goalPct, todayRev, `/ ${goal} today`)}
       </div>
 
       <div class="stat-grid">
