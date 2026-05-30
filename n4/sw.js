@@ -1,9 +1,10 @@
 /* N4 道場 — Service Worker (cache-first, vraiment hors-ligne) */
-const CACHE = "n4dojo-v2";
+const CACHE = "n4dojo-v3";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css?v=1",
+  "./paywall.js?v=1",
   "./grammar-n4.js?v=2",
   "./app.js?v=1",
   "./manifest.json",
