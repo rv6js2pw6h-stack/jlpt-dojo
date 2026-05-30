@@ -1,5 +1,5 @@
 /* N4 道場 — Service Worker (cache-first, vraiment hors-ligne) */
-const CACHE = "n4dojo-v4";
+const CACHE = "n4dojo-v5";
 const ASSETS = [
   "./",
   "./index.html",
