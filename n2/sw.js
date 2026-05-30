@@ -1,8 +1,16 @@
-/* JLPT 道場 — Service Worker landing page */
-const CACHE = "jlpt-landing-v1";
+/* N2 道場 — Service Worker (cache-first, vraiment hors-ligne) */
+const CACHE = "n2dojo-v185";
 const ASSETS = [
   "./",
-  "./index.html"
+  "./index.html",
+  "./styles.css?v=183",
+  "./paywall.js?v=1",
+  "./grammar-n2.js?v=182b",
+  "./app.js?v=182b",
+  "./manifest.json",
+  "./icon-180.png",
+  "./icon-192.png",
+  "./icon-512.png"
 ];
 
 self.addEventListener("install", (e) => {
@@ -24,6 +32,13 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+
+  if (req.mode === "navigate") {
+    e.respondWith(
+      caches.match("./index.html").then((cached) => cached || fetch(req))
+    );
+    return;
+  }
 
   e.respondWith(
     caches.match(req).then((cached) => {

@@ -3,79 +3,193 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
-  <title>N2 道場 — Grammaire JLPT N2</title>
-  <meta name="description" content="Entraînement intensif à la grammaire japonaise JLPT N2 : 66 points, près de 200 exercices, répétition espacée." />
+  <title>JLPT 道場 — Grammaire japonaise</title>
+  <meta name="description" content="Applications d'entraînement à la grammaire japonaise pour le JLPT N2, N3, N4 et N5. Quiz SRS, flashcards, défi chrono." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=183" />
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{
+      font-family:'Inter',system-ui,sans-serif;
+      background:#0c0f16;
+      background-image:radial-gradient(1200px 700px at 80% -10%,#1a2030 0%,#0c0f16 55%);
+      color:#e9eef6;
+      min-height:100vh;
+    }
+    a{text-decoration:none;color:inherit}
 
-  <!-- PWA -->
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#0c0f16" />
-  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
-  <link rel="apple-touch-icon" href="icon-180.png" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="apple-mobile-web-app-title" content="N2 道場" />
+    /* Header */
+    .topbar{
+      display:flex;align-items:center;justify-content:center;
+      padding:1.1rem 1.5rem;
+      border-bottom:1px solid #1b2230;
+    }
+    .brand{display:flex;align-items:center;gap:.55rem}
+    .brand-mark{
+      background:#ff5d6c;color:#fff;
+      font-size:1rem;font-weight:800;letter-spacing:.04em;
+      padding:.3rem .6rem;border-radius:8px;
+    }
+    .brand-name{font-size:1.1rem;font-weight:700;letter-spacing:.01em}
+    .brand-name small{display:block;font-size:.65rem;font-weight:500;color:#9aa6bb;letter-spacing:.06em;text-transform:uppercase}
+
+    /* Hero */
+    .hero{text-align:center;padding:3rem 1.5rem 2rem}
+    .hero h1{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:800;margin-bottom:.75rem}
+    .hero h1 span{color:#ff5d6c}
+    .hero p{font-size:1rem;color:#9aa6bb;max-width:480px;margin:0 auto;line-height:1.65}
+
+    /* Grid */
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:1rem;
+      max-width:900px;
+      margin:0 auto;
+      padding:0 1.25rem 4rem;
+    }
+
+    /* Card */
+    .card{
+      background:#141925;
+      border:1px solid #283042;
+      border-radius:20px;
+      padding:1.75rem 1.5rem;
+      display:flex;flex-direction:column;gap:1rem;
+      transition:border-color .2s,transform .2s;
+    }
+    .card:hover{border-color:#3a4458;transform:translateY(-3px)}
+
+    .card-top{display:flex;align-items:center;justify-content:space-between}
+    .lvl-badge{
+      font-size:1.5rem;font-weight:800;
+      background:#ff5d6c;color:#fff;
+      width:52px;height:52px;border-radius:14px;
+      display:flex;align-items:center;justify-content:center;
+    }
+    .price{
+      font-size:.85rem;font-weight:700;
+      background:#1b2230;color:#ffb454;
+      padding:.35rem .8rem;border-radius:100px;
+      border:1px solid #283042;
+    }
+
+    .card h2{font-size:1.15rem;font-weight:800}
+    .card .pts{font-size:.82rem;color:#9aa6bb;margin-top:-.4rem}
+
+    .features{display:flex;flex-wrap:wrap;gap:.4rem}
+    .feat{
+      font-size:.72rem;font-weight:600;
+      background:#1b2230;color:#687388;
+      padding:.22rem .6rem;border-radius:6px;
+    }
+
+    .btn{
+      display:block;width:100%;
+      background:#ff5d6c;color:#fff;
+      border:none;border-radius:12px;
+      padding:.85rem 1rem;
+      font-size:.95rem;font-weight:700;
+      text-align:center;
+      cursor:pointer;
+      transition:opacity .15s,transform .15s;
+    }
+    .btn:hover{opacity:.86;transform:translateY(-1px)}
+    .btn:active{transform:scale(.97)}
+
+    /* Footer */
+    footer{text-align:center;padding:2rem 1rem;color:#4a5568;font-size:.78rem;border-top:1px solid #1b2230}
+  </style>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand" id="brand" role="button" tabindex="0" title="Accueil">
-      <span class="brand-mark">N2</span>
-      <span class="brand-name">道場<small>Grammaire</small></span>
-    </div>
-
-    <nav class="tabs" id="tabs" aria-label="Navigation principale">
-      <button class="tab is-active" data-view="dashboard">Tableau de bord</button>
-      <button class="tab" data-view="practice">S'entraîner</button>
-      <button class="tab" data-view="flash">Cartes</button>
-      <button class="tab" data-view="challenge">Défi</button>
-      <button class="tab" data-view="reference">Référence</button>
-    </nav>
-
-    <div class="topbar-right">
-      <button class="chip streak" id="streakChip" title="Série de jours d'étude consécutifs">
-        <svg viewBox="0 0 24 24" class="ic"><path d="M12 2c1 3-1 4-2 6-1 2 0 4 2 4 1.5 0 2-1 2-2 2 1.5 3 3.5 3 5.5A5.5 5.5 0 0 1 6.5 21 6 6 0 0 1 4 13c0-3 2-5 3-7 1.5 1 2 2 2 3 1-2 2-4 3-7Z"/></svg>
-        <span id="streakNum">0</span>
-      </button>
-      <button class="icon-btn" id="themeBtn" title="Changer de thème (clair / sombre)" aria-label="Thème">
-        <svg viewBox="0 0 24 24" class="ic" id="themeIc"><path d="M21 12.8A8.5 8.5 0 0 1 11.2 3 7 7 0 1 0 21 12.8Z"/></svg>
-      </button>
-      <button class="icon-btn" id="settingsBtn" title="Réglages" aria-label="Réglages">
-        <svg viewBox="0 0 24 24" class="ic"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm9 4a7 7 0 0 0-.1-1.2l2-1.6-2-3.4-2.4 1a7 7 0 0 0-2-1.2l-.4-2.6H9.9l-.4 2.6a7 7 0 0 0-2 1.2l-2.4-1-2 3.4 2 1.6A7 7 0 0 0 3 12c0 .4 0 .8.1 1.2l-2 1.6 2 3.4 2.4-1a7 7 0 0 0 2 1.2l.4 2.6h4.2l.4-2.6a7 7 0 0 0 2-1.2l2.4 1 2-3.4-2-1.6c.1-.4.1-.8.1-1.2Z"/></svg>
-      </button>
+    <div class="brand">
+      <span class="brand-mark">JLPT</span>
+      <div class="brand-name">道場<small>Grammaire japonaise</small></div>
     </div>
   </header>
 
-  <main id="main">
-    <section id="view-dashboard" class="view"></section>
-    <section id="view-practice" class="view hidden"></section>
-    <section id="view-flash" class="view hidden"></section>
-    <section id="view-challenge" class="view hidden"></section>
-    <section id="view-reference" class="view hidden"></section>
-  </main>
+  <section class="hero">
+    <h1>Maîtrise la grammaire<br><span>japonaise</span></h1>
+    <p>Quiz SRS · Flashcards · Défi chrono · Référence complète.<br>Choisit ton niveau et commence.</p>
+  </section>
 
-  <nav class="bottomnav" id="bottomnav" aria-label="Navigation mobile"></nav>
+  <div class="grid">
+    <a class="card" href="n5/">
+      <div class="card-top">
+        <div class="lvl-badge">N5</div>
+        <span class="price">3 €</span>
+      </div>
+      <div>
+        <h2>N5 道場</h2>
+        <p class="pts">84 points · 218 exercices</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn">Commencer N5 →</span>
+    </a>
 
-  <div id="modalRoot"></div>
-  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <a class="card" href="n4/">
+      <div class="card-top">
+        <div class="lvl-badge">N4</div>
+        <span class="price">3 €</span>
+      </div>
+      <div>
+        <h2>N4 道場</h2>
+        <p class="pts">132 points · 264 exercices</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn">Commencer N4 →</span>
+    </a>
 
-  <noscript>
-    <p style="padding:2rem;text-align:center">Ce site nécessite JavaScript pour fonctionner.</p>
-  </noscript>
+    <a class="card" href="n3/">
+      <div class="card-top">
+        <div class="lvl-badge">N3</div>
+        <span class="price">3 €</span>
+      </div>
+      <div>
+        <h2>N3 道場</h2>
+        <p class="pts">182 points · 365 exercices</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn">Commencer N3 →</span>
+    </a>
 
-  <script>window.PAYWALL_CONFIG={level:"N2",appName:"N2 道場",storeKey:"n2dojo.unlocked",code:"N2-X9K4P2",stripeLink:"https://bilalebouziz.gumroad.com/l/pvkhvn"};</script>
-  <script src="paywall.js?v=1"></script>
-  <script src="grammar-n2.js?v=182b"></script>
-  <script src="app.js?v=182b"></script>
-  <script>
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker.register("sw.js").catch(function () {});
-      });
-    }
-  </script>
+    <a class="card" href="n2/">
+      <div class="card-top">
+        <div class="lvl-badge">N2</div>
+        <span class="price">3 €</span>
+      </div>
+      <div>
+        <h2>N2 道場</h2>
+        <p class="pts">182 points · 365 exercices</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn">Commencer N2 →</span>
+    </a>
+  </div>
+
+  <footer>Accès permanent · Fonctionne hors-ligne · Paiement sécurisé par Gumroad</footer>
 </body>
 </html>
