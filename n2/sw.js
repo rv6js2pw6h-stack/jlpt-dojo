@@ -1,5 +1,5 @@
 /* N2 道場 — Service Worker (cache-first, vraiment hors-ligne) */
-const CACHE = "n2dojo-v188";
+const CACHE = "n2dojo-v189";
 const ASSETS = [
   "./",
   "./index.html",

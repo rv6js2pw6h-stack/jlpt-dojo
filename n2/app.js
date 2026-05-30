@@ -162,6 +162,87 @@
     } catch (e) {}
   }
 
+  /* ----------------------------- Haptic -------------------------------- */
+  function haptic(type) {
+    if (!navigator.vibrate) return;
+    if (type === "light")     navigator.vibrate(10);
+    else if (type === "error")     navigator.vibrate([28, 8, 28]);
+    else if (type === "celebrate") navigator.vibrate([15, 8, 15, 8, 40]);
+  }
+
+  /* ----------------------------- Confetti ------------------------------ */
+  function launchConfetti() {
+    const existing = document.getElementById("confetti-canvas");
+    if (existing) existing.remove();
+    const canvas = document.createElement("canvas");
+    canvas.id = "confetti-canvas";
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext("2d");
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const cols = ["#ff5064","#ffa532","#43c97f","#5b9cff","#ffce54","#ff9de2","#fff"];
+    const particles = Array.from({ length: 90 }, () => ({
+      x: Math.random() * canvas.width,
+      y: -12 - Math.random() * 60,
+      w: Math.random() * 9 + 4,
+      h: Math.random() * 5 + 2,
+      color: cols[Math.floor(Math.random() * cols.length)],
+      vx: (Math.random() - 0.5) * 3.5,
+      vy: Math.random() * 3.5 + 1.8,
+      rot: Math.random() * Math.PI * 2,
+      vr: (Math.random() - 0.5) * 0.18,
+      op: 1,
+    }));
+    let frame = 0;
+    const TOTAL = 130;
+    function tick() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      frame++;
+      particles.forEach((p) => {
+        p.x += p.vx; p.y += p.vy; p.vy += 0.07; p.rot += p.vr;
+        if (frame > TOTAL * 0.55) p.op = Math.max(0, p.op - 0.018);
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.rot);
+        ctx.globalAlpha = p.op;
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+        ctx.restore();
+      });
+      if (frame < TOTAL) requestAnimationFrame(tick); else canvas.remove();
+    }
+    requestAnimationFrame(tick);
+  }
+
+  /* ----------------------------- Count-up ------------------------------ */
+  function countUp(el, target, suffix, duration) {
+    if (!target) return;
+    const start = performance.now();
+    function tick(now) {
+      const t = Math.min(1, (now - start) / duration);
+      const ease = 1 - Math.pow(1 - t, 3);
+      el.innerHTML = Math.round(ease * target) + suffix;
+      if (t < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  /* ----------------------------- Goal celebration ---------------------- */
+  let goalCelebrated = (() => {
+    const rev = (state.stats.history[todayStr()] || {}).reviews || 0;
+    return state.settings.dailyGoal ? rev >= state.settings.dailyGoal : false;
+  })();
+
+  function checkGoalCelebration() {
+    if (goalCelebrated) return;
+    const rev  = (state.stats.history[todayStr()] || {}).reviews || 0;
+    const goal = state.settings.dailyGoal;
+    if (goal && rev >= goal) {
+      goalCelebrated = true;
+      setTimeout(() => { launchConfetti(); haptic("celebrate"); toast("🎉 Daily goal reached!"); }, 250);
+    }
+  }
+
   /* ----------------------------- Toast --------------------------------- */
   let toastTimer = null;
   function toast(msg) {
@@ -225,7 +306,8 @@
   }
   function ringSVG(pct, big, small) {
     const r = 58, c = 2 * Math.PI * r, off = c * (1 - clamp(pct, 0, 1));
-    return `<div class="ring">
+    const done = pct >= 1;
+    return `<div class="ring${done ? " done" : ""}">
       <svg viewBox="0 0 132 132">
         <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stop-color="var(--accent)"/><stop offset="1" stop-color="var(--accent-2)"/>
@@ -301,10 +383,10 @@
       </div>
 
       <div class="stat-grid">
-        <div class="stat"><div class="v">${seen}<small> / ${total}</small></div><div class="k">Points studied</div></div>
-        <div class="stat"><div class="v">${counts.mastered}</div><div class="k">Points mastered</div></div>
-        <div class="stat"><div class="v">${acc}<small>%</small></div><div class="k">Overall accuracy</div></div>
-        <div class="stat"><div class="v">${state.stats.totalReviews}</div><div class="k">Total reviews</div></div>
+        <div class="stat"><div class="v" data-count="${seen}" data-suf="<small> / ${total}</small>">0<small> / ${total}</small></div><div class="k">Points studied</div></div>
+        <div class="stat"><div class="v" data-count="${counts.mastered}" data-suf="">0</div><div class="k">Points mastered</div></div>
+        <div class="stat"><div class="v" data-count="${acc}" data-suf="<small>%</small>">0<small>%</small></div><div class="k">Overall accuracy</div></div>
+        <div class="stat"><div class="v" data-count="${state.stats.totalReviews}" data-suf="">0</div><div class="k">Total reviews</div></div>
       </div>
 
       <div class="card pad" style="margin-top:18px">
@@ -328,6 +410,16 @@
           ${weakHTML}
         </div>
       </div>`;
+
+    // Animate stat counters
+    $$(".stat .v[data-count]").forEach((el) => {
+      const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suf || "";
+      countUp(el, target, suffix, 700);
+    });
+
+    // Check if goal already reached (e.g. returning to dashboard mid-session)
+    checkGoalCelebration();
 
     $("#startSmart").onclick = () => startSmartSession();
     $$("#view-dashboard [data-go]").forEach((b) => (b.onclick = () => go(b.dataset.go)));
@@ -513,8 +605,12 @@
       else if (idx === i) b.classList.add("wrong");
       else b.classList.add("dim");
     });
-    if (correct) { quiz.correct++; } else {
+    if (correct) {
+      quiz.correct++;
+      haptic("light");
+    } else {
       quiz.wrong++;
+      haptic("error");
       const opt = $$("#options .option")[i];
       if (opt) { opt.classList.add("shake"); setTimeout(() => opt.classList.remove("shake"), 420); }
       // re-planifier l'item en fin de série une fois
@@ -525,6 +621,7 @@
     }
     beep(correct);
     record(g.id, correct, correct ? 4 : 1, true);
+    checkGoalCelebration();
 
     const frLine = (state.settings.showFr && q.fr) ? `<div class="qfr">${esc(q.fr)}</div>` : "";
     const fullLine = (q.t === "order" && q.full) ? `<div class="qfr jp">→ ${esc(q.full)}</div>` : "";
@@ -1012,6 +1109,11 @@
   }
 
   function init() {
+    // Ambient orb (breathing background)
+    const orb = document.createElement("div");
+    orb.id = "ambient-orb";
+    document.body.insertBefore(orb, document.body.firstChild);
+
     applyTheme();
     buildBottomNav();
     $$(".tab").forEach((t) => (t.onclick = () => go(t.dataset.view)));
