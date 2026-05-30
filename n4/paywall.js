@@ -53,7 +53,7 @@
       '<div id="pw-lvl">' + level + '</div>' +
       '<h2>' + appName + '</h2>' +
       '<p>SRS Quiz · Flashcards · Speed challenge · Full reference<br>Permanent access, works offline.</p>' +
-      '<a id="pw-btn" href="' + stripeLink + '">Unlock for 3&nbsp;€ &rarr;</a>' +
+      '<a id="pw-btn" href="' + stripeLink + '">Unlock for $3.50 &rarr;</a>' +
       '<p id="pw-note">One-time payment &middot; Secured by Gumroad</p>' +
       '<div id="pw-code-wrap">' +
         '<button id="pw-code-toggle">Already purchased? Enter your code</button>' +
