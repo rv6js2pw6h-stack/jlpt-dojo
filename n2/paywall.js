@@ -46,9 +46,9 @@
       '<path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>' +
       '<div id="pw-lvl">' + level + '</div>' +
       '<h2>' + appName + '</h2>' +
-      '<p>Quiz SRS · Flashcards · Défi chrono · Référence complète<br>Accès permanent, fonctionne hors-ligne.</p>' +
-      '<a id="pw-btn" href="' + stripeLink + '">Débloquer pour 3&nbsp;€ &rarr;</a>' +
-      '<p id="pw-note">Paiement unique &middot; Sécurisé par Stripe</p>' +
+      '<p>SRS Quiz · Flashcards · Speed challenge · Full reference<br>Permanent access, works offline.</p>' +
+      '<a id="pw-btn" href="' + stripeLink + '">Unlock for 3&nbsp;€ &rarr;</a>' +
+      '<p id="pw-note">One-time payment &middot; Secured by Gumroad</p>' +
     '</div>';
 
   // Bloque le scroll
