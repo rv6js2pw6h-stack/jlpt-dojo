@@ -158,7 +158,7 @@ button, input, select { font-family: inherit; color: inherit; }
 .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
 .ring .track { stroke: var(--ring-track); }
 .ring .fill { stroke: url(#grad); stroke-linecap: round; transition: stroke-dashoffset .8s cubic-bezier(.2,.7,.3,1); }
-.ring .label { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; }
+.ring .label { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; text-align: center; }
 .ring .label b { font-size: 28px; font-weight: 800; line-height: 1; }
 .ring .label span { font-size: 11px; color: var(--text-faint); font-weight: 600; letter-spacing: .5px; }
 
