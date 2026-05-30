@@ -599,7 +599,7 @@
      ===================================================================== */
   const flashState = { cat: "all", queue: [], idx: 0, flipped: false };
   function renderFlash() {
-    const catChips = [["all", "Toutes"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
+    const catChips = [["all", "All"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
     $("#view-flash").innerHTML = `
       <div class="flash-wrap">
         <div class="ref-controls" style="margin-bottom:14px">
@@ -802,7 +802,7 @@
      ===================================================================== */
   const refState = { q: "", cat: "all", sort: "tier" };
   function renderReference() {
-    const catChips = [["all", "Toutes"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
+    const catChips = [["all", "All"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
     $("#view-reference").innerHTML = `
       <div class="ref-controls">
         <div class="search">
