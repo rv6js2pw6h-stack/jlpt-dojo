@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+  <title>JLPT 道場 — Grammaire japonaise</title>
+  <meta name="description" content="Applications d'entraînement à la grammaire japonaise JLPT N2, N3, N4 et N5. Quiz SRS, flashcards, défi chrono, référence complète." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%}
+    body{
+      font-family:'Inter',system-ui,sans-serif;
+      background:#0c0f16;
+      background-image:radial-gradient(1200px 700px at 80% -10%,#1a2030 0%,#0c0f16 55%);
+      color:#e9eef6;
+      min-height:100vh;
+    }
+    a{text-decoration:none;color:inherit}
+    .topbar{display:flex;align-items:center;justify-content:center;padding:1.1rem 1.5rem;border-bottom:1px solid #1b2230}
+    .brand{display:flex;align-items:center;gap:.55rem}
+    .brand-mark{background:#ff5d6c;color:#fff;font-size:1rem;font-weight:800;letter-spacing:.04em;padding:.3rem .6rem;border-radius:8px}
+    .brand-name{font-size:1.1rem;font-weight:700;letter-spacing:.01em}
+    .brand-name small{display:block;font-size:.65rem;font-weight:500;color:#9aa6bb;letter-spacing:.06em;text-transform:uppercase}
+    .hero{text-align:center;padding:3rem 1.5rem 2rem}
+    .hero h1{font-size:clamp(1.6rem,5vw,2.4rem);font-weight:800;margin-bottom:.75rem}
+    .hero h1 span{color:#ff5d6c}
+    .hero p{font-size:1rem;color:#9aa6bb;max-width:480px;margin:0 auto;line-height:1.65}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;max-width:900px;margin:0 auto;padding:0 1.25rem 4rem}
+    .card{background:#141925;border:1px solid #283042;border-radius:20px;padding:1.75rem 1.5rem;display:flex;flex-direction:column;gap:1rem;transition:border-color .2s,transform .2s}
+    .card:hover{border-color:#3a4458;transform:translateY(-3px)}
+    .card-top{display:flex;align-items:center;justify-content:space-between}
+    .lvl-badge{font-size:1.5rem;font-weight:800;color:#fff;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center}
+    .price{font-size:.85rem;font-weight:700;background:#1b2230;color:#ffb454;padding:.35rem .8rem;border-radius:100px;border:1px solid #283042}
+    .card h2{font-size:1.15rem;font-weight:800}
+    .card .pts{font-size:.82rem;color:#9aa6bb;margin-top:-.4rem}
+    .features{display:flex;flex-wrap:wrap;gap:.4rem}
+    .feat{font-size:.72rem;font-weight:600;background:#1b2230;color:#687388;padding:.22rem .6rem;border-radius:6px}
+    .btn{display:block;width:100%;color:#fff;border:none;border-radius:12px;padding:.85rem 1rem;font-size:.95rem;font-weight:700;text-align:center;cursor:pointer;transition:opacity .15s,transform .15s}
+    .btn:hover{opacity:.86;transform:translateY(-1px)}
+    footer{text-align:center;padding:2rem 1rem;color:#4a5568;font-size:.78rem;border-top:1px solid #1b2230}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">JLPT</span>
+      <div class="brand-name">道場<small>Grammaire japonaise</small></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Maîtrise la grammaire <span>japonaise</span></h1>
+    <p>Quiz SRS · Flashcards · Défi chrono · Référence complète.<br>Choisis ton niveau et commence.</p>
+  </section>
+
+  <div class="grid">
+    <a class="card" href="n5/">
+      <div class="card-top">
+        <div class="lvl-badge" style="background:linear-gradient(135deg,#43c97f,#22a05a)">N5</div>
+        <span class="price">3,50 €</span>
+      </div>
+      <div>
+        <h2>N5 道場</h2>
+        <p class="pts">84 points · 218 exercices · Débutant</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn" style="background:linear-gradient(135deg,#43c97f,#22a05a)">Commencer N5 →</span>
+    </a>
+
+    <a class="card" href="n4/">
+      <div class="card-top">
+        <div class="lvl-badge" style="background:linear-gradient(135deg,#5b9cff,#3266dc)">N4</div>
+        <span class="price">3,50 €</span>
+      </div>
+      <div>
+        <h2>N4 道場</h2>
+        <p class="pts">132 points · 264 exercices · Élémentaire</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn" style="background:linear-gradient(135deg,#5b9cff,#3266dc)">Commencer N4 →</span>
+    </a>
+
+    <a class="card" href="n3/">
+      <div class="card-top">
+        <div class="lvl-badge" style="background:linear-gradient(135deg,#ffa532,#dc7814)">N3</div>
+        <span class="price">3,50 €</span>
+      </div>
+      <div>
+        <h2>N3 道場</h2>
+        <p class="pts">182 points · 365 exercices · Intermédiaire</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn" style="background:linear-gradient(135deg,#ffa532,#dc7814)">Commencer N3 →</span>
+    </a>
+
+    <a class="card" href="n2/">
+      <div class="card-top">
+        <div class="lvl-badge" style="background:linear-gradient(135deg,#ff5064,#c82846)">N2</div>
+        <span class="price">3,50 €</span>
+      </div>
+      <div>
+        <h2>N2 道場</h2>
+        <p class="pts">182 points · 365 exercices · Avancé</p>
+      </div>
+      <div class="features">
+        <span class="feat">Quiz SRS</span>
+        <span class="feat">Flashcards</span>
+        <span class="feat">Défi chrono</span>
+        <span class="feat">Référence</span>
+      </div>
+      <span class="btn" style="background:linear-gradient(135deg,#ff5064,#c82846)">Commencer N2 →</span>
+    </a>
+  </div>
+
+  <footer>Accès permanent · Fonctionne hors-ligne · Sécurisé par Gumroad · <a href="mailto:support.jlptdojo@gmail.com" style="color:#687388;text-decoration:underline">Support</a></footer>
+</body>
+</html>
