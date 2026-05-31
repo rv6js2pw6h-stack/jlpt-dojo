@@ -565,7 +565,7 @@
         <div class="quiz-score"><span class="ok">${quiz.correct}</span><span class="no">${quiz.wrong}</span></div>
       </div>
       <div class="qcard card pad">
-        <div class="qhead">${catBadge(g.c)}<span class="badge tier jp">${esc(g.g)}</span></div>
+        <div class="qhead">${catBadge(g.c)}</div>
         ${stemHTML}
         <div class="options" id="options">${optsHTML}</div>
         <div id="fbZone"></div>
@@ -838,7 +838,7 @@
 
       </div>
       <div class="qcard card pad">
-        <div class="qhead">${catBadge(g.c)}<span class="badge tier jp">${esc(g.g)}</span></div>
+        <div class="qhead">${catBadge(g.c)}</div>
         <div class="qstem">${renderStem(q.q)}</div>
         <div class="options" id="cOptions">${optsHTML}</div>
       </div>`;
