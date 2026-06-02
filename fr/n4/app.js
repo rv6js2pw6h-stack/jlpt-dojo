@@ -4,11 +4,12 @@
 (function () {
   "use strict";
 
-  const GRAMMAR = window.N4_GRAMMAR || [];
+  const GRAMMAR = window.N2_GRAMMAR || window.N3_GRAMMAR || window.N4_GRAMMAR || window.N5_GRAMMAR || [];
+  const _lvl = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.level) || "N2";
   const CATS = window.CATEGORIES || {};
   const TIERS = window.TIERS || {};
   const DAY = 86400000;
-  const STORE_KEY = "n4dojo.v1";
+  const STORE_KEY = "n2dojo.v1";
 
   /* ----------------------------- Helpers DOM --------------------------- */
   const $ = (s, r = document) => r.querySelector(s);
@@ -117,7 +118,7 @@
     if (s.reps >= 3) return "young";
     return "learning";
   }
-  const MASTERY_LABEL = { new: "Nouveau", learning: "En cours", young: "Consolidé", mastered: "Maîtrisé" };
+  const MASTERY_LABEL = { new: "New", learning: "In progress", young: "Consolidated", mastered: "Mastered" };
   function accuracyOf(id) {
     const s = state.srs[id];
     if (!s || s.seen === 0) return null;
@@ -159,6 +160,87 @@
       g.gain.exponentialRampToValueAtTime(0.0001, actx.currentTime + 0.18);
       o.start(); o.stop(actx.currentTime + 0.2);
     } catch (e) {}
+  }
+
+  /* ----------------------------- Haptic -------------------------------- */
+  function haptic(type) {
+    if (!navigator.vibrate) return;
+    if (type === "light")     navigator.vibrate(10);
+    else if (type === "error")     navigator.vibrate([28, 8, 28]);
+    else if (type === "celebrate") navigator.vibrate([15, 8, 15, 8, 40]);
+  }
+
+  /* ----------------------------- Confetti ------------------------------ */
+  function launchConfetti() {
+    const existing = document.getElementById("confetti-canvas");
+    if (existing) existing.remove();
+    const canvas = document.createElement("canvas");
+    canvas.id = "confetti-canvas";
+    document.body.appendChild(canvas);
+    const ctx = canvas.getContext("2d");
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const cols = ["#ff5064","#ffa532","#43c97f","#5b9cff","#ffce54","#ff9de2","#fff"];
+    const particles = Array.from({ length: 90 }, () => ({
+      x: Math.random() * canvas.width,
+      y: -12 - Math.random() * 60,
+      w: Math.random() * 9 + 4,
+      h: Math.random() * 5 + 2,
+      color: cols[Math.floor(Math.random() * cols.length)],
+      vx: (Math.random() - 0.5) * 3.5,
+      vy: Math.random() * 3.5 + 1.8,
+      rot: Math.random() * Math.PI * 2,
+      vr: (Math.random() - 0.5) * 0.18,
+      op: 1,
+    }));
+    let frame = 0;
+    const TOTAL = 130;
+    function tick() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      frame++;
+      particles.forEach((p) => {
+        p.x += p.vx; p.y += p.vy; p.vy += 0.07; p.rot += p.vr;
+        if (frame > TOTAL * 0.55) p.op = Math.max(0, p.op - 0.018);
+        ctx.save();
+        ctx.translate(p.x, p.y);
+        ctx.rotate(p.rot);
+        ctx.globalAlpha = p.op;
+        ctx.fillStyle = p.color;
+        ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+        ctx.restore();
+      });
+      if (frame < TOTAL) requestAnimationFrame(tick); else canvas.remove();
+    }
+    requestAnimationFrame(tick);
+  }
+
+  /* ----------------------------- Count-up ------------------------------ */
+  function countUp(el, target, suffix, duration) {
+    if (!target) return;
+    const start = performance.now();
+    function tick(now) {
+      const t = Math.min(1, (now - start) / duration);
+      const ease = 1 - Math.pow(1 - t, 3);
+      el.innerHTML = Math.round(ease * target) + suffix;
+      if (t < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  /* ----------------------------- Goal celebration ---------------------- */
+  let goalCelebrated = (() => {
+    const rev = (state.stats.history[todayStr()] || {}).reviews || 0;
+    return state.settings.dailyGoal ? rev >= state.settings.dailyGoal : false;
+  })();
+
+  function checkGoalCelebration() {
+    if (goalCelebrated) return;
+    const rev  = (state.stats.history[todayStr()] || {}).reviews || 0;
+    const goal = state.settings.dailyGoal;
+    if (goal && rev >= goal) {
+      goalCelebrated = true;
+      setTimeout(() => { launchConfetti(); haptic("celebrate"); toast("🎉 Daily goal reached!"); }, 250);
+    }
   }
 
   /* ----------------------------- Toast --------------------------------- */
@@ -224,7 +306,8 @@
   }
   function ringSVG(pct, big, small) {
     const r = 58, c = 2 * Math.PI * r, off = c * (1 - clamp(pct, 0, 1));
-    return `<div class="ring">
+    const done = pct >= 1;
+    return `<div class="ring${done ? " done" : ""}">
       <svg viewBox="0 0 132 132">
         <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
           <stop offset="0" stop-color="var(--accent)"/><stop offset="1" stop-color="var(--accent-2)"/>
@@ -253,7 +336,7 @@
     const goalPct = goal ? clamp(todayRev / goal, 0, 1) : 0;
 
     const hour = new Date().getHours();
-    const greet = hour < 5 ? "Bonne nuit" : hour < 12 ? "Bonjour" : hour < 18 ? "Bon après-midi" : "Bonsoir";
+    const greet = hour < 5 ? "Good night" : hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
 
     const barColors = { new: "var(--text-faint)", learning: "var(--accent-2)", young: "var(--blue)", mastered: "var(--green)" };
     const masteryBar = ["new", "learning", "young", "mastered"]
@@ -281,52 +364,62 @@
             <span class="g jp">${esc(x.g.g)}</span>
             <span class="pct">${Math.round(x.a * 100)}%</span>
           </div>`).join("")}</div>`
-      : `<p class="faint" style="font-size:14px">Aucun point faible identifié pour l'instant. Continue à t'entraîner&nbsp;!</p>`;
+      : `<p class="faint" style="font-size:14px">No weak points identified yet. Keep practicing!</p>`;
 
     $("#view-dashboard").innerHTML = `
       <div class="card pad hero">
         <div>
-          <h1>${greet}&nbsp;! Prêt à dompter la grammaire&nbsp;<span class="jp">N4</span>&nbsp;?</h1>
+          <h1>${greet}&nbsp;! Ready to master&nbsp;<span class="jp">${_lvl}</span>&nbsp;grammar?</h1>
           <p>${dueCount > 0
-            ? `<b>${dueCount}</b> point${dueCount > 1 ? "s" : ""} à réviser${newCount ? ` · <b>${newCount}</b> nouveau${newCount > 1 ? "x" : ""} à découvrir` : ""}.`
-            : newCount > 0 ? `<b>${newCount}</b> point${newCount > 1 ? "s" : ""} de grammaire t'attendent.`
-            : `Tout est à jour. Tu peux réviser librement ou relever un défi.`}</p>
+            ? `<b>${dueCount}</b> point${dueCount > 1 ? "s" : ""} to review${newCount ? ` · <b>${newCount}</b> new to discover` : ""}.`
+            : newCount > 0 ? `<b>${newCount}</b> grammar point${newCount > 1 ? "s" : ""} waiting for you.`
+            : `All caught up. You can review freely or take on a challenge.`}</p>
           <div class="hero-cta">
-            <button class="btn primary big" id="startSmart">Réviser maintenant</button>
-            <button class="btn big ghost" data-go="challenge">Défi chrono</button>
+            <button class="btn primary big" id="startSmart">Study now</button>
+            <button class="btn big ghost" data-go="challenge">Speed challenge</button>
           </div>
         </div>
-        ${ringSVG(goalPct, todayRev, `/ ${goal} aujourd'hui`)}
+        ${ringSVG(goalPct, todayRev, `/ ${goal} today`)}
       </div>
 
       <div class="stat-grid">
-        <div class="stat"><div class="v">${seen}<small> / ${total}</small></div><div class="k">Points abordés</div></div>
-        <div class="stat"><div class="v">${counts.mastered}</div><div class="k">Points maîtrisés</div></div>
-        <div class="stat"><div class="v">${acc}<small>%</small></div><div class="k">Précision globale</div></div>
-        <div class="stat"><div class="v">${state.stats.totalReviews}</div><div class="k">Révisions totales</div></div>
+        <div class="stat"><div class="v" data-count="${seen}" data-suf="<small> / ${total}</small>">0<small> / ${total}</small></div><div class="k">Points studied</div></div>
+        <div class="stat"><div class="v" data-count="${counts.mastered}" data-suf="">0</div><div class="k">Points mastered</div></div>
+        <div class="stat"><div class="v" data-count="${acc}" data-suf="<small>%</small>">0<small>%</small></div><div class="k">Overall accuracy</div></div>
+        <div class="stat"><div class="v" data-count="${state.stats.totalReviews}" data-suf="">0</div><div class="k">Total reviews</div></div>
       </div>
 
       <div class="card pad" style="margin-top:18px">
-        <div class="section-title">Progression de la maîtrise</div>
+        <div class="section-title">Mastery progress</div>
         <div class="bar-mastery">${masteryBar}</div>
         <div class="legend">
-          <div><span class="dot m-mastered"></span><b>${counts.mastered}</b> Maîtrisés</div>
-          <div><span class="dot m-young"></span><b>${counts.young}</b> Consolidés</div>
-          <div><span class="dot m-learning"></span><b>${counts.learning}</b> En cours</div>
-          <div><span class="dot m-new"></span><b>${counts.new}</b> Nouveaux</div>
+          <div><span class="dot m-mastered"></span><b>${counts.mastered}</b> Mastered</div>
+          <div><span class="dot m-young"></span><b>${counts.young}</b> Consolidated</div>
+          <div><span class="dot m-learning"></span><b>${counts.learning}</b> In progress</div>
+          <div><span class="dot m-new"></span><b>${counts.new}</b> New</div>
         </div>
       </div>
 
       <div class="grid-2" style="margin-top:18px">
         <div class="card pad">
-          <div class="section-title">Par catégorie</div>
+          <div class="section-title">By category</div>
           <div class="cat-rows">${catRows}</div>
         </div>
         <div class="card pad">
-          <div class="section-title">Points à renforcer</div>
+          <div class="section-title">Weak points</div>
           ${weakHTML}
         </div>
       </div>`;
+
+    // Animate stat counters
+    $$(".stat .v[data-count]").forEach((el) => {
+      const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suf || "";
+      countUp(el, target, suffix, 700);
+    });
+
+    // Check if goal already reached (e.g. returning to dashboard mid-session)
+    checkGoalCelebration();
 
     $("#startSmart").onclick = () => startSmartSession();
     $$("#view-dashboard [data-go]").forEach((b) => (b.onclick = () => go(b.dataset.go)));
@@ -365,29 +458,29 @@
   const practiceCfg = { scope: "due", cat: "all", length: 20 };
   function renderPracticeSetup() {
     const scopes = [
-      ["due", "À réviser"], ["all", "Tout"], ["weak", "Points faibles"], ["new", "Nouveaux"],
+      ["due", "Due"], ["all", "All"], ["weak", "Weak points"], ["new", "New"],
     ];
     const lengths = [[10, "10"], [20, "20"], [30, "30"], [0, "Tout"]];
-    const catChips = [["all", "Toutes"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
+    const catChips = [["all", "All"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
 
     $("#view-practice").innerHTML = `
       <div class="setup card pad">
-        <h2>S'entraîner</h2>
-        <p class="muted">Choisis ce que tu veux travailler, puis lance la série. Les bonnes réponses espacent les révisions&nbsp;; les erreurs reviennent plus vite.</p>
+        <h2>Practice</h2>
+        <p class="muted">Choose what you want to work on, then start the session. Correct answers space out reviews; mistakes come back faster.</p>
 
-        <div class="opt-group"><label>Sélection</label>
+        <div class="opt-group"><label>Selection</label>
           <div class="seg" id="segScope">${scopes.map(([v, l]) => `<button data-v="${v}" class="${practiceCfg.scope === v ? "sel" : ""}">${l}</button>`).join("")}</div>
         </div>
-        <div class="opt-group"><label>Catégorie</label>
+        <div class="opt-group"><label>Category</label>
           <div class="seg" id="segCat">${catChips.map(([v, l]) => `<button data-v="${v}" class="${practiceCfg.cat === v ? "sel" : ""}">${esc(l)}</button>`).join("")}</div>
         </div>
-        <div class="opt-group"><label>Longueur de la série</label>
+        <div class="opt-group"><label>Session length</label>
           <div class="seg" id="segLen">${lengths.map(([v, l]) => `<button data-v="${v}" class="${practiceCfg.length === v ? "sel" : ""}">${l}</button>`).join("")}</div>
         </div>
 
         <div class="opt-group" style="display:flex;align-items:center;gap:12px;justify-content:space-between">
           <span class="faint" id="poolInfo"></span>
-          <button class="btn primary big" id="startPractice">Commencer</button>
+          <button class="btn primary big" id="startPractice">Start</button>
         </div>
       </div>`;
 
@@ -403,19 +496,19 @@
     bind("#segLen", "length", true);
     $("#startPractice").onclick = () => {
       const q = buildQueue(practiceCfg.scope, practiceCfg.cat, practiceCfg.length);
-      if (!q.length) { toast("Aucun point ne correspond à cette sélection."); return; }
+      if (!q.length) { toast("No points match this selection."); return; }
       startSession(q);
     };
     updatePoolInfo();
     function updatePoolInfo() {
       const n = poolFor(practiceCfg.scope, practiceCfg.cat).length;
-      $("#poolInfo").textContent = n ? `${n} point${n > 1 ? "s" : ""} disponible${n > 1 ? "s" : ""}` : "Aucun point disponible";
+      $("#poolInfo").textContent = n ? `${n} point${n > 1 ? "s" : ""} available` : "No points available";
     }
   }
 
   function startSmartSession() {
     const q = buildQueue("due", "all", state.settings.dailyGoal || 20);
-    if (!q.length) { toast("Rien à réviser : lance une série libre."); go("practice"); return; }
+    if (!q.length) { toast("Nothing to review: start a free session."); go("practice"); return; }
     go("practice");
     startSession(q);
   }
@@ -426,7 +519,7 @@
   let quiz = null;
   function startSession(queue) {
     quiz = { queue, idx: 0, correct: 0, wrong: 0, answered: false, requeued: {}, startedAt: Date.now() };
-    state.stats.sessions += 1; save();
+    if (!isDemoSession) { state.stats.sessions += 1; save(); }
     go("practice");
     renderQuestion();
   }
@@ -453,18 +546,18 @@
 
     let stemHTML;
     if (q.t === "order") {
-      stemHTML = `<div class="qtype">Reconstruction de phrase</div>
+      stemHTML = `<div class="qtype">Sentence reconstruction</div>
         <div class="qstem">${esc(q.q)}</div>
         <div class="qframe">${renderFrame(q.frame)}</div>`;
     } else {
-      const typeLabel = { fill: "Choisis la forme correcte", meaning: "Sens de l'expression", usage: "Emploi correct", nuance: "Nuance / distinction" }[q.t] || "Question";
+      const typeLabel = { fill: "Choose the correct form", meaning: "Meaning of the expression", usage: "Correct usage", nuance: "Nuance / distinction" }[q.t] || "Question";
       stemHTML = `<div class="qtype">${typeLabel}</div>
         <div class="qstem">${renderStem(q.q)}</div>`;
     }
 
     $("#view-practice").innerHTML = `
       <div class="quiz-top">
-        <button class="icon-btn" id="quitQuiz" title="Quitter la série">
+        <button class="icon-btn" id="quitQuiz" title="Quit session">
           <svg viewBox="0 0 24 24" class="ic"><path d="M18 6 6 18M6 6l12 12"/></svg>
         </button>
         <div class="qprogress"><span style="width:${(quiz.idx / total) * 100}%"></span></div>
@@ -512,18 +605,22 @@
       else if (idx === i) b.classList.add("wrong");
       else b.classList.add("dim");
     });
-    if (correct) { quiz.correct++; } else {
+    if (correct) {
+      quiz.correct++;
+      haptic("light");
+    } else {
       quiz.wrong++;
+      haptic("error");
       const opt = $$("#options .option")[i];
       if (opt) { opt.classList.add("shake"); setTimeout(() => opt.classList.remove("shake"), 420); }
-      // re-planifier l'item en fin de série une fois
-      if (!quiz.requeued[g.id + ":" + item.qi]) {
+      // re-planifier l'item en fin de série une fois (pas en mode démo)
+      if (!isDemoSession && !quiz.requeued[g.id + ":" + item.qi]) {
         quiz.requeued[g.id + ":" + item.qi] = true;
         quiz.queue.push({ gid: g.id, qi: item.qi });
       }
     }
     beep(correct);
-    record(g.id, correct, correct ? 4 : 1, true);
+    if (!isDemoSession) { record(g.id, correct, correct ? 4 : 1, true); checkGoalCelebration(); }
 
     const frLine = (state.settings.showFr && q.fr) ? `<div class="qfr">${esc(q.fr)}</div>` : "";
     const fullLine = (q.t === "order" && q.full) ? `<div class="qfr jp">→ ${esc(q.full)}</div>` : "";
@@ -531,8 +628,8 @@
       <div class="feedback ${correct ? "ok" : "no"}">
         <div class="fb-head">
           ${correct
-            ? '<svg viewBox="0 0 24 24" class="ic"><path d="M5 13l4 4L19 7"/></svg>Correct&nbsp;!'
-            : '<svg viewBox="0 0 24 24" class="ic"><path d="M18 6 6 18M6 6l12 12"/></svg>Pas tout à fait'}
+            ? '<svg viewBox="0 0 24 24" class="ic"><path d="M5 13l4 4L19 7"/></svg>Correct!'
+            : '<svg viewBox="0 0 24 24" class="ic"><path d="M18 6 6 18M6 6l12 12"/></svg>Not quite'}
         </div>
         <div class="fb-body">
           <div class="expl">${esc(q.e)}</div>
@@ -546,8 +643,8 @@
 
     const last = quiz.idx >= quiz.queue.length - 1;
     $("#foot").innerHTML = `
-      <span class="kbd-hint">Appuie sur <span class="kbd">Entrée</span></span>
-      <button class="btn primary" id="nextBtn">${last ? "Voir le résultat" : "Suivant"}</button>`;
+      <span class="kbd-hint">Press <span class="kbd">Enter</span></span>
+      <button class="btn primary" id="nextBtn">${last ? "See result" : "Next"}</button>`;
     $("#nextBtn").onclick = next;
     $("#fbZone").scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
@@ -559,37 +656,68 @@
   }
 
   function summary() {
-    const totalAns = quiz.correct + quiz.wrong;
-    const pct = totalAns ? Math.round((quiz.correct / totalAns) * 100) : 0;
-    const mins = Math.max(1, Math.round((Date.now() - quiz.startedAt) / 60000));
-    const distinct = new Set(quiz.queue.map((x) => x.gid)).size;
-    const msg = pct >= 90 ? "Performance remarquable&nbsp;!" : pct >= 70 ? "Bon travail, continue ainsi." : pct >= 50 ? "Ça progresse&nbsp;: persévère." : "Chaque erreur fait apprendre. On y retourne&nbsp;?";
+    const nCorrect  = quiz.correct;
+    const nWrong    = quiz.wrong;
+    const totalAns  = nCorrect + nWrong;
+    const pct       = totalAns ? Math.round((nCorrect / totalAns) * 100) : 0;
+    const mins      = Math.max(1, Math.round((Date.now() - quiz.startedAt) / 60000));
+    const distinct  = new Set(quiz.queue.map((x) => x.gid)).size;
+    quiz = null;
+
+    // ── Demo end screen ────────────────────────────────────────────────
+    if (isDemoSession) {
+      isDemoSession = false;
+      try { localStorage.removeItem(DEMO_KEY); } catch (e) {}
+      const cfg       = window.PAYWALL_CONFIG || {};
+      const total     = cfg.totalPoints || 100;
+      const demoLen   = cfg.demoQs ? cfg.demoQs.length : 10;
+      const remaining = total - demoLen;
+      const accent    = cfg.accent || '#5b9cff';
+      $("#view-practice").innerHTML = `
+        <div class="summary card pad" style="text-align:center">
+          <div class="section-title">Demo complete</div>
+          <div class="big-pct">${pct}%</div>
+          <p class="muted" style="margin-top:6px">
+            You answered ${demoLen} demo questions.<br>
+            <b style="color:var(--text)">${remaining} more points</b> are waiting in the full version.
+          </p>
+          <a href="${BUY_LINK}" style="display:block;width:100%;background:${accent};color:#fff;border:none;
+            border-radius:14px;padding:.95rem 1rem;font-size:1rem;font-weight:700;cursor:pointer;
+            text-decoration:none;transition:opacity .15s;box-sizing:border-box;margin-top:1.2rem">
+            Unlock the full version &rarr;
+          </a>
+          <p style="font-size:.72rem;color:#687388;margin-top:.75rem">One-time payment &middot; $3.50 &middot; Secured by Gumroad</p>
+        </div>`;
+      return;
+    }
+
+    // ── Normal end screen ──────────────────────────────────────────────
+    const msg = pct >= 90 ? "Outstanding performance!" : pct >= 70 ? "Good work, keep it up." : pct >= 50 ? "Making progress — keep going." : "Every mistake is a lesson. Try again?";
     $("#view-practice").innerHTML = `
       <div class="summary card pad">
-        <div class="section-title">Série terminée</div>
+        <div class="section-title">Session complete</div>
         <div class="big-pct">${pct}%</div>
         <p class="muted" style="margin-top:6px">${msg}</p>
         <div class="sline">
-          <div><div class="v" style="color:var(--green)">${quiz.correct}</div><div class="k">Justes</div></div>
-          <div><div class="v" style="color:var(--red)">${quiz.wrong}</div><div class="k">Erreurs</div></div>
-          <div><div class="v">${distinct}</div><div class="k">Points vus</div></div>
-          <div><div class="v">${mins}<small style="font-size:13px"> min</small></div><div class="k">Durée</div></div>
+          <div><div class="v" style="color:var(--green)">${nCorrect}</div><div class="k">Correct</div></div>
+          <div><div class="v" style="color:var(--red)">${nWrong}</div><div class="k">Errors</div></div>
+          <div><div class="v">${distinct}</div><div class="k">Points seen</div></div>
+          <div><div class="v">${mins}<small style="font-size:13px"> min</small></div><div class="k">Duration</div></div>
         </div>
         <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-          <button class="btn primary" id="againBtn">Nouvelle série</button>
-          <button class="btn ghost" data-go="dashboard">Tableau de bord</button>
+          <button class="btn primary" id="againBtn">New session</button>
+          <button class="btn ghost" data-go="dashboard">Dashboard</button>
         </div>
       </div>`;
     $("#againBtn").onclick = renderPracticeSetup;
     $$("#view-practice [data-go]").forEach((b) => (b.onclick = () => go(b.dataset.go)));
-    quiz = null;
   }
 
   function confirmQuit() {
     if (!quiz || quiz.idx === 0) { renderPracticeSetup(); return; }
-    openModal("Quitter la série&nbsp;?", `<p class="muted">Ta progression sur les questions déjà répondues est enregistrée.</p>`, [
-      { label: "Continuer la série", kind: "ghost", act: closeModal },
-      { label: "Quitter", kind: "primary", act: () => { closeModal(); quiz = null; renderPracticeSetup(); } },
+    openModal("Quit session?", `<p class="muted">Your progress on answered questions has been saved.</p>`, [
+      { label: "Continue session", kind: "ghost", act: closeModal },
+      { label: "Quit", kind: "primary", act: () => { closeModal(); quiz = null; renderPracticeSetup(); } },
     ]);
   }
 
@@ -598,7 +726,7 @@
      ===================================================================== */
   const flashState = { cat: "all", queue: [], idx: 0, flipped: false };
   function renderFlash() {
-    const catChips = [["all", "Toutes"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
+    const catChips = [["all", "All"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
     $("#view-flash").innerHTML = `
       <div class="flash-wrap">
         <div class="ref-controls" style="margin-bottom:14px">
@@ -626,13 +754,13 @@
   function renderFlashCard() {
     const area = $("#flashArea");
     if (!area) return;
-    if (!flashState.queue.length) { area.innerHTML = `<div class="card pad" style="text-align:center"><p class="muted">Aucune carte dans cette catégorie.</p></div>`; return; }
+    if (!flashState.queue.length) { area.innerHTML = `<div class="card pad" style="text-align:center"><p class="muted">No cards in this category.</p></div>`; return; }
     if (flashState.idx >= flashState.queue.length) {
       area.innerHTML = `<div class="summary card pad">
-        <div class="section-title">Paquet terminé</div>
+        <div class="section-title">Deck complete</div>
         <div class="big-pct">✓</div>
-        <p class="muted">Tu as parcouru toutes les cartes de cette sélection.</p>
-        <button class="btn primary" id="restartFlash">Recommencer</button>
+        <p class="muted">You've gone through all the cards in this selection.</p>
+        <button class="btn primary" id="restartFlash">Restart</button>
       </div>`;
       $("#restartFlash").onclick = () => { buildFlashQueue(); renderFlashCard(); };
       return;
@@ -650,7 +778,7 @@
             ${catBadge(g.c)}
             <div class="gp jp" style="margin-top:14px">${esc(g.g)}</div>
             <div class="form jp">${esc(g.f)}</div>
-            <div class="flip-hint">Clique ou <span class="kbd">Espace</span> pour retourner</div>
+            <div class="flip-hint">Click or press <span class="kbd">Space</span> to flip</div>
           </div>
           <div class="flash-face back">
             <div class="gm">${esc(g.m)}</div>
@@ -660,10 +788,10 @@
         </div>
       </div>
       <div class="flash-rate" id="flashRate">
-        <button class="again" data-q="1">Encore<small>&lt; 1 j</small></button>
-        <button class="hard" data-q="3">Difficile<small>1 j</small></button>
-        <button class="good" data-q="4">Bien<small>qq jours</small></button>
-        <button class="easy" data-q="5">Facile<small>+ long</small></button>
+        <button class="again" data-q="1">Again<small>&lt; 1d</small></button>
+        <button class="hard" data-q="3">Hard<small>1d</small></button>
+        <button class="good" data-q="4">Good<small>few days</small></button>
+        <button class="easy" data-q="5">Easy<small>longer</small></button>
       </div>`;
     $("#fcard").onclick = () => { flashState.flipped = !flashState.flipped; $("#fcard").classList.toggle("flipped", flashState.flipped); };
     $$("#flashRate button").forEach((b) => (b.onclick = (ev) => { ev.stopPropagation(); rateFlash(Number(b.dataset.q)); }));
@@ -683,9 +811,9 @@
     stopChallenge();
     $("#view-challenge").innerHTML = `
       <div class="challenge-intro card pad">
-        <h2>Défi chrono</h2>
-        <p class="muted">Enchaîne un maximum de bonnes réponses avant la fin du temps. Une bonne réponse fait grimper ton combo&nbsp;; une erreur te coûte 2&nbsp;secondes.</p>
-        <div class="opt-group"><label>Durée</label>
+        <h2>Speed challenge</h2>
+        <p class="muted">Chain as many correct answers as possible before time runs out. A correct answer boosts your combo; a mistake costs you 2 seconds.</p>
+        <div class="opt-group"><label>Duration</label>
           <div class="seg" id="segDur">
             <button data-v="60" class="sel">60 s</button>
             <button data-v="90">90 s</button>
@@ -693,8 +821,8 @@
           </div>
         </div>
         <div style="margin-top:8px;display:flex;align-items:center;justify-content:space-between;gap:12px">
-          <span class="faint">Meilleur score&nbsp;: <b style="color:var(--gold)">${state.stats.challengeBest}</b></span>
-          <button class="btn primary big" id="startChallenge">Démarrer</button>
+          <span class="faint">Best score: <b style="color:var(--gold)">${state.stats.challengeBest}</b></span>
+          <button class="btn primary big" id="startChallenge">Start</button>
         </div>
       </div>`;
     let dur = 60;
@@ -737,6 +865,7 @@
         <div class="time"><span id="cTime">${challenge.left}</span><span style="font-size:14px;color:var(--text-faint)">s</span></div>
         <div class="combo ${challenge.combo >= 2 ? "show" : ""}" id="cCombo">×${challenge.combo} combo</div>
         <div class="sc"><div class="v" id="cScore">${challenge.score}</div><div class="k">SCORE</div></div>
+
       </div>
       <div class="qcard card pad">
         <div class="qhead">${catBadge(g.c)}</div>
@@ -778,17 +907,17 @@
     if (best) { state.stats.challengeBest = c.score; save(); }
     $("#view-challenge").innerHTML = `
       <div class="summary card pad">
-        <div class="section-title">Temps écoulé</div>
+        <div class="section-title">Time's up</div>
         <div class="big-pct">${c.score}</div>
-        <p class="muted">${best ? "Nouveau record personnel&nbsp;!" : "Meilleur score : " + state.stats.challengeBest}</p>
+        <p class="muted">${best ? "New personal best!" : "Best score: " + state.stats.challengeBest}</p>
         <div class="sline">
-          <div><div class="v" style="color:var(--green)">${c.correct}</div><div class="k">Justes</div></div>
-          <div><div class="v">${c.total}</div><div class="k">Réponses</div></div>
-          <div><div class="v">${acc}<small style="font-size:13px">%</small></div><div class="k">Précision</div></div>
+          <div><div class="v" style="color:var(--green)">${c.correct}</div><div class="k">Correct</div></div>
+          <div><div class="v">${c.total}</div><div class="k">Answers</div></div>
+          <div><div class="v">${acc}<small style="font-size:13px">%</small></div><div class="k">Accuracy</div></div>
         </div>
         <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-          <button class="btn primary" id="cReplay">Rejouer</button>
-          <button class="btn ghost" data-go="dashboard">Tableau de bord</button>
+          <button class="btn primary" id="cReplay">Play again</button>
+          <button class="btn ghost" data-go="dashboard">Dashboard</button>
         </div>
       </div>`;
     $("#cReplay").onclick = renderChallengeIntro;
@@ -800,17 +929,17 @@
      ===================================================================== */
   const refState = { q: "", cat: "all", sort: "tier" };
   function renderReference() {
-    const catChips = [["all", "Toutes"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
+    const catChips = [["all", "All"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
     $("#view-reference").innerHTML = `
       <div class="ref-controls">
         <div class="search">
           <svg viewBox="0 0 24 24" class="ic"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-          <input id="refSearch" type="search" placeholder="Rechercher une forme, un sens, une formation…" value="${esc(refState.q)}" autocomplete="off" />
+          <input id="refSearch" type="search" placeholder="Search for a form, meaning, or pattern…" value="${esc(refState.q)}" autocomplete="off" />
         </div>
         <select class="mini sort-sel" id="refSort">
-          <option value="tier" ${refState.sort === "tier" ? "selected" : ""}>Par importance</option>
-          <option value="az" ${refState.sort === "az" ? "selected" : ""}>Alphabétique</option>
-          <option value="mastery" ${refState.sort === "mastery" ? "selected" : ""}>Par maîtrise</option>
+          <option value="tier" ${refState.sort === "tier" ? "selected" : ""}>By importance</option>
+          <option value="az" ${refState.sort === "az" ? "selected" : ""}>Alphabetical</option>
+          <option value="mastery" ${refState.sort === "mastery" ? "selected" : ""}>By mastery</option>
         </select>
       </div>
       <div class="filters" id="refCats" style="margin-bottom:16px">${catChips.map(([v, l]) => `<button class="fchip ${refState.cat === v ? "on" : ""}" data-v="${v}" ${v !== "all" && refState.cat === v ? `style="background:${CATS[v].color}"` : ""}>${v !== "all" ? catDot(v) : ""}${esc(l)}</button>`).join("")}</div>
@@ -833,8 +962,8 @@
     else if (refState.sort === "mastery") { const order = { new: 0, learning: 1, young: 2, mastered: 3 }; list.sort((a, b) => order[masteryOf(a.id)] - order[masteryOf(b.id)]); }
     else list.sort((a, b) => a.lv - b.lv || a.id.localeCompare(b.id));
 
-    $("#refCount").textContent = `${list.length} point${list.length > 1 ? "s" : ""} de grammaire`;
-    $("#refList").innerHTML = list.map(refEntry).join("") || `<div class="card pad"><p class="muted">Aucun résultat pour « ${esc(refState.q)} ».</p></div>`;
+    $("#refCount").textContent = `${list.length} grammar point${list.length > 1 ? "s" : ""}`;
+    $("#refList").innerHTML = list.map(refEntry).join("") || `<div class="card pad"><p class="muted">No results for "${esc(refState.q)}".</p></div>`;
 
     $$("#refList .gentry").forEach((d) => {
       $$(".rel-link", d).forEach((r) => (r.onclick = (ev) => { ev.preventDefault(); openRef(r.dataset.id); }));
@@ -861,12 +990,12 @@
         </div>
       </summary>
       <div class="gbody">
-        <div class="row"><div class="lab">Formation</div><div class="formation jp">${esc(g.f)}</div></div>
-        ${g.note ? `<div class="row"><div class="lab">Nuance d'emploi</div><div class="note">${esc(g.note)}</div></div>` : ""}
-        <div class="row"><div class="lab">Exemples</div>${exHTML}</div>
-        ${rels ? `<div class="row"><div class="lab">À ne pas confondre avec</div><div class="rels">${rels}</div></div>` : ""}
-        <div class="row" style="border:0"><div class="lab">État${accTxt}</div>
-          <div class="actions"><button class="btn drill-btn" data-id="${g.id}">S'entraîner sur ce point</button></div>
+        <div class="row"><div class="lab">Pattern</div><div class="formation jp">${esc(g.f)}</div></div>
+        ${g.note ? `<div class="row"><div class="lab">Usage notes</div><div class="note">${esc(g.note)}</div></div>` : ""}
+        <div class="row"><div class="lab">Examples</div>${exHTML}</div>
+        ${rels ? `<div class="row"><div class="lab">Not to be confused with</div><div class="rels">${rels}</div></div>` : ""}
+        <div class="row" style="border:0"><div class="lab">Status${accTxt}</div>
+          <div class="actions"><button class="btn drill-btn" data-id="${g.id}">Practice this point</button></div>
         </div>
       </div>
     </details>`;
@@ -905,30 +1034,30 @@
   function openSettings() {
     const s = state.settings;
     const goals = [10, 20, 30, 50];
-    openModal("Réglages", `
+    openModal("Settings", `
       <div class="field">
-        <div><label>Thème sombre</label><div class="sub">Repose les yeux pendant les longues sessions</div></div>
+        <div><label>Dark mode</label><div class="sub">Easier on the eyes during long sessions</div></div>
         <label class="switch"><input type="checkbox" id="setTheme" ${s.theme === "dark" ? "checked" : ""}><span class="sl"></span></label>
       </div>
       <div class="field">
-        <div><label>Traductions françaises</label><div class="sub">Afficher la traduction des phrases</div></div>
+        <div><label>Show translations</label><div class="sub">Show sentence translations</div></div>
         <label class="switch"><input type="checkbox" id="setFr" ${s.showFr ? "checked" : ""}><span class="sl"></span></label>
       </div>
       <div class="field">
-        <div><label>Sons</label><div class="sub">Bip discret à chaque réponse</div></div>
+        <div><label>Sound</label><div class="sub">Subtle beep on each answer</div></div>
         <label class="switch"><input type="checkbox" id="setSound" ${s.sound ? "checked" : ""}><span class="sl"></span></label>
       </div>
       <div class="field">
-        <div><label>Objectif quotidien</label><div class="sub">Nombre de révisions visées par jour</div></div>
+        <div><label>Daily goal</label><div class="sub">Target number of reviews per day</div></div>
         <div class="seg" id="setGoal" style="flex:0 0 auto">${goals.map((g) => `<button data-v="${g}" class="${s.dailyGoal === g ? "sel" : ""}">${g}</button>`).join("")}</div>
       </div>
       <div class="field" style="border-top:1px solid var(--border);padding-top:16px">
-        <div><label>Sauvegarde</label><div class="sub">Exporter / importer ta progression</div></div>
-        <div style="display:flex;gap:8px"><button class="btn" id="setExport">Exporter</button><button class="btn" id="setImport">Importer</button></div>
+        <div><label>Backup</label><div class="sub">Export / import your progress</div></div>
+        <div style="display:flex;gap:8px"><button class="btn" id="setExport">Export</button><button class="btn" id="setImport">Import</button></div>
       </div>
     `, [
-      { label: "Réinitialiser la progression", kind: "ghost", act: confirmReset },
-      { label: "Fermer", kind: "primary", act: closeModal },
+      { label: "Reset progress", kind: "ghost", act: confirmReset },
+      { label: "Close", kind: "primary", act: closeModal },
     ]);
     $("#setTheme").onchange = (e) => { state.settings.theme = e.target.checked ? "dark" : "light"; applyTheme(); save(); };
     $("#setFr").onchange = (e) => { state.settings.showFr = e.target.checked; save(); };
@@ -938,19 +1067,19 @@
     $("#setImport").onclick = importData;
   }
   function confirmReset() {
-    openModal("Réinitialiser&nbsp;?", `<p class="muted">Toute ta progression (révisions, maîtrise, série, record) sera effacée. Cette action est irréversible.</p>`, [
-      { label: "Annuler", kind: "ghost", act: openSettings },
-      { label: "Tout effacer", kind: "primary", act: () => { state = structuredCloneSafe(DEFAULT_STATE); save(); applyTheme(); closeModal(); toast("Progression réinitialisée."); go("dashboard"); } },
+    openModal("Reset?", `<p class="muted">All your progress (reviews, mastery, streak, record) will be erased. This action cannot be undone.</p>`, [
+      { label: "Cancel", kind: "ghost", act: openSettings },
+      { label: "Erase all", kind: "primary", act: () => { state = structuredCloneSafe(DEFAULT_STATE); save(); applyTheme(); closeModal(); toast("Progress reset."); go("dashboard"); } },
     ]);
   }
   function exportData() {
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = "n4-dojo-sauvegarde-" + todayStr() + ".json";
+    a.download = "n2-dojo-sauvegarde-" + todayStr() + ".json";
     a.click();
     URL.revokeObjectURL(a.href);
-    toast("Sauvegarde exportée.");
+    toast("Backup exported.");
   }
   function importData() {
     const inp = document.createElement("input");
@@ -964,7 +1093,7 @@
           if (!data || typeof data !== "object" || !data.stats) throw new Error("format");
           state = { srs: data.srs || {}, stats: Object.assign({}, DEFAULT_STATE.stats, data.stats), settings: Object.assign({}, DEFAULT_STATE.settings, data.settings) };
           save(); applyTheme(); closeModal(); toast("Sauvegarde importée."); go("dashboard");
-        } catch (e) { toast("Fichier invalide."); }
+        } catch (e) { toast("Invalid file."); }
       };
       fr.readAsText(f);
     };
@@ -995,21 +1124,181 @@
   });
 
   /* =====================================================================
-     INIT
+     MODE DÉMO
      ===================================================================== */
+  const DEMO_QS   = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.demoQs) || [];
+  const DEMO_KEY  = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.storeKey || 'dojo.unlocked').replace('.unlocked', '.demo');
+  const BUY_LINK  = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.stripeLink) || '#';
+  let   isDemoSession = false;
+
+  // Petit SVG cadenas à insérer dans les boutons verrouillés
+  const LOCK_SVG =
+    '<svg style="display:inline-block;width:10px;height:10px;stroke:currentColor;fill:none;' +
+    'stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;margin-left:4px;' +
+    'vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24">' +
+    '<rect x="3" y="11" width="18" height="11" rx="2"/>' +
+    '<path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>';
+
+  // Injecte les questions démo en tant qu'objets grammaire synthétiques
+  function buildDemoGrammar() {
+    const firstCat = Object.keys(CATS)[0] || 'particle';
+    DEMO_QS.forEach((dq, i) => {
+      const id = 'demo-' + i;
+      _byId[id] = {
+        id, g: dq.o[dq.a], m: dq.ctx || '', f: '', c: firstCat, lv: 1, rel: [], ex: [],
+        qs: [{ t: 'fill', q: dq.q, fr: dq.ctx || '', o: dq.o, a: dq.a, e: dq.e }],
+      };
+    });
+  }
+
+  function startDemoMode() {
+    isDemoSession = true;
+    buildDemoGrammar();
+
+    // Vues complètement verrouillées (inaccessibles)
+    const HARD_LOCKED = ['flash', 'challenge'];
+
+    // Drill : afficher uniquement l'écran démo (pas les options complètes)
+    const _renderPracticeSetup = renderPracticeSetup;
+    renderPracticeSetup = function () {
+      if (quiz) { renderQuestion(); return; } // quiz en cours : reprendre
+      const accent = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.accent) || '#5b9cff';
+      $('#view-practice').innerHTML =
+        '<div class="setup card pad" style="text-align:center">' +
+        '<h2>Practice — Demo</h2>' +
+        '<p class="muted" style="margin-bottom:1.5rem">' +
+        'Try ' + DEMO_QS.length + ' free grammar questions.<br>' +
+        'Full session options available in the complete version.</p>' +
+        '<button class="btn big" id="startDemoBtn" style="background:' + accent + ';color:#fff;border:none">Start ' + DEMO_QS.length + ' questions</button>' +
+        '<p style="margin-top:1rem;font-size:.78rem;color:var(--text-faint)">' +
+        LOCK_SVG + ' Due / All / Weak points / Categories available in the full version</p>' +
+        '</div>';
+      document.getElementById('startDemoBtn').onclick = launchDemoQuiz;
+    };
+
+    // Référence accessible mais limitée aux 10 premiers points
+    const _renderRefList = renderRefList;
+    renderRefList = function () {
+      _renderRefList();
+      const entries = Array.from($$('#refList .gentry'));
+      const extra   = entries.slice(10);
+      extra.forEach(function (e) { e.remove(); });
+      // Verrouille les boutons "Practice this point"
+      $$('#refList .drill-btn').forEach(function (btn) {
+        btn.classList.add('demo-lock');
+        btn.onclick = function (e) { e.preventDefault(); toast('Available in the full version.'); };
+      });
+      // Corrige le compteur et ajoute le message de verrouillage
+      const shown = Math.min(entries.length, 10);
+      const refCount = $('#refCount');
+      if (refCount) refCount.textContent = shown + ' grammar point' + (shown > 1 ? 's' : '') + ' (demo)';
+      const refList = $('#refList');
+      if (refList && extra.length > 0) {
+        refList.insertAdjacentHTML('beforeend',
+          '<div style="text-align:center;padding:1.5rem 1rem 2rem;color:var(--text-faint);font-size:.85rem;line-height:1.6">' +
+          LOCK_SVG +
+          '<span style="margin-left:5px"><b style="color:var(--text)">' + extra.length + ' more grammar points</b><br>available in the full version</span>' +
+          '</div>');
+      }
+      // Désactive la recherche et les filtres (pas pertinent pour une démo)
+      const searchEl = $('#refSearch');
+      if (searchEl) { searchEl.disabled = true; searchEl.placeholder = 'Search — available in the full version'; }
+      const sortEl = $('#refSort');
+      if (sortEl) sortEl.disabled = true;
+      // data-locked a pointer-events:none — les chips ne sont plus cliquables
+      $$('#refCats .fchip').forEach(function (c) { c.setAttribute('data-locked', '1'); });
+    };
+
+    // CSS pour éléments verrouillés
+    const style = document.createElement('style');
+    style.textContent =
+      '[data-locked]{opacity:.35!important;cursor:not-allowed!important;pointer-events:none!important}' +
+      '.demo-lock{opacity:.35!important;cursor:not-allowed!important}';
+    document.head.appendChild(style);
+
+    // Ajoute cadenas + attribut sur les onglets/nav verrouillés
+    function lockTab(v) {
+      [document.querySelector(`.tab[data-view="${v}"]`),
+       document.querySelector(`#bottomnav button[data-view="${v}"]`)]
+      .forEach(function(el) {
+        if (!el) return;
+        el.setAttribute('data-locked', '1');
+        el.insertAdjacentHTML('beforeend', LOCK_SVG);
+      });
+    }
+    HARD_LOCKED.forEach(lockTab);
+
+    // Surcharge go() : bloque les vues verrouillées, patche dashboard/reference après rendu
+    const _go = go;
+    go = function (view) {
+      if (HARD_LOCKED.includes(view)) {
+        toast('Available in the full version.');
+        return;
+      }
+      // En mode démo, toujours afficher la référence avec le filtre par défaut
+      if (view === 'reference') { refState.q = ''; refState.cat = 'all'; refState.sort = 'tier'; }
+      _go(view);
+      if (view === 'dashboard') requestAnimationFrame(patchDashboard);
+    };
+
+    // Lance la session démo (10 questions fixes)
+    function launchDemoQuiz() {
+      const queue = DEMO_QS.map(function(_, i) { return { gid: 'demo-' + i, qi: 0 }; });
+      startSession(queue);
+    }
+
+    // Patche le dashboard après son rendu pour verrouiller les éléments non accessibles
+    function patchDashboard() {
+      // "Study now" → lance le quiz démo
+      const startBtn = document.getElementById('startSmart');
+      if (startBtn) startBtn.onclick = launchDemoQuiz;
+
+      // "Speed challenge" sur le dashboard → verrouillé avec cadenas
+      const speedBtn = document.querySelector('#view-dashboard [data-go="challenge"]');
+      if (speedBtn) {
+        speedBtn.classList.add('demo-lock');
+        speedBtn.insertAdjacentHTML('beforeend', LOCK_SVG);
+        speedBtn.onclick = function(e) { e.preventDefault(); toast('Available in the full version.'); };
+      }
+
+      // Lignes de catégories → naviguent vers Reference (verrouillé)
+      $$('#view-dashboard .cat-row').forEach(function(r) {
+        r.classList.add('demo-lock');
+        r.onclick = function(e) { e.preventDefault(); toast('Available in the full version.'); };
+      });
+
+      // Points faibles → lancent une session complète (verrouillé)
+      $$('#view-dashboard .weak-item').forEach(function(w) {
+        w.classList.add('demo-lock');
+        w.onclick = function(e) { e.preventDefault(); toast('Available in the full version.'); };
+      });
+    }
+
+    // Ouvre sur le dashboard pour que l'utilisateur voie l'app
+    go('dashboard');
+  }
+
+  // =====================================================================
+  //  INIT
+  // ===================================================================== */
   function buildBottomNav() {
     const items = [
-      ["dashboard", "Accueil", '<path d="M3 11l9-7 9 7M5 10v10h14V10"/>'],
+      ["dashboard", "Home", '<path d="M3 11l9-7 9 7M5 10v10h14V10"/>'],
       ["practice", "Drill", '<path d="M4 6h16M4 12h16M4 18h10"/>'],
-      ["flash", "Cartes", '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/>'],
-      ["challenge", "Défi", '<path d="M12 2v6m0 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12zM8 2h8"/>'],
-      ["reference", "Réf.", '<path d="M4 5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z"/><path d="M8 7h8M8 11h8"/>'],
+      ["flash", "Cards", '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/>'],
+      ["challenge", "Challenge", '<path d="M12 2v6m0 0a6 6 0 1 0 0 12 6 6 0 0 0 0-12zM8 2h8"/>'],
+      ["reference", "Ref.", '<path d="M4 5a2 2 0 0 1 2-2h12v18H6a2 2 0 0 1-2-2z"/><path d="M8 7h8M8 11h8"/>'],
     ];
     $("#bottomnav").innerHTML = items.map(([v, l, p]) => `<button data-view="${v}"><svg viewBox="0 0 24 24" class="ic">${p}</svg>${l}</button>`).join("");
     $$("#bottomnav button").forEach((b) => (b.onclick = () => go(b.dataset.view)));
   }
 
   function init() {
+    // Ambient orb (breathing background)
+    const orb = document.createElement("div");
+    orb.id = "ambient-orb";
+    document.body.insertBefore(orb, document.body.firstChild);
+
     applyTheme();
     buildBottomNav();
     $$(".tab").forEach((t) => (t.onclick = () => go(t.dataset.view)));
@@ -1017,8 +1306,14 @@
     $("#brand").onkeydown = (e) => { if (e.key === "Enter") go("dashboard"); };
     $("#themeBtn").onclick = toggleTheme;
     $("#settingsBtn").onclick = openSettings;
-    $("#streakChip").onclick = () => toast(displayStreak() > 0 ? `Série de ${displayStreak()} jour${displayStreak() > 1 ? "s" : ""} — continue&nbsp;!` : "Réponds à une question aujourd'hui pour démarrer ta série.");
+    $("#streakChip").onclick = () => toast(displayStreak() > 0 ? `${displayStreak()}-day streak — keep it up!` : "Answer a question today to start your streak.");
     refreshStreakChip();
+
+    // Detect demo mode (set by paywall "Try free questions" button)
+    try {
+      if (localStorage.getItem(DEMO_KEY) === '1') { startDemoMode(); return; }
+    } catch (e) {}
+
     go("dashboard");
   }
   function refreshStreakChip() {

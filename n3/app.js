@@ -519,7 +519,7 @@
   let quiz = null;
   function startSession(queue) {
     quiz = { queue, idx: 0, correct: 0, wrong: 0, answered: false, requeued: {}, startedAt: Date.now() };
-    state.stats.sessions += 1; save();
+    if (!isDemoSession) { state.stats.sessions += 1; save(); }
     go("practice");
     renderQuestion();
   }
@@ -613,15 +613,14 @@
       haptic("error");
       const opt = $$("#options .option")[i];
       if (opt) { opt.classList.add("shake"); setTimeout(() => opt.classList.remove("shake"), 420); }
-      // re-planifier l'item en fin de série une fois
-      if (!quiz.requeued[g.id + ":" + item.qi]) {
+      // re-planifier l'item en fin de série une fois (pas en mode démo)
+      if (!isDemoSession && !quiz.requeued[g.id + ":" + item.qi]) {
         quiz.requeued[g.id + ":" + item.qi] = true;
         quiz.queue.push({ gid: g.id, qi: item.qi });
       }
     }
     beep(correct);
-    record(g.id, correct, correct ? 4 : 1, true);
-    checkGoalCelebration();
+    if (!isDemoSession) { record(g.id, correct, correct ? 4 : 1, true); checkGoalCelebration(); }
 
     const frLine = (state.settings.showFr && q.fr) ? `<div class="qfr">${esc(q.fr)}</div>` : "";
     const fullLine = (q.t === "order" && q.full) ? `<div class="qfr jp">→ ${esc(q.full)}</div>` : "";
@@ -657,10 +656,42 @@
   }
 
   function summary() {
-    const totalAns = quiz.correct + quiz.wrong;
-    const pct = totalAns ? Math.round((quiz.correct / totalAns) * 100) : 0;
-    const mins = Math.max(1, Math.round((Date.now() - quiz.startedAt) / 60000));
-    const distinct = new Set(quiz.queue.map((x) => x.gid)).size;
+    const nCorrect  = quiz.correct;
+    const nWrong    = quiz.wrong;
+    const totalAns  = nCorrect + nWrong;
+    const pct       = totalAns ? Math.round((nCorrect / totalAns) * 100) : 0;
+    const mins      = Math.max(1, Math.round((Date.now() - quiz.startedAt) / 60000));
+    const distinct  = new Set(quiz.queue.map((x) => x.gid)).size;
+    quiz = null;
+
+    // ── Demo end screen ────────────────────────────────────────────────
+    if (isDemoSession) {
+      isDemoSession = false;
+      try { localStorage.removeItem(DEMO_KEY); } catch (e) {}
+      const cfg       = window.PAYWALL_CONFIG || {};
+      const total     = cfg.totalPoints || 100;
+      const demoLen   = cfg.demoQs ? cfg.demoQs.length : 10;
+      const remaining = total - demoLen;
+      const accent    = cfg.accent || '#5b9cff';
+      $("#view-practice").innerHTML = `
+        <div class="summary card pad" style="text-align:center">
+          <div class="section-title">Demo complete</div>
+          <div class="big-pct">${pct}%</div>
+          <p class="muted" style="margin-top:6px">
+            You answered ${demoLen} demo questions.<br>
+            <b style="color:var(--text)">${remaining} more points</b> are waiting in the full version.
+          </p>
+          <a href="${BUY_LINK}" style="display:block;width:100%;background:${accent};color:#fff;border:none;
+            border-radius:14px;padding:.95rem 1rem;font-size:1rem;font-weight:700;cursor:pointer;
+            text-decoration:none;transition:opacity .15s;box-sizing:border-box;margin-top:1.2rem">
+            Unlock the full version &rarr;
+          </a>
+          <p style="font-size:.72rem;color:#687388;margin-top:.75rem">One-time payment &middot; $3.50 &middot; Secured by Gumroad</p>
+        </div>`;
+      return;
+    }
+
+    // ── Normal end screen ──────────────────────────────────────────────
     const msg = pct >= 90 ? "Outstanding performance!" : pct >= 70 ? "Good work, keep it up." : pct >= 50 ? "Making progress — keep going." : "Every mistake is a lesson. Try again?";
     $("#view-practice").innerHTML = `
       <div class="summary card pad">
@@ -668,8 +699,8 @@
         <div class="big-pct">${pct}%</div>
         <p class="muted" style="margin-top:6px">${msg}</p>
         <div class="sline">
-          <div><div class="v" style="color:var(--green)">${quiz.correct}</div><div class="k">Correct</div></div>
-          <div><div class="v" style="color:var(--red)">${quiz.wrong}</div><div class="k">Errors</div></div>
+          <div><div class="v" style="color:var(--green)">${nCorrect}</div><div class="k">Correct</div></div>
+          <div><div class="v" style="color:var(--red)">${nWrong}</div><div class="k">Errors</div></div>
           <div><div class="v">${distinct}</div><div class="k">Points seen</div></div>
           <div><div class="v">${mins}<small style="font-size:13px"> min</small></div><div class="k">Duration</div></div>
         </div>
@@ -680,7 +711,6 @@
       </div>`;
     $("#againBtn").onclick = renderPracticeSetup;
     $$("#view-practice [data-go]").forEach((b) => (b.onclick = () => go(b.dataset.go)));
-    quiz = null;
   }
 
   function confirmQuit() {
@@ -1094,8 +1124,163 @@
   });
 
   /* =====================================================================
-     INIT
+     MODE DÉMO
      ===================================================================== */
+  const DEMO_QS   = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.demoQs) || [];
+  const DEMO_KEY  = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.storeKey || 'dojo.unlocked').replace('.unlocked', '.demo');
+  const BUY_LINK  = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.stripeLink) || '#';
+  let   isDemoSession = false;
+
+  // Petit SVG cadenas à insérer dans les boutons verrouillés
+  const LOCK_SVG =
+    '<svg style="display:inline-block;width:10px;height:10px;stroke:currentColor;fill:none;' +
+    'stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;margin-left:4px;' +
+    'vertical-align:middle;flex-shrink:0" viewBox="0 0 24 24">' +
+    '<rect x="3" y="11" width="18" height="11" rx="2"/>' +
+    '<path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>';
+
+  // Injecte les questions démo en tant qu'objets grammaire synthétiques
+  function buildDemoGrammar() {
+    const firstCat = Object.keys(CATS)[0] || 'particle';
+    DEMO_QS.forEach((dq, i) => {
+      const id = 'demo-' + i;
+      _byId[id] = {
+        id, g: dq.o[dq.a], m: dq.ctx || '', f: '', c: firstCat, lv: 1, rel: [], ex: [],
+        qs: [{ t: 'fill', q: dq.q, fr: dq.ctx || '', o: dq.o, a: dq.a, e: dq.e }],
+      };
+    });
+  }
+
+  function startDemoMode() {
+    isDemoSession = true;
+    buildDemoGrammar();
+
+    // Vues complètement verrouillées (inaccessibles)
+    const HARD_LOCKED = ['flash', 'challenge'];
+
+    // Drill : afficher uniquement l'écran démo (pas les options complètes)
+    const _renderPracticeSetup = renderPracticeSetup;
+    renderPracticeSetup = function () {
+      if (quiz) { renderQuestion(); return; } // quiz en cours : reprendre
+      const accent = (window.PAYWALL_CONFIG && window.PAYWALL_CONFIG.accent) || '#5b9cff';
+      $('#view-practice').innerHTML =
+        '<div class="setup card pad" style="text-align:center">' +
+        '<h2>Practice — Demo</h2>' +
+        '<p class="muted" style="margin-bottom:1.5rem">' +
+        'Try ' + DEMO_QS.length + ' free grammar questions.<br>' +
+        'Full session options available in the complete version.</p>' +
+        '<button class="btn big" id="startDemoBtn" style="background:' + accent + ';color:#fff;border:none">Start ' + DEMO_QS.length + ' questions</button>' +
+        '<p style="margin-top:1rem;font-size:.78rem;color:var(--text-faint)">' +
+        LOCK_SVG + ' Due / All / Weak points / Categories available in the full version</p>' +
+        '</div>';
+      document.getElementById('startDemoBtn').onclick = launchDemoQuiz;
+    };
+
+    // Référence accessible mais limitée aux 10 premiers points
+    const _renderRefList = renderRefList;
+    renderRefList = function () {
+      _renderRefList();
+      const entries = Array.from($$('#refList .gentry'));
+      const extra   = entries.slice(10);
+      extra.forEach(function (e) { e.remove(); });
+      // Verrouille les boutons "Practice this point"
+      $$('#refList .drill-btn').forEach(function (btn) {
+        btn.classList.add('demo-lock');
+        btn.onclick = function (e) { e.preventDefault(); toast('Available in the full version.'); };
+      });
+      // Corrige le compteur et ajoute le message de verrouillage
+      const shown = Math.min(entries.length, 10);
+      const refCount = $('#refCount');
+      if (refCount) refCount.textContent = shown + ' grammar point' + (shown > 1 ? 's' : '') + ' (demo)';
+      const refList = $('#refList');
+      if (refList && extra.length > 0) {
+        refList.insertAdjacentHTML('beforeend',
+          '<div style="text-align:center;padding:1.5rem 1rem 2rem;color:var(--text-faint);font-size:.85rem;line-height:1.6">' +
+          LOCK_SVG +
+          '<span style="margin-left:5px"><b style="color:var(--text)">' + extra.length + ' more grammar points</b><br>available in the full version</span>' +
+          '</div>');
+      }
+      // Désactive la recherche et les filtres (pas pertinent pour une démo)
+      const searchEl = $('#refSearch');
+      if (searchEl) { searchEl.disabled = true; searchEl.placeholder = 'Search — available in the full version'; }
+      const sortEl = $('#refSort');
+      if (sortEl) sortEl.disabled = true;
+      // data-locked a pointer-events:none — les chips ne sont plus cliquables
+      $$('#refCats .fchip').forEach(function (c) { c.setAttribute('data-locked', '1'); });
+    };
+
+    // CSS pour éléments verrouillés
+    const style = document.createElement('style');
+    style.textContent =
+      '[data-locked]{opacity:.35!important;cursor:not-allowed!important;pointer-events:none!important}' +
+      '.demo-lock{opacity:.35!important;cursor:not-allowed!important}';
+    document.head.appendChild(style);
+
+    // Ajoute cadenas + attribut sur les onglets/nav verrouillés
+    function lockTab(v) {
+      [document.querySelector(`.tab[data-view="${v}"]`),
+       document.querySelector(`#bottomnav button[data-view="${v}"]`)]
+      .forEach(function(el) {
+        if (!el) return;
+        el.setAttribute('data-locked', '1');
+        el.insertAdjacentHTML('beforeend', LOCK_SVG);
+      });
+    }
+    HARD_LOCKED.forEach(lockTab);
+
+    // Surcharge go() : bloque les vues verrouillées, patche dashboard/reference après rendu
+    const _go = go;
+    go = function (view) {
+      if (HARD_LOCKED.includes(view)) {
+        toast('Available in the full version.');
+        return;
+      }
+      // En mode démo, toujours afficher la référence avec le filtre par défaut
+      if (view === 'reference') { refState.q = ''; refState.cat = 'all'; refState.sort = 'tier'; }
+      _go(view);
+      if (view === 'dashboard') requestAnimationFrame(patchDashboard);
+    };
+
+    // Lance la session démo (10 questions fixes)
+    function launchDemoQuiz() {
+      const queue = DEMO_QS.map(function(_, i) { return { gid: 'demo-' + i, qi: 0 }; });
+      startSession(queue);
+    }
+
+    // Patche le dashboard après son rendu pour verrouiller les éléments non accessibles
+    function patchDashboard() {
+      // "Study now" → lance le quiz démo
+      const startBtn = document.getElementById('startSmart');
+      if (startBtn) startBtn.onclick = launchDemoQuiz;
+
+      // "Speed challenge" sur le dashboard → verrouillé avec cadenas
+      const speedBtn = document.querySelector('#view-dashboard [data-go="challenge"]');
+      if (speedBtn) {
+        speedBtn.classList.add('demo-lock');
+        speedBtn.insertAdjacentHTML('beforeend', LOCK_SVG);
+        speedBtn.onclick = function(e) { e.preventDefault(); toast('Available in the full version.'); };
+      }
+
+      // Lignes de catégories → naviguent vers Reference (verrouillé)
+      $$('#view-dashboard .cat-row').forEach(function(r) {
+        r.classList.add('demo-lock');
+        r.onclick = function(e) { e.preventDefault(); toast('Available in the full version.'); };
+      });
+
+      // Points faibles → lancent une session complète (verrouillé)
+      $$('#view-dashboard .weak-item').forEach(function(w) {
+        w.classList.add('demo-lock');
+        w.onclick = function(e) { e.preventDefault(); toast('Available in the full version.'); };
+      });
+    }
+
+    // Ouvre sur le dashboard pour que l'utilisateur voie l'app
+    go('dashboard');
+  }
+
+  // =====================================================================
+  //  INIT
+  // ===================================================================== */
   function buildBottomNav() {
     const items = [
       ["dashboard", "Home", '<path d="M3 11l9-7 9 7M5 10v10h14V10"/>'],
@@ -1123,6 +1308,12 @@
     $("#settingsBtn").onclick = openSettings;
     $("#streakChip").onclick = () => toast(displayStreak() > 0 ? `${displayStreak()}-day streak — keep it up!` : "Answer a question today to start your streak.");
     refreshStreakChip();
+
+    // Detect demo mode (set by paywall "Try free questions" button)
+    try {
+      if (localStorage.getItem(DEMO_KEY) === '1') { startDemoMode(); return; }
+    } catch (e) {}
+
     go("dashboard");
   }
   function refreshStreakChip() {
