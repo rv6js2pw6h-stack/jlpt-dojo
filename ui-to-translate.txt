@@ -1,0 +1,132 @@
+JLPT 道場 — UI strings à traduire FR → EN
+(colle tout dans DeepL, traduis, renvoie le résultat)
+=========================================================
+
+1. Nouveau
+2. En cours
+3. Consolidé
+4. Maîtrisé
+5. Bonne nuit
+6. Bonjour
+7. Bon après-midi
+8. Bonsoir
+9. Prêt à dompter la grammaire
+10. à réviser
+11. nouveau à découvrir
+12. Tout est à jour. Tu peux réviser librement ou relever un défi.
+13. Réviser maintenant
+14. Défi chrono
+15. aujourd'hui
+16. Points abordés
+17. Points maîtrisés
+18. Précision globale
+19. Révisions totales
+20. Progression de la maîtrise
+21. Maîtrisés
+22. Consolidés
+23. En cours
+24. Nouveaux
+25. Par catégorie
+26. Points à renforcer
+27. Aucun point faible identifié pour l'instant. Continue à t'entraîner !
+28. S'entraîner
+29. Choisis ce que tu veux travailler, puis lance la série. Les bonnes réponses espacent les révisions ; les erreurs reviennent plus vite.
+30. Sélection
+31. Catégorie
+32. Longueur de la série
+33. Commencer
+34. À réviser
+35. Tout
+36. Points faibles
+37. Toutes
+38. Aucun point ne correspond à cette sélection.
+39. Rien à réviser : lance une série libre.
+40. point disponible
+41. points disponibles
+42. Reconstruction de phrase
+43. Choisis la forme correcte
+44. Sens de l'expression
+45. Emploi correct
+46. Nuance / distinction
+47. Quitter la série
+48. Correct !
+49. Pas tout à fait
+50. Appuie sur Entrée
+51. Voir le résultat
+52. Suivant
+53. Série terminée
+54. Performance remarquable !
+55. Bon travail, continue ainsi.
+56. Ça progresse : persévère.
+57. Chaque erreur fait apprendre. On y retourne ?
+58. Justes
+59. Erreurs
+60. Points vus
+61. Durée
+62. Nouvelle série
+63. Tableau de bord
+64. Quitter la série ?
+65. Ta progression sur les questions déjà répondues est enregistrée.
+66. Continuer la série
+67. Quitter
+68. Aucune carte dans cette catégorie.
+69. Paquet terminé
+70. Tu as parcouru toutes les cartes de cette sélection.
+71. Recommencer
+72. Clique ou Espace pour retourner
+73. Encore
+74. Difficile
+75. Bien
+76. Facile
+77. Enchaîne un maximum de bonnes réponses avant la fin du temps. Une bonne réponse fait grimper ton combo ; une erreur te coûte 2 secondes.
+78. Durée
+79. Meilleur score :
+80. Démarrer
+81. combo
+82. SCORE
+83. Temps écoulé
+84. Nouveau record personnel !
+85. Rejouer
+86. Par importance
+87. Alphabétique
+88. Par maîtrise
+89. Rechercher une forme, un sens, une formation…
+90. point de grammaire
+91. points de grammaire
+92. Aucun résultat pour
+93. Formation
+94. Nuance d'emploi
+95. Exemples
+96. À ne pas confondre avec
+97. État
+98. S'entraîner sur ce point
+99. Réglages
+100. Thème sombre
+101. Repose les yeux pendant les longues sessions
+102. Afficher la traduction des phrases
+103. Sons
+104. Bip discret à chaque réponse
+105. Objectif quotidien
+106. Nombre de révisions visées par jour
+107. Sauvegarde
+108. Exporter / importer ta progression
+109. Exporter
+110. Importer
+111. Réinitialiser la progression
+112. Fermer
+113. Réinitialiser ?
+114. Toute ta progression (révisions, maîtrise, série, record) sera effacée. Cette action est irréversible.
+115. Annuler
+116. Tout effacer
+117. Progression réinitialisée.
+118. Sauvegarde exportée.
+119. Fichier invalide.
+120. Série de
+121. jour
+122. — continue !
+123. Réponds à une question aujourd'hui pour démarrer ta série.
+124. Accueil
+125. Cartes
+126. Défi
+127. Réf.
+128. Aucune question disponible dans cette sélection.
