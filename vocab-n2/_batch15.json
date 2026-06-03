@@ -1,0 +1,614 @@
+[
+  {
+    "w": "切り捨てる",
+    "r": "きりすてる",
+    "m": "to discard; to cut off; to abandon",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "効率化のために感情を切り捨てることはできない。", "en": "You cannot discard emotions for the sake of efficiency."}],
+    "qs": [
+      {"t": "fitb", "s": "採算の取れない事業を＿＿＿＿て、中核事業に集中することにした。", "en": "We decided to cut off the unprofitable business and concentrate on the core business.", "o": ["切り捨て", "廃止し", "撤退し", "手放し"], "a": 0, "e": "切り捨てる(きりすてる) = to discard/cut off (ruthlessly). 廃止する(はいしする) = to abolish/discontinue. 撤退する(てったいする) = to withdraw/pull out. 手放す(てばなす) = to let go of."},
+      {"t": "meaning", "s": "「切り捨てる」の意味は？", "o": ["to discard; to cut off ruthlessly", "to abolish; to discontinue", "to withdraw; to pull out", "to let go of; to release"], "a": 0, "e": "切り捨てる = severing something without mercy (弱者を切り捨てる = to abandon the vulnerable, 小数点以下を切り捨てる = to round down/truncate)."}
+    ]
+  },
+  {
+    "w": "見据える",
+    "r": "みすえる",
+    "m": "to keep in sight; to have in view; to fix one's gaze on",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "将来を見据えて、今から準備を始めることが重要だ。", "en": "It is important to start preparing now with the future in sight."}],
+    "qs": [
+      {"t": "fitb", "s": "長期的な目標を＿＿＿＿た戦略が必要だ。", "en": "A strategy with long-term goals firmly in sight is needed.", "o": ["見据え", "見通し", "念頭に置い", "目指し"], "a": 0, "e": "見据える(みすえる) = to fix one's gaze on / keep firmly in view (a goal, the future). 見通す(みとおす) = to foresee / see through to the end. 念頭に置く(ねんとうにおく) = to keep in mind. 目指す(めざす) = to aim for."},
+      {"t": "meaning", "s": "「見据える」の意味は？", "o": ["to fix one's gaze on; to have firmly in view", "to foresee; to look ahead", "to keep in mind", "to aim for; to target"], "a": 0, "e": "見据える = staring directly at something without flinching (現実を見据える = to face reality squarely, 未来を見据える = to keep the future firmly in sight)."}
+    ]
+  },
+  {
+    "w": "追い求める",
+    "r": "おいもとめる",
+    "m": "to pursue; to chase after; to seek",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "理想を追い求める姿勢が、彼を偉大な芸術家にした。", "en": "The attitude of pursuing his ideals made him a great artist."}],
+    "qs": [
+      {"t": "fitb", "s": "利益だけを＿＿＿＿経営は長続きしない。", "en": "Management that pursues only profit will not last.", "o": ["追い求める", "追求する", "求める", "追いかける"], "a": 0, "e": "追い求める(おいもとめる) = to persistently pursue over time. 追求する(ついきゅうする) = to pursue/seek (formal). 求める(もとめる) = to seek/demand. 追いかける(おいかける) = to chase after."},
+      {"t": "meaning", "s": "「追い求める」の意味は？", "o": ["to persistently pursue over time", "to pursue; to seek (formal)", "to seek; to demand", "to chase after"], "a": 0, "e": "追い求める = continuing to chase a goal relentlessly (夢を追い求める = to pursue one's dream, 完璧を追い求める = to relentlessly seek perfection)."}
+    ]
+  },
+  {
+    "w": "傾ける",
+    "r": "かたむける",
+    "m": "to tilt; to incline; to devote (to something)",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "彼女の話に耳を傾けると、意外な事実が明らかになった。", "en": "When I lent an ear to what she was saying, unexpected facts came to light."}],
+    "qs": [
+      {"t": "fitb", "s": "全力を研究に＿＿＿＿た結果、画期的な発見に至った。", "en": "As a result of devoting all my energy to research, I arrived at a groundbreaking discovery.", "o": ["傾け", "捧げ", "注ぎ込み", "費やし"], "a": 0, "e": "傾ける(かたむける) = to tilt / devote (耳を傾ける = to lend an ear, 情熱を傾ける = to pour passion into). 捧げる(ささげる) = to dedicate/offer up. 注ぎ込む(そそぎこむ) = to pour into. 費やす(ついやす) = to spend/expend."},
+      {"t": "meaning", "s": "「傾ける」の意味は？", "o": ["to tilt; to pour into; to devote", "to dedicate; to offer up", "to pour into", "to spend; to expend"], "a": 0, "e": "傾ける = directing something strongly in one direction (耳を傾ける = to listen attentively, 全力を傾ける = to devote all one's effort)."}
+    ]
+  },
+  {
+    "w": "明け渡す",
+    "r": "あけわたす",
+    "m": "to hand over; to vacate; to surrender",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "退去命令を受け、建物を明け渡さざるを得なかった。", "en": "Receiving an eviction order, we had no choice but to vacate the building."}],
+    "qs": [
+      {"t": "fitb", "s": "首位を相手チームに＿＿＿＿したくないため、最後まで全力で戦った。", "en": "Not wanting to surrender first place to the opposing team, we fought with all our strength to the end.", "o": ["明け渡し", "譲り", "奪われ", "手放し"], "a": 0, "e": "明け渡す(あけわたす) = to vacate / hand over (a position, place). 譲る(ゆずる) = to yield/give way to. 奪われる(うばわれる) = to be taken/snatched away. 手放す(てばなす) = to let go of."},
+      {"t": "meaning", "s": "「明け渡す」の意味は？", "o": ["to hand over; to vacate; to surrender", "to yield; to give way", "to be taken away", "to let go of; to release"], "a": 0, "e": "明け渡す = giving up control of a space or position (陣地を明け渡す = to surrender a position, 首位を明け渡す = to give up first place)."}
+    ]
+  },
+  {
+    "w": "突き止める",
+    "r": "つきとめる",
+    "m": "to track down; to pinpoint; to ascertain",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "原因を突き止めるまでに三ヶ月を要した。", "en": "It took three months to pinpoint the cause."}],
+    "qs": [
+      {"t": "fitb", "s": "犯人の居場所を＿＿＿＿た捜査員が、現場に急行した。", "en": "The investigator who tracked down the criminal's whereabouts rushed to the scene.", "o": ["突き止め", "突き止めた", "特定し", "発見し"], "a": 0, "e": "突き止める(つきとめる) = to track down/pinpoint (through investigation). 特定する(とくていする) = to identify/specify. 発見する(はっけんする) = to discover. 割り出す(わりだす) = to work out/figure out."},
+      {"t": "meaning", "s": "「突き止める」の意味は？", "o": ["to track down; to pinpoint", "to identify; to specify", "to discover", "to work out; to figure out"], "a": 0, "e": "突き止める = not stopping until you've found the answer (原因を突き止める = to identify the cause, 居場所を突き止める = to track down someone's whereabouts)."}
+    ]
+  },
+  {
+    "w": "思い切る",
+    "r": "おもいきる",
+    "m": "to make up one's mind; to take the plunge; to give up on",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "思い切って上司に直談判した。", "en": "I took the plunge and went directly to my boss to negotiate."}],
+    "qs": [
+      {"t": "fitb", "s": "長年住んだ家を＿＿＿＿って売ることにした。", "en": "I made up my mind to sell the house I had lived in for many years.", "o": ["思い切", "踏み切", "決心し", "諦め"], "a": 0, "e": "思い切る(おもいきる) = to make up one's mind decisively (思い切って = resolutely / going for it). 踏み切る(ふみきる) = to take the plunge. 決心する(けっしんする) = to resolve/decide. 諦める(あきらめる) = to give up."},
+      {"t": "meaning", "s": "「思い切る」の意味は？", "o": ["to make up one's mind; to go for it", "to take the plunge (after hesitation)", "to resolve; to decide", "to give up; to abandon"], "a": 0, "e": "思い切って = resolutely, going ahead without hesitation (思い切って挑戦する = to boldly take on a challenge). 思い切りよく = decisively / without holding back."}
+    ]
+  },
+  {
+    "w": "持ち合わせる",
+    "r": "もちあわせる",
+    "m": "to happen to have; to have on hand",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "あいにく今日は現金を持ち合わせていない。", "en": "Unfortunately I don't happen to have any cash on me today."}],
+    "qs": [
+      {"t": "fitb", "s": "彼女は才能と努力の両方を＿＿＿＿いる珍しい人材だ。", "en": "She is a rare talent who happens to have both talent and work ethic.", "o": ["持ち合わせて", "兼ね備えて", "持って", "備えて"], "a": 0, "e": "持ち合わせる(もちあわせる) = to happen to have (on you, at the moment). 兼ね備える(かねそなえる) = to possess both qualities. 持つ(もつ) = to have. 備える(そなえる) = to be equipped with."},
+      {"t": "meaning", "s": "「持ち合わせる」の意味は？", "o": ["to happen to have; to have on hand", "to possess both qualities simultaneously", "to have; to hold", "to be equipped with"], "a": 0, "e": "持ち合わせる = having something available at this moment (生憎持ち合わせがない = unfortunately I don't have it on me, 良識を持ち合わせる = to happen to have good sense)."}
+    ]
+  },
+  {
+    "w": "折り合う",
+    "r": "おりあう",
+    "m": "to compromise; to come to terms; to get along",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "双方が折り合うことで、ようやく契約が成立した。", "en": "With both sides compromising, the contract was finally concluded."}],
+    "qs": [
+      {"t": "fitb", "s": "意見の違う二人が＿＿＿＿のに時間がかかった。", "en": "It took time for the two people with differing opinions to come to terms.", "o": ["折り合う", "妥協する", "合意する", "歩み寄る"], "a": 0, "e": "折り合う(おりあう) = to reach a mutual compromise / get along. 妥協する(だきょうする) = to compromise (give up something). 合意する(ごういする) = to agree/reach agreement. 歩み寄る(あゆみよる) = to make concessions / meet halfway."},
+      {"t": "meaning", "s": "「折り合う」の意味は？", "o": ["to compromise; to come to terms", "to compromise (give something up)", "to agree; to reach agreement", "to make concessions; to meet halfway"], "a": 0, "e": "折り合う = finding a workable middle ground (折り合いをつける = to reach a compromise, 折り合いが悪い = not getting along well)."}
+    ]
+  },
+  {
+    "w": "差し替える",
+    "r": "さしかえる",
+    "m": "to replace; to swap out; to substitute",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "古いデータを最新のものに差し替えた。", "en": "I replaced the old data with the latest version."}],
+    "qs": [
+      {"t": "fitb", "s": "誤りのある図表を正しいものに＿＿＿＿て再送します。", "en": "I will replace the erroneous chart with the correct one and resend.", "o": ["差し替え", "置き換え", "交換し", "変更し"], "a": 0, "e": "差し替える(さしかえる) = to swap one thing out for another. 置き換える(おきかえる) = to replace/substitute (more general). 交換する(こうかんする) = to exchange/swap (bilateral). 変更する(へんこうする) = to change/modify."},
+      {"t": "meaning", "s": "「差し替える」の意味は？", "o": ["to replace; to swap out", "to replace; to substitute (general)", "to exchange; to swap (bilateral)", "to change; to modify"], "a": 0, "e": "差し替える = removing something and inserting a different one in its place (写真を差し替える = to swap out a photo, 担当者を差し替える = to replace the person in charge)."}
+    ]
+  },
+  {
+    "w": "引き立てる",
+    "r": "ひきたてる",
+    "m": "to set off; to enhance; to bring out; to promote",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "シンプルな服装が彼女の美しさを一層引き立てている。", "en": "The simple outfit further sets off her beauty."}],
+    "qs": [
+      {"t": "fitb", "s": "部下の才能を＿＿＿＿のも、上司の大切な役割だ。", "en": "Drawing out the talents of one's subordinates is also an important role of a superior.", "o": ["引き立てる", "引き出す", "伸ばす", "活かす"], "a": 0, "e": "引き立てる(ひきたてる) = to enhance/bring out (a quality, talent) or to promote someone. 引き出す(ひきだす) = to draw out. 伸ばす(のばす) = to develop/extend. 活かす(いかす) = to make use of."},
+      {"t": "meaning", "s": "「引き立てる」の意味は？", "o": ["to enhance; to set off; to bring out", "to draw out", "to develop; to extend", "to make use of; to leverage"], "a": 0, "e": "引き立てる = making something look or appear better by contrast or support (色を引き立てる = to set off a colour, 部下を引き立てる = to bring out the best in a subordinate / to promote them)."}
+    ]
+  },
+  {
+    "w": "立ち返る",
+    "r": "たちかえる",
+    "m": "to go back to; to return to basics; to revisit",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "問題が複雑になったとき、原点に立ち返ることが大切だ。", "en": "When a problem becomes complicated, it is important to return to basics."}],
+    "qs": [
+      {"t": "fitb", "s": "この議論の出発点に＿＿＿＿て考え直してみよう。", "en": "Let's go back to the starting point of this discussion and reconsider.", "o": ["立ち返っ", "戻っ", "振り返っ", "原点回帰し"], "a": 0, "e": "立ち返る(たちかえる) = to return to a starting point or principle (原点に立ち返る = to go back to basics). 戻る(もどる) = to go back/return. 振り返る(ふりかえる) = to look back. 原点回帰(げんてんかいき) = return to origins."},
+      {"t": "meaning", "s": "「立ち返る」の意味は？", "o": ["to return to basics; to go back to a principle", "to go back; to return (general)", "to look back; to reflect", "return to origins (set phrase)"], "a": 0, "e": "立ち返る = deliberately returning to a foundational point (問題の核心に立ち返る = to go back to the heart of the issue, 初心に立ち返る = to return to one's original spirit/intention)."}
+    ]
+  },
+  {
+    "w": "突き詰める",
+    "r": "つきつめる",
+    "m": "to pursue to the end; to think through completely; to get to the bottom of",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "物事を突き詰めて考える習慣が、彼を優秀な研究者にした。", "en": "The habit of thinking things through to the end made him an excellent researcher."}],
+    "qs": [
+      {"t": "fitb", "s": "問題の本質を＿＿＿＿ると、意外なところに原因があることがわかった。", "en": "When we pursued the essence of the problem to the end, we found the cause was in an unexpected place.", "o": ["突き詰め", "掘り下げ", "突き止め", "分析し"], "a": 0, "e": "突き詰める(つきつめる) = to follow something to its logical end (thought, argument). 掘り下げる(ほりさげる) = to dig deeper. 突き止める(つきとめる) = to track down/pinpoint. 分析する(ぶんせきする) = to analyze."},
+      {"t": "meaning", "s": "「突き詰める」の意味は？", "o": ["to pursue to the very end; to think through", "to dig deeper into", "to track down; to pinpoint", "to analyze; to break down"], "a": 0, "e": "突き詰める = not stopping until you've reached the ultimate conclusion (突き詰めると = when you really think it through, 考えを突き詰める = to pursue a thought to its logical end)."}
+    ]
+  },
+  {
+    "w": "取り持つ",
+    "r": "とりもつ",
+    "m": "to mediate; to act as go-between; to facilitate",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "双方の関係を取り持つ役割を担っている。", "en": "I am playing the role of mediating between both parties."}],
+    "qs": [
+      {"t": "fitb", "s": "対立する両者の間を＿＿＿＿のは骨の折れる仕事だ。", "en": "Mediating between two parties in conflict is a laborious task.", "o": ["取り持つ", "仲介する", "調停する", "橋渡しする"], "a": 0, "e": "取り持つ(とりもつ) = to act as a go-between / facilitate a relationship. 仲介する(ちゅうかいする) = to mediate/broker. 調停する(ちょうていする) = to arbitrate/mediate (formal/legal). 橋渡しする(はしわたしする) = to bridge/act as liaison."},
+      {"t": "meaning", "s": "「取り持つ」の意味は？", "o": ["to mediate; to act as go-between", "to mediate; to broker", "to arbitrate (formal/legal)", "to bridge; to act as liaison"], "a": 0, "e": "取り持つ = smoothing relations between people (縁を取り持つ = to act as matchmaker, 場を取り持つ = to facilitate the atmosphere/occasion)."}
+    ]
+  },
+  {
+    "w": "引き延ばす",
+    "r": "ひきのばす",
+    "m": "to drag out; to prolong; to delay deliberately",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "交渉を引き延ばす戦術は、相手の信頼を損なう。", "en": "Tactics of dragging out negotiations undermine the other party's trust."}],
+    "qs": [
+      {"t": "fitb", "s": "決断を＿＿＿＿ばしにしても、問題は解決しない。", "en": "Even if you drag out the decision, the problem will not be resolved.", "o": ["引き延", "先延", "後回", "延期"], "a": 0, "e": "引き延ばす(ひきのばす) = to deliberately prolong/drag out. 先延ばしにする(さきのばしにする) = to put off/delay. 後回しにする = to leave for later. 延期する(えんきする) = to postpone (setting a new date)."},
+      {"t": "meaning", "s": "「引き延ばす」の意味は？", "o": ["to drag out; to prolong deliberately", "to put off; to delay", "to leave for later", "to postpone (with a new date)"], "a": 0, "e": "引き延ばす = deliberately stretching out time (時間を引き延ばす = to drag things out, 返答を引き延ばす = to delay an answer). Can also mean to enlarge a photo."}
+    ]
+  },
+  {
+    "w": "成り行き",
+    "r": "なりゆき",
+    "m": "course of events; development; how things turn out",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "成り行きに任せて行動した結果、思わぬ出会いがあった。", "en": "As a result of acting according to how things developed, there was an unexpected encounter."}],
+    "qs": [
+      {"t": "fitb", "s": "事態の＿＿＿＿を見守るしかない状況だ。", "en": "We are in a situation where all we can do is watch how events unfold.", "o": ["成り行き", "展開", "進展", "推移"], "a": 0, "e": "成り行き(なりゆき) = the natural course of events (as things unfold). 展開(てんかい) = development/unfolding. 進展(しんてん) = progress/development (forward movement). 推移(すいい) = transition/change over time."},
+      {"t": "meaning", "s": "「成り行き」の意味は？", "o": ["course of events; how things unfold", "development; unfolding", "progress; forward movement", "transition; change over time"], "a": 0, "e": "成り行き = letting things take their natural course (成り行き任せ = leaving it to chance, 成り行きを見守る = to watch how things develop)."}
+    ]
+  },
+  {
+    "w": "底上げ",
+    "r": "そこあげ",
+    "m": "raising the floor; overall improvement; lifting the baseline",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "教育の底上げなくして、社会全体の発展はない。", "en": "Without raising the baseline of education, there can be no development of society as a whole."}],
+    "qs": [
+      {"t": "fitb", "s": "チーム全体の実力の＿＿＿＿を図るため、研修を強化した。", "en": "We strengthened training in order to raise the overall level of the entire team.", "o": ["底上げ", "向上", "強化", "底上げ策"], "a": 0, "e": "底上げ(そこあげ) = raising the floor level of all members (not just the top). 向上(こうじょう) = improvement. 強化(きょうか) = strengthening. 底上げ策(そこあげさく) = measures to raise the baseline."},
+      {"t": "meaning", "s": "「底上げ」の意味は？", "o": ["raising the floor; lifting the baseline", "improvement (general)", "strengthening; reinforcement", "baseline-raising measure"], "a": 0, "e": "底上げ = bringing the lower end up (賃金の底上げ = raising the wage floor, 学力の底上げ = raising the overall academic baseline across all students)."}
+    ]
+  },
+  {
+    "w": "名残",
+    "r": "なごり",
+    "m": "trace; remnant; lingering feeling",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "祭りが終わった後も、町には活気の名残があった。", "en": "Even after the festival ended, traces of its vitality lingered in the town."}],
+    "qs": [
+      {"t": "fitb", "s": "彼女と別れた後も、長い間その＿＿＿＿を感じていた。", "en": "Even after parting with her, I felt the lingering traces for a long time.", "o": ["名残", "余韻", "名残惜しさ", "余波"], "a": 0, "e": "名残(なごり) = a trace or lingering feeling left after something ends. 余韻(よいん) = afterglow / lingering resonance. 名残惜しさ(なごりおしさ) = the sadness of parting. 余波(よは) = ripple effect."},
+      {"t": "meaning", "s": "「名残」の意味は？", "o": ["trace; remnant; lingering feeling", "afterglow; lingering resonance", "sadness of parting", "ripple effect; aftermath"], "a": 0, "e": "名残 = something left behind from the past (名残惜しい = reluctant to part, 冬の名残 = lingering traces of winter, 名残をとどめる = to preserve traces of the past)."}
+    ]
+  },
+  {
+    "w": "手本",
+    "r": "てほん",
+    "m": "model; example to follow; copybook",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "彼女の生き方は、多くの若者にとっての手本になっている。", "en": "Her way of life has become a model for many young people."}],
+    "qs": [
+      {"t": "fitb", "s": "上司が率先して＿＿＿＿を見せることで、部下のやる気が上がる。", "en": "When a superior leads the way by showing an example, subordinates' motivation rises.", "o": ["手本", "模範", "見本", "例"], "a": 0, "e": "手本(てほん) = a model to copy or learn from (手本を見せる = to show an example). 模範(もはん) = a model/exemplar (formal). 見本(みほん) = a sample. 例(れい) = an example/case."},
+      {"t": "meaning", "s": "「手本」の意味は？", "o": ["model; example to follow; copybook", "exemplar (formal)", "sample (to show quality)", "example; case"], "a": 0, "e": "手本 = something you copy or learn from (習字の手本 = a calligraphy copybook, 手本にする = to take as a model, 手本を示す = to lead by example)."}
+    ]
+  },
+  {
+    "w": "生かす",
+    "r": "いかす",
+    "m": "to make use of; to put to good use; to leverage",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "留学の経験を仕事に生かしたいと考えている。", "en": "I am thinking of putting my study abroad experience to good use in my work."}],
+    "qs": [
+      {"t": "fitb", "s": "自分の強みを＿＿＿＿た仕事に就くことで、より満足度が高まる。", "en": "By getting a job that makes use of your strengths, your satisfaction increases.", "o": ["生かし", "活かし", "使い", "発揮し"], "a": 0, "e": "生かす(いかす) / 活かす = to make the most of something (experience, strengths). 使う(つかう) = to use. 発揮する(はっきする) = to demonstrate/exercise (already in earlier batches)."},
+      {"t": "meaning", "s": "「生かす」の意味は？", "o": ["to make use of; to put to good use", "to use (general)", "to demonstrate; to exercise (ability)", "to develop; to grow"], "a": 0, "e": "生かす / 活かす = extracting maximum value from something (経験を生かす = to draw on experience, 素材を生かした料理 = cooking that brings out the best of ingredients)."}
+    ]
+  },
+  {
+    "w": "勢い",
+    "r": "いきおい",
+    "m": "momentum; force; energy; vigour",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "改革の勢いに乗って、次々と新しい施策が実施された。", "en": "Riding the momentum of reform, new measures were implemented one after another."}],
+    "qs": [
+      {"t": "fitb", "s": "チームは連勝の＿＿＿＿に乗り、決勝まで勝ち進んだ。", "en": "The team rode the momentum of consecutive wins and advanced to the final.", "o": ["勢い", "流れ", "弾み", "波"], "a": 0, "e": "勢い(いきおい) = momentum/force (powerful forward energy). 流れ(ながれ) = the flow/current (of events). 弾み(はずみ) = a bounce/momentum (弾みがつく = to gain momentum). 波(なみ) = a wave."},
+      {"t": "meaning", "s": "「勢い」の意味は？", "o": ["momentum; force; vigour", "flow; current (of events)", "bounce; gaining momentum", "wave"], "a": 0, "e": "勢い = powerful, active force (勢いがある = has momentum, 勢いよく = vigorously, 勢いに乗る = to ride the momentum)."}
+    ]
+  },
+  {
+    "w": "余すところなく",
+    "r": "あますところなく",
+    "m": "without remainder; completely; thoroughly",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "この本は著者の知識を余すところなく伝えている。", "en": "This book conveys the author's knowledge completely without omission."}],
+    "qs": [
+      {"t": "fitb", "s": "自分の才能を＿＿＿＿発揮した素晴らしいパフォーマンスだった。", "en": "It was a wonderful performance that thoroughly demonstrated all of his talent.", "o": ["余すところなく", "余すことなく", "完全に", "すべて"], "a": 0, "e": "余すところなく = leaving nothing behind / completely (formal). 余すことなく = alternate phrasing (same meaning). 完全に(かんぜんに) = completely/perfectly. すべて = all/everything."},
+      {"t": "meaning", "s": "「余すところなく」の意味は？", "o": ["completely; without omission (formal)", "completely (alternate phrasing)", "completely; perfectly", "all; everything"], "a": 0, "e": "余すところなく = not leaving a single thing out (余すところなく語る = to speak about everything without omission, 余すところなく活用する = to make full and complete use of)."}
+    ]
+  },
+  {
+    "w": "いわゆる",
+    "r": "いわゆる",
+    "m": "so-called; what is called; known as",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "これがいわゆる「デジタル格差」と呼ばれる問題だ。", "en": "This is what is called the 'digital divide' problem."}],
+    "qs": [
+      {"t": "fitb", "s": "彼は＿＿＿＿エリートコースを歩んできた人物だ。", "en": "He is a person who has followed what is called the elite career path.", "o": ["いわゆる", "いわば", "つまり", "すなわち"], "a": 0, "e": "いわゆる = so-called / what is commonly referred to as (used before a label or term). いわば = so to speak. つまり = in other words. すなわち = that is to say (formal)."},
+      {"t": "meaning", "s": "「いわゆる」の意味は？", "o": ["so-called; what is known as", "so to speak", "in other words", "that is to say (formal)"], "a": 0, "e": "いわゆる introduces a widely used term or label (いわゆる「草食系」= what is called the 'herbivore type'). It can have a slightly distancing or ironic nuance."}
+    ]
+  },
+  {
+    "w": "いわば",
+    "r": "いわば",
+    "m": "so to speak; as it were; in a manner of speaking",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "彼はいわば、この組織の頭脳だ。", "en": "He is, so to speak, the brains of this organization."}],
+    "qs": [
+      {"t": "fitb", "s": "この制度は＿＿＿＿、社会の安全網の役割を果たしている。", "en": "This system plays the role of a safety net for society, so to speak.", "o": ["いわば", "いわゆる", "つまり", "まるで"], "a": 0, "e": "いわば = so to speak / as it were (introducing a metaphor or analogy). いわゆる = so-called (introducing a common label). つまり = in other words (rephrasing). まるで = just like / as if."},
+      {"t": "meaning", "s": "「いわば」の意味は？", "o": ["so to speak; as it were (metaphor)", "so-called (common label)", "in other words (rephrasing)", "just like; as if (simile)"], "a": 0, "e": "いわば introduces a figurative comparison (いわば人生の縮図だ = it is, so to speak, a microcosm of life). It signals that the next phrase is approximate or metaphorical."}
+    ]
+  },
+  {
+    "w": "あるいは",
+    "r": "あるいは",
+    "m": "or; alternatively; perhaps",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "電話あるいはメールでご連絡ください。", "en": "Please contact us by phone or by email."}],
+    "qs": [
+      {"t": "fitb", "s": "彼が遅刻したのは、渋滞のせい、＿＿＿＿は別の理由があるのかもしれない。", "en": "His being late may be due to traffic, or alternatively there may be another reason.", "o": ["あるいは", "または", "もしくは", "それとも"], "a": 0, "e": "あるいは = or / alternatively / perhaps (written formal). または = or (standard). もしくは = or (formal/legal). それとも = or (spoken, presenting alternatives in a question)."},
+      {"t": "meaning", "s": "「あるいは」の意味は？", "o": ["or; alternatively; perhaps (written)", "or (standard)", "or (formal/legal)", "or (spoken, in questions)"], "a": 0, "e": "あるいは can mean 'or' (A あるいは B) or 'perhaps' (あるいは間違いかもしれない = perhaps it is a mistake). More literary than または."}
+    ]
+  },
+  {
+    "w": "かつ",
+    "r": "かつ",
+    "m": "and; moreover; at the same time (combining two conditions)",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "この仕事は迅速かつ正確に行う必要がある。", "en": "This work must be carried out quickly and accurately."}],
+    "qs": [
+      {"t": "fitb", "s": "リーダーには力強く、＿＿＿＿繊細な判断力が求められる。", "en": "A leader is required to have both powerful and at the same time delicate judgment.", "o": ["かつ", "そして", "また", "加えて"], "a": 0, "e": "かつ = and/moreover (formal written conjunction combining two simultaneous qualities). そして = and then. また = also/and. 加えて(くわえて) = in addition."},
+      {"t": "meaning", "s": "「かつ」の意味は？", "o": ["and; at the same time (formal written)", "and then (sequential)", "also; and (general)", "in addition; furthermore"], "a": 0, "e": "かつ is formal written language for combining simultaneous attributes (安価かつ高品質 = inexpensive yet high quality, 迅速かつ丁寧に = quickly and carefully)."}
+    ]
+  },
+  {
+    "w": "ないし",
+    "r": "ないし",
+    "m": "or; to; ranging from ~ to ~",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "費用は三万ないし五万円かかる見込みだ。", "en": "The cost is expected to range from 30,000 to 50,000 yen."}],
+    "qs": [
+      {"t": "fitb", "s": "参加人数は十名＿＿＿＿十五名を予定しています。", "en": "We are planning for 10 to 15 participants.", "o": ["ないし", "または", "から", "あるいは"], "a": 0, "e": "ないし = or / ranging from A to B (formal/written: 三日ないし五日 = three to five days). または = or (standard alternatives). から = from. あるいは = or / alternatively."},
+      {"t": "meaning", "s": "「ないし」の意味は？", "o": ["or; ranging from ~ to ~ (formal)", "or (standard alternatives)", "from (starting point)", "or; alternatively (written)"], "a": 0, "e": "ないし links two numbers as a range (三名ないし五名 = three to five people) or two options (A ないし B = A or B). Exclusively formal/written."}
+    ]
+  },
+  {
+    "w": "ともなると",
+    "r": "ともなると",
+    "m": "when it comes to; given that; once ~ is reached",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "プロともなると、細かいミスも許されない。", "en": "When it comes to a professional, even minor mistakes are not allowed."}],
+    "qs": [
+      {"t": "fitb", "s": "部長＿＿＿＿、発言の重みが全然違う。", "en": "When you are at the level of department head, the weight of your words is completely different.", "o": ["ともなると", "になると", "ともなれば", "となると"], "a": 0, "e": "ともなると = when it comes to (that level/position: implies a standard is expected). になると = when it becomes. ともなれば = similar nuance (slightly more hypothetical). となると = when it comes to (same, slightly less formal)."},
+      {"t": "meaning", "s": "「ともなると」の意味は？", "o": ["when it comes to (that level/status)", "when it becomes ~", "once ~ level is reached (hypothetical)", "when it comes to (slightly less formal)"], "a": 0, "e": "ともなると = at that level, certain expectations naturally follow (大人ともなると = once you're an adult, それほどの規模ともなると = at that scale)."}
+    ]
+  },
+  {
+    "w": "いかに",
+    "r": "いかに",
+    "m": "how; no matter how; to what extent",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "いかに優れた計画でも、実行なしには意味がない。", "en": "No matter how excellent a plan is, it is meaningless without execution."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿努力しても、結果が伴わないこともある。", "en": "No matter how hard you try, sometimes results don't follow.", "o": ["いかに", "どんなに", "いかなる", "どれほど"], "a": 0, "e": "いかに = how/no matter how (formal/literary). どんなに = no matter how (colloquial: どんなに頑張っても). いかなる = whatever/any kind of (formal: いかなる理由でも). どれほど = how much (degree)."},
+      {"t": "meaning", "s": "「いかに」の意味は？", "o": ["how; no matter how (formal/literary)", "no matter how (colloquial)", "whatever; any kind of (formal)", "how much; to what degree"], "a": 0, "e": "いかに is formal/literary (いかに困難でも = no matter how difficult, いかにも = indeed / as expected). 類語 どんなに is the everyday equivalent."}
+    ]
+  },
+  {
+    "w": "さらなる",
+    "r": "さらなる",
+    "m": "further; even more; additional",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "さらなる成長を目指して、新たな挑戦に臨む。", "en": "Aiming for further growth, I face a new challenge."}],
+    "qs": [
+      {"t": "fitb", "s": "今の成功に満足せず、＿＿＿＿高みを目指すべきだ。", "en": "Not satisfied with current success, one should aim for even greater heights.", "o": ["さらなる", "更なる", "より高い", "一層の"], "a": 0, "e": "さらなる = further/additional (modifies a noun: さらなる発展 = further development). 更なる = alternate kanji. より高い = higher. 一層の(いっそうの) = even more / a further degree of."},
+      {"t": "meaning", "s": "「さらなる」の意味は？", "o": ["further; even more; additional", "further (alternate kanji)", "higher; greater", "even more (a further degree)"], "a": 0, "e": "さらなる = pushing beyond the current level (さらなる努力 = further effort, さらなる高みへ = to even greater heights). Only modifies nouns (さらなる+noun)."}
+    ]
+  },
+  {
+    "w": "辛うじて",
+    "r": "からうじて",
+    "m": "barely; narrowly; just barely",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "試験には辛うじて合格したが、余裕はなかった。", "en": "I barely passed the exam; it was not with any ease."}],
+    "qs": [
+      {"t": "fitb", "s": "崖崩れで道が寸断されたが、＿＿＿＿て迂回路を見つけた。", "en": "The road was cut off by a landslide, but we barely found a detour.", "o": ["辛うじ", "かろうじ", "やっと", "何とか"], "a": 0, "e": "辛うじて(からうじて) = barely/just barely (very close to not succeeding). かろうじて = alternate reading (same word). やっと = finally/at last. 何とか(なんとか) = somehow/manage to."},
+      {"t": "meaning", "s": "「辛うじて」の意味は？", "o": ["barely; just barely (close to failing)", "barely (alternate reading)", "finally; at last", "somehow; manage to"], "a": 0, "e": "辛うじて = by a hair's breadth (辛うじて間に合った = barely made it in time, 辛うじて生き延びた = barely survived). Implies it was extremely close to failing."}
+    ]
+  },
+  {
+    "w": "ひいては",
+    "r": "ひいては",
+    "m": "and by extension; ultimately; eventually leading to",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "個人の健康は、ひいては社会全体の活力につながる。", "en": "Individual health leads by extension to the vitality of society as a whole."}],
+    "qs": [
+      {"t": "fitb", "s": "環境保護は、＿＿＿＿地球の未来を守ることにつながる。", "en": "Environmental protection leads by extension to protecting the future of the planet.", "o": ["ひいては", "つまり", "結果的に", "さらには"], "a": 0, "e": "ひいては = by extension / ultimately (A, and ひいてはB = A, which ultimately leads to B). つまり = in other words. 結果的に(けっかてきに) = as a result. さらには = furthermore / and beyond that."},
+      {"t": "meaning", "s": "「ひいては」の意味は？", "o": ["and by extension; ultimately", "in other words", "as a result", "furthermore; beyond that"], "a": 0, "e": "ひいては = extending the chain of consequence (会社の成功、ひいては国の繁栄 = the success of the company, and by extension the prosperity of the nation)."}
+    ]
+  },
+  {
+    "w": "まして",
+    "r": "まして",
+    "m": "much more so; let alone; all the more",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "専門家でも難しいのだから、ましてや素人には無理だ。", "en": "Even experts find it difficult, so let alone a layperson."}],
+    "qs": [
+      {"t": "fitb", "s": "大人でも理解が難しい内容だ。＿＿＿＿や子供にはわからないだろう。", "en": "It is content even adults find hard to understand. Let alone a child.", "o": ["まして", "ましてや", "なおさら", "それどころか"], "a": 0, "e": "まして/ましてや = let alone / much more so (Aでさえ難しい、ましてやBは = if A is hard, then B is all the more so). なおさら = all the more. それどころか = far from it / on the contrary."},
+      {"t": "meaning", "s": "「まして」の意味は？", "o": ["let alone; much more so; all the more", "all the more so", "far from it; on the contrary", "especially; in particular"], "a": 0, "e": "まして(や) = escalating beyond an already extreme point (日本語でさえ難しいのに、ましてや中国語は = Japanese is already hard, let alone Chinese)."}
+    ]
+  },
+  {
+    "w": "たとえ",
+    "r": "たとえ",
+    "m": "even if; no matter how; though",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "たとえ失敗しても、挑戦したことに価値がある。", "en": "Even if you fail, there is value in having tried."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿結果が悪くても、精一杯やったことを誇りに思おう。", "en": "Even if the results are bad, let's be proud of having done our best.", "o": ["たとえ", "仮に", "もし", "いくら"], "a": 0, "e": "たとえ～ても = even if ~ (emphasises the condition is irrelevant to the conclusion). 仮に(かりに) = hypothetically/supposing. もし = if. いくら～ても = no matter how much ~ (with a degree)."},
+      {"t": "meaning", "s": "「たとえ」の意味は？", "o": ["even if; no matter ~ (condition irrelevant)", "hypothetically; supposing", "if (general conditional)", "no matter how much ~"], "a": 0, "e": "たとえ～ても = regardless of the condition (たとえ雨でも行く = I'll go even if it rains). Paired with ても/でも. Emphasises unstoppable determination or universal truth."}
+    ]
+  },
+  {
+    "w": "すなわち",
+    "r": "すなわち",
+    "m": "that is to say; namely; in other words",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "努力なき結果、すなわち夢は実現しない。", "en": "Results without effort — in other words, dreams will not be realized."}],
+    "qs": [
+      {"t": "fitb", "s": "三分の二、＿＿＿＿約六十七パーセントの賛成が必要だ。", "en": "Two-thirds — namely about 67 percent — of votes in favour are needed.", "o": ["すなわち", "つまり", "すなわちは", "言い換えれば"], "a": 0, "e": "すなわち = namely/that is to say (formal, introduces an exact equivalent or restatement). つまり = in other words (rephrasing for clarity). 言い換えれば(いいかえれば) = to put it differently. すなわちは = incorrect form."},
+      {"t": "meaning", "s": "「すなわち」の意味は？", "o": ["namely; that is to say (formal)", "in other words (rephrasing)", "to put it differently", "in short; to sum up"], "a": 0, "e": "すなわち introduces an exact equivalence or specification (民主主義、すなわち人民の支配 = democracy, that is, the rule of the people). More formal and precise than つまり."}
+    ]
+  },
+  {
+    "w": "のみならず",
+    "r": "のみならず",
+    "m": "not only ~ but also; in addition to",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "彼は成績優秀なのみならず、スポーツも得意だ。", "en": "He is not only excellent in his studies but also good at sports."}],
+    "qs": [
+      {"t": "fitb", "s": "この政策は国内＿＿＿＿、海外からも高い評価を受けた。", "en": "This policy received high praise not only domestically but also from abroad.", "o": ["のみならず", "だけでなく", "に限らず", "はもちろん"], "a": 0, "e": "のみならず = not only ~ but also (formal/written). だけでなく = not only (general). に限らず(にかぎらず) = not limited to. はもちろん = of course / needless to say."},
+      {"t": "meaning", "s": "「のみならず」の意味は？", "o": ["not only ~ but also (formal)", "not only (general)", "not limited to", "of course; needless to say"], "a": 0, "e": "のみならず is a formal written expression for 'not only A but also B' (経済のみならず文化の面でも = not only economically but also culturally)."}
+    ]
+  },
+  {
+    "w": "につれて",
+    "r": "につれて",
+    "m": "as ~; in proportion to; along with",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "時間が経つにつれて、痛みが和らいでいった。", "en": "As time passed, the pain gradually eased."}],
+    "qs": [
+      {"t": "fitb", "s": "年齢を重ねる＿＿＿＿、考え方も変わってくるものだ。", "en": "As one accumulates years of age, one's way of thinking changes too.", "o": ["につれて", "にしたがって", "とともに", "にともなって"], "a": 0, "e": "につれて = as A progresses, B changes proportionally (parallel change). にしたがって = as/in accordance with. とともに = along with/as. にともなって = accompanying/as a result of."},
+      {"t": "meaning", "s": "「につれて」の意味は？", "o": ["as ~; proportional parallel change", "as; in accordance with", "along with; as", "accompanying; as a result of"], "a": 0, "e": "につれて marks two things changing in tandem (温度が上がるにつれて体積が増える = as temperature rises, volume increases). The change in B is gradual and proportional to A."}
+    ]
+  },
+  {
+    "w": "に際して",
+    "r": "にさいして",
+    "m": "on the occasion of; at the time of; when",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "入学に際して、必要な書類を提出してください。", "en": "On the occasion of enrollment, please submit the required documents."}],
+    "qs": [
+      {"t": "fitb", "s": "契約を結ぶ＿＿＿＿、条件をよく確認することが大切だ。", "en": "At the time of concluding a contract, it is important to carefully check the conditions.", "o": ["に際して", "にあたって", "にあたり", "において"], "a": 0, "e": "に際して(にさいして) = on the occasion of / at the time of (formal). にあたって = in doing / on the occasion of (similar, slightly broader). において = in / at (location or context). にあたり = same as にあたって (more formal variant)."},
+      {"t": "meaning", "s": "「に際して」の意味は？", "o": ["on the occasion of; at the time of (formal)", "in doing; on the occasion of", "in; at (location or context)", "same as にあたって (more formal)"], "a": 0, "e": "に際して = a formal marker for a significant moment or transition (卒業に際して = upon graduation, 大会に際して = on the occasion of the tournament)."}
+    ]
+  },
+  {
+    "w": "ともかく",
+    "r": "ともかく",
+    "m": "anyway; at any rate; setting aside; regardless",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "結果はともかく、全力を尽くしたことに悔いはない。", "en": "Regardless of the results, I have no regrets about having given my all."}],
+    "qs": [
+      {"t": "fitb", "s": "細かいことは＿＿＿＿、まず行動することが大事だ。", "en": "Setting aside the details, taking action first is what's important.", "o": ["ともかく", "ともあれ", "いずれにせよ", "なんにせよ"], "a": 0, "e": "ともかく = anyway/at any rate/setting aside (already in earlier batches — checking: yes, ともかく is in batch 1). 選択肢で確認: ともあれ = anyway (literary). いずれにせよ = either way. なんにせよ = whatever the case."},
+      {"t": "meaning", "s": "「ともかく」の意味は？", "o": ["anyway; setting aside; at any rate", "anyway (literary)", "either way; in any case", "whatever the case may be"], "a": 0, "e": "ともかく = brushing aside other concerns to focus on the main point (ともかくやってみよう = let's try it anyway, 結果はともかく = regardless of the result)."}
+    ]
+  },
+  {
+    "w": "なるべく",
+    "r": "なるべく",
+    "m": "as much as possible; if possible; preferably",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "なるべく早く返事をするようにしている。", "en": "I try to reply as quickly as possible."}],
+    "qs": [
+      {"t": "fitb", "s": "環境のために、プラスチック製品は＿＿＿＿使わないようにしたい。", "en": "For the environment, I want to avoid using plastic products as much as possible.", "o": ["なるべく", "できるだけ", "極力", "できれば"], "a": 0, "e": "なるべく = as much as possible (moderate effort). できるだけ = as much as possible (similar, slightly stronger). 極力(きょくりょく) = to the utmost degree (strongest effort). できれば = if possible (softest — just a preference)."},
+      {"t": "meaning", "s": "「なるべく」の意味は？", "o": ["as much as possible (moderate)", "as much as possible (slightly stronger)", "to the utmost degree (strongest)", "if possible (softest preference)"], "a": 0, "e": "なるべく = doing one's best within reasonable limits (なるべく早く = as soon as possible, なるべくなら = ideally if possible). Less forceful than 極力."}
+    ]
+  },
+  {
+    "w": "よりによって",
+    "r": "よりによって",
+    "m": "of all things; of all times; of all people (expressing exasperation)",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "よりによって大事な会議の日に風邪をひいてしまった。", "en": "Of all days, I caught a cold on the day of the important meeting."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿なぜ今日なんだ、と思うような出来事が重なった。", "en": "Events piled up that made me think, 'Of all days, why today?'", "o": ["よりによって", "あいにく", "運悪く", "折悪しく"], "a": 0, "e": "よりによって = of all things/times (exasperated at the worst possible timing). あいにく = unfortunately. 運悪く(うんわるく) = unluckily. 折悪しく(おりあしく) = at an inopportune moment."},
+      {"t": "meaning", "s": "「よりによって」の意味は？", "o": ["of all things/times (exasperated)", "unfortunately", "unluckily", "at an inopportune moment"], "a": 0, "e": "よりによって = highlighting the worst possible choice or timing with exasperation (よりによってそんな日に = of all days, that day; よりによってあの人に頼むとは = of all people to ask, that person!)."}
+    ]
+  },
+  {
+    "w": "いっそ",
+    "r": "いっそ",
+    "m": "rather; it would be better to; might as well",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "こんなに悩むなら、いっそやめてしまった方がいい。", "en": "If you're going to worry this much, you might as well just quit."}],
+    "qs": [
+      {"t": "fitb", "s": "中途半端にやるくらいなら、＿＿＿＿最初からやり直した方がいい。", "en": "Rather than doing it half-heartedly, you might as well start over from the beginning.", "o": ["いっそ", "むしろ", "차라리", "いっそのこと"], "a": 0, "e": "いっそ = it would be better to just (making a decisive choice, often radical). むしろ = rather (preference/reframe). いっそのこと = same as いっそ, slightly more emphatic. 차라리 = Korean equivalent (not Japanese)."},
+      {"t": "meaning", "s": "「いっそ」の意味は？", "o": ["might as well; it'd be better to (decisive)", "rather; preference (reframe)", "might as well (slightly more emphatic)", "conversely (opposite direction)"], "a": 0, "e": "いっそ = choosing a clear-cut option rather than continuing a difficult in-between state (いっそ言ってしまおう = I might as well just say it, いっそのこと = just go ahead and)."}
+    ]
+  },
+  {
+    "w": "あくまで",
+    "r": "あくまで",
+    "m": "to the last; stubbornly; strictly; purely",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "これはあくまで私個人の意見です。", "en": "This is strictly my personal opinion."}],
+    "qs": [
+      {"t": "fitb", "s": "彼は自分の主張を＿＿＿＿も曲げなかった。", "en": "He stubbornly refused to change his position to the last.", "o": ["あくまで", "どこまでも", "最後まで", "頑として"], "a": 0, "e": "あくまで(も) = stubbornly / strictly (to the last). どこまでも = to the very end / anywhere. 最後まで(さいごまで) = until the end. 頑として(がんとして) = obstinately/flatly (頑として譲らない = flatly refusing to yield)."},
+      {"t": "meaning", "s": "「あくまで」の意味は？", "o": ["stubbornly; strictly; to the last", "to the very end; anywhere", "until the end", "obstinately; flatly refusing"], "a": 0, "e": "あくまで = not deviating from something (あくまで原則を守る = to uphold the principle to the last, あくまでも個人的な見解 = strictly a personal view)."}
+    ]
+  },
+  {
+    "w": "末",
+    "r": "すえ",
+    "m": "end; after; at the end of; result of",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "長い議論の末、ようやく合意に達した。", "en": "After a long discussion, we finally reached agreement."}],
+    "qs": [
+      {"t": "fitb", "s": "さんざん悩んだ＿＿＿＿、転職することに決めた。", "en": "After agonizing greatly, I decided to change jobs.", "o": ["末", "結果", "挙句", "あげく"], "a": 0, "e": "末(すえ) = at the end of (a process — usually positive or neutral). 結果(けっか) = result/outcome. 挙句(あげく) = in the end (after negative process). あげく = same as 挙句."},
+      {"t": "meaning", "s": "「末」の意味は？", "o": ["after; at the end of (a process)", "result; outcome", "in the end (after negative process)", "eventually; in the long run"], "a": 0, "e": "末 = the end-point of a process (検討の末 = after deliberation, 交渉の末 = after negotiations). Neutral to positive. 挙句の果て = after all that / after going through all that (negative nuance)."}
+    ]
+  },
+  {
+    "w": "合わせて",
+    "r": "あわせて",
+    "m": "in addition; at the same time; combined; altogether",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "本日の出席者は合わせて五十名でした。", "en": "Today's attendees totalled fifty people altogether."}],
+    "qs": [
+      {"t": "fitb", "s": "このキャンペーンでは、割引＿＿＿＿ポイントも付与されます。", "en": "In this campaign, points will also be awarded in addition to the discount.", "o": ["合わせて", "加えて", "さらに", "併せて"], "a": 0, "e": "合わせて(あわせて) = in addition / combined total. 加えて(くわえて) = in addition / furthermore. さらに = furthermore / even more. 併せて(あわせて) = at the same time / simultaneously (同じ読み but 併 emphasizes simultaneity)."},
+      {"t": "meaning", "s": "「合わせて」の意味は？", "o": ["in addition; altogether; combined", "in addition; furthermore", "furthermore; even more", "at the same time; simultaneously"], "a": 0, "e": "合わせて = together / in total (合わせて百名 = a hundred in total) or along with something else (割引と合わせてご利用ください = please use together with the discount)."}
+    ]
+  },
+  {
+    "w": "仕上がり",
+    "r": "しあがり",
+    "m": "finish; result; quality of completion",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "このスーツの仕上がりは非常に丁寧で、職人の腕前が光る。", "en": "The finish of this suit is exceptionally careful, and the craftsman's skill shines through."}],
+    "qs": [
+      {"t": "fitb", "s": "洗濯後の＿＿＿＿がよく、皺も少ない素材を選んだ。", "en": "I chose a fabric with a good finish after washing and few wrinkles.", "o": ["仕上がり", "仕上げ", "質感", "出来栄え"], "a": 0, "e": "仕上がり(しあがり) = the finished state/quality (how it turned out). 仕上げ(しあげ) = the finishing (the act of finishing). 質感(しつかん) = texture/feel. 出来栄え(できばえ) = workmanship/quality of the result."},
+      {"t": "meaning", "s": "「仕上がり」の意味は？", "o": ["the finished state; quality of result", "the finishing (act of)", "texture; feel", "workmanship; quality of result"], "a": 0, "e": "仕上がり = how something turns out when complete (仕上がりがいい = a fine finish, 仕上がりを確認する = to check the finished product)."}
+    ]
+  },
+  {
+    "w": "張り合い",
+    "r": "はりあい",
+    "m": "reward; incentive; sense of purpose; worth",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "誰にも感謝されない仕事には張り合いがない。", "en": "Work that nobody thanks you for has no sense of reward."}],
+    "qs": [
+      {"t": "fitb", "s": "目標があってこそ、毎日の勉強に＿＿＿＿が生まれる。", "en": "It is precisely having a goal that brings a sense of purpose to daily studying.", "o": ["張り合い", "やりがい", "生きがい", "励み"], "a": 0, "e": "張り合い(はりあい) = a sense of reward/worth (makes effort feel worthwhile). やりがい = a sense of fulfilment/meaningfulness in work. 生きがい(いきがい) = a reason for living / ikigai. 励み(はげみ) = encouragement/incentive."},
+      {"t": "meaning", "s": "「張り合い」の意味は？", "o": ["sense of reward; incentive; worth", "sense of fulfilment in work", "reason for living; ikigai", "encouragement; incentive"], "a": 0, "e": "張り合い = the feeling that effort is worth it (張り合いがある = rewarding, 張り合いをなくす = to lose the will to go on). Also: 張り合う = to compete/rival."}
+    ]
+  },
+  {
+    "w": "ほころびる",
+    "r": "ほころびる",
+    "m": "to come apart at the seams; to crack; to break down (of a facade)",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "完璧に見えた計画がほころびはじめた。", "en": "The seemingly perfect plan began to come apart at the seams."}],
+    "qs": [
+      {"t": "fitb", "s": "彼の証言は細部が＿＿＿＿、信憑性が疑われた。", "en": "Details of his testimony began to unravel, and its credibility was questioned.", "o": ["ほころびて", "崩れて", "矛盾し", "ほころびはじめ"], "a": 0, "e": "ほころびる = to come apart / unravel (fabric, plan, facade). 崩れる(くずれる) = to crumble/collapse. 矛盾する(むじゅんする) = to contradict."},
+      {"t": "meaning", "s": "「ほころびる」の意味は？", "o": ["to come apart; to unravel (plan/facade)", "to crumble; to collapse", "to contradict", "to break; to fracture"], "a": 0, "e": "ほころびる = the moment cracks begin to show (計画がほころびる = the plan starts to unravel, ほころびが見える = cracks become visible). Also: a flower buds open, or a smile softens."}
+    ]
+  },
+  {
+    "w": "持ち前",
+    "r": "もちまえ",
+    "m": "one's natural quality; innate characteristic; one's trademark",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "彼女は持ち前の明るさで、チームの雰囲気を変えた。", "en": "With her natural cheerfulness, she changed the atmosphere of the team."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿の粘り強さで、どんな困難も乗り越えてきた。", "en": "With his innate tenacity, he has overcome any difficulty.", "o": ["持ち前", "持ち味", "天性", "生まれつきの"], "a": 0, "e": "持ち前(もちまえ) = one's trademark / innate quality that one naturally possesses. 持ち味(もちあじ) = one's distinctive quality/flavour. 天性(てんせい) = natural talent/gift. 生まれつきの(うまれつきの) = inborn/by nature."},
+      {"t": "meaning", "s": "「持ち前」の意味は？", "o": ["one's innate quality; trademark characteristic", "one's distinctive flavour/quality", "natural talent; gift", "inborn; by nature"], "a": 0, "e": "持ち前 = what one naturally comes equipped with as a personality trait (持ち前の明るさ = one's natural cheerfulness, 持ち前の力を発揮する = to demonstrate one's natural abilities)."}
+    ]
+  },
+  {
+    "w": "決め手",
+    "r": "きめて",
+    "m": "the decisive factor; the clincher; the deciding blow",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "応募先を決めた決め手は、社風の良さだった。", "en": "The decisive factor in choosing where to apply was the good company culture."}],
+    "qs": [
+      {"t": "fitb", "s": "この試合の＿＿＿＿となったのは、後半のコーナーキックだった。", "en": "What proved to be the decisive blow in this match was the corner kick in the second half.", "o": ["決め手", "勝因", "ポイント", "決定打"], "a": 0, "e": "決め手(きめて) = the decisive factor/clincher. 勝因(しょういん) = the reason for victory. ポイント = key point (loanword). 決定打(けっていだ) = the decisive hit/blow."},
+      {"t": "meaning", "s": "「決め手」の意味は？", "o": ["decisive factor; the clincher", "reason for victory", "key point (loanword)", "decisive hit; finishing blow"], "a": 0, "e": "決め手 = what tips the balance or seals the deal (決め手に欠ける = lacking a decisive factor, 決め手を欠く交渉 = negotiations that lack a clinching argument)."}
+    ]
+  },
+  {
+    "w": "胸を張る",
+    "r": "むねをはる",
+    "m": "to hold one's head high; to stand tall; to take pride in",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "自分の仕事に胸を張って言えるような成果を残したい。", "en": "I want to leave results that I can proudly claim as my own work."}],
+    "qs": [
+      {"t": "fitb", "s": "恥ずかしいことは何もない。堂々と＿＿＿＿っていい。", "en": "There is nothing to be ashamed of. You can stand tall with pride.", "o": ["胸を張", "胸を張って歩", "誇りを持", "自信を持"], "a": 0, "e": "胸を張る(むねをはる) = to hold one's chest up with pride. 誇りを持つ(ほこりをもつ) = to take pride in. 自信を持つ(じしんをもつ) = to have confidence."},
+      {"t": "meaning", "s": "「胸を張る」の意味は？", "o": ["to hold one's head high; to take pride", "to take pride in", "to have confidence", "to boast; to brag"], "a": 0, "e": "胸を張る = walking with your chest out, conveying pride or confidence (胸を張って言える = to be able to say with pride, 胸を張って歩く = to walk with head held high)."}
+    ]
+  }
+]
