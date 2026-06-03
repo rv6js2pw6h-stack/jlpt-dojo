@@ -1,0 +1,11335 @@
+[
+{
+"w": "で",
+"r": "で",
+"m": "outflow; coming (going) out; graduate (of)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "どうか",
+"r": "どうか",
+"m": "copper coin",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "そのため",
+"r": "そのため",
+"m": "hence; for that reason",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "話中",
+"r": "はなしちゅう",
+"m": "while talking; the line is busy",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "あと",
+"r": "あと",
+"m": "(1) trace; tracks; (2) remains; ruins; (3) scar",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "無い",
+"r": "ない",
+"m": "there isn't; doesn't have",
+"c": "iadj",
+"lv": 1
+},
+{
+"w": "女の人",
+"r": "おんなのひと",
+"m": "woman",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "好き好き",
+"r": "すきずき",
+"m": "matter of taste",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "等",
+"r": "など",
+"m": "et cetera; etc.; and the like",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "おやつ",
+"r": "おやつ",
+"m": "(1) between meal snack; afternoon refreshment",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "頃",
+"r": "ころ",
+"m": "time; about; toward; approximately (time)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "すごい",
+"r": "すごい",
+"m": "terrible; dreadful; terrific; amazing; great",
+"c": "iadj",
+"lv": 1
+},
+{
+"w": "始めに",
+"r": "はじめに",
+"m": "to begin with; first of all",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "いってきます",
+"r": "いってきます",
+"m": "Lit. I'll go and come back; \"I'm going, see you later\"",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "発売",
+"r": "はつばい",
+"m": "sale",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "いえ",
+"r": "いえ",
+"m": "TODO same as いいえ?",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "二十",
+"r": "はたち",
+"m": "20 years old; 20th year",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "一通り",
+"r": "ひととおり",
+"m": "ordinary; usual; in general; briefly",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "登場",
+"r": "とうじょう",
+"m": "entry (on stage)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "出来るだけ",
+"r": "できるだけ",
+"m": "if at all possible",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "たくさん",
+"r": "たくさん",
+"m": "many; a lot; much",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "佚",
+"r": "いつ",
+"m": "be lost; peace; hide; mistake; beautiful; in turn",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "かわいい",
+"r": "かわいい",
+"m": "(sl) pretty; cute; lovely",
+"c": "iadj",
+"lv": 1
+},
+{
+"w": "撮影",
+"r": "さつえい",
+"m": "photographing",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "公式",
+"r": "こうしき",
+"m": "formula; formality; official",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "終了",
+"r": "しゅうりょう",
+"m": "end; close; termination",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "シリーズ",
+"r": "シリーズ",
+"m": "series",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "モデル",
+"r": "モデル",
+"m": "model",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "追加",
+"r": "ついか",
+"m": "addition; supplement; appendix",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "限り",
+"r": "かぎり",
+"m": "limit(s); as far as possible; as much as possible; to the best of one's ability",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "なかなか",
+"r": "なかなか",
+"m": "very; considerably; easily",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "展開",
+"r": "てんかい",
+"m": "develop; expansion (opposite of compression)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "何々",
+"r": "なになに",
+"m": "such and such; What?",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "まあまあ",
+"r": "まあまあ",
+"m": "so-so",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "割と",
+"r": "わりと",
+"m": "relatively, comparitively",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "そのほか",
+"r": "そのほか",
+"m": "otherwise",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "いっぱい",
+"r": "いっぱい",
+"m": "(1) a cup of; a drink; (2) full",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "スーパー",
+"r": "スーパー",
+"m": "(1) super; (2) supermarket (abbr)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "対策",
+"r": "たいさく",
+"m": "counter-plan; counter-measure",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "以降",
+"r": "いこう",
+"m": "on and after; hereafter; thereafter",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "船",
+"r": "ふね",
+"m": "ship; boat; watercraft; shipping; vessel; steamship",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "勝手に",
+"r": "かってに",
+"m": "arbitrarily; of it's own accord; involuntarily",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "指定",
+"r": "してい",
+"m": "designation; specification; assignment; pointing at",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "別々",
+"r": "べつべつ",
+"m": "separately; individually",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "特定",
+"r": "とくてい",
+"m": "specific; special; particular",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "編集",
+"r": "へんしゅう",
+"m": "editing; compilation; editorial (e.g. committee)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "制作",
+"r": "せいさく",
+"m": "work (film, book)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "おはよう",
+"r": "おはよう",
+"m": "(abbr) Good morning",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "複数",
+"r": "ふくすう",
+"m": "plural; multiple",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "おかげ",
+"r": "おかげ",
+"m": "thanks or owing to",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "お代わり",
+"r": "おかわり",
+"m": "second helping; another cup",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "社会科学",
+"r": "しゃかいかがく",
+"m": "social science",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "スタート",
+"r": "スタート",
+"m": "start",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "申し訳ない",
+"r": "もうしわけない",
+"m": "inexcusable",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "ゆっくり",
+"r": "ゆっくり",
+"m": "slowly; at ease",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "機関車",
+"r": "きかんしゃ",
+"m": "locomotive; engine",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "コース",
+"r": "コース",
+"m": "course",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "バンド",
+"r": "バンド",
+"m": "band",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "フリー",
+"r": "フリー",
+"m": "free",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "解説",
+"r": "かいせつ",
+"m": "explanation; commentary",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "募集",
+"r": "ぼしゅう",
+"m": "recruiting; taking applications",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "基準",
+"r": "きじゅん",
+"m": "standard; basis; criteria; norm",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "自ら",
+"r": "みずから",
+"m": "for one's self; personally",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "カラー",
+"r": "カラー",
+"m": "collar; color; colour",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "構造",
+"r": "こうぞう",
+"m": "structure; construction",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "停止",
+"r": "ていし",
+"m": "suspension; interruption; stoppage; ban",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "各々",
+"r": "おのおの",
+"m": "each; every; either; respectively; severally",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "周辺",
+"r": "しゅうへん",
+"m": "circumference; outskirts; environs; (computer) peripheral",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "きれい",
+"r": "きれい",
+"m": "pretty; clean; nice; tidy",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "工事",
+"r": "こうじ",
+"m": "construction work",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "ステージ",
+"r": "ステージ",
+"m": "(1) stage; (2) performance",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "段階",
+"r": "だんかい",
+"m": "gradation; grade; stage",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "バック",
+"r": "バック",
+"m": "back",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "パンツ",
+"r": "パンツ",
+"m": "underpants",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "プログラム",
+"r": "プログラム",
+"m": "program",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "基地",
+"r": "きち",
+"m": "base",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "ちょうど",
+"r": "ちょうど",
+"m": "supplies; furniture; fixtures",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "本来",
+"r": "ほんらい",
+"m": "essentially; naturally; by nature",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "作成",
+"r": "さくせい",
+"m": "frame; draw up; make; producing",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "風呂",
+"r": "ふろ",
+"m": "bath",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "温泉",
+"r": "おんせん",
+"m": "spa; hot spring; onsen",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "強化",
+"r": "きょうか",
+"m": "strengthen; intensify; reinforce; solidify",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "深夜",
+"r": "しんや",
+"m": "late at night",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "ダム",
+"r": "ダム",
+"m": "dumb",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "熱する",
+"r": "ねっする",
+"m": "to heat",
+"c": "verb",
+"lv": 1
+},
+{
+"w": "年度",
+"r": "ねんど",
+"m": "year; fiscal year; school year; term",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "おいしい",
+"r": "おいしい",
+"m": "delicious; tasty",
+"c": "iadj",
+"lv": 1
+},
+{
+"w": "自然科学",
+"r": "しぜんかがく",
+"m": "natural science",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "資料",
+"r": "しりょう",
+"m": "materials; data",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "教師",
+"r": "きょうし",
+"m": "teacher (classroom)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "事態",
+"r": "じたい",
+"m": "situation; present state of affairs",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "職場",
+"r": "しょくば",
+"m": "one's post; place of work; workplace",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "接続",
+"r": "せつぞく",
+"m": "(1) connection; union; join; link; (2) changing trains",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "カバー",
+"r": "カバー",
+"m": "cover (ex. book)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "シーズン",
+"r": "シーズン",
+"m": "season (sporting)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "思い掛けない",
+"r": "おもいがけない",
+"m": "unexpected; casual",
+"c": "iadj",
+"lv": 1
+},
+{
+"w": "交流",
+"r": "こうりゅう",
+"m": "alternating current; intercourse; (cultural) exchange; intermingling",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "小学生",
+"r": "しょうがくせい",
+"m": "grade school student",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "調整",
+"r": "ちょうせい",
+"m": "regulation; adjustment; tuning",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "いきなり",
+"r": "いきなり",
+"m": "(uk) abruptly; suddenly; all of a sudden; without warning",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "継続",
+"r": "けいぞく",
+"m": "continuation",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "書籍",
+"r": "しょせき",
+"m": "book; publication",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "駄目",
+"r": "だめ",
+"m": "useless; no good; hopeless",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "びっくり",
+"r": "びっくり",
+"m": "be surprised; be amazed; be frightened; astonishment",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "間も無く",
+"r": "まもなく",
+"m": "soon; before long; in a short time",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "送料",
+"r": "そうりょう",
+"m": "postage; carriage",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "自宅",
+"r": "じたく",
+"m": "one's home",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "前後",
+"r": "ぜんご",
+"m": "around; throughout; front and back; before and behind; before and after",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "確率",
+"r": "かくりつ",
+"m": "probability",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "診断",
+"r": "しんだん",
+"m": "diagnosis",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "体制",
+"r": "たいせい",
+"m": "order; system; structure; set-up; organization",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "目指す",
+"r": "めざす",
+"m": "to aim at; to have an eye on",
+"c": "verb",
+"lv": 1
+},
+{
+"w": "おまえ",
+"r": "おまえ",
+"m": "(fam) you (sing); presence (of a high personage)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "回転",
+"r": "かいてん",
+"m": "rotation; revolution; turning",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "きっかけ",
+"r": "きっかけ",
+"m": "chance; start; cue; excuse",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "特殊",
+"r": "とくしゅ",
+"m": "special; unique",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "関東",
+"r": "かんとう",
+"m": "eastern half of Japan, including Tokyo",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "当日",
+"r": "とうじつ",
+"m": "appointed day; very day",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "パターン",
+"r": "パターン",
+"m": "pattern",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "解放",
+"r": "かいほう",
+"m": "release; liberation; emancipation",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "性能",
+"r": "せいのう",
+"m": "ability; efficiency",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "地下水",
+"r": "ちかすい",
+"m": "underground water",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "おそらく",
+"r": "おそらく",
+"m": "perhaps",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "解散",
+"r": "かいさん",
+"m": "breakup; dissolution",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "コピー",
+"r": "コピー",
+"m": "(1) a (photo)copy; (2) blurb on a book jacket",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "整備",
+"r": "せいび",
+"m": "adjustment; completion; consolidation",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "標準",
+"r": "ひょうじゅん",
+"m": "standard; level",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "元々",
+"r": "もともと",
+"m": "originally; by nature; from the start",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "改正",
+"r": "かいせい",
+"m": "revision; amendment; alteration",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "基礎",
+"r": "きそ",
+"m": "foundation; basis",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "形式",
+"r": "けいしき",
+"m": "form; formality; format; math expression",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "芸能",
+"r": "げいのう",
+"m": "public entertainment; accomplishments; attainments",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "姿勢",
+"r": "しせい",
+"m": "attitude; posture",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "勝負",
+"r": "しょうぶ",
+"m": "victory or defeat; match; contest; game; bout",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "ショップ",
+"r": "ショップ",
+"m": "a shop",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "発電",
+"r": "はつでん",
+"m": "generation (e.g. power)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "方針",
+"r": "ほうしん",
+"m": "objective; plan; policy",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "一応",
+"r": "いちおう",
+"m": "once; tentatively; in outline; for the time being",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "どうせ",
+"r": "どうせ",
+"m": "anyhow; in any case; at any rate",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "本部",
+"r": "ほんぶ",
+"m": "headquarters",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "水着",
+"r": "みずぎ",
+"m": "bathing suit (woman's)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "喧嘩",
+"r": "けんか",
+"m": "quarrel; (drunken) brawl; failure",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "公共",
+"r": "こうきょう",
+"m": "public; community; public service; society; communal",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "交通機関",
+"r": "こうつうきかん",
+"m": "transportation facilities",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "事務",
+"r": "じむ",
+"m": "business; office work",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "素人",
+"r": "しろうと",
+"m": "amateur; novice",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "成立",
+"r": "せいりつ",
+"m": "coming into existence; arrangements; establishment; completion",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "電力",
+"r": "でんりょく",
+"m": "electric power",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "統一",
+"r": "とういつ",
+"m": "unity; consolidation; uniformity",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "ピンク",
+"r": "ピンク",
+"m": "pink",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "民間",
+"r": "みんかん",
+"m": "private; civilian; civil; popular; folk; unofficial",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "改めて",
+"r": "あらためて",
+"m": "another time; again; over again; anew; formally",
+"c": "adv",
+"lv": 1
+},
+{
+"w": "一定",
+"r": "いってい",
+"m": "fixed; settled; definite",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "回答",
+"r": "かいとう",
+"m": "reply; answer",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "高級",
+"r": "こうきゅう",
+"m": "high class; high grade",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "製作",
+"r": "せいさく",
+"m": "manufacture; production",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "直後",
+"r": "ちょくご",
+"m": "immediately following",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "美容",
+"r": "びよう",
+"m": "beauty of figure or form",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "平日",
+"r": "へいじつ",
+"m": "weekday; ordinary days",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "申請",
+"r": "しんせい",
+"m": "application; request; petition",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "全力",
+"r": "ぜんりょく",
+"m": "all one's power; whole energy",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "普及",
+"r": "ふきゅう",
+"m": "diffusion; spread",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "削除",
+"r": "さくじょ",
+"m": "elimination; cancellation; deletion; erasure",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "いち",
+"r": "いち",
+"m": "market; fair",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "外部",
+"r": "がいぶ",
+"m": "the outside; external",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "神様",
+"r": "かみさま",
+"m": "god",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "高度",
+"r": "こうど",
+"m": "altitude; height; advanced",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "集合",
+"r": "しゅうごう",
+"m": "gathering; assembly; meeting; set (math)",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "相互",
+"r": "そうご",
+"m": "mutual; reciprocal",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "おやすみ",
+"r": "おやすみ",
+"m": "(1) holiday; absence; rest; (2) (exp) Good night",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "項目",
+"r": "こうもく",
+"m": "item",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "創作",
+"r": "そうさく",
+"m": "production; literary creation; work",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "定期券",
+"r": "ていきけん",
+"m": "commuter pass; season ticket",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "ナンバー",
+"r": "ナンバー",
+"m": "number",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "平気",
+"r": "へいき",
+"m": "coolness; calmness; composure; unconcern",
+"c": "naadj",
+"lv": 1
+},
+{
+"w": "幼稚園",
+"r": "ようちえん",
+"m": "kindergarten",
+"c": "noun",
+"lv": 1
+},
+{
+"w": "さっさと",
+"r": "さっさと",
+"m": "quickly",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "実績",
+"r": "じっせき",
+"m": "achievements; actual results",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "受験",
+"r": "じゅけん",
+"m": "taking an examination",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "スマート",
+"r": "スマート",
+"m": "smart; stylish; slim",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "低下",
+"r": "ていか",
+"m": "fall; decline; lowering; deterioration",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "余計",
+"r": "よけい",
+"m": "too much; unnecessary; abundance; surplus; excess; superfluity",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "回数",
+"r": "かいすう",
+"m": "number of times; frequency",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "天皇",
+"r": "てんのう",
+"m": "Emperor of Japan",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "懐かしい",
+"r": "なつかしい",
+"m": "dear; desired; missed",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "有料",
+"r": "ゆうりょう",
+"m": "admission-paid; toll",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "延長",
+"r": "えんちょう",
+"m": "extension; elongation; prolongation; lengthening",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "勘違い",
+"r": "かんちがい",
+"m": "misunderstanding; wrong guess",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "新幹線",
+"r": "しんかんせん",
+"m": "bullet train (very high speed); shinkansen",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "素直",
+"r": "すなお",
+"m": "obedient; meek; docile; unaffected",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "狙い",
+"r": "ねらい",
+"m": "aim",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "防止",
+"r": "ぼうし",
+"m": "prevention; check",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "警備",
+"r": "けいび",
+"m": "defense; guard; policing; security",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "怪我",
+"r": "けが",
+"m": "injury (to animate object); hurt",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "国立",
+"r": "こくりつ",
+"m": "national",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "作者",
+"r": "さくしゃ",
+"m": "author; authoress",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "比較的",
+"r": "ひかくてき",
+"m": "comparatively; relatively",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "付近",
+"r": "ふきん",
+"m": "neighbourhood; vicinity; environs",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "マスク",
+"r": "マスク",
+"m": "mask",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "メニュー",
+"r": "メニュー",
+"m": "menu",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おまちください",
+"r": "おまちください",
+"m": "Please wait a moment",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "公表",
+"r": "こうひょう",
+"m": "official announcement; proclamation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "コレクション",
+"r": "コレクション",
+"m": "(1) collection; (2) correction",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "直前",
+"r": "ちょくぜん",
+"m": "just before",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "動作",
+"r": "どうさ",
+"m": "action; movements; motions; bearing; behaviour; manners",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "バン",
+"r": "バン",
+"m": "bun; van (caravan); VAN (value-added network)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "欄",
+"r": "らん",
+"m": "column of text (e.g. as in a newspaper)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "競馬",
+"r": "けいば",
+"m": "horse racing",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "サンプル",
+"r": "サンプル",
+"m": "sample",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "めちゃくちゃ",
+"r": "めちゃくちゃ",
+"m": "absurd; unreasonable; excessive; messed up; spoiled; wreaked",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "立派",
+"r": "りっぱ",
+"m": "splendid; fine; handsome; elegant; imposing; prominent; legal; legitimate",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "連合",
+"r": "れんごう",
+"m": "union; alliance",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "アイデア/アイディア",
+"r": "アイデア/アイディア",
+"m": "idea",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "通知",
+"r": "つうち",
+"m": "notice; notification",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "繋がり",
+"r": "つながり",
+"m": "connection; link; relationship",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "金持ち",
+"r": "かねもち",
+"m": "rich man",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "講師",
+"r": "こうし",
+"m": "lecturer",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "主人",
+"r": "しゅじん",
+"m": "master; head (of a household); landlord; one's husband",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "統計",
+"r": "とうけい",
+"m": "scattering; a scatter; dispersion",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "もしかしたら",
+"r": "もしかしたら",
+"m": "perhaps; maybe; by some chance",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "うどん",
+"r": "うどん",
+"m": "noodles (Japanese)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "各地",
+"r": "かくち",
+"m": "every place; various places",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "流石",
+"r": "さすが",
+"m": "clever; adept; good; expectations; as one would expect",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "ついで",
+"r": "ついで",
+"m": "opportunity; occasion",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "爪",
+"r": "つめ",
+"m": "fingernail or toenail; claw; talon; hoof",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "日曜",
+"r": "にちよう",
+"m": "Sunday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "発揮",
+"r": "はっき",
+"m": "exhibition; demonstration; utilization; display",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "輸送",
+"r": "ゆそう",
+"m": "transport; transportation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "サークル",
+"r": "サークル",
+"m": "circle; sports club (i.e. at a company)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "実感",
+"r": "じっかん",
+"m": "feelings (actual, true)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ダブル",
+"r": "ダブル",
+"m": "double",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "表紙",
+"r": "ひょうし",
+"m": "front cover; binding",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "紫",
+"r": "むらさき",
+"m": "purple colour; violet",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "割引",
+"r": "わりびき",
+"m": "discount; reduction; rebate",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "開放",
+"r": "かいほう",
+"m": "open; throw open; liberalization",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "桁",
+"r": "けた",
+"m": "column; beam; digit",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "実用",
+"r": "じつよう",
+"m": "practical use; utility",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "人事",
+"r": "じんじ",
+"m": "other's affairs",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "侵入",
+"r": "しんにゅう",
+"m": "penetration; invasion; raid; aggression; trespass",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "電波",
+"r": "でんぱ",
+"m": "electro-magnetic wave",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "なんとなく",
+"r": "なんとなく",
+"m": "somehow or other; for some reason or another",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "部品",
+"r": "ぶひん",
+"m": "parts; accessories",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "録音",
+"r": "ろくおん",
+"m": "(audio) recording",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "汁",
+"r": "しる",
+"m": "juice; sap; soup; broth",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "広さ",
+"r": "ひろさ",
+"m": "extent",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "方面",
+"r": "ほうめん",
+"m": "direction; district; field (e.g., of study)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "無限",
+"r": "むげん",
+"m": "infinite",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "拡張",
+"r": "かくちょう",
+"m": "expansion; extension; enlargement; escape (ESC)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "観測",
+"r": "かんそく",
+"m": "observation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "自治",
+"r": "じち",
+"m": "self-government; autonomy",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "純粋",
+"r": "じゅんすい",
+"m": "pure; true; genuine; unmixed",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "マンション",
+"r": "マンション",
+"m": "large apartment; apartment house",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "未満",
+"r": "みまん",
+"m": "less than; insufficient",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "改造",
+"r": "かいぞう",
+"m": "(1) remodeling; (2) modding (comp)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "書店",
+"r": "しょてん",
+"m": "bookshop",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "政党",
+"r": "せいとう",
+"m": "(member of) political party",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "成分",
+"r": "せいぶん",
+"m": "ingredient; component; composition",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "体操",
+"r": "たいそう",
+"m": "gymnastics; physical exercises; calisthenics",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "電池",
+"r": "でんち",
+"m": "battery",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "いよいよ",
+"r": "いよいよ",
+"m": "more and more; all the more; increasingly; at last; beyond doubt",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "研修",
+"r": "けんしゅう",
+"m": "training",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "重量",
+"r": "じゅうりょう",
+"m": "(1) weight; (2) heavyweight boxer",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "上下",
+"r": "じょうげ",
+"m": "high and low; up and down; unloading and loading; praising and blaming",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "丼",
+"r": "どんぶり",
+"m": "porcelain bowl; bowl of rice with food on top",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "行方",
+"r": "ゆくえ",
+"m": "one's whereabouts",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おもしろい",
+"r": "おもしろい",
+"m": "interesting; amusing",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "学会",
+"r": "がっかい",
+"m": "scientific society; academic meeting",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "外科",
+"r": "げか",
+"m": "surgical department",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "縦",
+"r": "たて",
+"m": "length; height",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "中間",
+"r": "ちゅうかん",
+"m": "middle; midway; interim",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ボーナス",
+"r": "ボーナス",
+"m": "bonus",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "怪しい",
+"r": "あやしい",
+"m": "suspicious; dubious; doubtful",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "こうして",
+"r": "こうして",
+"m": "thus",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "消化",
+"r": "しょうか",
+"m": "digestion",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "分類",
+"r": "ぶんるい",
+"m": "classification",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ランチ",
+"r": "ランチ",
+"m": "launch; lunch",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "看板",
+"r": "かんばん",
+"m": "sign; signboard; doorplate; poster",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "死体",
+"r": "したい",
+"m": "corpse",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "せめて",
+"r": "せめて",
+"m": "offense; method of attack",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "手続き",
+"r": "てつづき",
+"m": "procedure; (legal) process; formalities",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "日時",
+"r": "にちじ",
+"m": "date and time",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "反映",
+"r": "はんえい",
+"m": "reflection; influence",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ポスター",
+"r": "ポスター",
+"m": "poster",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "回り",
+"r": "まわり",
+"m": "circumference; surroundings; circulation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "用語",
+"r": "ようご",
+"m": "term; terminology",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "売上",
+"r": "うりあげ",
+"m": "amount sold; proceeds",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おかまいなく",
+"r": "おかまいなく",
+"m": "please don't fuss over me",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "かわいそう",
+"r": "かわいそう",
+"m": "poor; pitiable; pathetic",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "スクール",
+"r": "スクール",
+"m": "school",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "中世",
+"r": "ちゅうせい",
+"m": "Middle Ages; mediaeval times",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "勿論",
+"r": "もちろん",
+"m": "of course; certainly; naturally",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "こっそり",
+"r": "こっそり",
+"m": "stealthily; secretly",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "早速",
+"r": "さっそく",
+"m": "at once; immediately; without delay; promptly",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "上級",
+"r": "じょうきゅう",
+"m": "advanced level; high grade; senior",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "測定",
+"r": "そくてい",
+"m": "measurement",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "チップ",
+"r": "チップ",
+"m": "(1) gratuity; tip; (2) chip",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "問い合わせ",
+"r": "といあわせ",
+"m": "enquiry; ENQ",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "透明",
+"r": "とうめい",
+"m": "transparency; cleanness",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "花火",
+"r": "はなび",
+"m": "fireworks",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "リズム",
+"r": "リズム",
+"m": "rhythm",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "回数券",
+"r": "かいすうけん",
+"m": "book of tickets",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "金曜",
+"r": "きんよう",
+"m": "(abbr) Friday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "すまない",
+"r": "すまない",
+"m": "sorry (phrase)",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "倉庫",
+"r": "そうこ",
+"m": "storehouse; warehouse; godown",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "土曜",
+"r": "どよう",
+"m": "Saturday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "発想",
+"r": "はっそう",
+"m": "expression (music); conceptualization",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "瞳",
+"r": "ひとみ",
+"m": "pupil (of eye)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "皮膚",
+"r": "ひふ",
+"m": "skin",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "応用",
+"r": "おうよう",
+"m": "application; put to practical use",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "正面",
+"r": "しょうめん",
+"m": "the front; honesty",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "職人",
+"r": "しょくにん",
+"m": "worker; mechanic; artisan; craftsman",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "分解",
+"r": "ぶんかい",
+"m": "analysis; disassembly",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "法則",
+"r": "ほうそく",
+"m": "law; rule",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ローマじ",
+"r": "ローマじ",
+"m": "romanization; Roman letters",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おしゃれ",
+"r": "おしゃれ",
+"m": "smartly dressed; someone smartly dressed; fashion-conscious",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "おや",
+"r": "おや",
+"m": "parents",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "月曜",
+"r": "げつよう",
+"m": "Monday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "集会",
+"r": "しゅうかい",
+"m": "meeting; assembly",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "商業",
+"r": "しょうぎょう",
+"m": "commerce; trade; business",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "生存",
+"r": "せいぞん",
+"m": "existence; being; survival",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "接近",
+"r": "せっきん",
+"m": "getting closer; drawing nearer; approaching",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "日程",
+"r": "にってい",
+"m": "agenda",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "用途",
+"r": "ようと",
+"m": "use; usefulness",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "過剰",
+"r": "かじょう",
+"m": "excess; over-",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "出勤",
+"r": "しゅっきん",
+"m": "going to work; at work",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "商店",
+"r": "しょうてん",
+"m": "shop; business firm",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "入社",
+"r": "にゅうしゃ",
+"m": "entry to a company",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "広場",
+"r": "ひろば",
+"m": "plaza",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "一旦",
+"r": "いったん",
+"m": "once; for a moment; one morning; temporarily",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "移転",
+"r": "いてん",
+"m": "moving; transfer; demise",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "センチ",
+"r": "センチ",
+"m": "centimeter; centi-; 10^-2",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "総理大臣",
+"r": "そうりだいじん",
+"m": "Prime Minister",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "マラソン",
+"r": "マラソン",
+"m": "marathon",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "予備",
+"r": "よび",
+"m": "preparation; preliminaries; reserve; spare",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "鑑賞",
+"r": "かんしょう",
+"m": "appreciation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "月末",
+"r": "げつまつ",
+"m": "end of the month",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "鈴",
+"r": "すず",
+"m": "bell",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "地点",
+"r": "ちてん",
+"m": "site; point on a map",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "狙う",
+"r": "ねらう",
+"m": "to aim at",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "面積",
+"r": "めんせき",
+"m": "area",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ゴム",
+"r": "ゴム",
+"m": "gum; rubber; eraser",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "性別",
+"r": "せいべつ",
+"m": "distinction by sex; sex; gender",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "竹",
+"r": "たけ",
+"m": "bamboo; middle (of a three-tier ranking system)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "加速",
+"r": "かそく",
+"m": "acceleration",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "水素",
+"r": "すいそ",
+"m": "hydrogen",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ともかく",
+"r": "ともかく",
+"m": "anyhow; anyway; somehow or other; generally speaking; in any case",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "虹",
+"r": "にじ",
+"m": "rainbow",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "稀",
+"r": "まれ",
+"m": "rare; seldom",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "ワンピース",
+"r": "ワンピース",
+"m": "one-piece dress",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "カロリー",
+"r": "カロリー",
+"m": "calorie",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "地面",
+"r": "じめん",
+"m": "ground; earth's surface",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "寿命",
+"r": "じゅみょう",
+"m": "life span",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "水分",
+"r": "すいぶん",
+"m": "moisture",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "だんだん",
+"r": "だんだん",
+"m": "gradually; by degrees",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "粒",
+"r": "つぶ",
+"m": "grain",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "身分",
+"r": "みぶん",
+"m": "social position; social status",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "あかちゃん",
+"r": "あかちゃん",
+"m": "baby; infant",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "欧米",
+"r": "おうべい",
+"m": "Europe and America; the West",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おまちどおさま",
+"r": "おまちどおさま",
+"m": "Sorry to have kept you waiting",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "合理",
+"r": "ごうり",
+"m": "rational",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "国王",
+"r": "こくおう",
+"m": "king",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "実習",
+"r": "じっしゅう",
+"m": "practice; training",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "将棋",
+"r": "しょうぎ",
+"m": "Japanese chess",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "なんとも",
+"r": "なんとも",
+"m": "nothing (with neg. verb); quite; not a bit",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "レンズ",
+"r": "レンズ",
+"m": "lens",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "オイル",
+"r": "オイル",
+"m": "oil; engine oil; kerosene",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "貸間",
+"r": "かしま",
+"m": "room to let",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "原理",
+"r": "げんり",
+"m": "principle; theory; fundamental truth",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "高等",
+"r": "こうとう",
+"m": "high class; high grade",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "出張",
+"r": "しゅっちょう",
+"m": "official tour; business trip",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "台詞",
+"r": "せりふ",
+"m": "speech; words; one's lines; remarks",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "地帯",
+"r": "ちたい",
+"m": "area; zone",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "就任",
+"r": "しゅうにん",
+"m": "inauguration; assumption of office",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ストップ",
+"r": "ストップ",
+"m": "stop",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "相撲",
+"r": "すもう",
+"m": "sumo wrestling",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "手前",
+"r": "てまえ",
+"m": "before; this side; we; you",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "枕",
+"r": "まくら",
+"m": "pillow; bolster",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "やたらに",
+"r": "やたらに",
+"m": "randomly; recklessly; blindly",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "往復",
+"r": "おうふく",
+"m": "(col) round trip; coming and going; return ticket",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "着替え",
+"r": "きがえ",
+"m": "changing clothes; change of clothes",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "神話",
+"r": "しんわ",
+"m": "myth; legend",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "全般",
+"r": "ぜんぱん",
+"m": "(the) whole; universal; wholly; general",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "売買",
+"r": "ばいばい",
+"m": "trade; buying and selling",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "保健",
+"r": "ほけん",
+"m": "health preservation; hygiene; sanitation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "目立つ",
+"r": "めだつ",
+"m": "to be conspicuous; to stand out",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "境界",
+"r": "きょうかい",
+"m": "boundary",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "行事",
+"r": "ぎょうじ",
+"m": "event; function",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ジャーナリスト",
+"r": "ジャーナリスト",
+"m": "journalist",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "重力",
+"r": "じゅうりょく",
+"m": "gravity",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "主役",
+"r": "しゅやく",
+"m": "leading part; leading actor (actress)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "名作",
+"r": "めいさく",
+"m": "masterpiece",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "零点",
+"r": "れいてん",
+"m": "zero; no marks",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "冷凍",
+"r": "れいとう",
+"m": "freezing; cold storage; refrigeration",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "液体",
+"r": "えきたい",
+"m": "liquid; fluid",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "角度",
+"r": "かくど",
+"m": "angle",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "儀式",
+"r": "ぎしき",
+"m": "ceremony; rite; ritual; service",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "原稿",
+"r": "げんこう",
+"m": "manuscript; copy",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "合同",
+"r": "ごうどう",
+"m": "combination; incorporation; union; amalgamation",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "合流",
+"r": "ごうりゅう",
+"m": "confluence; union; linking up; merge",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ダイヤモンド",
+"r": "ダイヤモンド",
+"m": "diamond",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "リボン",
+"r": "リボン",
+"m": "ribbon",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "唇",
+"r": "くちびる",
+"m": "lips",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "敷地",
+"r": "しきち",
+"m": "site",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "短期",
+"r": "たんき",
+"m": "short term",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "日用品",
+"r": "にちようひん",
+"m": "daily necessities",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "花嫁",
+"r": "はなよめ",
+"m": "bride",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "蓋",
+"r": "ふた",
+"m": "cover; lid; cap",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "足元",
+"r": "あしもと",
+"m": "at one's feet; underfoot",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "こないだ",
+"r": "こないだ",
+"m": "the other day; lately; recently",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "サラリーマン",
+"r": "サラリーマン",
+"m": "salary man; company employee",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "推定",
+"r": "すいてい",
+"m": "presumption; assumption; estimation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "テニスコート",
+"r": "テニスコート",
+"m": "tennis court",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "循環",
+"r": "じゅんかん",
+"m": "circulation; rotation; cycle",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "賞金",
+"r": "しょうきん",
+"m": "prize; monetary award",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "乗車",
+"r": "じょうしゃ",
+"m": "taking a train; entraining",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "杉",
+"r": "すぎ",
+"m": "Japanese cedar",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "大学院",
+"r": "だいがくいん",
+"m": "graduate school",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "滝",
+"r": "たき",
+"m": "waterfall",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "成程",
+"r": "なるほど",
+"m": "I see; That's right!; indeed",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "幼児",
+"r": "ようじ",
+"m": "infant; baby; child",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "お手伝いさん",
+"r": "おてつだいさん",
+"m": "maid",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "区域",
+"r": "くいき",
+"m": "limits; boundary; domain; zone; sphere; territory",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "見学",
+"r": "けんがく",
+"m": "inspection; study by observation; field trip",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "平野",
+"r": "へいや",
+"m": "plain; open field",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "頂く",
+"r": "いただく",
+"m": "to receive; to take food or drink (hum)",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "基盤",
+"r": "きばん",
+"m": "foundation; basis",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "個体",
+"r": "こたい",
+"m": "an individual",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "古典",
+"r": "こてん",
+"m": "old book; classics; classic",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "祝日",
+"r": "しゅくじつ",
+"m": "national holiday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ただいま",
+"r": "ただいま",
+"m": "Here I am; I'm home!",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "長男",
+"r": "ちょうなん",
+"m": "eldest son",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "斜め",
+"r": "ななめ",
+"m": "obliqueness",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "回す",
+"r": "まわす",
+"m": "to turn; to revolve",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "餅",
+"r": "もち",
+"m": "sticky rice cake",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "貰う",
+"r": "もらう",
+"m": "to receive",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "幾つ",
+"r": "いくつ",
+"m": "how many?; how old?",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "給与",
+"r": "きゅうよ",
+"m": "allowance; grant; supply",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "工夫",
+"r": "くふう",
+"m": "device; scheme",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "先頭",
+"r": "せんとう",
+"m": "head; lead; vanguard; first",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "卒直",
+"r": "そっちょく",
+"m": "frankness; candour; openheartedness",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "濃度",
+"r": "のうど",
+"m": "concentration; brightness",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "プリント",
+"r": "プリント",
+"m": "print; handout",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "又",
+"r": "また",
+"m": "again; and",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "未だ",
+"r": "まだ",
+"m": "yet; still; more; besides",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "窓口",
+"r": "まどぐち",
+"m": "ticket window",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "矛盾",
+"r": "むじゅん",
+"m": "contradiction; inconsistency",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "アンテナ",
+"r": "アンテナ",
+"m": "antenna",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "意義",
+"r": "いぎ",
+"m": "meaning; significance",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "いちいち",
+"r": "いちいち",
+"m": "one by one; separately",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "区分",
+"r": "くぶん",
+"m": "division; section; classification",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "系統",
+"r": "けいとう",
+"m": "system; family line; geological formation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "縮小",
+"r": "しゅくしょう",
+"m": "reduction; curtailment",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "知人",
+"r": "ちじん",
+"m": "friend; acquaintance",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "通路",
+"r": "つうろ",
+"m": "passage; pathway",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "弟子",
+"r": "でし",
+"m": "pupil; disciple; adherent; follower; apprentice; young person; teacher's student-helper",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ハンドル",
+"r": "ハンドル",
+"m": "handle; steering wheel",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "塊",
+"r": "かたまり",
+"m": "lump; mass; clod; cluster",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "学科",
+"r": "がっか",
+"m": "study subject; course of study",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ビタミン",
+"r": "ビタミン",
+"m": "vitamin",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "響き",
+"r": "ひびき",
+"m": "echo; sound; reverberation; noise",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "浴衣",
+"r": "ゆかた",
+"m": "bathrobe; informal summer kimono; yukata",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "偉い",
+"r": "えらい",
+"m": "great; celebrated; eminent; terrible; awful; famous; remarkable; excellent",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "学年",
+"r": "がくねん",
+"m": "year in school; grade in school",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "貨物",
+"r": "かもつ",
+"m": "cargo; freight",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "私立",
+"r": "しりつ",
+"m": "private (establishment)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "上り",
+"r": "のぼり",
+"m": "up-train (going to Tokyo); ascent",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "夜間",
+"r": "やかん",
+"m": "at night; nighttime",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "来日",
+"r": "らいにち",
+"m": "arrival in Japan; coming to Japan; visit to Japan",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "果実",
+"r": "かじつ",
+"m": "fruit; nut; berry.",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "行列",
+"r": "ぎょうれつ",
+"m": "(1) line; procession; (2) matrix (math)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "傑作",
+"r": "けっさく",
+"m": "masterpiece; best work; boner; blunder",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "気配",
+"r": "けはい",
+"m": "indication; market trend; worry",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "田ぼ",
+"r": "たんぼ",
+"m": "paddy field; farm",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "東西",
+"r": "とうざい",
+"m": "East and West; whole country",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "皮肉",
+"r": "ひにく",
+"m": "cynicism; sarcasm",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "以後",
+"r": "いご",
+"m": "after this; from now on; hereafter; thereafter",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "演劇",
+"r": "えんげき",
+"m": "play (theatrical)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "火山",
+"r": "かざん",
+"m": "volcano",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "強引",
+"r": "ごういん",
+"m": "overbearing; coercive; pushy; forcible; high-handed",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "司会",
+"r": "しかい",
+"m": "chairmanship",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "子孫",
+"r": "しそん",
+"m": "descendants; posterity; offspring",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "執筆",
+"r": "しっぴつ",
+"m": "writing",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "務める",
+"r": "つとめる",
+"m": "(1) to serve; to fill a post; to serve under; to work (for)",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "点数",
+"r": "てんすう",
+"m": "marks; points; score; runs",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "夫妻",
+"r": "ふさい",
+"m": "man and wife; married couple",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "臨時",
+"r": "りんじ",
+"m": "temporary; special; extraordinary",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "一流",
+"r": "いちりゅう",
+"m": "first class; top grade; foremost; top-notch",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "一斉",
+"r": "いっせい",
+"m": "simultaneous; all at once",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "掛かる",
+"r": "かかる",
+"m": "to take (e.g. time, money, etc); to hang",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "満点",
+"r": "まんてん",
+"m": "perfect score",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "役者",
+"r": "やくしゃ",
+"m": "actor; actress",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "自衛",
+"r": "じえい",
+"m": "self-defense",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "隙間",
+"r": "すきま",
+"m": "crevice; crack; gap; opening",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "通用",
+"r": "つうよう",
+"m": "popular use; circulation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "定価",
+"r": "ていか",
+"m": "established price",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "髭",
+"r": "ひげ",
+"m": "moustache; beard; whiskers",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "枚数",
+"r": "まいすう",
+"m": "the number of flat things",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "見出し",
+"r": "みだし",
+"m": "heading; caption; subtitle; index",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "油断",
+"r": "ゆだん",
+"m": "negligence; unpreparedness",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "為替",
+"r": "かわせ",
+"m": "money order; exchange",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "弱点",
+"r": "じゃくてん",
+"m": "weak point; weakness",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "隙",
+"r": "すき",
+"m": "(1) chance or opportunity; chink (in one's armor); (2) interval; gap",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "圧縮",
+"r": "あっしゅく",
+"m": "compression; condensation; pressure",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "叔父",
+"r": "おじ",
+"m": "uncle (younger than one's parent)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ガム",
+"r": "ガム",
+"m": "chewing gum",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "キャンパス",
+"r": "キャンパス",
+"m": "campus",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "公衆",
+"r": "こうしゅう",
+"m": "the public",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "図鑑",
+"r": "ずかん",
+"m": "picture book",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "迫る",
+"r": "せまる",
+"m": "to draw near; to press",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "先端",
+"r": "せんたん",
+"m": "pointed end; tip; fine point",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "太鼓",
+"r": "たいこ",
+"m": "drum; tambourine",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "直径",
+"r": "ちょっけい",
+"m": "diameter",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "とっくに",
+"r": "とっくに",
+"m": "long ago; already; a long time ago",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "残らず",
+"r": "のこらず",
+"m": "all; entirely; completely; without exception",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "リットル",
+"r": "リットル",
+"m": "litre",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "恨み",
+"r": "うらみ",
+"m": "resentment",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "教養",
+"r": "きょうよう",
+"m": "culture; education; refinement; cultivation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "くだらない",
+"r": "くだらない",
+"m": "good-for-nothing; stupid; trivial; worthless",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "肯定",
+"r": "こうてい",
+"m": "positive; affirmation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "焦点",
+"r": "しょうてん",
+"m": "focus; point",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "スピーカー",
+"r": "スピーカー",
+"m": "speaker",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ネックレス",
+"r": "ネックレス",
+"m": "necklace",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "巡る",
+"r": "めぐる",
+"m": "to go around",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "気圧",
+"r": "きあつ",
+"m": "atmospheric pressure",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "空中",
+"r": "くうちゅう",
+"m": "sky; air",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "原料",
+"r": "げんりょう",
+"m": "raw materials",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "先祖",
+"r": "せんぞ",
+"m": "ancestor",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "手帳",
+"r": "てちょう",
+"m": "notebook",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "都心",
+"r": "としん",
+"m": "heart (of city)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "昼寝",
+"r": "ひるね",
+"m": "nap (at home); siesta",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "役目",
+"r": "やくめ",
+"m": "duty; business",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "終",
+"r": "おわり",
+"m": "the end",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "稽古",
+"r": "けいこ",
+"m": "practice; training; study",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ごくろうさま",
+"r": "ごくろうさま",
+"m": "Thank you very much for your....",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "三角",
+"r": "さんかく",
+"m": "triangle; triangular",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "水平",
+"r": "すいへい",
+"m": "water level; horizon",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "すっきり",
+"r": "すっきり",
+"m": "shapely; clear; neat",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "増大",
+"r": "ぞうだい",
+"m": "enlargement",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "潰す",
+"r": "つぶす",
+"m": "to smash; to waste",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "出入り",
+"r": "でいり",
+"m": "in and out; coming and going; free association; income and expenditure; debits and credit",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "評論",
+"r": "ひょうろん",
+"m": "criticism; critique",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "名物",
+"r": "めいぶつ",
+"m": "famous product; special product; speciality",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "宴会",
+"r": "えんかい",
+"m": "party; banquet",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おかず",
+"r": "おかず",
+"m": "side dish; accompaniment for rice dishes",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "香水",
+"r": "こうすい",
+"m": "perfume",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "コンクリート",
+"r": "コンクリート",
+"m": "concrete",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "混合",
+"r": "こんごう",
+"m": "mixing; mixture",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "妥当",
+"r": "だとう",
+"m": "valid; proper; right; appropriate",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "直線",
+"r": "ちょくせん",
+"m": "straight line",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "方言",
+"r": "ほうげん",
+"m": "dialect",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "膨大",
+"r": "ぼうだい",
+"m": "huge; bulky; enormous; extensive; swelling; expansion",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "群れ",
+"r": "むれ",
+"m": "group; crowd; flock; herd",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "王女",
+"r": "おうじょ",
+"m": "princess",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "おしゃべり",
+"r": "おしゃべり",
+"m": "chattering; talk; idle talk",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "下旬",
+"r": "げじゅん",
+"m": "month (last third of)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "心当たり",
+"r": "こころあたり",
+"m": "having some knowledge of; happening to know",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "小遣い",
+"r": "こづかい",
+"m": "personal expenses; pocket money; spending money; incidental expenses; allowance",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "しかたがない",
+"r": "しかたがない",
+"m": "it can't be helped; it's inevitable",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "実物",
+"r": "じつぶつ",
+"m": "real thing; original",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "体系",
+"r": "たいけい",
+"m": "system; organization",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "防犯",
+"r": "ぼうはん",
+"m": "prevention of crime",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "モーター",
+"r": "モーター",
+"m": "motor",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "育児",
+"r": "いくじ",
+"m": "childcare; nursing; upbringing",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "会館",
+"r": "かいかん",
+"m": "meeting hall; assembly hall",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "水平線",
+"r": "すいへいせん",
+"m": "horizon",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "スライド",
+"r": "スライド",
+"m": "slide",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "清掃",
+"r": "せいそう",
+"m": "cleaning",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "手首",
+"r": "てくび",
+"m": "wrist",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "判事",
+"r": "はんじ",
+"m": "judge; judiciary",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "噴火",
+"r": "ふんか",
+"m": "eruption",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "牧場",
+"r": "ぼくじょう",
+"m": "(1) farm (livestock); (2) pasture land; meadow; grazing land",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "英文",
+"r": "えいぶん",
+"m": "sentence in English",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "間接",
+"r": "かんせつ",
+"m": "indirection; indirectness",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "器具",
+"r": "きぐ",
+"m": "utensil",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "彫刻",
+"r": "ちょうこく",
+"m": "carving; engraving; sculpture",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "テンポ",
+"r": "テンポ",
+"m": "tempo",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "吐き気",
+"r": "はきけ",
+"m": "nausea; sickness in the stomach",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "もたれる",
+"r": "もたれる",
+"m": "to lean against; to lean on; to recline on; to lie heavy (on the stomach)",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "苦情",
+"r": "くじょう",
+"m": "complaint; troubles; objection",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "寺院",
+"r": "じいん",
+"m": "temple",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "消耗",
+"r": "しょうもう",
+"m": "exhaustion; consumption",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "続々",
+"r": "ぞくぞく",
+"m": "successively; one after another",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "灰色",
+"r": "はいいろ",
+"m": "grey; gray; ashen",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "木曜",
+"r": "もくよう",
+"m": "Thursday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "親指",
+"r": "おやゆび",
+"m": "thumb",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "海洋",
+"r": "かいよう",
+"m": "ocean",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "乾杯",
+"r": "かんぱい",
+"m": "toast (drink)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "中旬",
+"r": "ちゅうじゅん",
+"m": "second third of a month",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "番地",
+"r": "ばんち",
+"m": "house number; address",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ベテラン",
+"r": "ベテラン",
+"m": "veteran",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ランニング",
+"r": "ランニング",
+"m": "(1) running; (2) tank top",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "学術",
+"r": "がくじゅつ",
+"m": "science; learning; scholarship",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "課税",
+"r": "かぜい",
+"m": "taxation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "冠",
+"r": "かんむり",
+"m": "crown; diadem; first; best",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "記号",
+"r": "きごう",
+"m": "symbol; code",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "産地",
+"r": "さんち",
+"m": "producing area",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "線路",
+"r": "せんろ",
+"m": "line; track; roadbed",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "毎度",
+"r": "まいど",
+"m": "each time; common service-sector greeting",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "役所",
+"r": "やくしょ",
+"m": "government office; public office",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "郵送",
+"r": "ゆうそう",
+"m": "mailing",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ロビー",
+"r": "ロビー",
+"m": "lobby",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "加熱",
+"r": "かねつ",
+"m": "heating",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "観念",
+"r": "かんねん",
+"m": "(1) idea; notion; conception; (2) sense (e.g. of duty)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "限度",
+"r": "げんど",
+"m": "limit; bounds",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "娯楽",
+"r": "ごらく",
+"m": "pleasure; amusement",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "住居",
+"r": "じゅうきょ",
+"m": "dwelling; house; residence; address",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "調節",
+"r": "ちょうせつ",
+"m": "regulation; adjustment; control",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "点ける",
+"r": "つける",
+"m": "to turn on; to switch on; to light up",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "風船",
+"r": "ふうせん",
+"m": "balloon",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ヘリコプター",
+"r": "ヘリコプター",
+"m": "helicopter",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "満員",
+"r": "まんいん",
+"m": "full house; no vacancy; sold out",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "薬局",
+"r": "やっきょく",
+"m": "pharmacy; drugstore",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "架空",
+"r": "かくう",
+"m": "aerial; overhead; fiction",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "クーラー",
+"r": "クーラー",
+"m": "cooler; air conditioner",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "功績",
+"r": "こうせき",
+"m": "achievements; merit; meritorious service; meritorious deed",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "上品",
+"r": "じょうひん",
+"m": "Buddhism's highest paradise",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "芯",
+"r": "しん",
+"m": "core; heart; wick; marrow",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "水曜",
+"r": "すいよう",
+"m": "Wednesday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "電流",
+"r": "でんりゅう",
+"m": "electric current",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "銅",
+"r": "どう",
+"m": "copper",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "内科",
+"r": "ないか",
+"m": "internist clinic; internal medicine",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "卑怯",
+"r": "ひきょう",
+"m": "cowardice; meanness; unfairness",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "陽射",
+"r": "ひざし",
+"m": "sunlight; rays of the sun",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "武士",
+"r": "ぶし",
+"m": "warrior; samurai",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "姪",
+"r": "めい",
+"m": "niece",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "火曜",
+"r": "かよう",
+"m": "(abbr) Tuesday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "感激",
+"r": "かんげき",
+"m": "deep emotion; impression; inspiration",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "このあいだ",
+"r": "このあいだ",
+"m": "the other day; recently; lately; during this period",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "葬式",
+"r": "そうしき",
+"m": "funeral",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "手入れ",
+"r": "ていれ",
+"m": "repairs; maintenance",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "役人",
+"r": "やくにん",
+"m": "government official",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "森林",
+"r": "しんりん",
+"m": "forest; woods",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "短編",
+"r": "たんぺん",
+"m": "short (e.g. story, film)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "中年",
+"r": "ちゅうねん",
+"m": "middle-aged",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "長女",
+"r": "ちょうじょ",
+"m": "eldest daughter",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "別荘",
+"r": "べっそう",
+"m": "holiday house; villa",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "あらすじ",
+"r": "あらすじ",
+"m": "outline; summary",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "屋外",
+"r": "おくがい",
+"m": "outdoors",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "改札",
+"r": "かいさつ",
+"m": "examination of tickets",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "血圧",
+"r": "けつあつ",
+"m": "blood pressure",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "刺身",
+"r": "さしみ",
+"m": "sliced raw fish",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "相違",
+"r": "そうい",
+"m": "difference; discrepancy; variation",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "頂点",
+"r": "ちょうてん",
+"m": "top; summit",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "定員",
+"r": "ていいん",
+"m": "fixed number of regular personnel; capacity (of boat, etc.)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "バケツ",
+"r": "バケツ",
+"m": "bucket; pail",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "肘",
+"r": "ひじ",
+"m": "elbow",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "木材",
+"r": "もくざい",
+"m": "lumber; timber; wood",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ロッカー",
+"r": "ロッカー",
+"m": "locker",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "あれこれ",
+"r": "あれこれ",
+"m": "one thing or another; this and that; this or that",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "井戸",
+"r": "いど",
+"m": "water well",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "原始",
+"r": "げんし",
+"m": "origin; primeval",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "頭脳",
+"r": "ずのう",
+"m": "head; brains; intellect",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "仲良し",
+"r": "なかよし",
+"m": "intimate friend; bosom buddy; chum",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "売り切れ",
+"r": "うりきれ",
+"m": "sold-out",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "シャッター",
+"r": "シャッター",
+"m": "shutter",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "ふわふわ",
+"r": "ふわふわ",
+"m": "light; soft",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "無数",
+"r": "むすう",
+"m": "countless number; infinite number",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "惜しい",
+"r": "おしい",
+"m": "regrettable; disappointing; precious",
+"c": "iadj",
+"lv": 2
+},
+{
+"w": "恩恵",
+"r": "おんけい",
+"m": "grace; favor; blessing; benefit",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "解答",
+"r": "かいとう",
+"m": "answer; solution",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "学力",
+"r": "がくりょく",
+"m": "scholarship; knowledge; literary ability",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "工芸",
+"r": "こうげい",
+"m": "industrial arts",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "団地",
+"r": "だんち",
+"m": "multi-unit apartments",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "塵紙",
+"r": "ちりがみ",
+"m": "tissue paper; toilet paper",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "治す",
+"r": "なおす",
+"m": "to cure; to heal; to fix; to correct; to repair",
+"c": "verb",
+"lv": 2
+},
+{
+"w": "あちらこちら",
+"r": "あちらこちら",
+"m": "here and there",
+"c": "adv",
+"lv": 2
+},
+{
+"w": "安易",
+"r": "あんい",
+"m": "easy-going",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "休業",
+"r": "きゅうぎょう",
+"m": "closed (e.g. store); business suspended; shutdown; holiday",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "紙幣",
+"r": "しへい",
+"m": "paper money; notes; bills",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "消毒",
+"r": "しょうどく",
+"m": "disinfection; sterilization",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "地名",
+"r": "ちめい",
+"m": "place name",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "停車",
+"r": "ていしゃ",
+"m": "stopping (e.g. train)",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "的確",
+"r": "てきかく",
+"m": "precise; accurate",
+"c": "naadj",
+"lv": 2
+},
+{
+"w": "ビニール",
+"r": "ビニール",
+"m": "vinyl",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "分布",
+"r": "ぶんぷ",
+"m": "distribution",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "マフラー",
+"r": "マフラー",
+"m": "muffler; scarf",
+"c": "noun",
+"lv": 2
+},
+{
+"w": "薬品",
+"r": "やくひん",
+"m": "medicine(s); chemical(s)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "漁師",
+"r": "りょうし",
+"m": "fisherman",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ギャング",
+"r": "ギャング",
+"m": "gang",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "金魚",
+"r": "きんぎょ",
+"m": "goldfish",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "高層",
+"r": "こうそう",
+"m": "upper",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "持参",
+"r": "じさん",
+"m": "bringing; taking; carrying",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "接する",
+"r": "せっする",
+"m": "to come in contact with; to connect; to attend; to receive",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "峠",
+"r": "とうげ",
+"m": "ridge; (mountain) pass; difficult part",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "文献",
+"r": "ぶんけん",
+"m": "literature; books (reference)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "名所",
+"r": "めいしょ",
+"m": "famous place",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あふれる",
+"r": "あふれる",
+"m": "to flood; to overflow; to brim over",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "移す",
+"r": "うつす",
+"m": "to remove; to transfer; to infect",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "コンクール",
+"r": "コンクール",
+"m": "contest (fr: concours)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しつこい",
+"r": "しつこい",
+"m": "insistent; obstinate",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "水面",
+"r": "すいめん",
+"m": "water's surface",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "住まい",
+"r": "すまい",
+"m": "dwelling; house; residence; address",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "艶",
+"r": "つや",
+"m": "gloss; glaze",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "南米",
+"r": "なんべい",
+"m": "South America",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "響く",
+"r": "ひびく",
+"m": "to resound",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "あした",
+"r": "あした",
+"m": "tomorrow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "カーブ",
+"r": "カーブ",
+"m": "(1) curve; (2) curve ball (baseball)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "釜",
+"r": "かま",
+"m": "iron pot; kettle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "釘",
+"r": "くぎ",
+"m": "nail",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "巡査",
+"r": "じゅんさ",
+"m": "police; policeman",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "上旬",
+"r": "じょうじゅん",
+"m": "first 10 days of month",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "真空",
+"r": "しんくう",
+"m": "vacuum; hollow; empty",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "南北",
+"r": "なんぼく",
+"m": "south and north",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "真っ白",
+"r": "まっしろ",
+"m": "pure white",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "アクセント",
+"r": "アクセント",
+"m": "accent",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "漁業",
+"r": "ぎょぎょう",
+"m": "fishing (industry)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "下品",
+"r": "げひん",
+"m": "vulgarity; meanness; indecency; coarseness",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "紅葉",
+"r": "こうよう",
+"m": "(1) (Japanese) maple",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "コック",
+"r": "コック",
+"m": "(1) cook (nl:); (2) tap; spigot; faucet; cock",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "酒場",
+"r": "さかば",
+"m": "bar; bar-room",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "探る",
+"r": "さぐる",
+"m": "to search; to look for; to sound out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "時速",
+"r": "じそく",
+"m": "speed (per hour)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "地盤",
+"r": "じばん",
+"m": "(the) ground",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "抽象",
+"r": "ちゅうしょう",
+"m": "abstract",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "半島",
+"r": "はんとう",
+"m": "peninsula",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "醜い",
+"r": "みにくい",
+"m": "ugly",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "遊園地",
+"r": "ゆうえんち",
+"m": "amusement park",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "氏名",
+"r": "しめい",
+"m": "full name; identity",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "調味料",
+"r": "ちょうみりょう",
+"m": "condiment; seasoning",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "盗難",
+"r": "とうなん",
+"m": "theft; robbery",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "フライパン",
+"r": "フライパン",
+"m": "fry pan; frying pan",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "平凡",
+"r": "へいぼん",
+"m": "common; commonplace; ordinary; mediocre",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "便所",
+"r": "べんじょ",
+"m": "toilet; lavatory; rest room; latrine; comfort station",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "先ず",
+"r": "まず",
+"m": "first (of all); to start with; about; almost; hardly (with neg. verb)",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "夜行",
+"r": "やこう",
+"m": "walking around at night; night train; night travel",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "憧れる",
+"r": "あこがれる",
+"m": "to long for; to yearn after; to admire",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "車輪",
+"r": "しゃりん",
+"m": "(car) wheel",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "心身",
+"r": "しんしん",
+"m": "mind and body",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "並行",
+"r": "へいこう",
+"m": "(going) side by side; concurrent; abreast; at the same time",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "真っ先",
+"r": "まっさき",
+"m": "the head; the foremost; beginning",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "要領",
+"r": "ようりょう",
+"m": "point; gist; essentials; outline",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "理科",
+"r": "りか",
+"m": "science",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "謙虚",
+"r": "けんきょ",
+"m": "modesty; humility",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "蒸気",
+"r": "じょうき",
+"m": "steam; vapour",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "水産",
+"r": "すいさん",
+"m": "marine products; fisheries",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "突っ込む",
+"r": "つっこむ",
+"m": "to plunge into; to go into deeply",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "見本",
+"r": "みほん",
+"m": "sample",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "乱暴",
+"r": "らんぼう",
+"m": "rude; violent; rough; lawless; unreasonable; reckless",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "幾ら",
+"r": "いくら",
+"m": "how much?; how many?",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "家屋",
+"r": "かおく",
+"m": "house; building",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "各自",
+"r": "かくじ",
+"m": "individual; each",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "過失",
+"r": "かしつ",
+"m": "error; blunder; accident",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "カセット",
+"r": "カセット",
+"m": "cassette (tape)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "学級",
+"r": "がっきゅう",
+"m": "grade in school",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "祖先",
+"r": "そせん",
+"m": "ancestor",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "成る",
+"r": "なる",
+"m": "to become",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ブラシ",
+"r": "ブラシ",
+"m": "brushy; brush",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "モダン",
+"r": "モダン",
+"m": "modern",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "オーケストラ",
+"r": "オーケストラ",
+"m": "orchestra",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "可決",
+"r": "かけつ",
+"m": "approval; adoption (e.g. motion, bill); passage",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "空想",
+"r": "くうそう",
+"m": "daydream; fantasy; fancy; vision",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "食器",
+"r": "しょっき",
+"m": "tableware",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "属する",
+"r": "ぞくする",
+"m": "to belong to; to come under; to be affiliated with; to be subject to",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "兵隊",
+"r": "へいたい",
+"m": "soldier; sailor",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "真っ直ぐ",
+"r": "まっすぐ",
+"m": "straight (ahead); direct; upright",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "名字",
+"r": "みょうじ",
+"m": "surname; family name",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "列島",
+"r": "れっとう",
+"m": "chain of islands",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "片道",
+"r": "かたみち",
+"m": "one-way (trip)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "扇風機",
+"r": "せんぷうき",
+"m": "electric fan",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "農薬",
+"r": "のうやく",
+"m": "agricultural chemicals",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "半径",
+"r": "はんけい",
+"m": "radius",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "無沙汰",
+"r": "ぶさた",
+"m": "neglecting to stay in contact",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "摩擦",
+"r": "まさつ",
+"m": "friction; rubbing; rubdown; chafe",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "厳重",
+"r": "げんじゅう",
+"m": "strict; rigour; severe; firm",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "コーラス",
+"r": "コーラス",
+"m": "chorus",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "言葉遣い",
+"r": "ことばづかい",
+"m": "speech; expression; wording",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "大工",
+"r": "だいく",
+"m": "carpenter",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "標識",
+"r": "ひょうしき",
+"m": "sign; mark",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "真っ暗",
+"r": "まっくら",
+"m": "total darkness; shortsightedness; pitch dark",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "メーター",
+"r": "メーター",
+"m": "meter (clock)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "足跡",
+"r": "あしあと",
+"m": "footprints",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "缶詰",
+"r": "かんづめ",
+"m": "packing (in cans); canning; canned goods; tin can",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "毛皮",
+"r": "けがわ",
+"m": "fur; skin; pelt",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "小便",
+"r": "しょうべん",
+"m": "(col) urine; piss",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "栓",
+"r": "せん",
+"m": "stopper; cork; stopcock",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ひとまず",
+"r": "ひとまず",
+"m": "for the present; once; in outline",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "日の出",
+"r": "ひので",
+"m": "sunrise",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "盆",
+"r": "ぼん",
+"m": "Lantern Festival; Festival of the Dead; tray",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "真っ黒",
+"r": "まっくろ",
+"m": "pitch black",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "見直す",
+"r": "みなおす",
+"m": "to look again; to get a better opinion of",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "火傷",
+"r": "やけど",
+"m": "burn; scald",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "曲線",
+"r": "きょくせん",
+"m": "curve",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "長所",
+"r": "ちょうしょ",
+"m": "(1) strong point; merit; (2) advantage",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "文脈",
+"r": "ぶんみゃく",
+"m": "context",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "目安",
+"r": "めやす",
+"m": "criterion; aim",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "酔っ払い",
+"r": "よっぱらい",
+"m": "drunkard",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "有難い",
+"r": "ありがたい",
+"m": "grateful; thankful; welcome; appreciated; evoking gratitude",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "光線",
+"r": "こうせん",
+"m": "beam; light ray",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "さわやか",
+"r": "さわやか",
+"m": "fresh; refreshing; invigorating",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "順序",
+"r": "じゅんじょ",
+"m": "order; sequence; procedure",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "特色",
+"r": "とくしょく",
+"m": "characteristic; feature",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "吹雪",
+"r": "ふぶき",
+"m": "snow storm",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "儲かる",
+"r": "もうかる",
+"m": "to be profitable; to yield a profit",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "嫌がる",
+"r": "いやがる",
+"m": "to hate; to dislike",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "開会",
+"r": "かいかい",
+"m": "opening of a meeting",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "過半数",
+"r": "かはんすう",
+"m": "majority",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "下さる",
+"r": "くださる",
+"m": "(hon) to give; to confer",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "効力",
+"r": "こうりょく",
+"m": "effect; efficacy; validity; potency",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "童話",
+"r": "どうわ",
+"m": "fairy tale",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "生意気",
+"r": "なまいき",
+"m": "impertinent; saucy; cheeky; conceit; audacious; brazen",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "張る",
+"r": "はる",
+"m": "to stick; to paste",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "レジャー",
+"r": "レジャー",
+"m": "leisure",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "味わう",
+"r": "あじわう",
+"m": "to taste; to savor; to relish",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "クリーニング",
+"r": "クリーニング",
+"m": "cleaning; dry cleaning; laundry service",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "下車",
+"r": "げしゃ",
+"m": "alighting; getting off",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しっぽ",
+"r": "しっぽ",
+"m": "tail (animal)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "例える",
+"r": "たとえる",
+"m": "to compare; to liken; to speak figuratively; to illustrate; to use a simile",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "女房",
+"r": "にょうぼう",
+"m": "wife",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "俳句",
+"r": "はいく",
+"m": "haiku poetry",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "履く",
+"r": "はく",
+"m": "to wear; to put on (lower body)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "歯磨き",
+"r": "はみがき",
+"m": "dentifrice; toothpaste",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "筆者",
+"r": "ひっしゃ",
+"m": "writer; author",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "文芸",
+"r": "ぶんげい",
+"m": "literature; art and literature; belles-lettres",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "エプロン",
+"r": "エプロン",
+"m": "apron",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "園芸",
+"r": "えんげい",
+"m": "horticulture; gardening",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "客席",
+"r": "きゃくせき",
+"m": "guest seating",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "口実",
+"r": "こうじつ",
+"m": "excuse",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "重点",
+"r": "じゅうてん",
+"m": "important point; lay stress on; colon; emphasis",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "青少年",
+"r": "せいしょうねん",
+"m": "youth; young person",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "取り出す",
+"r": "とりだす",
+"m": "to take out; to produce; to pick out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "南極",
+"r": "なんきょく",
+"m": "south pole; Antarctic",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "鉢",
+"r": "はち",
+"m": "a bowl; a pot",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "領収",
+"r": "りょうしゅう",
+"m": "receipt; voucher",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "小父さん",
+"r": "おじさん",
+"m": "middle-aged gentleman; uncle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "瓦",
+"r": "かわら",
+"m": "roof tile",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "恐縮",
+"r": "きょうしゅく",
+"m": "shame; very kind of you; sorry to trouble",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "敬語",
+"r": "けいご",
+"m": "honorific; term of respect",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "磁石",
+"r": "じしゃく",
+"m": "magnet",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "失恋",
+"r": "しつれん",
+"m": "disappointed love; broken heart; unrequited love; be lovelorn",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "垂直",
+"r": "すいちょく",
+"m": "vertical; perpendicular",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "好き嫌い",
+"r": "すききらい",
+"m": "likes and dislikes; taste",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "伝染",
+"r": "でんせん",
+"m": "contagion",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "方程式",
+"r": "ほうていしき",
+"m": "equation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "物凄い",
+"r": "ものすごい",
+"m": "earth-shattering; staggering; to a very great extent",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "叔母",
+"r": "おば",
+"m": "aunt (younger than one's parent)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "下町",
+"r": "したまち",
+"m": "Shitamachi; lower parts of town",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "白髪",
+"r": "しらが",
+"m": "white or grey hair; trendy hair bleaching",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "大して",
+"r": "たいして",
+"m": "(not so) much; (not) very",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "電球",
+"r": "でんきゅう",
+"m": "light bulb",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "破片",
+"r": "はへん",
+"m": "fragment; splinter; broken piece",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "日帰り",
+"r": "ひがえり",
+"m": "day trip",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "利害",
+"r": "りがい",
+"m": "advantages and disadvantages; interest",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "彼等",
+"r": "かれら",
+"m": "they (usually male)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "蛍光灯",
+"r": "けいこうとう",
+"m": "fluorescent lamp; person who is slow to react",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "車庫",
+"r": "しゃこ",
+"m": "garage; car shed",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "寸法",
+"r": "すんぽう",
+"m": "measurement; size; dimension",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "強気",
+"r": "つよき",
+"m": "firm; strong",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "ねじ",
+"r": "ねじ",
+"m": "(a) screw",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あかんぼう",
+"r": "あかんぼう",
+"m": "baby",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "開通",
+"r": "かいつう",
+"m": "opening; open",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "拡充",
+"r": "かくじゅう",
+"m": "expansion",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "崩れる",
+"r": "くずれる",
+"m": "to collapse; to crumble",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "下水",
+"r": "げすい",
+"m": "drainage; sewage; ditch; gutter; sewerage",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "交差",
+"r": "こうさ",
+"m": "cross",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "採点",
+"r": "さいてん",
+"m": "marking; grading; looking over",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "出来上がり",
+"r": "できあがり",
+"m": "be finished; ready; made for; cut out",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "出迎え",
+"r": "でむかえ",
+"m": "meeting; reception",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "留まる",
+"r": "とどまる",
+"m": "(1) to be fixed; (2) to abide; to stay (in the one place)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "岬",
+"r": "みさき",
+"m": "cape (on coast)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "目印",
+"r": "めじるし",
+"m": "mark; sign; landmark",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "矢印",
+"r": "やじるし",
+"m": "directing arrow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "空っぽ",
+"r": "からっぽ",
+"m": "empty; vacant; hollow",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "休養",
+"r": "きゅうよう",
+"m": "rest; break; recreation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "削る",
+"r": "けずる",
+"m": "to cut down little by little; to take a percentage",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "蒸発",
+"r": "じょうはつ",
+"m": "evaporation; unexplained disappearance",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "貯蔵",
+"r": "ちょぞう",
+"m": "storage; preservation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "独り言",
+"r": "ひとりごと",
+"m": "a soliloquy; a monologue; speaking to oneself",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "掘る",
+"r": "ほる",
+"m": "to dig; to excavate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "海水浴",
+"r": "かいすいよく",
+"m": "sea bathing; seawater bath",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "配る",
+"r": "くばる",
+"m": "to distribute; to deliver",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "月給",
+"r": "げっきゅう",
+"m": "monthly salary",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "懸命",
+"r": "けんめい",
+"m": "eagerness; earnestness; risking one's life",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "算数",
+"r": "さんすう",
+"m": "arithmetic",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "洒落",
+"r": "しゃれ",
+"m": "joke; pun; witticism",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "商社",
+"r": "しょうしゃ",
+"m": "trading company; firm",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "大小",
+"r": "だいしょう",
+"m": "size",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "両側",
+"r": "りょうがわ",
+"m": "both sides",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "アイロン",
+"r": "アイロン",
+"m": "(electric) iron",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "規律",
+"r": "きりつ",
+"m": "order; rules; law",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "県庁",
+"r": "けんちょう",
+"m": "prefectural office",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "消極的",
+"r": "しょうきょくてき",
+"m": "passive",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "折角",
+"r": "せっかく",
+"m": "with trouble; at great pains; long-awaited",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "綱",
+"r": "つな",
+"m": "rope",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "蘇る",
+"r": "よみがえる",
+"m": "to be resurrected; to be revived; to be resuscitated; to be rehabilitated",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "伯父さん",
+"r": "おじさん",
+"m": "middle-aged gentleman; uncle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "換気",
+"r": "かんき",
+"m": "ventilation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "勝敗",
+"r": "しょうはい",
+"m": "victory or defeat; issue (of battle)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "税関",
+"r": "ぜいかん",
+"m": "customs house",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "代名詞",
+"r": "だいめいし",
+"m": "pronoun",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "中性",
+"r": "ちゅうせい",
+"m": "neuter gender; neutral (chem.); indifference; sterility",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "超過",
+"r": "ちょうか",
+"m": "excess; being more than",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "歯車",
+"r": "はぐるま",
+"m": "gear; cog-wheel",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "大通り",
+"r": "おおどおり",
+"m": "main street",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "補う",
+"r": "おぎなう",
+"m": "to compensate for",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "純情",
+"r": "じゅんじょう",
+"m": "pure heart; naivete; self-sacrificing devotion",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "ダイヤル",
+"r": "ダイヤル",
+"m": "dial",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "Ͼ立",
+"r": "たいりつ",
+"m": "confrontation; opposition; antagonism",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "脱線",
+"r": "だっせん",
+"m": "derailment; digression",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "断定",
+"r": "だんてい",
+"m": "conclusion; decision",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "力強い",
+"r": "ちからづよい",
+"m": "reassuring; emboldened",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "仲直り",
+"r": "なかなおり",
+"m": "reconciliation; make peace with",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "踏切",
+"r": "ふみきり",
+"m": "railway crossing; level crossing; starting line; scratch; crossover",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "言い出す",
+"r": "いいだす",
+"m": "to start talking; to speak; to tell; to propose; to suggest; to break the ice",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "温室",
+"r": "おんしつ",
+"m": "greenhouse",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "下降",
+"r": "かこう",
+"m": "downward; descent; fall; drop; subsidence",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "シーツ",
+"r": "シーツ",
+"m": "sheet",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ストッキング",
+"r": "ストッキング",
+"m": "stockings",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "賑やか",
+"r": "にぎやか",
+"m": "bustling; busy",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "農村",
+"r": "のうそん",
+"m": "agricultural community; farm village; rural",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "不規則",
+"r": "ふきそく",
+"m": "irregularity; unsteadiness; disorderly",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "夕日",
+"r": "ゆうひ",
+"m": "(in) the evening sun; setting sun",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "崩す",
+"r": "くずす",
+"m": "to destroy; to pull down; to make change (money)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "挟む",
+"r": "はさむ",
+"m": "to interpose; to hold between; to insert",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "めまい",
+"r": "めまい",
+"m": "dizziness; giddiness",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "催し",
+"r": "もよおし",
+"m": "event; festivities; function",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "問答",
+"r": "もんどう",
+"m": "questions and answers; dialogue",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "一昨年",
+"r": "いっさくねん",
+"m": "year before last",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "在学",
+"r": "ざいがく",
+"m": "(enrolled) in school",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "実例",
+"r": "じつれい",
+"m": "example; illustration",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "スカーフ",
+"r": "スカーフ",
+"m": "scarf",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "西暦",
+"r": "せいれき",
+"m": "Christian Era; anno domini (A.D.)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "絶えず",
+"r": "たえず",
+"m": "constantly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "だらしない",
+"r": "だらしない",
+"m": "slovenly; loose; a slut",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "誓う",
+"r": "ちかう",
+"m": "to swear; to vow; to take an oath; to pledge",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "憎い",
+"r": "にくい",
+"m": "hateful; abominable; poor-looking; detestable",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "標本",
+"r": "ひょうほん",
+"m": "example; specimen",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "思い切り",
+"r": "おもいきり",
+"m": "with all one's strength (heart); resignation; resolution",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "口紅",
+"r": "くちべに",
+"m": "lipstick",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "現に",
+"r": "げんに",
+"m": "actually; really",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "コンセント",
+"r": "コンセント",
+"m": "(1) consent; (2) concentric",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "書道",
+"r": "しょどう",
+"m": "calligraphy",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ぜひとも",
+"r": "ぜひとも",
+"m": "by all means (with sense of not taking \"no\" for an answer)",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "洗面",
+"r": "せんめん",
+"m": "wash up (one's face); have a wash",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "必需品",
+"r": "ひつじゅひん",
+"m": "necessities; necessary article; requisite; essential",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "待合室",
+"r": "まちあいしつ",
+"m": "waiting room",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "留守番",
+"r": "るすばん",
+"m": "care-taking; caretaker; house-watching",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "暴れる",
+"r": "あばれる",
+"m": "to act violently; to rage; to struggle; to be riotous",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "かまいません",
+"r": "かまいません",
+"m": "it doesn't matter",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "屑",
+"r": "くず",
+"m": "waste; scrap",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "サイレン",
+"r": "サイレン",
+"m": "siren",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "セメント",
+"r": "セメント",
+"m": "cement",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "素質",
+"r": "そしつ",
+"m": "character; qualities; genius",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "近々",
+"r": "ちかぢか",
+"m": "nearness; before long",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "顕微鏡",
+"r": "けんびきょう",
+"m": "microscope",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "鉱物",
+"r": "こうぶつ",
+"m": "mineral",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "公務",
+"r": "こうむ",
+"m": "official business; public business",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "紺",
+"r": "こん",
+"m": "navy blue; deep blue",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "測量",
+"r": "そくりょう",
+"m": "measurement; surveying",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "へそ",
+"r": "へそ",
+"m": "navel; belly-button",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "送り仮名",
+"r": "おくりがな",
+"m": "part of word written in kana",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "くれぐれも",
+"r": "くれぐれも",
+"m": "repeatedly; sincerely; earnestly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "下駄",
+"r": "げた",
+"m": "geta (Japanese footwear); wooden clogs",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "先程",
+"r": "さきほど",
+"m": "some time ago",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しみじみ",
+"r": "しみじみ",
+"m": "keenly; deeply; heartily",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "修繕",
+"r": "しゅうぜん",
+"m": "repair; mending",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "終点",
+"r": "しゅうてん",
+"m": "terminus; last stop (e.g train)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "初級",
+"r": "しょきゅう",
+"m": "elementary level",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "全集",
+"r": "ぜんしゅう",
+"m": "complete works",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "手洗い",
+"r": "てあらい",
+"m": "restroom; lavatory; hand-washing",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "灯台",
+"r": "とうだい",
+"m": "lighthouse",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ピストル",
+"r": "ピストル",
+"m": "pistol",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "不運",
+"r": "ふうん",
+"m": "unlucky; misfortune; bad luck; fate",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "望遠鏡",
+"r": "ぼうえんきょう",
+"m": "telescope",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あたりまえ",
+"r": "あたりまえ",
+"m": "usual; common; ordinary",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "恋しい",
+"r": "こいしい",
+"m": "(1) dear; beloved; darling; (2) yearned for",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "御免",
+"r": "ごめん",
+"m": "your pardon; declining (something); dismissal; permission",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "人命",
+"r": "じんめい",
+"m": "(human) life",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "中途",
+"r": "ちゅうと",
+"m": "in the middle; half-way",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "出掛ける",
+"r": "でかける",
+"m": "to depart; to set out; to start; to be going out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "並木",
+"r": "なみき",
+"m": "roadside tree; row of trees",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "農産物",
+"r": "のうさんぶつ",
+"m": "agricultural produce",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "附属",
+"r": "ふぞく",
+"m": "attached; belonging; affiliated",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "三日月",
+"r": "みかづき",
+"m": "new moon; crescent moon",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "目次",
+"r": "もくじ",
+"m": "table of contents",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "荒い",
+"r": "あらい",
+"m": "rough; rude; wild",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "遠足",
+"r": "えんそく",
+"m": "trip; hike; picnic",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "炭鉱",
+"r": "たんこう",
+"m": "coal mine; coal pit",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "たんす",
+"r": "たんす",
+"m": "chest of drawers",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "取り入れる",
+"r": "とりいれる",
+"m": "to harvest; to take in; to adopt",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "中指",
+"r": "なかゆび",
+"m": "middle finger",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "万歳",
+"r": "ばんざい",
+"m": "hurrah, cheers",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ふざける",
+"r": "ふざける",
+"m": "to romp; to gambol; to frolic; to joke",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "まぶた",
+"r": "まぶた",
+"m": "eyelids",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "余る",
+"r": "あまる",
+"m": "to remain; to be left over; to be in excess; to be too many",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "運河",
+"r": "うんが",
+"m": "canal; waterway",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "活力",
+"r": "かつりょく",
+"m": "vitality; energy",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "くしゃみ",
+"r": "くしゃみ",
+"m": "sneeze",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "公害",
+"r": "こうがい",
+"m": "public nuisance; pollution",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "人造",
+"r": "じんぞう",
+"m": "man-made; synthetic; artificial",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "売店",
+"r": "ばいてん",
+"m": "shop; stand",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "北極",
+"r": "ほっきょく",
+"m": "North Pole",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "めでたい",
+"r": "めでたい",
+"m": "happy; simple soul; propitious; joyous",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "活字",
+"r": "かつじ",
+"m": "printing type",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "起床",
+"r": "きしょう",
+"m": "rising; getting out of bed",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "座布団",
+"r": "ざぶとん",
+"m": "cushion (Japanese)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "締切",
+"r": "しめきり",
+"m": "closing; cut-off; end; deadline; Closed; No Entrance",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "背負う",
+"r": "せおう",
+"m": "to be burdened with; to carry on back or shoulder",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "地質",
+"r": "ちしつ",
+"m": "geological features",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "月日",
+"r": "つきひ",
+"m": "time; years; days",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "手頃",
+"r": "てごろ",
+"m": "moderate; handy",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "溶岩",
+"r": "ようがん",
+"m": "lava",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "呼び出す",
+"r": "よびだす",
+"m": "to summon; to call (e.g. phone)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "煙突",
+"r": "えんとつ",
+"m": "chimney",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "原産",
+"r": "げんさん",
+"m": "place of origin; habitat",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "車掌",
+"r": "しゃしょう",
+"m": "(train) conductor",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "人文科学",
+"r": "じんぶんかがく",
+"m": "social sciences; humanities",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "短所",
+"r": "たんしょ",
+"m": "(1) defect; demerit; weak point; (2) disadvantage",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "文体",
+"r": "ぶんたい",
+"m": "literary style",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "浮く",
+"r": "うく",
+"m": "to float; to become merry; to become loose",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "貸し出し",
+"r": "かしだし",
+"m": "lending; loaning",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "逆さ",
+"r": "さかさ",
+"m": "reverse; inversion; upside down",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "縞",
+"r": "しま",
+"m": "stripe",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "造船",
+"r": "ぞうせん",
+"m": "shipbuilding",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "直通",
+"r": "ちょくつう",
+"m": "direct communication",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "照らす",
+"r": "てらす",
+"m": "to shine on; to illuminate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "筆記",
+"r": "ひっき",
+"m": "(taking) notes; copying",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "分量",
+"r": "ぶんりょう",
+"m": "amount; quantity",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "包帯",
+"r": "ほうたい",
+"m": "bandage; dressing",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "緩い",
+"r": "ゆるい",
+"m": "loose; lenient; slow",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "宜しい",
+"r": "よろしい",
+"m": "(hon) good; OK; all right; fine; very well; will do; may; can",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "和服",
+"r": "わふく",
+"m": "Japanese clothes",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "重たい",
+"r": "おもたい",
+"m": "heavy; massive; serious",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "災難",
+"r": "さいなん",
+"m": "calamity; misfortune",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "スリッパ",
+"r": "スリッパ",
+"m": "slippers",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "着々",
+"r": "ちゃくちゃく",
+"m": "steadily",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "電柱",
+"r": "でんちゅう",
+"m": "telephone pole; telegraph pole; lightpole",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "飛び込む",
+"r": "とびこむ",
+"m": "to jump in; to leap in; to plunge into; to dive",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "文房具",
+"r": "ぶんぼうぐ",
+"m": "stationery",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "街角",
+"r": "まちかど",
+"m": "street corner",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ミシン",
+"r": "ミシン",
+"m": "sewing machine",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "生き生き",
+"r": "いきいき",
+"m": "vividly; lively",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "ウーマン",
+"r": "ウーマン",
+"m": "woman",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "座敷",
+"r": "ざしき",
+"m": "tatami room",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "絞る",
+"r": "しぼる",
+"m": "to press; to wring; to squeeze",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "図形",
+"r": "ずけい",
+"m": "figure",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "たちまち",
+"r": "たちまち",
+"m": "at once; in a moment; suddenly; all at once",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "頼もしい",
+"r": "たのもしい",
+"m": "reliable; trustworthy; hopeful; promising",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "日課",
+"r": "にっか",
+"m": "daily lesson; daily work; daily routine",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "麓",
+"r": "ふもと",
+"m": "the foot; the bottom; the base (of a mountain)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "噴水",
+"r": "ふんすい",
+"m": "water fountain",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あいまい",
+"r": "あいまい",
+"m": "vague; ambiguous",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "荒れる",
+"r": "あれる",
+"m": "to be stormy; to be rough; to lose one's temper",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "イコール",
+"r": "イコール",
+"m": "equal",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "妨げる",
+"r": "さまたげる",
+"m": "to disturb; to prevent",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "溶かす",
+"r": "とかす",
+"m": "to melt; to dissolve",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "早口",
+"r": "はやくち",
+"m": "fast-talking",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "坊さん",
+"r": "ぼうさん",
+"m": "Buddhist priest; monk",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "加速度",
+"r": "かそくど",
+"m": "acceleration",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "小指",
+"r": "こゆび",
+"m": "little finger",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "蛇口",
+"r": "じゃぐち",
+"m": "faucet; tap",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "重役",
+"r": "じゅうやく",
+"m": "director; high executive",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "所々",
+"r": "ところどころ",
+"m": "here and there; some parts (of something)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "父母",
+"r": "ふぼ",
+"m": "father and mother; parents",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "方角",
+"r": "ほうがく",
+"m": "direction; way; compass point",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "看病",
+"r": "かんびょう",
+"m": "nursing (a patient)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "縛る",
+"r": "しばる",
+"m": "to tie; to bind",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "先々月",
+"r": "せんせんげつ",
+"m": "month before last",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "物騒",
+"r": "ぶっそう",
+"m": "dangerous; disturbed; insecure",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "夕刊",
+"r": "ゆうかん",
+"m": "evening paper",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "おとなしい",
+"r": "おとなしい",
+"m": "obedient; docile; quiet",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "消防署",
+"r": "しょうぼうしょ",
+"m": "fire station",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "増減",
+"r": "ぞうげん",
+"m": "increase and decrease; fluctuation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "日陰",
+"r": "ひかげ",
+"m": "shadow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "儲ける",
+"r": "もうける",
+"m": "to get; to earn; to gain; to have (bear, beget) a child",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "モノレール",
+"r": "モノレール",
+"m": "monorail",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "裁縫",
+"r": "さいほう",
+"m": "sewing",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "熟語",
+"r": "じゅくご",
+"m": "idiom; idiomatic phrase; kanji compound",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "寝台",
+"r": "しんだい",
+"m": "bed; couch",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "水筒",
+"r": "すいとう",
+"m": "canteen; flask; water bottle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "正門",
+"r": "せいもん",
+"m": "main gate; main entrance",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "チョーク",
+"r": "チョーク",
+"m": "chock; chalk",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "通帳",
+"r": "つうちょう",
+"m": "passbook",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "潰れる",
+"r": "つぶれる",
+"m": "to be smashed; to go bankrupt",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ブローチ",
+"r": "ブローチ",
+"m": "brooch",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "受取",
+"r": "うけとり",
+"m": "receipt",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "社説",
+"r": "しゃせつ",
+"m": "editorial; leading article",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "定休日",
+"r": "ていきゅうび",
+"m": "regular holiday",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "鉄砲",
+"r": "てっぽう",
+"m": "gun",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "当番",
+"r": "とうばん",
+"m": "being on duty",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "憎む",
+"r": "にくむ",
+"m": "to hate; to detest",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "梯子",
+"r": "はしご",
+"m": "ladder; stairs",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "幼稚",
+"r": "ようち",
+"m": "infancy; childish; infantile",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "危うい",
+"r": "あやうい",
+"m": "dangerous; critical; grave",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "おめでたい",
+"r": "おめでたい",
+"m": "happy event; matter for congratulation; auspicious event; pregnancy",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "膨らむ",
+"r": "ふくらむ",
+"m": "to expand; to swell (out); to get big; to become inflated",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "閉会",
+"r": "へいかい",
+"m": "closure",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "快晴",
+"r": "かいせい",
+"m": "good weather",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "雑音",
+"r": "ざつおん",
+"m": "noise (jarring, grating)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "羊毛",
+"r": "ようもう",
+"m": "wool",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "改める",
+"r": "あらためる",
+"m": "to change; to alter; to reform; to revise",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "着替える",
+"r": "きがえる",
+"m": "to change one's clothes",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "剃る",
+"r": "そる",
+"m": "to shave",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "大木",
+"r": "たいぼく",
+"m": "large tree",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "灯油",
+"r": "とうゆ",
+"m": "lamp oil; kerosene",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "坊や",
+"r": "ぼうや",
+"m": "boy",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "官庁",
+"r": "かんちょう",
+"m": "government office; authorities",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "刻む",
+"r": "きざむ",
+"m": "to mince; to carve; to engrave",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "差し支え",
+"r": "さしつかえ",
+"m": "hindrance; impediment",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "末っ子",
+"r": "すえっこ",
+"m": "youngest child",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "正方形",
+"r": "せいほうけい",
+"m": "square",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "長方形",
+"r": "ちょうほうけい",
+"m": "rectangle; oblong",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ブラウス",
+"r": "ブラウス",
+"m": "blouse",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "輸血",
+"r": "ゆけつ",
+"m": "blood transfusion",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "植木",
+"r": "うえき",
+"m": "garden shrubs; trees; potted plant",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "おととい",
+"r": "おととい",
+"m": "day before yesterday",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "格別",
+"r": "かくべつ",
+"m": "exceptional",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "火口",
+"r": "かこう",
+"m": "a burner; origin of a fire",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "固まる",
+"r": "かたまる",
+"m": "to harden; to solidify; to become firm; to become certain",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "険しい",
+"r": "けわしい",
+"m": "inaccessible place; sharp eyes",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "遡る",
+"r": "さかのぼる",
+"m": "to go back; to go upstream; to make retroactive",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "主語",
+"r": "しゅご",
+"m": "(gram) subject",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "初歩",
+"r": "しょほ",
+"m": "elements; rudiments; ABC's of..",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "水蒸気",
+"r": "すいじょうき",
+"m": "water vapour; steam",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "努める",
+"r": "つとめる",
+"m": "(1) to serve; to fill a post; to serve under; to work (for)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "恨む",
+"r": "うらむ",
+"m": "to curse; to feel bitter",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "うろうろ",
+"r": "うろうろ",
+"m": "loiteringly; aimless wandering",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "催促",
+"r": "さいそく",
+"m": "request; demand; claim; urge (action); press for",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "楕円",
+"r": "だえん",
+"m": "ellipse",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "詰まる",
+"r": "つまる",
+"m": "to be blocked; to be packed",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "鈍い",
+"r": "にぶい",
+"m": "dull (e.g. a knife); thickheaded; slow (opposite of fast); stupid",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "物置",
+"r": "ものおき",
+"m": "storage room",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "交替",
+"r": "こうたい",
+"m": "alternation; change; relief; relay; shift",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "御覧",
+"r": "ごらん",
+"m": "(hon) look; inspection; try",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "四角い",
+"r": "しかくい",
+"m": "square",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "集金",
+"r": "しゅうきん",
+"m": "money collection",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "無地",
+"r": "むじ",
+"m": "plain; unfigured",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "曇",
+"r": "くもり",
+"m": "cloudiness; cloudy weather; shadow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "激増",
+"r": "げきぞう",
+"m": "sudden increase",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "足る",
+"r": "たる",
+"m": "to be sufficient; to be enough",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "伝記",
+"r": "でんき",
+"m": "biography; life story",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "特売",
+"r": "とくばい",
+"m": "special sale",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ばね",
+"r": "ばね",
+"m": "spring (e.g. coil, leaf)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "符号",
+"r": "ふごう",
+"m": "sign; mark; symbol",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "見送る",
+"r": "みおくる",
+"m": "(1) to see off; to farewell; (2) to escort; (3) to let pass",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "揉む",
+"r": "もむ",
+"m": "to rub; to crumple (up); to wrinkle",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "やかましい",
+"r": "やかましい",
+"m": "(1) noisy; (2) strict; fussy",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "かわいらしい",
+"r": "かわいらしい",
+"m": "lovely; sweet",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "流域",
+"r": "りゅういき",
+"m": "(river) basin",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あさって",
+"r": "あさって",
+"m": "day after tomorrow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ウール",
+"r": "ウール",
+"m": "wool",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "組合せ",
+"r": "くみあわせ",
+"m": "combination",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "組み立てる",
+"r": "くみたてる",
+"m": "to assemble; to set up; to construct",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "作製",
+"r": "さくせい",
+"m": "manufacture",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "錆",
+"r": "さび",
+"m": "rust (colour)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "扇子",
+"r": "せんす",
+"m": "folding fan",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "曲げる",
+"r": "まげる",
+"m": "to bend; to crook; to lean",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "真っ青",
+"r": "まっさお",
+"m": "deep blue; ghastly pale",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "欲張り",
+"r": "よくばり",
+"m": "avarice; covetousness; greed",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "幾分",
+"r": "いくぶん",
+"m": "somewhat",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "一段と",
+"r": "いちだんと",
+"m": "greater; more; further; still more",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "オルガン",
+"r": "オルガン",
+"m": "organ",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "着せる",
+"r": "きせる",
+"m": "to put on clothes",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "定規",
+"r": "じょうぎ",
+"m": "(measuring) ruler",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "体積",
+"r": "たいせき",
+"m": "capacity; volume",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "形容詞",
+"r": "けいようし",
+"m": "\"true\" adjective",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "校庭",
+"r": "こうてい",
+"m": "campus",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "親類",
+"r": "しんるい",
+"m": "relation; kin",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "送別",
+"r": "そうべつ",
+"m": "farewell; send-off",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "不潔",
+"r": "ふけつ",
+"m": "unclean; dirty; filthy; impure",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "見掛け",
+"r": "みかけ",
+"m": "outward appearance",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "民謡",
+"r": "みんよう",
+"m": "folk song; popular song",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "迷信",
+"r": "めいしん",
+"m": "superstition",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "潜る",
+"r": "もぐる",
+"m": "(1) to drive; to pass through; (2) to evade; to hide; (3) to dive (into or under water); to go underground",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "絵の具",
+"r": "えのぐ",
+"m": "colors; paints",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "乾電池",
+"r": "かんでんち",
+"m": "dry cell; battery",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "山林",
+"r": "さんりん",
+"m": "mountain forest; mountains and forest",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ナイロン",
+"r": "ナイロン",
+"m": "nylon",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "プラットホーム",
+"r": "プラットホーム",
+"m": "platform",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "出来上がる",
+"r": "できあがる",
+"m": "(1) to be finished; to be ready; by definition; (2) to be very drunk",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "逃がす",
+"r": "にがす",
+"m": "to let loose; to set free; to let escape",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "見上げる",
+"r": "みあげる",
+"m": "to look up at; to raise one's eyes; to admire",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "明け方",
+"r": "あけがた",
+"m": "dawn",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "応対",
+"r": "おうたい",
+"m": "receiving; dealing with",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "くっつく",
+"r": "くっつく",
+"m": "to adhere to; to keep close to",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "自習",
+"r": "じしゅう",
+"m": "self-study",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "初旬",
+"r": "しょじゅん",
+"m": "first 10 days of the month",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "赤道",
+"r": "せきどう",
+"m": "equator",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "でたらめ",
+"r": "でたらめ",
+"m": "(1) irresponsible utterance; nonsense; nonsensical; (2) random",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "長引く",
+"r": "ながびく",
+"m": "to be prolonged; to drag on",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "免税",
+"r": "めんぜい",
+"m": "tax exemption; duty exemption",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "緯度",
+"r": "いど",
+"m": "latitude (nav.)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "どきどき",
+"r": "どきどき",
+"m": "throb; beat (fast)",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "為す",
+"r": "なす",
+"m": "to accomplish; to do",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ファスナー",
+"r": "ファスナー",
+"m": "fastener; zipper",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "へる",
+"r": "へる",
+"m": "to decrease (in size or number); to diminish; to abate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ぺん",
+"r": "ぺん",
+"m": "pen",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "面倒臭い",
+"r": "めんどうくさい",
+"m": "bother to do; tiresome",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "夕べ",
+"r": "ゆうべ",
+"m": "evening",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "材木",
+"r": "ざいもく",
+"m": "lumber; timber",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "専制",
+"r": "せんせい",
+"m": "despotism; autocracy",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "どっと",
+"r": "どっと",
+"m": "suddenly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "採る",
+"r": "とる",
+"m": "(1) to adopt (measure, proposal); (2) to pick (fruit)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "なにしろ",
+"r": "なにしろ",
+"m": "at any rate; anyhow; anyway; in any case",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "家主",
+"r": "やぬし",
+"m": "landlord",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "裏口",
+"r": "うらぐち",
+"m": "backdoor; rear entrance",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "うんと",
+"r": "うんと",
+"m": "a great deal; very much",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "騒がしい",
+"r": "さわがしい",
+"m": "noisy",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "雑巾",
+"r": "ぞうきん",
+"m": "house-cloth; dust cloth",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "塞ぐ",
+"r": "ふさぐ",
+"m": "to stop up; to close up; to block (up)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "目下",
+"r": "めした",
+"m": "at present; now",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "円周",
+"r": "えんしゅう",
+"m": "circumference",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "枯れる",
+"r": "かれる",
+"m": "to wither; to die (plant); to be blasted (plant)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "転がる",
+"r": "ころがる",
+"m": "to roll; to tumble",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "等分",
+"r": "とうぶん",
+"m": "division into equal parts",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "能率",
+"r": "のうりつ",
+"m": "efficiency",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "要旨",
+"r": "ようし",
+"m": "gist; essentials; summary; fundamentals",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "障子",
+"r": "しょうじ",
+"m": "paper sliding door",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "整数",
+"r": "せいすう",
+"m": "integer",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "吊る",
+"r": "つる",
+"m": "to hang",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "取り消す",
+"r": "とりけす",
+"m": "to cancel",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "針金",
+"r": "はりがね",
+"m": "wire",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "夕立",
+"r": "ゆうだち",
+"m": "(sudden) evening shower (rain)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "再三",
+"r": "さいさん",
+"m": "again and again; repeatedly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "敷く",
+"r": "しく",
+"m": "to spread out; to lay out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "私鉄",
+"r": "してつ",
+"m": "private railway",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "淡水",
+"r": "たんすい",
+"m": "fresh water",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "適確",
+"r": "てきかく",
+"m": "precise; accurate",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "慰める",
+"r": "なぐさめる",
+"m": "to comfort; to console",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ビルディング",
+"r": "ビルディング",
+"m": "building",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "伯母",
+"r": "おば",
+"m": "(hum) aunt (older than one's parent)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "垣根",
+"r": "かきね",
+"m": "hedge",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "からかう",
+"r": "からかう",
+"m": "to ridicule; to tease; to banter with; to make fun of",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "謙遜",
+"r": "けんそん",
+"m": "humble; humility; modesty",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "献立",
+"r": "こんだて",
+"m": "menu; program; schedule",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "凸凹",
+"r": "でこぼこ",
+"m": "unevenness; roughness; ruggedness",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "分数",
+"r": "ぶんすう",
+"m": "fraction (in math)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "容積",
+"r": "ようせき",
+"m": "capacity; volume",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "よこす",
+"r": "よこす",
+"m": "(1) to send; to forward; (2) to hand over (e.g. money)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "領事",
+"r": "りょうじ",
+"m": "consul",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "このごろ",
+"r": "このごろ",
+"m": "these days; nowadays",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "下書き",
+"r": "したがき",
+"m": "rough copy; draft",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ぼろ",
+"r": "ぼろ",
+"m": "rag; scrap; tattered clothes; fault (esp. in a pretense)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "見下ろす",
+"r": "みおろす",
+"m": "to overlook; to command a view of; to look down on something",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "傾く",
+"r": "かたむく",
+"m": "to incline toward; to slant; to lurch",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ためらう",
+"r": "ためらう",
+"m": "to hesitate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "縫う",
+"r": "ぬう",
+"m": "to sew",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "風呂敷",
+"r": "ふろしき",
+"m": "wrapping cloth; cloth wrapper",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "干す",
+"r": "ほす",
+"m": "to air; to dry; to desiccate; to drain (off); to drink up",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "落第",
+"r": "らくだい",
+"m": "failure; dropping out of a class",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "水滴",
+"r": "すいてき",
+"m": "drop of water",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "盛る",
+"r": "もる",
+"m": "(1) to serve (food, etc.); (2) to fill up; (3) to prescribe",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "略す",
+"r": "りゃくす",
+"m": "to abbreviate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "括弧",
+"r": "かっこ",
+"m": "parenthesis; brackets",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "謎謎",
+"r": "なぞなぞ",
+"m": "riddle; puzzle; enigma",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "糊",
+"r": "のり",
+"m": "paste; starch",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "英和",
+"r": "えいわ",
+"m": "English-Japanese (e.g. dictionary)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "偶数",
+"r": "ぐうすう",
+"m": "even number",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "薬指",
+"r": "くすりゆび",
+"m": "ring finger",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "匙",
+"r": "さじ",
+"m": "spoon",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "直角",
+"r": "ちょっかく",
+"m": "right angle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "甚だしい",
+"r": "はなはだしい",
+"m": "extreme; excessive; terrible",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "引力",
+"r": "いんりょく",
+"m": "gravity",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "却って",
+"r": "かえって",
+"m": "on the contrary; rather; all the more; instead",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "めっきり",
+"r": "めっきり",
+"m": "remarkably",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "養分",
+"r": "ようぶん",
+"m": "nourishment; nutrient",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "飢饉",
+"r": "ききん",
+"m": "famine",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "生ずる",
+"r": "しょうずる",
+"m": "to cause; to arise; to be generated",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "食塩",
+"r": "しょくえん",
+"m": "table salt",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "何分",
+"r": "なにぶん",
+"m": "what minute?; how many minutes?",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "一休み",
+"r": "ひとやすみ",
+"m": "a rest",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "経度",
+"r": "けいど",
+"m": "longitude",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "索引",
+"r": "さくいん",
+"m": "index; indices",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "蝋燭",
+"r": "ろうそく",
+"m": "candle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "編む",
+"r": "あむ",
+"m": "to knit",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "元日",
+"r": "がんじつ",
+"m": "New Year's Day",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "湯気",
+"r": "ゆげ",
+"m": "steam; vapour",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "粗い",
+"r": "あらい",
+"m": "coarse; rough",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "お参り",
+"r": "おまいり",
+"m": "worship; shrine visit",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "櫛",
+"r": "くし",
+"m": "comb",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "損得",
+"r": "そんとく",
+"m": "loss and gain; advantage and disadvantage",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あくび",
+"r": "あくび",
+"m": "yawn",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "勇ましい",
+"r": "いさましい",
+"m": "brave; valiant; gallant; courageous",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "浮かべる",
+"r": "うかべる",
+"m": "to float; to express; to look (sad, glad)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "薄暗い",
+"r": "うすぐらい",
+"m": "dim; gloomy",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "怠る",
+"r": "おこたる",
+"m": "to neglect; to be off guard; to be feeling better",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "縮む",
+"r": "ちぢむ",
+"m": "to shrink; to be contracted",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "縮める",
+"r": "ちぢめる",
+"m": "to shorten; to reduce; to boil down; to shrink",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ぶつぶつ",
+"r": "ぶつぶつ",
+"m": "grumbling; complaining in a small voice",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "構う",
+"r": "かまう",
+"m": "to mind; to care about; to be concerned about",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "毛糸",
+"r": "けいと",
+"m": "knitting wool",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "請う",
+"r": "こう",
+"m": "to ask; to request",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "習字",
+"r": "しゅうじ",
+"m": "penmanship",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "呑気",
+"r": "のんき",
+"m": "carefree; optimistic; careless; reckless; heedless",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "思い込む",
+"r": "おもいこむ",
+"m": "to be under impression that; to be convinced that",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "砕く",
+"r": "くだく",
+"m": "to break; to smash",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "腰掛け",
+"r": "こしかけ",
+"m": "seat; bench",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "助教授",
+"r": "じょきょうじゅ",
+"m": "assistant professor",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "大層",
+"r": "たいそう",
+"m": "very much; exaggerated; very fine",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "振舞う",
+"r": "ふるまう",
+"m": "to behave; to conduct oneself; to entertain (vt)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "襖",
+"r": "ふすま",
+"m": "sliding screen",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "漸く",
+"r": "ようやく",
+"m": "gradually; finally; hardly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "おまたせしました",
+"r": "おまたせしました",
+"m": "Sorry to have kept you waiting",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "剃刀",
+"r": "かみそり",
+"m": "razor",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ぎっしり",
+"r": "ぎっしり",
+"m": "tightly; fully",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "始終",
+"r": "しじゅう",
+"m": "continuously; from beginning to end",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "這う",
+"r": "はう",
+"m": "to creep; to crawl",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "エチケット",
+"r": "エチケット",
+"m": "etiquette",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しゃぶる",
+"r": "しゃぶる",
+"m": "to suck; to chew",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "スチュワーデス",
+"r": "スチュワーデス",
+"m": "stewardess",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ずらす",
+"r": "ずらす",
+"m": "to put off; to delay",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "速達",
+"r": "そくたつ",
+"m": "express; special delivery",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "出入口",
+"r": "でいりぐち",
+"m": "exit and entrance",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "内線",
+"r": "ないせん",
+"m": "phone extension; indoor wiring; inner line",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "撫でる",
+"r": "なでる",
+"m": "to brush gently; to stroke",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "跳ねる",
+"r": "はねる",
+"m": "to jump; to leap",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "はめる",
+"r": "はめる",
+"m": "(col) to get in; to insert; to put on; to make love",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ハンドバッグ",
+"r": "ハンドバッグ",
+"m": "handbag",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "レインコート",
+"r": "レインコート",
+"m": "raincoat",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あいかわらず",
+"r": "あいかわらず",
+"m": "as ever; as usual; the same",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "打合せ",
+"r": "うちあわせ",
+"m": "business meeting; previous arrangement; appointment",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "占う",
+"r": "うらなう",
+"m": "to forecast; to predict",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "囁く",
+"r": "ささやく",
+"m": "to whisper; to murmur",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "溜息",
+"r": "ためいき",
+"m": "a sigh",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "直流",
+"r": "ちょくりゅう",
+"m": "direct current",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "振り向く",
+"r": "ふりむく",
+"m": "to turn one's face; to turn around",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "盆地",
+"r": "ぼんち",
+"m": "basin (e.g. between mountains)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "入れ物",
+"r": "いれもの",
+"m": "container; case; receptacle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "田植え",
+"r": "たうえ",
+"m": "rice planting",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "判子",
+"r": "はんこ",
+"m": "seal (used for signature)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "広々",
+"r": "ひろびろ",
+"m": "extensive; spacious",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "悔やむ",
+"r": "くやむ",
+"m": "to mourn",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "溶け込む",
+"r": "とけこむ",
+"m": "to melt into",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "複写",
+"r": "ふくしゃ",
+"m": "copy; duplicate",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "凹む",
+"r": "へこむ",
+"m": "to be dented; to be indented; to yield to; to give; to sink; to collapse; to cave in; to be snubbed",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "衣食住",
+"r": "いしょくじゅう",
+"m": "necessities of life (food, clothing, etc.)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "くどい",
+"r": "くどい",
+"m": "verbose; importunate; heavy (taste)",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "整う",
+"r": "ととのう",
+"m": "to be prepared; to be in order; to be put in order; to be arranged",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "跳ぶ",
+"r": "とぶ",
+"m": "to jump; to fly; to leap",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "落着く",
+"r": "おちつく",
+"m": "to calm down; to settle down",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "温帯",
+"r": "おんたい",
+"m": "temperate zone",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "捜す",
+"r": "さがす",
+"m": "to search; to seek; to look for",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "かじる",
+"r": "かじる",
+"m": "to chew; to bite (at); to gnaw; to nibble",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "祭日",
+"r": "さいじつ",
+"m": "national holiday; festival day",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "正味",
+"r": "しょうみ",
+"m": "net (weight)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "炊事",
+"r": "すいじ",
+"m": "cooking; culinary arts",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "近寄る",
+"r": "ちかよる",
+"m": "to approach; to draw near",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "時間割",
+"r": "じかんわり",
+"m": "timetable; schedule",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "戸棚",
+"r": "とだな",
+"m": "cupboard; locker; closet; wardrobe",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "物語る",
+"r": "ものがたる",
+"m": "to tell; to indicate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "若々しい",
+"r": "わかわかしい",
+"m": "youthful; young",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "甘やかす",
+"r": "あまやかす",
+"m": "to pamper; to spoil",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "おくさん",
+"r": "おくさん",
+"m": "(hon) wife; your wife; madam",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "係わる",
+"r": "かかわる",
+"m": "to concern oneself in; to have to do with; to affect; to influence; to stick to (opinions)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "草履",
+"r": "ぞうり",
+"m": "zoori (Japanese footwear); sandals",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "立ち止まる",
+"r": "たちどまる",
+"m": "to stop; to halt; to stand still",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "命ずる",
+"r": "めいずる",
+"m": "to command; to appoint",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "宛名",
+"r": "あてな",
+"m": "address; direction",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "個所",
+"r": "かしょ",
+"m": "passage; place; point; part",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "引っ掛かる",
+"r": "ひっかかる",
+"m": "to be caught in; to be stuck in; to be cheated",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "日日",
+"r": "ひにち",
+"m": "every day; daily; day after day",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あてはまる",
+"r": "あてはまる",
+"m": "to be applicable; to come under (a category); to fulfill",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "書留",
+"r": "かきとめ",
+"m": "writing down; putting on record; recording; making a note of; registration (of mail)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "転がす",
+"r": "ころがす",
+"m": "to roll",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "再来年",
+"r": "さらいねん",
+"m": "year after next",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "信ずる",
+"r": "しんずる",
+"m": "to believe; to believe in; to place trust in",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "煉瓦",
+"r": "れんが",
+"m": "brick",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "拝む",
+"r": "おがむ",
+"m": "to worship; to beg; to make a supplication",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "御手洗",
+"r": "おてあらい",
+"m": "font of purifying water placed at entrance of shrine",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "投書",
+"r": "とうしょ",
+"m": "letter to the editor; letter from a reader; contribution",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "日当たり",
+"r": "ひあたり",
+"m": "exposure to the sun; sunny place",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "人通り",
+"r": "ひとどおり",
+"m": "pedestrian traffic",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "部首",
+"r": "ぶしゅ",
+"m": "radical (of a kanji character)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "悠々",
+"r": "ゆうゆう",
+"m": "quiet; calm; leisurely",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "兼ねる",
+"r": "かねる",
+"m": "to hold (position); to serve; to be unable",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "被せる",
+"r": "かぶせる",
+"m": "to cover (with something)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "工員",
+"r": "こういん",
+"m": "factory worker",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "断水",
+"r": "だんすい",
+"m": "water outage",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ペンチ",
+"r": "ペンチ",
+"m": "(abbr) pliers (lit: pinchers)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "実る",
+"r": "みのる",
+"m": "to bear fruit; to ripen",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "打ち消す",
+"r": "うちけす",
+"m": "to deny; to negate; to contradict",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "概論",
+"r": "がいろん",
+"m": "intro; outline; general remarks",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "苦心",
+"r": "くしん",
+"m": "pain; trouble",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "受話器",
+"r": "じゅわき",
+"m": "(telephone) receiver",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "蓄える",
+"r": "たくわえる",
+"m": "to store; to lay in stock",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "古里",
+"r": "ふるさと",
+"m": "home town; birthplace; old village; historic village; native place; one's old home",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "やっつける",
+"r": "やっつける",
+"m": "to attack (an enemy); to beat; to do away with; to finish off",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "孝行",
+"r": "こうこう",
+"m": "filial piety",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "落し物",
+"r": "おとしもの",
+"m": "lost property",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "担ぐ",
+"r": "かつぐ",
+"m": "to shoulder; to carry on shoulder",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "区切る",
+"r": "くぎる",
+"m": "to punctuate; to cut off; to mark off; to stop; to put an end to",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "掛け算",
+"r": "かけざん",
+"m": "multiplication",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "くっつける",
+"r": "くっつける",
+"m": "to attach",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "五十音",
+"r": "ごじゅうおん",
+"m": "the Japanese syllabary",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しびれる",
+"r": "しびれる",
+"m": "to become numb; to go to sleep (i.e., a limb)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "みじめ",
+"r": "みじめ",
+"m": "(arch) sad; pitiful; wretched",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "受け持つ",
+"r": "うけもつ",
+"m": "to take (be in) charge of",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "句読点",
+"r": "くとうてん",
+"m": "punctuation marks",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "四捨五入",
+"r": "ししゃごにゅう",
+"m": "rounding up (fractions)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "透き通る",
+"r": "すきとおる",
+"m": "to be(come) transparent",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "秤",
+"r": "はかり",
+"m": "scales; weighing machine",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "恵まれる",
+"r": "めぐまれる",
+"m": "to be blessed with; to be rich in",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ラッシュアワー",
+"r": "ラッシュアワー",
+"m": "rush hour",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "敬う",
+"r": "うやまう",
+"m": "to show respect; to honour",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "永い",
+"r": "ながい",
+"m": "long; lengthy",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "またぐ",
+"r": "またぐ",
+"m": "to straddle",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "随筆",
+"r": "ずいひつ",
+"m": "essays; miscellaneous writings",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "真似る",
+"r": "まねる",
+"m": "to mimic; to imitate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "だます",
+"r": "だます",
+"m": "to trick; to cheat; to deceive",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "同格",
+"r": "どうかく",
+"m": "the same rank; equality; apposition",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "坊っちゃん",
+"r": "ぼっちゃん",
+"m": "son (of others)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "青白い",
+"r": "あおじろい",
+"m": "pale; pallid",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "仕上がる",
+"r": "しあがる",
+"m": "to be finished",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "単数",
+"r": "たんすう",
+"m": "singular (number)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "引算",
+"r": "ひきざん",
+"m": "subtraction",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "道順",
+"r": "みちじゅん",
+"m": "itinerary; route",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "羨む",
+"r": "うらやむ",
+"m": "to envy",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "肌着",
+"r": "はだぎ",
+"m": "underwear",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "応接",
+"r": "おうせつ",
+"m": "reception",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "散らかす",
+"r": "ちらかす",
+"m": "to scatter around; to leave untidy",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "朗らか",
+"r": "ほがらか",
+"m": "brightness; cheerfulness; melodious",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "物差し",
+"r": "ものさし",
+"m": "ruler; measure",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "凍える",
+"r": "こごえる",
+"m": "to freeze; to be chilled; to be frozen",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "針路",
+"r": "しんろ",
+"m": "course; direction; compass bearing",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "捕る",
+"r": "とる",
+"m": "to take; to catch (fish); to capture",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "日の入り",
+"r": "ひのいり",
+"m": "sunset",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "論ずる",
+"r": "ろんずる",
+"m": "to argue; to discuss; to debate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "オートメーション",
+"r": "オートメーション",
+"m": "automation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ちぎる",
+"r": "ちぎる",
+"m": "to cut up fine; to pick (fruit)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "のこぎり",
+"r": "のこぎり",
+"m": "saw",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "雨戸",
+"r": "あまど",
+"m": "sliding storm door",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "図表",
+"r": "ずひょう",
+"m": "chart; diagram; graph",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "回り道",
+"r": "まわりみち",
+"m": "detour",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "厚かましい",
+"r": "あつかましい",
+"m": "impudent; shameless; brazen",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "インキ",
+"r": "インキ",
+"m": "ink",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "耕す",
+"r": "たがやす",
+"m": "to till; to plow; to cultivate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "俄",
+"r": "にわか",
+"m": "sudden; abrupt; unexpected; improvised; offhand",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "引受る",
+"r": "ひきうける",
+"m": "to undertake; to take up; to take over",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "彫る",
+"r": "ほる",
+"m": "to carve; to engrave; to sculpture; to chisel",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "和英",
+"r": "わえい",
+"m": "Japanese-English",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "砕ける",
+"r": "くだける",
+"m": "to break; to be broken",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "速力",
+"r": "そくりょく",
+"m": "speed",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "発つ",
+"r": "たつ",
+"m": "to depart (on a plane, train, etc.)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "つまずく",
+"r": "つまずく",
+"m": "to stumble; to trip",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "副詞",
+"r": "ふくし",
+"m": "adverb",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "売り切れる",
+"r": "うりきれる",
+"m": "to be sold out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "騒々しい",
+"r": "そうぞうしい",
+"m": "noisy; boisterous",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "出迎える",
+"r": "でむかえる",
+"m": "to meet; to greet",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "話合い",
+"r": "はなしあい",
+"m": "discussion; conference",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "呼び掛ける",
+"r": "よびかける",
+"m": "to call out to; to accost; to address (crowd); to appeal",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "おせわになりました",
+"r": "おせわになりました",
+"m": "I've been in your care",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "小数",
+"r": "しょうすう",
+"m": "fraction (part of); decimal",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "清書",
+"r": "せいしょ",
+"m": "clean copy",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "長短",
+"r": "ちょうたん",
+"m": "length; long and short; +-",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "写生",
+"r": "しゃせい",
+"m": "sketching; drawing from nature",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "鉄橋",
+"r": "てっきょう",
+"m": "railway bridge; iron bridge",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "捕える",
+"r": "とらえる",
+"m": "to seize; to grasp; to capture; to arrest",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "分る",
+"r": "わかる",
+"m": "to be understood",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "御中",
+"r": "おんちゅう",
+"m": "and Company; Messrs.",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "焦げる",
+"r": "こげる",
+"m": "to burn; to be burned",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "釣り合う",
+"r": "つりあう",
+"m": "to balance; to be in harmony; to suit",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "点々",
+"r": "てんてん",
+"m": "here and there; little by little",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "御馳走",
+"r": "ごちそう",
+"m": "feast; treating (someone)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "塩辛い",
+"r": "しおからい",
+"m": "salty (taste)",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "述語",
+"r": "じゅつご",
+"m": "predicate",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "便箋",
+"r": "びんせん",
+"m": "writing paper; stationery",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "休講",
+"r": "きゅうこう",
+"m": "lecture cancelled",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "焦がす",
+"r": "こがす",
+"m": "to burn; to scorch; to singe; to char",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "挟まる",
+"r": "はさまる",
+"m": "to get between; to be caught in",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "轢く",
+"r": "ひく",
+"m": "to run somebody over (with vehicle); to knock someone down",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "纏める",
+"r": "まとめる",
+"m": "to put in order; to collect; to bring to a conclusion",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "詫びる",
+"r": "わびる",
+"m": "to apologize",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "生け花",
+"r": "いけばな",
+"m": "(1) flower arrangement",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "清い",
+"r": "きよい",
+"m": "clear; pure; noble",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "差し引き",
+"r": "さしひき",
+"m": "deduction; subtraction; balance; ebb and flow; rise and fall",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "驚かす",
+"r": "おどろかす",
+"m": "to surprise; to frighten; to create a stir",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "規準",
+"r": "きじゅん",
+"m": "standard; basis; criteria; norm",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "床の間",
+"r": "とこのま",
+"m": "alcove",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "憎らしい",
+"r": "にくらしい",
+"m": "odious; hateful",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "寝間着",
+"r": "ねまき",
+"m": "sleep-wear; nightclothes; pyjamas; nightgown; nightdress",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "隔てる",
+"r": "へだてる",
+"m": "to be shut out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "追い越す",
+"r": "おいこす",
+"m": "to pass (e.g. car); to outdistance; to outstrip",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "客間",
+"r": "きゃくま",
+"m": "parlor; guest room",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "のろのろ",
+"r": "のろのろ",
+"m": "slowly; sluggishly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "引っ込む",
+"r": "ひっこむ",
+"m": "to draw back; to sink; to cave in",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "うなずく",
+"r": "うなずく",
+"m": "to nod; to bow one's head in assent",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "退ける",
+"r": "どける",
+"m": "to remove; to take away; to dislodge; to put something out of the way",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "しゃっくり",
+"r": "しゃっくり",
+"m": "hiccough; hiccup",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ぴかぴか",
+"r": "ぴかぴか",
+"m": "glitter; sparkle",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "下線",
+"r": "かせん",
+"m": "underline; underscore",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しゃがむ",
+"r": "しゃがむ",
+"m": "to squat",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "狡い",
+"r": "ずるい",
+"m": "sly; cunning",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "匂う",
+"r": "におう",
+"m": "to be fragrant; to smell; to stink",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "濁る",
+"r": "にごる",
+"m": "to become muddy; to get impure",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "睨む",
+"r": "にらむ",
+"m": "to glare at; to scowl at; to keep an eye on",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "牧畜",
+"r": "ぼくちく",
+"m": "stock-farming",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "軟らかい",
+"r": "やわらかい",
+"m": "soft; tender; limp",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "あわてる",
+"r": "あわてる",
+"m": "to become confused",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "漢和",
+"r": "かんわ",
+"m": "Chinese Character-Japanese (e.g. dictionary)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "逸れる",
+"r": "それる",
+"m": "to stray (turn) from subject; to get lost; to go astray",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "引き止める",
+"r": "ひきとめる",
+"m": "to detain; to check; to restrain",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "見付ける",
+"r": "みつける",
+"m": "to be familiar; to discover; to detect",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "薄める",
+"r": "うすめる",
+"m": "to dilute; to water down",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "貸家",
+"r": "かしや",
+"m": "house for rent",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "こらえる",
+"r": "こらえる",
+"m": "to bear; to stand; to endure; to put up with",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "裏返す",
+"r": "うらがえす",
+"m": "to turn inside out; to turn (something) over",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "洋品店",
+"r": "ようひんてん",
+"m": "shop which handles Western-style apparel and accessories",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "余所",
+"r": "よそ",
+"m": "another place; somewhere else; strange parts",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "手拭い",
+"r": "てぬぐい",
+"m": "(hand) towel",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ひとりでに",
+"r": "ひとりでに",
+"m": "by itself; automatically; naturally",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "膨らます",
+"r": "ふくらます",
+"m": "to swell; to expand; to inflate; to bulge",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "飢える",
+"r": "うえる",
+"m": "to starve",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "瓶詰",
+"r": "びんづめ",
+"m": "bottling; bottled",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "近付ける",
+"r": "ちかづける",
+"m": "to bring near; to put close; to let come near; to associate with",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "捩る",
+"r": "ねじる",
+"m": "to twist",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "捻る",
+"r": "ひねる",
+"m": "to turn (a switch) on or off; to twist; to puzzle over",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "祭る",
+"r": "まつる",
+"m": "to deify; to enshrine",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "耕地",
+"r": "こうち",
+"m": "arable land",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "茂る",
+"r": "しげる",
+"m": "to grow thick; to luxuriate; to be luxurious",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ほどく",
+"r": "ほどく",
+"m": "to unfasten",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "飽くまで",
+"r": "あくまで",
+"m": "to the end; to the last; stubbornly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "ゆでる",
+"r": "ゆでる",
+"m": "to boil",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "錆びる",
+"r": "さびる",
+"m": "to rust; to become rusty",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "船便",
+"r": "ふなびん",
+"m": "surface mail (ship)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "見舞う",
+"r": "みまう",
+"m": "to ask after (health); to visit",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "順々",
+"r": "じゅんじゅん",
+"m": "in order; in turn",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "なぐる",
+"r": "なぐる",
+"m": "to strike; to hit",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "話し掛ける",
+"r": "はなしかける",
+"m": "to accost a person; to talk (to someone)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "かわいがる",
+"r": "かわいがる",
+"m": "to love; to be affectionate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "仮名遣い",
+"r": "かなづかい",
+"m": "kana orthography; syllabary spelling",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "しぼむ",
+"r": "しぼむ",
+"m": "to wither; to fade (away); to shrivel; to wilt",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "突き当たる",
+"r": "つきあたる",
+"m": "to run into; to collide with",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "応ずる",
+"r": "おうずる",
+"m": "to answer; to respond; to meet; to satisfy; to accept",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "感ずる",
+"r": "かんずる",
+"m": "to feel; to sense",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "倣う",
+"r": "ならう",
+"m": "to imitate; to follow; to emulate",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "張り切る",
+"r": "はりきる",
+"m": "to be in high spirits; to be full of vigor",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "威張る",
+"r": "いばる",
+"m": "to be proud; to swagger",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "そそっかしい",
+"r": "そそっかしい",
+"m": "careless; thoughtless",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "算盤",
+"r": "そろばん",
+"m": "abacus",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "突き当たり",
+"r": "つきあたり",
+"m": "end (e.g. of street)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "引分け",
+"r": "ひきわけ",
+"m": "a draw (in competition); tie game",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ずうずうしい",
+"r": "ずうずうしい",
+"m": "impudent; shameless",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "腰掛ける",
+"r": "こしかける",
+"m": "to sit (down)",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "静まる",
+"r": "しずまる",
+"m": "to quieten down; to calm down; to subside",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "湯飲み",
+"r": "ゆのみ",
+"m": "teacup",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "店屋",
+"r": "みせや",
+"m": "store; shop",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "心得る",
+"r": "こころえる",
+"m": "to be informed; to have thorough knowledge",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "庖丁",
+"r": "ほうちょう",
+"m": "kitchen knife; carving knife",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "紙屑",
+"r": "かみくず",
+"m": "wastepaper",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "締め切る",
+"r": "しめきる",
+"m": "to shut up",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "くるむ",
+"r": "くるむ",
+"m": "to be engulfed in; to be enveloped by; to wrap up",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "塞がる",
+"r": "ふさがる",
+"m": "to be plugged up; to be shut up",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "見付かる",
+"r": "みつかる",
+"m": "to be found; to be discovered",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "御辞儀",
+"r": "おじぎ",
+"m": "bow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "払い戻す",
+"r": "はらいもどす",
+"m": "to repay; to pay back",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "待ち合わせる",
+"r": "まちあわせる",
+"m": "to rendezvous; to meet at a prearranged place and time",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "あわただしい",
+"r": "あわただしい",
+"m": "busy; hurried; confused; flurried",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "追い掛ける",
+"r": "おいかける",
+"m": "to chase or run after someone; to run down; to pursue",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "瀬戸物",
+"r": "せともの",
+"m": "earthenware; crockery; china",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "乗り越し",
+"r": "のりこし",
+"m": "riding past (one's station)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "まごまご",
+"r": "まごまご",
+"m": "confused",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "編物",
+"r": "あみもの",
+"m": "knitting; web",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "塵芥",
+"r": "ごみ",
+"m": "trash; rubbish",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "照る",
+"r": "てる",
+"m": "to shine",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "散らかる",
+"r": "ちらかる",
+"m": "to be in disorder; to lie scattered around",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "果して",
+"r": "はたして",
+"m": "as was expected; really",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "すれちがう",
+"r": "すれちがう",
+"m": "to pass by one another; to disagree",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "放る",
+"r": "ほうる",
+"m": "to let go",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "銘々",
+"r": "めいめい",
+"m": "each; individual",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "あてはめる",
+"r": "あてはめる",
+"m": "to apply; to adapt",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "浸ける",
+"r": "つける",
+"m": "to dip in; to soak",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "更ける",
+"r": "ふける",
+"m": "to get late; to advance; to wear on",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "どなる",
+"r": "どなる",
+"m": "to shout; to yell",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "見慣れる",
+"r": "みなれる",
+"m": "to become used to seeing; to be familiar with",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "尖る",
+"r": "とがる",
+"m": "to taper to a point; to become sharp; to be sour; to look displeased",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "小母さん",
+"r": "おばさん",
+"m": "lady; woman; ma'am",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "人差指",
+"r": "ひとさしゆび",
+"m": "index finger",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "纏まる",
+"r": "まとまる",
+"m": "to be collected; to be settled; to be in order",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "承る",
+"r": "うけたまわる",
+"m": "(hum) to hear; to be told; to know",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "寝巻",
+"r": "ねまき",
+"m": "sleep-wear; nightclothes; pyjamas; nightgown; nightdress",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "はきはき",
+"r": "はきはき",
+"m": "lucidly",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "見詰める",
+"r": "みつめる",
+"m": "to stare at; to gaze at; to look hard at; to watch intently; to fix one's eyes on",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "寒帯",
+"r": "かんたい",
+"m": "frigid zone",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ばからしい",
+"r": "ばからしい",
+"m": "absurd",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "四つ角",
+"r": "よつかど",
+"m": "four corners; crossroads",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "吊す",
+"r": "つるす",
+"m": "to hang",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "浮ぶ",
+"r": "うかぶ",
+"m": "to float; to rise to surface; to come to mind",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "大凡",
+"r": "おおよそ",
+"m": "about; roughly; as a rule; approximately",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "あぶる",
+"r": "あぶる",
+"m": "to scorch",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "形容動詞",
+"r": "けいようどうし",
+"m": "adjectival noun; quasi-adjective",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "目覚し",
+"r": "めざまし",
+"m": "(abbr) alarm-clock",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "御無沙汰",
+"r": "ごぶさた",
+"m": "not writing or contacting for a while",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ダイヤグラム",
+"r": "ダイヤグラム",
+"m": "diagram",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "涼む",
+"r": "すずむ",
+"m": "to cool oneself; to cool off; to enjoy evening cool",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "扇ぐ",
+"r": "あおぐ",
+"m": "to fan; to flap",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "おどかす",
+"r": "おどかす",
+"m": "to threaten; to coerce",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "薬缶",
+"r": "やかん",
+"m": "kettle",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "煙い",
+"r": "けむい",
+"m": "smoky",
+"c": "iadj",
+"lv": 3
+},
+{
+"w": "わりあいに",
+"r": "わりあいに",
+"m": "comparatively",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "引っ繰り返る",
+"r": "ひっくりかえる",
+"m": "to be overturned; to be upset; to topple over; to be reversed",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "こしらえる",
+"r": "こしらえる",
+"m": "to make; to manufacture",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "引出す",
+"r": "ひきだす",
+"m": "to pull out; to take out; to draw out; to withdraw",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "おさきに",
+"r": "おさきに",
+"m": "before; ahead; previously",
+"c": "adv",
+"lv": 3
+},
+{
+"w": "レクリェーション",
+"r": "レクリェーション",
+"m": "recreation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "明い",
+"r": "あかるい",
+"m": "bright; cheerful",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "明き",
+"r": "あき",
+"m": "room; time to spare; emptiness",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ウエートレス",
+"r": "ウエートレス",
+"m": "waitress",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "おおざっぱ",
+"r": "おおざっぱ",
+"m": "rough (not precise); broad; sketchy",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "片寄る",
+"r": "かたよる",
+"m": "to be one-sided; to incline; to be partial",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "しあさって",
+"r": "しあさって",
+"m": "two days after tomorrow",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "くたびれる",
+"r": "くたびれる",
+"m": "to get tired; to wear out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "煎る",
+"r": "いる",
+"m": "to parch; to fry",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "逆様",
+"r": "さかさま",
+"m": "inversion; upside down",
+"c": "naadj",
+"lv": 3
+},
+{
+"w": "売行き",
+"r": "うれゆき",
+"m": "sales",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "掏摸",
+"r": "すり",
+"m": "pickpocket",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "ぶらさげる",
+"r": "ぶらさげる",
+"m": "to hang; to suspend; to dangle; to swing",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "タイア",
+"r": "タイア",
+"m": "tire; tyre",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "払い込む",
+"r": "はらいこむ",
+"m": "to deposit; to pay in",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "殖える",
+"r": "ふえる",
+"m": "to increase; to multiply",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "割算",
+"r": "わりざん",
+"m": "division (math)",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "言い付ける",
+"r": "いいつける",
+"m": "to tell; to tell on (someone); to order",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "書取",
+"r": "かきとり",
+"m": "dictation",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "言付ける",
+"r": "ことづける",
+"m": "to send word; to send a message",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "さきおととい",
+"r": "さきおととい",
+"m": "two days before yesterday",
+"c": "noun",
+"lv": 3
+},
+{
+"w": "存じる",
+"r": "ぞんじる",
+"m": "(hum) to know",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "縮れる",
+"r": "ちぢれる",
+"m": "to be wavy; to be curled",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "通り掛かる",
+"r": "とおりかかる",
+"m": "to happen to pass by",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "引返す",
+"r": "ひきかえす",
+"m": "to repeat; to send back; to bring back",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "引っ繰り返す",
+"r": "ひっくりかえす",
+"m": "to turn over; to overturn; to knock over; to upset; to turn inside out",
+"c": "verb",
+"lv": 3
+},
+{
+"w": "ひゃっかじてん",
+"r": "ひゃっかじてん",
+"m": "encyclopedia",
+"c": "noun",
+"lv": 3
+}
+]

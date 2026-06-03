@@ -1,0 +1,132 @@
+[
+  {
+    "w": "一通り", "r": "ひととおり", "m": "(briefly) once through; in general; the whole", "c": "naadj", "lv": 1,
+    "ex": [{"jp": "説明書を一通り読んでから、組み立て始めた。", "en": "After reading through the manual once, I started assembling it."}],
+    "qs": [
+      {"t": "fitb", "s": "資料には＿＿＿＿目を通しておいてください。",
+       "en": "Please look through the materials once beforehand.",
+       "o": ["一通り", "すっかり", "めったに", "わざわざ"], "a": 0,
+       "e": "一通り目を通す = to give something a once-over. すっかり = completely, めったに = rarely (＋neg.), わざわざ = taking the trouble to."},
+      {"t": "meaning", "s": "「一通り」の意味は？",
+       "o": ["once through; in general; briefly", "completely; entirely", "rarely; seldom", "on purpose; taking the trouble"], "a": 0,
+       "e": "一通り = going over the whole of something once, in a general way."}
+    ]
+  },
+  {
+    "w": "割と", "r": "わりと", "m": "relatively; comparatively; fairly", "c": "adv", "lv": 1,
+    "ex": [{"jp": "この店は週末でも割と空いている。", "en": "This shop is relatively empty even on weekends."}],
+    "qs": [
+      {"t": "fitb", "s": "難しそうに見えたが、試験は＿＿＿＿簡単だった。",
+       "en": "It looked difficult, but the exam was relatively easy.",
+       "o": ["割と", "決して", "まるで", "少しも"], "a": 0,
+       "e": "割と = relatively / more than expected. 決して, まるで and 少しも all require a negative ending, so they can't fit 簡単だった."},
+      {"t": "meaning", "s": "「割と」の意味は？",
+       "o": ["relatively; comparatively; fairly", "never (with a negative)", "just like; as if", "(not) in the least"], "a": 0,
+       "e": "割と = to a fair degree, more than you would expect."}
+    ]
+  },
+  {
+    "w": "勝手に", "r": "かってに", "m": "without permission; arbitrarily; as one pleases", "c": "adv", "lv": 1,
+    "ex": [{"jp": "彼は勝手に予定を決めて、みんなを困らせた。", "en": "He decided the schedule on his own and troubled everyone."}],
+    "qs": [
+      {"t": "fitb", "s": "人の物を＿＿＿＿使ってはいけない。",
+       "en": "You mustn't use other people's things without permission.",
+       "o": ["勝手に", "確かに", "互いに", "徐々に"], "a": 0,
+       "e": "勝手に = without permission / as one pleases. 確かに = certainly, 互いに = mutually, 徐々に = gradually."},
+      {"t": "meaning", "s": "「勝手に」の意味は？",
+       "o": ["without permission; as one pleases", "certainly; surely", "mutually; each other", "gradually; little by little"], "a": 0,
+       "e": "勝手に = acting on one's own, without asking or considering others."}
+    ]
+  },
+  {
+    "w": "指定", "r": "してい", "m": "designation; specification; assignment", "c": "noun", "lv": 1,
+    "ex": [{"jp": "待ち合わせの場所を指定してください。", "en": "Please specify a place to meet."}],
+    "qs": [
+      {"t": "fitb", "s": "新幹線のチケットには座席が＿＿＿＿されている。",
+       "en": "The seat is assigned on the bullet-train ticket.",
+       "o": ["指定", "指示", "指摘", "指導"], "a": 0,
+       "e": "座席を指定する = to assign/reserve a specific seat (指定席 = reserved seat). 指示 = instruction, 指摘 = pointing out, 指導 = guidance."},
+      {"t": "meaning", "s": "「指定」の意味は？",
+       "o": ["designation; specifying a particular one", "instruction; directions", "pointing out (a fact)", "guidance; coaching"], "a": 0,
+       "e": "指定 = singling out a specific thing, place, or time as the designated one."}
+    ]
+  },
+  {
+    "w": "別々", "r": "べつべつ", "m": "separately; individually", "c": "naadj", "lv": 1,
+    "ex": [{"jp": "兄弟は別々の学校に通っている。", "en": "The brothers go to separate schools."}],
+    "qs": [
+      {"t": "fitb", "s": "会計は一緒ではなく、＿＿＿＿でお願いします。",
+       "en": "We'd like to pay separately, not together.",
+       "o": ["別々", "一斉", "順番", "同時"], "a": 0,
+       "e": "別々 = separately / individually (the opposite of 一緒). 一斉 = all at once, 順番 = in turns, 同時 = at the same time."},
+      {"t": "meaning", "s": "「別々」の意味は？",
+       "o": ["separately; individually", "all at once; simultaneously", "in order; by turns", "at the same time"], "a": 0,
+       "e": "別々 = each thing apart from the others, not together."}
+    ]
+  },
+  {
+    "w": "特定", "r": "とくてい", "m": "specific; particular; identifying", "c": "naadj", "lv": 1,
+    "ex": [{"jp": "事故の原因はまだ特定されていない。", "en": "The cause of the accident has not yet been identified."}],
+    "qs": [
+      {"t": "fitb", "s": "この薬は＿＿＿＿の病気にしか効かない。",
+       "en": "This medicine only works on specific illnesses.",
+       "o": ["特定", "一般", "共通", "多数"], "a": 0,
+       "e": "特定の = specific / particular (the opposite of 一般 'general'). 共通 = shared, 多数 = a large number."},
+      {"t": "meaning", "s": "「特定」の意味は？",
+       "o": ["specific; particular", "general; ordinary", "common; shared", "large number; majority"], "a": 0,
+       "e": "特定 = pinpointing one particular thing rather than things in general."}
+    ]
+  },
+  {
+    "w": "編集", "r": "へんしゅう", "m": "editing; compilation", "c": "noun", "lv": 1,
+    "ex": [{"jp": "彼女は出版社で編集の仕事をしている。", "en": "She works in editing at a publishing company."}],
+    "qs": [
+      {"t": "fitb", "s": "この動画は不要な部分を切って＿＿＿＿した。",
+       "en": "This video was edited by cutting out the unnecessary parts.",
+       "o": ["編集", "録画", "再生", "保存"], "a": 0,
+       "e": "編集 = editing (cutting and arranging footage or text). 録画 = recording, 再生 = playback, 保存 = saving."},
+      {"t": "meaning", "s": "「編集」の意味は？",
+       "o": ["editing; compiling", "recording (video)", "playback; replay", "saving; storing"], "a": 0,
+       "e": "編集 = arranging and trimming material (text, audio, video) into a finished form."}
+    ]
+  },
+  {
+    "w": "応援", "r": "おうえん", "m": "support; cheering; backing", "c": "noun", "lv": 1,
+    "ex": [{"jp": "友達の試合を応援しに行った。", "en": "I went to cheer on my friend's match."}],
+    "qs": [
+      {"t": "fitb", "s": "スタンドのファンが選手を大声で＿＿＿＿した。",
+       "en": "The fans in the stands cheered the players loudly.",
+       "o": ["応援", "応募", "応対", "反応"], "a": 0,
+       "e": "応援する = to cheer on / support. 応募 = applying (for a job/contest), 応対 = dealing with a customer, 反応 = reaction."},
+      {"t": "meaning", "s": "「応援」の意味は？",
+       "o": ["support; cheering on", "applying (for a job/contest)", "dealing with a customer", "reaction; response"], "a": 0,
+       "e": "応援 = backing someone with encouragement, cheers, or help."}
+    ]
+  },
+  {
+    "w": "活躍", "r": "かつやく", "m": "playing an active (and successful) role", "c": "noun", "lv": 1,
+    "ex": [{"jp": "彼は若手として各分野で活躍している。", "en": "As a young talent, he is active across various fields."}],
+    "qs": [
+      {"t": "fitb", "s": "新人選手がチームで大いに＿＿＿＿している。",
+       "en": "The rookie player is playing a very active role on the team.",
+       "o": ["活躍", "出場", "引退", "練習"], "a": 0,
+       "e": "活躍する = to play an active, prominent, successful role. 出場 = appearing/competing, 引退 = retiring, 練習 = practising."},
+      {"t": "meaning", "s": "「活躍」の意味は？",
+       "o": ["playing an active, prominent role", "appearing (in a game/event)", "retirement (from a career)", "practice; training"], "a": 0,
+       "e": "活躍 = being energetically active and standing out with success."}
+    ]
+  },
+  {
+    "w": "複数", "r": "ふくすう", "m": "plural; multiple; more than one", "c": "noun", "lv": 1,
+    "ex": [{"jp": "複数の専門家に意見を聞いた。", "en": "I asked several experts for their opinions."}],
+    "qs": [
+      {"t": "fitb", "s": "この問題には＿＿＿＿の答えが考えられる。",
+       "en": "Multiple answers can be considered for this problem.",
+       "o": ["複数", "単数", "多少", "大量"], "a": 0,
+       "e": "複数 = plural / more than one (the opposite of 単数 'singular'). 多少 = more or less, 大量 = a large quantity."},
+      {"t": "meaning", "s": "「複数」の意味は？",
+       "o": ["plural; more than one", "singular; just one", "more or less; somewhat", "a large quantity; mass"], "a": 0,
+       "e": "複数 = two or more; several, as opposed to a single one."}
+    ]
+  }
+]

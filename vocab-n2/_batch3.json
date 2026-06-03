@@ -1,0 +1,502 @@
+[
+  {
+    "w": "制作",
+    "r": "せいさく",
+    "m": "production; creation (of a creative work)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "有名な監督が新作映画の制作を発表した。", "en": "A famous director announced the production of a new film."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "彼女は長年、映画の＿＿＿＿に携わってきた。",
+        "en": "She has been involved in film production for many years.",
+        "o": ["制作", "制度", "設定", "製造"],
+        "a": 0,
+        "e": "制作 = producing creative works (films, TV, art). 製造 = manufacturing physical goods. 制度 = system/institution. 設定 = settings/configuration."
+      },
+      {
+        "t": "meaning",
+        "s": "「制作」の意味は？",
+        "o": ["production; creation of a creative work", "manufacturing goods", "system; institution", "settings; configuration"],
+        "a": 0,
+        "e": "制作 refers to making creative or artistic works (映画制作 = film production, 番組制作 = TV program production). 製造 is for manufactured goods."
+      }
+    ]
+  },
+  {
+    "w": "解説",
+    "r": "かいせつ",
+    "m": "explanation; commentary; analysis",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "専門家がニュースをわかりやすく解説した。", "en": "An expert explained the news in an easy-to-understand way."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "試合後、監督が戦術を詳しく＿＿＿＿してくれた。",
+        "en": "After the match, the coach explained the tactics in detail.",
+        "o": ["解説", "解決", "発表", "報告"],
+        "a": 0,
+        "e": "解説する = to explain or commentate in detail. 解決 = resolution (solving a problem). 発表 = announcement. 報告 = report."
+      },
+      {
+        "t": "meaning",
+        "s": "「解説」の意味は？",
+        "o": ["explanation; commentary; analysis", "resolution; solving a problem", "announcement; presentation", "report"],
+        "a": 0,
+        "e": "解説 = breaking something down and explaining it clearly (often expert commentary on news, sports, or technical topics). 解決 = solving/resolving."
+      }
+    ]
+  },
+  {
+    "w": "募集",
+    "r": "ぼしゅう",
+    "m": "recruitment; call for applicants or entries",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "会社では今、新入社員を募集しています。", "en": "The company is currently recruiting new employees."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "アルバイトを＿＿＿＿するポスターが貼ってあった。",
+        "en": "There was a poster recruiting part-time workers.",
+        "o": ["募集", "採用", "応募", "求職"],
+        "a": 0,
+        "e": "募集する = to solicit or recruit (the organization's action). 採用 = to hire/select. 応募 = to apply (the applicant's action). 求職 = job-seeking."
+      },
+      {
+        "t": "meaning",
+        "s": "「募集」の意味は？",
+        "o": ["recruitment; call for applicants", "hiring; selection of candidates", "applying for a position", "job-seeking"],
+        "a": 0,
+        "e": "募集 is the act of calling for applicants, entries, or participants. 応募 is the applicant's act of responding to that call — they are opposite sides of the same process."
+      }
+    ]
+  },
+  {
+    "w": "基準",
+    "r": "きじゅん",
+    "m": "standard; criterion; benchmark",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この製品は安全基準を満たしていない。", "en": "This product does not meet safety standards."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "評価の＿＿＿＿が不明確だと、公平な審査ができない。",
+        "en": "If the evaluation criteria are unclear, a fair assessment cannot be made.",
+        "o": ["基準", "規則", "基礎", "条件"],
+        "a": 0,
+        "e": "基準 = standard or criterion used to judge or measure. 規則 = rule/regulation. 基礎 = foundation/basics. 条件 = condition/requirement."
+      },
+      {
+        "t": "meaning",
+        "s": "「基準」の意味は？",
+        "o": ["standard; criterion; benchmark", "rule; regulation", "foundation; basics", "condition; requirement"],
+        "a": 0,
+        "e": "基準 is the yardstick used to judge something (合格基準 = passing criteria, 安全基準 = safety standard). It implies a reference point, not just a rule."
+      }
+    ]
+  },
+  {
+    "w": "自ら",
+    "r": "みずから",
+    "m": "oneself; personally; by oneself",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "社長が自ら出向いて謝罪した。", "en": "The president went in person to apologize."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "問題が起きたとき、リーダーは＿＿＿＿動いて解決した。",
+        "en": "When a problem arose, the leader personally stepped in to resolve it.",
+        "o": ["自ら", "互いに", "改めて", "ひとりでに"],
+        "a": 0,
+        "e": "自ら = by/for oneself, in person (emphasizes personal direct action). 互いに = mutually, with each other. 改めて = once again, formally. ひとりでに = by itself, spontaneously (without anyone's involvement)."
+      },
+      {
+        "t": "meaning",
+        "s": "「自ら」の意味は？",
+        "o": ["oneself; in person; personally", "mutually; with each other", "once again; anew; formally", "by itself; spontaneously"],
+        "a": 0,
+        "e": "自ら emphasizes that the subject takes direct personal action themselves — often despite being in a position where they could delegate. Not the same as ひとりでに (which means with no person involved at all)."
+      }
+    ]
+  },
+  {
+    "w": "構造",
+    "r": "こうぞう",
+    "m": "structure; framework; how something is built",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この建物の構造はとても複雑だ。", "en": "The structure of this building is very complex."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "社会の＿＿＿＿が変わり、家族のあり方も多様になった。",
+        "en": "As the structure of society has changed, the way families live has also become more diverse.",
+        "o": ["構造", "構成", "制度", "組織"],
+        "a": 0,
+        "e": "構造 = overall framework or structure. 構成 = composition, how parts are arranged together. 制度 = institution/system (rules-based). 組織 = organization (a body of people)."
+      },
+      {
+        "t": "meaning",
+        "s": "「構造」の意味は？",
+        "o": ["structure; framework; how something is built", "composition; arrangement of parts", "institution; rules-based system", "organization; a body of people"],
+        "a": 0,
+        "e": "構造 refers to the internal arrangement that makes something what it is — used for buildings (建物の構造), sentences (文の構造), societies (社会構造), etc."
+      }
+    ]
+  },
+  {
+    "w": "停止",
+    "r": "ていし",
+    "m": "suspension; stoppage; halt",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "システムのエラーにより、サービスが一時停止した。", "en": "Due to a system error, the service was temporarily suspended."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "工事のため、この道路は通行が＿＿＿＿されています。",
+        "en": "Due to construction, traffic on this road has been stopped.",
+        "o": ["停止", "禁止", "中断", "廃止"],
+        "a": 0,
+        "e": "停止 = to halt or stop (temporarily or fully). 禁止 = prohibition (not allowed). 中断 = interruption (a pause mid-way through). 廃止 = abolition (permanent discontinuation of a system or rule)."
+      },
+      {
+        "t": "meaning",
+        "s": "「停止」の意味は？",
+        "o": ["suspension; stoppage; halt", "prohibition; ban", "interruption; pause mid-way", "abolition; permanent discontinuation"],
+        "a": 0,
+        "e": "停止 = bringing movement or operation to a stop (車が停止する = the car stops, 業務停止 = suspension of operations). Can be temporary or permanent."
+      }
+    ]
+  },
+  {
+    "w": "各々",
+    "r": "おのおの",
+    "m": "each (one); every one; respectively",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "参加者は各々、異なる意見を述べた。", "en": "Each of the participants stated different opinions."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "チームのメンバーが＿＿＿＿の担当部分を仕上げた。",
+        "en": "Each team member finished their own assigned section.",
+        "o": ["各々", "たがいに", "いっせいに", "ひとりでに"],
+        "a": 0,
+        "e": "各々 = each one individually. たがいに = mutually, to/with each other. いっせいに = all at once, simultaneously. ひとりでに = by itself, spontaneously."
+      },
+      {
+        "t": "meaning",
+        "s": "「各々」の意味は？",
+        "o": ["each; every one; respectively", "mutually; to each other", "all at once; simultaneously", "by itself; spontaneously"],
+        "a": 0,
+        "e": "各々 (おのおの) is slightly more formal than それぞれ but means the same: each individual one, separately. Often used in formal or written contexts."
+      }
+    ]
+  },
+  {
+    "w": "周辺",
+    "r": "しゅうへん",
+    "m": "surrounding area; periphery; neighborhood",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "駅の周辺には多くのカフェがある。", "en": "There are many cafes in the area around the station."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "工場の＿＿＿＿に住む人々から騒音の苦情が相次いだ。",
+        "en": "Noise complaints came one after another from people living in the area around the factory.",
+        "o": ["周辺", "付近", "郊外", "境界"],
+        "a": 0,
+        "e": "周辺 = surrounding zone or area (broader concept). 付近 = vicinity, near a specific point. 郊外 = suburbs/outskirts (further from city center). 境界 = boundary, border."
+      },
+      {
+        "t": "meaning",
+        "s": "「周辺」の意味は？",
+        "o": ["surrounding area; periphery", "vicinity; nearby spot", "suburbs; outskirts", "boundary; border"],
+        "a": 0,
+        "e": "周辺 describes the area surrounding something (駅周辺 = around the station, 東京周辺 = the greater Tokyo area). Broader than 付近."
+      }
+    ]
+  },
+  {
+    "w": "段階",
+    "r": "だんかい",
+    "m": "stage; phase; step in a process",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "プロジェクトは現在、計画の段階にある。", "en": "The project is currently at the planning stage."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "交渉はまだ初期の＿＿＿＿で、合意には至っていない。",
+        "en": "The negotiations are still in the early stage and have not reached an agreement.",
+        "o": ["段階", "過程", "手順", "状況"],
+        "a": 0,
+        "e": "段階 = a distinct level or phase in a progression. 過程 = ongoing process (continuous flow). 手順 = procedure, the steps to follow. 状況 = the current situation or conditions."
+      },
+      {
+        "t": "meaning",
+        "s": "「段階」の意味は？",
+        "o": ["stage; phase; step in a process", "process; ongoing progression", "procedure; steps to follow", "situation; current conditions"],
+        "a": 0,
+        "e": "段階 = a distinct step or level (初期段階 = early stage, 最終段階 = final stage). Implies discrete steps rather than a continuous flow."
+      }
+    ]
+  },
+  {
+    "w": "本来",
+    "r": "ほんらい",
+    "m": "originally; essentially; by nature; as it should be",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "本来、この薬は医師の処方が必要だ。", "en": "Properly speaking, this medicine requires a doctor's prescription."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "このルールは＿＿＿＿、利用者の安全を守るために作られたものだ。",
+        "en": "This rule was originally created to protect users' safety.",
+        "o": ["本来", "元々", "当初", "実際"],
+        "a": 0,
+        "e": "本来 = in its proper/original nature, as it ought to be (often implies a gap between the ideal and current reality). 元々 = originally, from the start. 当初 = at first, at the beginning. 実際 = actually, in practice."
+      },
+      {
+        "t": "meaning",
+        "s": "「本来」の意味は？",
+        "o": ["originally; essentially; as it should be", "from the start; originally", "at first; in the beginning", "actually; in practice"],
+        "a": 0,
+        "e": "本来 carries the nuance of 'as it was meant to be' or 'by its very nature,' often implying the current reality differs from the ideal (本来の目的 = the original purpose)."
+      }
+    ]
+  },
+  {
+    "w": "作成",
+    "r": "さくせい",
+    "m": "creation; drafting; drawing up (a document or plan)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "会議の資料を作成するのに二時間かかった。", "en": "It took two hours to prepare the materials for the meeting."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "申請書の＿＿＿＿には、正確な情報を記入してください。",
+        "en": "When drafting the application form, please fill in accurate information.",
+        "o": ["作成", "制作", "製造", "記入"],
+        "a": 0,
+        "e": "作成 = to create or draft documents, plans, spreadsheets. 制作 = to produce creative works (films, art). 製造 = to manufacture goods. 記入 = to fill in a form."
+      },
+      {
+        "t": "meaning",
+        "s": "「作成」の意味は？",
+        "o": ["creating; drafting a document or plan", "producing creative works (films, art)", "manufacturing goods", "filling in; writing into a form"],
+        "a": 0,
+        "e": "作成 is used for making documents, files, or plans (書類を作成する, レポートを作成する). 制作 is for artistic or media productions — the distinction maps roughly to 'drafting' vs 'producing.'"
+      }
+    ]
+  },
+  {
+    "w": "感想",
+    "r": "かんそう",
+    "m": "impressions; personal thoughts; feelings about something",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "映画を見た後、感想を日記に書いた。", "en": "After watching the film, I wrote my impressions in my diary."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "先生は読書の＿＿＿＿を全員に発表させた。",
+        "en": "The teacher had everyone present their impressions of the reading.",
+        "o": ["感想", "意見", "批評", "評価"],
+        "a": 0,
+        "e": "感想 = personal impressions or feelings about something experienced (subjective). 意見 = opinion/view (takes a position). 批評 = critical review. 評価 = evaluation/assessment (often with a score or judgment)."
+      },
+      {
+        "t": "meaning",
+        "s": "「感想」の意味は？",
+        "o": ["impressions; personal thoughts; feelings", "opinion; point of view", "critical review; critique", "evaluation; assessment"],
+        "a": 0,
+        "e": "感想 is subjective and personal — how something felt to you. 意見 is more reasoned and takes a stance. 感想文 = a personal response essay."
+      }
+    ]
+  },
+  {
+    "w": "強化",
+    "r": "きょうか",
+    "m": "strengthening; reinforcement; intensification",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "セキュリティを強化するために新しいシステムを導入した。", "en": "A new system was introduced to strengthen security."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "チームは来シーズンに向けて守備力の＿＿＿＿を図っている。",
+        "en": "The team is working to reinforce its defensive capability heading into next season.",
+        "o": ["強化", "改善", "向上", "発展"],
+        "a": 0,
+        "e": "強化 = making something stronger or more robust (active reinforcement). 改善 = improvement by fixing what's wrong. 向上 = gradual advancement. 発展 = development, expansion."
+      },
+      {
+        "t": "meaning",
+        "s": "「強化」の意味は？",
+        "o": ["strengthening; reinforcement", "improvement by fixing problems", "gradual advancement", "development; expansion"],
+        "a": 0,
+        "e": "強化 emphasizes actively making something stronger or more powerful (筋力強化 = strength training, 規制強化 = tightening regulations, セキュリティ強化 = boosting security)."
+      }
+    ]
+  },
+  {
+    "w": "深夜",
+    "r": "しんや",
+    "m": "late at night; the dead of night; midnight hours",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "深夜まで残業が続いた。", "en": "The overtime work continued until late at night."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "＿＿＿＿に大きな地震が起き、多くの人が眠れなかった。",
+        "en": "A large earthquake struck in the dead of night, leaving many people unable to sleep.",
+        "o": ["深夜", "早朝", "夕方", "夜明け"],
+        "a": 0,
+        "e": "深夜 = late night (roughly midnight to 3 AM). 早朝 = early morning (before or just after sunrise). 夕方 = early evening (around sunset). 夜明け = dawn, daybreak."
+      },
+      {
+        "t": "meaning",
+        "s": "「深夜」の意味は？",
+        "o": ["late at night; the dead of night", "early morning, just before sunrise", "early evening; dusk", "dawn; daybreak"],
+        "a": 0,
+        "e": "深夜 = the hours from around midnight to early morning. Common in 深夜番組 (late-night TV programs), 深夜バス (overnight bus)."
+      }
+    ]
+  },
+  {
+    "w": "年度",
+    "r": "ねんど",
+    "m": "fiscal year; academic year (Japan: April 1 – March 31)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "新年度が始まり、社内のシステムが更新された。", "en": "The new fiscal year started and the company's internal systems were updated."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "この予算は今＿＿＿＿中に使い切らなければならない。",
+        "en": "This budget must be spent within this fiscal year.",
+        "o": ["年度", "年間", "期間", "会計"],
+        "a": 0,
+        "e": "年度 = a defined administrative year (Japan: Apr 1–Mar 31). 年間 = throughout a year, annual (duration). 期間 = a period or span of time. 会計 = accounting, finances."
+      },
+      {
+        "t": "meaning",
+        "s": "「年度」の意味は？",
+        "o": ["fiscal/academic year (Apr–Mar in Japan)", "throughout a year; annual duration", "period; span of time", "accounting; finances"],
+        "a": 0,
+        "e": "年度 is the administrative unit of a year used for budgets, school grades, and fiscal reporting in Japan (今年度 = this fiscal year, 来年度 = next fiscal year)."
+      }
+    ]
+  },
+  {
+    "w": "資料",
+    "r": "しりょう",
+    "m": "materials; reference documents; data",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "発表のための資料を準備した。", "en": "I prepared reference materials for the presentation."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "この研究に必要な＿＿＿＿は図書館で集めることができる。",
+        "en": "The materials needed for this research can be gathered at the library.",
+        "o": ["資料", "情報", "証拠", "データ"],
+        "a": 0,
+        "e": "資料 = reference materials or documents (for study, research, or meetings). 情報 = information (broader). 証拠 = evidence (for proving something). データ = raw numerical or digital data."
+      },
+      {
+        "t": "meaning",
+        "s": "「資料」の意味は？",
+        "o": ["reference materials; documents", "information (in general)", "evidence; proof", "raw numerical or digital data"],
+        "a": 0,
+        "e": "資料 refers to collected documents or materials used as references (会議資料 = meeting handouts, 参考資料 = reference materials, 歴史資料 = historical documents)."
+      }
+    ]
+  },
+  {
+    "w": "職場",
+    "r": "しょくば",
+    "m": "workplace; place of work; professional environment",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "職場の雰囲気がよく、毎日仕事が楽しい。", "en": "The workplace atmosphere is good, and I enjoy work every day."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "＿＿＿＿でのハラスメントは、深刻な社会問題となっている。",
+        "en": "Harassment in the workplace has become a serious social issue.",
+        "o": ["職場", "現場", "業界", "部署"],
+        "a": 0,
+        "e": "職場 = the workplace as a social/professional environment. 現場 = the actual physical site or scene (construction site, crime scene, etc.). 業界 = industry/sector. 部署 = department or division within a company."
+      },
+      {
+        "t": "meaning",
+        "s": "「職場」の意味は？",
+        "o": ["workplace; professional work environment", "actual physical site; scene of work", "industry; sector", "department; division in a company"],
+        "a": 0,
+        "e": "職場 focuses on the human and social environment of a place of work (職場環境 = work environment, 職場復帰 = returning to work after leave)."
+      }
+    ]
+  },
+  {
+    "w": "調整",
+    "r": "ちょうせい",
+    "m": "adjustment; fine-tuning; coordination",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "予定の調整をするため、カレンダーを確認した。", "en": "I checked the calendar to coordinate the schedule."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "機械の動きがおかしいので、専門家に＿＿＿＿してもらった。",
+        "en": "Since the machine was behaving strangely, I had a specialist fine-tune it.",
+        "o": ["調整", "修理", "改良", "点検"],
+        "a": 0,
+        "e": "調整 = to calibrate or fine-tune (make it work as intended). 修理 = to repair (fix damage or a malfunction). 改良 = to improve (make better). 点検 = to inspect or check."
+      },
+      {
+        "t": "meaning",
+        "s": "「調整」の意味は？",
+        "o": ["adjustment; fine-tuning; coordination", "repair; fixing damage", "improvement; making something better", "inspection; checking"],
+        "a": 0,
+        "e": "調整 covers calibrating, tuning, or coordinating things (日程調整 = schedule coordination, 音量調整 = volume adjustment, 微調整 = fine adjustment)."
+      }
+    ]
+  },
+  {
+    "w": "宣伝",
+    "r": "せんでん",
+    "m": "advertising; publicity; promotion; propaganda",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "新商品の宣伝のために、テレビCMを放映した。", "en": "A TV commercial was broadcast to advertise the new product."}],
+    "qs": [
+      {
+        "t": "fitb",
+        "s": "口コミは最も効果的な＿＿＿＿の一つだと言われている。",
+        "en": "Word of mouth is said to be one of the most effective forms of advertising.",
+        "o": ["宣伝", "広告", "告知", "報告"],
+        "a": 0,
+        "e": "宣伝 = promotion/publicity (broad — includes campaigns and word of mouth). 広告 = advertisement (specifically paid media). 告知 = announcement/notification. 報告 = report."
+      },
+      {
+        "t": "meaning",
+        "s": "「宣伝」の意味は？",
+        "o": ["advertising; publicity; promotion", "paid advertisement (media)", "announcement; official notification", "report; reporting"],
+        "a": 0,
+        "e": "宣伝 = broadly spreading information to promote something (宣伝活動 = promotional activities, 自己宣伝 = self-promotion). Includes any channel, paid or not."
+      }
+    ]
+  }
+]

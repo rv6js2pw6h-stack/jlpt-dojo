@@ -1,0 +1,132 @@
+[
+  {
+    "w": "発売", "r": "はつばい", "m": "release; going on sale", "c": "noun", "lv": 1,
+    "ex": [{"jp": "その小説は発売と同時にベストセラーになった。", "en": "The novel became a bestseller the moment it went on sale."}],
+    "qs": [
+      {"t": "fitb", "s": "新しいスマートフォンは来月＿＿＿＿される予定だ。",
+       "en": "The new smartphone is scheduled to be released next month.",
+       "o": ["発売", "完成", "中止", "延期"], "a": 0,
+       "e": "発売される = to be put on sale / released. 完成 (completion), 中止 (cancellation) and 延期 (postponement) don't fit a product 'scheduled for next month'."},
+      {"t": "meaning", "s": "「発売」の意味は？",
+       "o": ["release; putting on sale", "completion; finishing", "cancellation; suspension", "postponement; deferral"], "a": 0,
+       "e": "発売 = a product being released or put on sale (商品が発売される)."}
+    ]
+  },
+  {
+    "w": "登場", "r": "とうじょう", "m": "appearance; entry (on stage/scene)", "c": "noun", "lv": 1,
+    "ex": [{"jp": "この映画には有名な俳優が登場する。", "en": "Famous actors appear in this film."}],
+    "qs": [
+      {"t": "fitb", "s": "物語の後半で、重要な人物が＿＿＿＿する。",
+       "en": "In the latter half of the story, an important character appears.",
+       "o": ["登場", "退場", "活躍", "登録"], "a": 0,
+       "e": "登場する = to appear / come on the scene. 退場 is the opposite (to exit), 登録 is registration."},
+      {"t": "meaning", "s": "「登場」の意味は？",
+       "o": ["appearance; coming on the scene", "exit; leaving", "active participation", "registration; enrolment"], "a": 0,
+       "e": "登場 = a person/thing appearing or entering a stage, story, or scene."}
+    ]
+  },
+  {
+    "w": "撮影", "r": "さつえい", "m": "filming; photographing", "c": "noun", "lv": 1,
+    "ex": [{"jp": "映画の撮影は三か月続いた。", "en": "Filming of the movie lasted three months."}],
+    "qs": [
+      {"t": "fitb", "s": "美術館の中では、写真の＿＿＿＿は禁止されている。",
+       "en": "Inside the museum, taking photographs is prohibited.",
+       "o": ["撮影", "録音", "印刷", "展示"], "a": 0,
+       "e": "撮影 = filming / photographing (写真の撮影 = taking photos). 録音 is audio recording, 展示 is exhibiting."},
+      {"t": "meaning", "s": "「撮影」の意味は？",
+       "o": ["filming; photographing", "audio recording", "printing", "exhibiting; display"], "a": 0,
+       "e": "撮影 = capturing images with a camera, whether photos or video."}
+    ]
+  },
+  {
+    "w": "公式", "r": "こうしき", "m": "official; formal; (math) formula", "c": "naadj", "lv": 1,
+    "ex": [{"jp": "詳しくは公式サイトをご覧ください。", "en": "For details, please see the official site."}],
+    "qs": [
+      {"t": "fitb", "s": "政府は事故の原因について＿＿＿＿な見解を発表した。",
+       "en": "The government announced an official view on the cause of the accident.",
+       "o": ["公式", "非公式", "個人的", "一方的"], "a": 0,
+       "e": "公式な = official / formal. 非公式 is the opposite (unofficial); 個人的 is personal, 一方的 is one-sided."},
+      {"t": "meaning", "s": "「公式」の意味は？",
+       "o": ["official; formal", "unofficial; informal", "personal; private", "one-sided; unilateral"], "a": 0,
+       "e": "公式 = officially sanctioned (also means a mathematical formula)."}
+    ]
+  },
+  {
+    "w": "終了", "r": "しゅうりょう", "m": "end; close; termination", "c": "noun", "lv": 1,
+    "ex": [{"jp": "試合は引き分けで終了した。", "en": "The match ended in a draw."}],
+    "qs": [
+      {"t": "fitb", "s": "受付は午後五時に＿＿＿＿しますので、ご注意ください。",
+       "en": "Please note that reception ends at 5 p.m.",
+       "o": ["終了", "開始", "延長", "中断"], "a": 0,
+       "e": "終了する = to end / finish. 開始 is the opposite (to begin); 延長 is extension, 中断 is interruption."},
+      {"t": "meaning", "s": "「終了」の意味は？",
+       "o": ["end; close; termination", "start; commencement", "extension; prolongation", "interruption; pause"], "a": 0,
+       "e": "終了 = the ending or conclusion of something."}
+    ]
+  },
+  {
+    "w": "追加", "r": "ついか", "m": "addition; supplement", "c": "noun", "lv": 1,
+    "ex": [{"jp": "資料に新しいデータを追加した。", "en": "I added new data to the document."}],
+    "qs": [
+      {"t": "fitb", "s": "注文した後で、デザートを＿＿＿＿で頼んだ。",
+       "en": "After ordering, I asked for a dessert as an extra.",
+       "o": ["追加", "削除", "交換", "返品"], "a": 0,
+       "e": "追加 = addition / extra (追加で頼む = to order extra). 削除 is deletion, 交換 is exchange, 返品 is returning goods."},
+      {"t": "meaning", "s": "「追加」の意味は？",
+       "o": ["addition; supplement", "deletion; removal", "exchange; replacement", "returning goods"], "a": 0,
+       "e": "追加 = adding something extra to what is already there."}
+    ]
+  },
+  {
+    "w": "限り", "r": "かぎり", "m": "limit; as far as; as long as", "c": "noun", "lv": 1,
+    "ex": [{"jp": "できる限りのことをするつもりだ。", "en": "I intend to do everything I possibly can."}],
+    "qs": [
+      {"t": "fitb", "s": "私の知っている＿＿＿＿、彼はそんなことをする人ではない。",
+       "en": "As far as I know, he is not the kind of person to do such a thing.",
+       "o": ["限り", "通り", "以上", "反面"], "a": 0,
+       "e": "〜限り = as far as / as long as (私の知る限り = as far as I know). 通り = as / in the way that, 以上 = since / now that, 反面 = on the other hand."},
+      {"t": "meaning", "s": "「限り」の意味は？",
+       "o": ["limit; as far as; as long as", "way; manner", "more than; since", "the other side; reverse"], "a": 0,
+       "e": "限り marks a limit or boundary — 'as far as / as long as' a condition holds."}
+    ]
+  },
+  {
+    "w": "展開", "r": "てんかい", "m": "development; unfolding; expansion", "c": "noun", "lv": 1,
+    "ex": [{"jp": "試合は意外な展開を見せた。", "en": "The match took an unexpected turn."}],
+    "qs": [
+      {"t": "fitb", "s": "話は誰も予想しなかった方向に＿＿＿＿した。",
+       "en": "The story developed in a direction no one had expected.",
+       "o": ["展開", "展示", "拡大", "開始"], "a": 0,
+       "e": "展開する = to develop / unfold (of a situation or story). 展示 is exhibiting, 拡大 is enlargement, 開始 is starting."},
+      {"t": "meaning", "s": "「展開」の意味は？",
+       "o": ["development; unfolding", "exhibition; display", "enlargement; expansion in size", "start; beginning"], "a": 0,
+       "e": "展開 = a situation or story developing and unfolding over time."}
+    ]
+  },
+  {
+    "w": "対策", "r": "たいさく", "m": "countermeasure; counter-plan", "c": "noun", "lv": 1,
+    "ex": [{"jp": "試験対策として過去問を解いた。", "en": "I solved past exam questions as exam preparation."}],
+    "qs": [
+      {"t": "fitb", "s": "政府は地球温暖化の＿＿＿＿を急いでいる。",
+       "en": "The government is hurrying to take countermeasures against global warming.",
+       "o": ["対策", "対象", "対立", "解説"], "a": 0,
+       "e": "〜対策 = a countermeasure against a problem (温暖化対策). 対象 = target / object, 対立 = confrontation, 解説 = explanation."},
+      {"t": "meaning", "s": "「対策」の意味は？",
+       "o": ["countermeasure; counter-plan", "target; object", "confrontation; opposition", "commentary; explanation"], "a": 0,
+       "e": "対策 = a measure taken to deal with or prevent a problem."}
+    ]
+  },
+  {
+    "w": "以降", "r": "いこう", "m": "from ... onward; hereafter", "c": "noun", "lv": 1,
+    "ex": [{"jp": "三時以降なら時間があります。", "en": "I'm free after three o'clock."}],
+    "qs": [
+      {"t": "fitb", "s": "来週の月曜日＿＿＿＿、営業時間が変わります。",
+       "en": "From next Monday onward, our business hours will change.",
+       "o": ["以降", "以前", "以内", "以外"], "a": 0,
+       "e": "〜以降 = from ~ onward / after. 以前 is the opposite (before), 以内 = within (a limit), 以外 = except / other than."},
+      {"t": "meaning", "s": "「以降」の意味は？",
+       "o": ["from ... onward; hereafter", "before; previously", "within (a limit)", "except; other than"], "a": 0,
+       "e": "以降 marks everything from a point in time onward (e.g. 5時以降 = from 5 o'clock on)."}
+    ]
+  }
+]

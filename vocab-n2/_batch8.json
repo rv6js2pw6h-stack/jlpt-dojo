@@ -1,0 +1,602 @@
+[
+  {"w":"定価","r":"ていか","m":"list price; fixed/retail price","c":"noun","lv":1,
+   "ex":[{"jp":"この本は定価の半額で売られていた。","en":"This book was sold at half the list price."}],
+   "qs":[
+     {"t":"fitb","s":"セール品ではないので、＿＿＿＿どおりの値段で買った。","en":"It wasn't a sale item, so I bought it at the list price.","o":["定価","割引","原価","時価"],"a":0,"e":"定価 = the set list/retail price. 割引 = a discount. 原価(げんか) = the cost price (to produce/buy in). 時価(じか) = the current market price (fluctuating)."},
+     {"t":"meaning","s":"「定価」の意味は？","o":["list price; fixed retail price","a discount; price reduction","the cost price to produce","the current market price"],"a":0,"e":"定価 is the official set price of a product (定価販売 = selling at list price). Note the homophones 低下 (decline) and 定価 are different words."}
+   ]},
+  {"w":"叔父","r":"おじ","m":"uncle (younger than one's parent)","c":"noun","lv":1,
+   "ex":[{"jp":"叔父は父の弟だ。","en":"My uncle is my father's younger brother."}],
+   "qs":[
+     {"t":"fitb","s":"夏休みに、田舎の＿＿＿＿の家に泊まりに行った。","en":"During summer break, I went to stay at my uncle's house in the countryside.","o":["叔父","叔母","祖父","甥"],"a":0,"e":"叔父(おじ) = uncle (younger than one's parent). 叔母(おば) = aunt. 祖父(そふ) = grandfather. 甥(おい) = nephew. (Note: 伯父 is an uncle older than one's parent.)"},
+     {"t":"meaning","s":"「叔父」の意味は？","o":["uncle (younger than one's parent)","aunt","grandfather","nephew"],"a":0,"e":"叔父 is an uncle; 叔母 is an aunt (both おじ/おば). 伯父/伯母 are used for those older than your parent."}
+   ]},
+  {"w":"図鑑","r":"ずかん","m":"illustrated reference book; picture encyclopedia","c":"noun","lv":1,
+   "ex":[{"jp":"子どもは昆虫図鑑が大好きだ。","en":"The child loves the insect picture book."}],
+   "qs":[
+     {"t":"fitb","s":"見たことのない花を、植物＿＿＿＿で調べた。","en":"I looked up a flower I'd never seen in a plant reference book.","o":["図鑑","辞典","地図","写真集"],"a":0,"e":"図鑑 = an illustrated reference book (with pictures, organized by type). 辞典(じてん) = a dictionary (of words/terms). 地図 = a map. 写真集 = a photo collection/photobook."},
+     {"t":"meaning","s":"「図鑑」の意味は？","o":["illustrated reference book; picture encyclopedia","a dictionary of words/terms","a map","a photo collection; photobook"],"a":0,"e":"図鑑 organizes pictures with descriptions for identification (動物図鑑 = animal encyclopedia, 図鑑で調べる = look it up in a reference book)."}
+   ]},
+  {"w":"先端","r":"せんたん","m":"tip; pointed end; (figurative) cutting edge; forefront","c":"noun","lv":1,
+   "ex":[{"jp":"鉛筆の先端が折れた。","en":"The tip of the pencil broke."}],
+   "qs":[
+     {"t":"fitb","s":"その研究所は、最＿＿＿＿の技術を開発している。","en":"That institute develops cutting-edge technology.","o":["先端","末端","頂点","中心"],"a":0,"e":"先端 = the tip/pointed end; figuratively the cutting edge/forefront. 末端(まったん) = the extremity/far end; the lowest level (rank-and-file). 頂点 = the peak/apex. 中心 = the center."},
+     {"t":"meaning","s":"「先端」の意味は？","o":["tip; pointed end; cutting edge; forefront","the extremity; far end; lowest level","the peak; apex","the center"],"a":0,"e":"先端 is a pointed tip (針の先端 = the point of a needle) and figuratively the leading edge (最先端 = state of the art, 先端技術 = advanced technology)."}
+   ]},
+  {"w":"太鼓","r":"たいこ","m":"drum (Japanese taiko); a large drum","c":"noun","lv":1,
+   "ex":[{"jp":"祭りで太鼓の音が響いた。","en":"The sound of taiko drums rang out at the festival."}],
+   "qs":[
+     {"t":"fitb","s":"子どもたちが力いっぱい＿＿＿＿を叩いた。","en":"The children beat the drums with all their might.","o":["太鼓","笛","鐘","琴"],"a":0,"e":"太鼓(たいこ) = a (Japanese) drum. 笛(ふえ) = a flute/whistle. 鐘(かね) = a bell (large, struck). 琴(こと) = a koto (Japanese zither)."},
+     {"t":"meaning","s":"「太鼓」の意味は？","o":["a (Japanese) drum","a flute; whistle","a bell (large, struck)","a koto; Japanese zither"],"a":0,"e":"太鼓 is a drum (太鼓を叩く = beat a drum, 和太鼓 = Japanese taiko). The idiom 太鼓判を押す = to vouch for/guarantee."}
+   ]},
+  {"w":"直径","r":"ちょっけい","m":"diameter","c":"noun","lv":1,
+   "ex":[{"jp":"この円の直径は十センチだ。","en":"The diameter of this circle is ten centimeters."}],
+   "qs":[
+     {"t":"fitb","s":"＿＿＿＿五メートルもある巨大なピザが話題になった。","en":"A giant pizza with a diameter of five meters became a hot topic.","o":["直径","半径","面積","周囲"],"a":0,"e":"直径 = diameter (across the full width through the center). 半径(はんけい) = radius (center to edge, half the diameter). 面積 = area. 周囲(しゅうい) = the circumference/surroundings."},
+     {"t":"meaning","s":"「直径」の意味は？","o":["diameter (full width through the center)","radius (center to edge)","area","circumference; surroundings"],"a":0,"e":"直径 is the diameter of a circle (直径を測る = measure the diameter). 半径 (radius) is half of it."}
+   ]},
+  {"w":"停電","r":"ていでん","m":"power outage; blackout; electricity failure","c":"noun","lv":1,
+   "ex":[{"jp":"台風の影響で停電が起きた。","en":"A power outage occurred due to the typhoon."}],
+   "qs":[
+     {"t":"fitb","s":"落雷で＿＿＿＿になり、町中が真っ暗になった。","en":"A lightning strike caused a blackout, and the whole town went dark.","o":["停電","断水","節電","発電"],"a":0,"e":"停電 = a power outage/blackout. 断水(だんすい) = a water supply cutoff. 節電(せつでん) = conserving electricity. 発電 = generating electricity."},
+     {"t":"meaning","s":"「停電」の意味は？","o":["power outage; blackout","a water supply cutoff","conserving/saving electricity","generating electricity"],"a":0,"e":"停電 means the electricity going out (停電する = lose power, 停電に備える = prepare for a blackout)."}
+   ]},
+  {"w":"東洋","r":"とうよう","m":"the East; the Orient; Asia","c":"noun","lv":1,
+   "ex":[{"jp":"彼は東洋の文化に興味がある。","en":"He is interested in Eastern culture."}],
+   "qs":[
+     {"t":"fitb","s":"漢方は＿＿＿＿医学の代表的な例だ。","en":"Kampo is a representative example of Eastern medicine.","o":["東洋","西洋","南極","北極"],"a":0,"e":"東洋 = the East/Orient (Asia). 西洋(せいよう) = the West/Occident (Europe & the Americas). 南極(なんきょく) = the South Pole/Antarctic. 北極(ほっきょく) = the North Pole/Arctic."},
+     {"t":"meaning","s":"「東洋」の意味は？","o":["the East; the Orient; Asia","the West; the Occident","the South Pole; Antarctic","the North Pole; Arctic"],"a":0,"e":"東洋 refers to Eastern/Asian civilization (東洋人 = an Asian person, 東洋医学 = Eastern medicine). Opposite of 西洋 (the West)."}
+   ]},
+  {"w":"とっくに","r":"とっくに","m":"long ago; already; a long time ago","c":"adv","lv":1,
+   "ex":[{"jp":"彼ならとっくに帰ったよ。","en":"He went home a long time ago."}],
+   "qs":[
+     {"t":"fitb","s":"急いで来たのに、電車は＿＿＿＿出てしまっていた。","en":"I rushed here, but the train had already left long ago.","o":["とっくに","間もなく","そろそろ","ようやく"],"a":0,"e":"とっくに = long ago/already (well before now). 間もなく = soon/before long. そろそろ = soon/it's about time. ようやく = finally/at last."},
+     {"t":"meaning","s":"「とっくに」の意味は？","o":["long ago; already; well before now","soon; before long","soon; it's about time","finally; at last"],"a":0,"e":"とっくに stresses that something happened much earlier than expected (とっくに終わった = finished ages ago). ≒ とうに."}
+   ]},
+  {"w":"残らず","r":"のこらず","m":"completely; all of it; without exception; every last one","c":"adv","lv":1,
+   "ex":[{"jp":"皿の料理を残らず食べた。","en":"I ate everything on the plate, leaving nothing."}],
+   "qs":[
+     {"t":"fitb","s":"集めた資料に、＿＿＿＿目を通しておいた。","en":"I looked through every last one of the materials I had gathered.","o":["残らず","少しずつ","せっかく","めったに"],"a":0,"e":"残らず = completely/every last one (leaving nothing behind). 少しずつ = little by little. せっかく = with effort/(a shame to waste). めったに = (with neg.) rarely."},
+     {"t":"meaning","s":"「残らず」の意味は？","o":["completely; all of it; every last one","little by little","with effort; (a shame to waste)","rarely; seldom (with neg.)"],"a":0,"e":"残らず means leaving nothing behind — all without exception (一人残らず = every single person, 残らず平らげる = polish it all off)."}
+   ]},
+  {"w":"恨み","r":"うらみ","m":"resentment; grudge; ill will","c":"noun","lv":1,
+   "ex":[{"jp":"彼に恨みを抱いている人は多い。","en":"Many people harbor a grudge against him."}],
+   "qs":[
+     {"t":"fitb","s":"過去のいさかいから、彼女に＿＿＿＿を持っていたらしい。","en":"He apparently held a grudge against her from a past quarrel.","o":["恨み","感謝","憧れ","親しみ"],"a":0,"e":"恨み = resentment/a grudge (lingering ill will). 感謝 = gratitude. 憧れ(あこがれ) = longing/admiration. 親しみ = a sense of closeness/affinity."},
+     {"t":"meaning","s":"「恨み」の意味は？","o":["resentment; a grudge; ill will","gratitude; thankfulness","longing; admiration","a sense of closeness; affinity"],"a":0,"e":"恨み is a held grudge (恨みを買う = incur someone's resentment, 恨みを晴らす = take one's revenge). The verb is 恨む (to resent)."}
+   ]},
+  {"w":"間隔","r":"かんかく","m":"interval; spacing; gap (between things in time or space)","c":"noun","lv":1,
+   "ex":[{"jp":"電車は十分間隔で運行している。","en":"The trains run at ten-minute intervals."}],
+   "qs":[
+     {"t":"fitb","s":"木を植えるときは、十分な＿＿＿＿をあけたほうがいい。","en":"When planting trees, it's best to leave sufficient spacing.","o":["間隔","距離","面積","隙間"],"a":0,"e":"間隔 = the interval/spacing between repeated things (regular gaps in time or space). 距離 = distance (length between two points). 面積 = area. 隙間 = a narrow gap/crack."},
+     {"t":"meaning","s":"「間隔」の意味は？","o":["interval; spacing; gap between repeated things","distance between two points","area","a narrow gap; crack"],"a":0,"e":"間隔 is the regular spacing between things (間隔をあける = leave a gap, 等間隔 = at equal intervals). 距離 is point-to-point distance."}
+   ]},
+  {"w":"教養","r":"きょうよう","m":"culture; refinement; (broad) education; cultivation","c":"noun","lv":1,
+   "ex":[{"jp":"幅広い読書は教養を深める。","en":"Wide reading deepens one's cultivation."}],
+   "qs":[
+     {"t":"fitb","s":"彼は専門知識だけでなく、豊かな＿＿＿＿の持ち主だ。","en":"He possesses not only expertise but also rich general culture.","o":["教養","学歴","知能","常識"],"a":0,"e":"教養 = cultivation/refinement gained through broad learning. 学歴 = one's formal educational background. 知能 = intelligence (mental capacity). 常識 = common sense/general knowledge."},
+     {"t":"meaning","s":"「教養」の意味は？","o":["culture; refinement; broad education; cultivation","one's formal educational background","intelligence; mental capacity","common sense; general knowledge"],"a":0,"e":"教養 is the breadth of knowledge and refinement a person has cultivated (教養がある = cultured, 一般教養 = general/liberal-arts education)."}
+   ]},
+  {"w":"くだらない","r":"くだらない","m":"worthless; trivial; silly; not worth bothering with","c":"iadj","lv":1,
+   "ex":[{"jp":"くだらない冗談で笑ってしまった。","en":"I laughed at a silly joke."}],
+   "qs":[
+     {"t":"fitb","s":"そんな＿＿＿＿ことで、いちいち腹を立てるな。","en":"Don't get angry over every such trivial thing.","o":["くだらない","素晴らしい","重大な","真剣な"],"a":0,"e":"くだらない = worthless/trivial/silly (not worth taking seriously). 素晴らしい = wonderful/splendid. 重大な = grave/serious/momentous. 真剣な = serious/earnest."},
+     {"t":"meaning","s":"「くだらない」の意味は？","o":["worthless; trivial; silly","wonderful; splendid","grave; serious; momentous","serious; earnest"],"a":0,"e":"くだらない dismisses something as worthless or pointless (くだらない話 = a stupid/pointless story, くだらないことを気にするな = don't sweat the trivial stuff)."}
+   ]},
+  {"w":"肯定","r":"こうてい","m":"affirmation; answering in the affirmative; acknowledging as so","c":"noun","lv":1,
+   "ex":[{"jp":"彼は質問に肯定も否定もしなかった。","en":"He neither affirmed nor denied the question."}],
+   "qs":[
+     {"t":"fitb","s":"上司は私の提案を＿＿＿＿的に受け止めてくれた。","en":"My boss received my proposal affirmatively (favorably).","o":["肯定","否定","疑問","拒否"],"a":0,"e":"肯定 = affirming/acknowledging as true or acceptable. 否定(ひてい) = denial/negation (the opposite). 疑問 = a doubt/question. 拒否(きょひ) = refusal/rejection."},
+     {"t":"meaning","s":"「肯定」の意味は？","o":["affirmation; acknowledging as so","denial; negation","a doubt; a question","refusal; rejection"],"a":0,"e":"肯定 means affirming or accepting something as valid (肯定的 = positive/affirmative, 自己肯定感 = self-affirmation/self-esteem). Opposite of 否定."}
+   ]},
+  {"w":"焦点","r":"しょうてん","m":"focus; focal point; the central issue","c":"noun","lv":1,
+   "ex":[{"jp":"カメラの焦点を合わせる。","en":"To bring the camera into focus."}],
+   "qs":[
+     {"t":"fitb","s":"議論の＿＿＿＿は、費用を誰が負担するかにある。","en":"The focus of the debate lies in who bears the cost.","o":["焦点","頂点","起点","中継"],"a":0,"e":"焦点 = the focus/focal point; the central issue. 頂点 = the peak/apex. 起点(きてん) = the starting point. 中継(ちゅうけい) = relay/live broadcast."},
+     {"t":"meaning","s":"「焦点」の意味は？","o":["focus; focal point; the central issue","the peak; apex","the starting point","relay; live broadcast"],"a":0,"e":"焦点 is the focal point (焦点が合う = come into focus) and figuratively the crux (焦点を絞る = narrow the focus, 議論の焦点 = the main point at issue)."}
+   ]},
+  {"w":"名刺","r":"めいし","m":"business card; calling card","c":"noun","lv":1,
+   "ex":[{"jp":"初対面では名刺を交換する。","en":"At a first meeting, we exchange business cards."}],
+   "qs":[
+     {"t":"fitb","s":"打ち合わせの前に、お互いの＿＿＿＿を渡し合った。","en":"Before the meeting, we exchanged business cards with each other.","o":["名刺","名簿","名札","署名"],"a":0,"e":"名刺 = a business card (with one's name, title, contact). 名簿(めいぼ) = a name list/roster. 名札(なふだ) = a name tag/badge. 署名(しょめい) = a signature."},
+     {"t":"meaning","s":"「名刺」の意味は？","o":["business card; calling card","a name list; roster","a name tag; badge","a signature"],"a":0,"e":"名刺 is a business card (名刺交換 = exchanging cards, 名刺入れ = a card holder)."}
+   ]},
+  {"w":"巡る","r":"めぐる","m":"to go around; to tour; to revolve around (a topic)","c":"verb","lv":1,
+   "ex":[{"jp":"休みに各地の温泉を巡った。","en":"On my break, I toured hot springs in various places."}],
+   "qs":[
+     {"t":"fitb","s":"遺産の相続を＿＿＿＿、兄弟が争っている。","en":"The siblings are fighting over the inheritance.","o":["巡って","隔てて","越えて","兼ねて"],"a":0,"e":"巡る = to go around/tour; (〜を巡って) to revolve around/concern an issue. 隔てる(へだてる) = to separate/divide. 越える = to cross over/exceed. 兼ねる(かねる) = to combine roles/serve as both."},
+     {"t":"meaning","s":"「巡る」の意味は？","o":["to go around; to tour; to revolve around (a topic)","to separate; to divide","to cross over; to exceed","to combine roles; to serve as both"],"a":0,"e":"巡る means to go around (名所を巡る = tour the sights, 季節が巡る = the seasons come around) or, as 〜を巡って, to center on an issue (〜を巡る議論 = a debate over ~)."}
+   ]},
+  {"w":"気圧","r":"きあつ","m":"atmospheric pressure; air pressure","c":"noun","lv":1,
+   "ex":[{"jp":"気圧が下がると頭痛がする人もいる。","en":"Some people get headaches when the air pressure drops."}],
+   "qs":[
+     {"t":"fitb","s":"低＿＿＿＿が近づいており、明日は天気が崩れるだろう。","en":"A low-pressure system is approaching, so the weather will likely turn bad tomorrow.","o":["気圧","気温","湿度","気候"],"a":0,"e":"気圧 = atmospheric/air pressure. 気温 = air temperature. 湿度 = humidity. 気候 = climate (long-term pattern)."},
+     {"t":"meaning","s":"「気圧」の意味は？","o":["atmospheric pressure; air pressure","air temperature","humidity","climate; long-term weather pattern"],"a":0,"e":"気圧 is air pressure (低気圧 = low-pressure system, 高気圧 = high-pressure system, 気圧が下がる = pressure drops)."}
+   ]},
+  {"w":"空中","r":"くうちゅう","m":"midair; in the air; aerial","c":"noun","lv":1,
+   "ex":[{"jp":"鳥が空中を自由に飛び回る。","en":"Birds fly freely about in the air."}],
+   "qs":[
+     {"t":"fitb","s":"曲芸師が＿＿＿＿で見事に三回転した。","en":"The acrobat splendidly did three rotations in midair.","o":["空中","地中","水中","海底"],"a":0,"e":"空中 = midair/in the air. 地中(ちちゅう) = underground/in the soil. 水中(すいちゅう) = underwater. 海底(かいてい) = the seabed/ocean floor."},
+     {"t":"meaning","s":"「空中」の意味は？","o":["midair; in the air; aerial","underground; in the soil","underwater","the seabed; ocean floor"],"a":0,"e":"空中 means up in the air (空中分解 = breaking apart in midair, 空中ブランコ = trapeze)."}
+   ]},
+  {"w":"原料","r":"げんりょう","m":"raw material(s); base ingredient","c":"noun","lv":1,
+   "ex":[{"jp":"紙の原料は木材だ。","en":"The raw material for paper is wood."}],
+   "qs":[
+     {"t":"fitb","s":"ワインは、ぶどうを＿＿＿＿として造られる。","en":"Wine is made using grapes as its raw material.","o":["原料","材料","製品","燃料"],"a":0,"e":"原料 = raw material (the substance processed into a product, often unrecognizable in the result). 材料 = materials/ingredients (used in making; often still recognizable). 製品 = a finished product. 燃料 = fuel."},
+     {"t":"meaning","s":"「原料」の意味は？","o":["raw material; base ingredient (processed into a product)","materials; ingredients (still recognizable)","a finished product","fuel"],"a":0,"e":"原料 is the raw substance transformed in production (原料費 = cost of raw materials). 材料 tends to stay recognizable in the result; 原料 is processed beyond recognition (e.g. crude oil → plastic)."}
+   ]},
+  {"w":"先祖","r":"せんぞ","m":"ancestor; forebear","c":"noun","lv":1,
+   "ex":[{"jp":"お盆には先祖の墓参りをする。","en":"During Obon we visit our ancestors' graves."}],
+   "qs":[
+     {"t":"fitb","s":"我が家の＿＿＿＿は、代々この土地で農業を営んできた。","en":"My family's ancestors have farmed this land for generations.","o":["先祖","子孫","親戚","他人"],"a":0,"e":"先祖(せんぞ) = ancestors/forebears. 子孫 = descendants/offspring (the opposite). 親戚 = relatives. 他人 = a stranger/unrelated person."},
+     {"t":"meaning","s":"「先祖」の意味は？","o":["ancestor; forebear","descendants; offspring","relatives","a stranger; an unrelated person"],"a":0,"e":"先祖 are one's ancestors (先祖代々 = for generations, ご先祖様 = one's honored ancestors). ≒ 祖先. Opposite of 子孫."}
+   ]},
+  {"w":"通訳","r":"つうやく","m":"(oral) interpretation; an interpreter","c":"noun","lv":1,
+   "ex":[{"jp":"会議では通訳を通して話した。","en":"At the meeting, we spoke through an interpreter."}],
+   "qs":[
+     {"t":"fitb","s":"外国人の患者のために、医療＿＿＿＿が同席した。","en":"A medical interpreter sat in for the foreign patient.","o":["通訳","翻訳","会話","通信"],"a":0,"e":"通訳 = interpreting speech orally / an interpreter (real-time, spoken). 翻訳(ほんやく) = translation of written text. 会話 = conversation. 通信 = communication/correspondence (telecom)."},
+     {"t":"meaning","s":"「通訳」の意味は？","o":["oral interpretation; an interpreter (spoken, real-time)","translation of written text","conversation","communication; correspondence"],"a":0,"e":"通訳 is oral interpreting between languages (同時通訳 = simultaneous interpreting, 通訳者 = an interpreter). 翻訳 is for written translation."}
+   ]},
+  {"w":"手帳","r":"てちょう","m":"pocket notebook; (personal) planner/datebook","c":"noun","lv":1,
+   "ex":[{"jp":"予定を手帳に書き込んだ。","en":"I wrote my schedule in my planner."}],
+   "qs":[
+     {"t":"fitb","s":"忘れないように、約束を＿＿＿＿にメモしておく。","en":"So as not to forget, I jot down appointments in my planner.","o":["手帳","名簿","書類","封筒"],"a":0,"e":"手帳 = a pocket notebook/planner (for schedules, notes). 名簿 = a name list/roster. 書類 = documents/paperwork. 封筒(ふうとう) = an envelope."},
+     {"t":"meaning","s":"「手帳」の意味は？","o":["pocket notebook; personal planner/datebook","a name list; roster","documents; paperwork","an envelope"],"a":0,"e":"手帳 is a small notebook for personal scheduling and notes (手帳に書く = write in one's planner, システム手帳 = a ring-binder organizer)."}
+   ]},
+  {"w":"都心","r":"としん","m":"the city center; downtown (esp. central Tokyo)","c":"noun","lv":1,
+   "ex":[{"jp":"都心は家賃が高い。","en":"Rent is high in the city center."}],
+   "qs":[
+     {"t":"fitb","s":"通勤に便利なので、＿＿＿＿に近い場所に住みたい。","en":"Since it's convenient for commuting, I want to live near the city center.","o":["都心","郊外","田舎","地方"],"a":0,"e":"都心 = the central area of a big city (downtown). 郊外(こうがい) = the suburbs/outskirts. 田舎(いなか) = the countryside/rural area. 地方 = the provinces/regions (outside the capital)."},
+     {"t":"meaning","s":"「都心」の意味は？","o":["the city center; downtown","the suburbs; outskirts","the countryside; rural area","the provinces; regions outside the capital"],"a":0,"e":"都心 is the heart of a metropolis (都心部 = the downtown area, 都心へ出る = go into the city center). Opposite leaning: 郊外 (suburbs)."}
+   ]},
+  {"w":"昼寝","r":"ひるね","m":"a nap; afternoon nap; siesta","c":"noun","lv":1,
+   "ex":[{"jp":"日曜の午後は昼寝をするのが好きだ。","en":"I like taking a nap on Sunday afternoons."}],
+   "qs":[
+     {"t":"fitb","s":"赤ちゃんが＿＿＿＿している間に、家事を済ませた。","en":"While the baby was napping, I finished the housework.","o":["昼寝","夜更かし","寝坊","居眠り"],"a":0,"e":"昼寝 = a (daytime/afternoon) nap. 夜更かし(よふかし) = staying up late. 寝坊(ねぼう) = oversleeping. 居眠り(いねむり) = dozing off (unintentionally, e.g. at a desk)."},
+     {"t":"meaning","s":"「昼寝」の意味は？","o":["a nap; afternoon nap; siesta","staying up late at night","oversleeping","dozing off unintentionally"],"a":0,"e":"昼寝 is a deliberate daytime nap (昼寝をする = take a nap). 居眠り is nodding off when you shouldn't."}
+   ]},
+  {"w":"役目","r":"やくめ","m":"role; duty; one's part to play; function","c":"noun","lv":1,
+   "ex":[{"jp":"親の役目は子どもを守ることだ。","en":"A parent's role is to protect their children."}],
+   "qs":[
+     {"t":"fitb","s":"会議の記録を取るのが、新人の私の＿＿＿＿だ。","en":"Taking minutes of the meeting is my duty as the new hire.","o":["役目","名目","項目","題目"],"a":0,"e":"役目 = a role/duty one is responsible for. 名目(めいもく) = a nominal reason/pretext (in name). 項目 = an item/category in a list. 題目(だいもく) = a title/topic/subject heading."},
+     {"t":"meaning","s":"「役目」の意味は？","o":["role; duty; one's part to play; function","a nominal reason; pretext","an item; category in a list","a title; topic; subject heading"],"a":0,"e":"役目 is the role or duty assigned to someone or something (役目を果たす = fulfill one's duty, 役目を終える = finish one's role). ≒ 役割."}
+   ]},
+  {"w":"思いっきり","r":"おもいっきり","m":"with all one's might; to one's heart's content; as hard as one can","c":"adv","lv":1,
+   "ex":[{"jp":"休日は思いっきり遊んだ。","en":"On my day off, I played to my heart's content."}],
+   "qs":[
+     {"t":"fitb","s":"ストレス発散に、カラオケで＿＿＿＿歌った。","en":"To blow off stress, I sang my heart out at karaoke.","o":["思いっきり","こっそり","しぶしぶ","それとなく"],"a":0,"e":"思いっきり = with all one's might/to the fullest (without holding back). こっそり = secretly/stealthily. しぶしぶ = reluctantly. それとなく = indirectly/casually (hinting)."},
+     {"t":"meaning","s":"「思いっきり」の意味は？","o":["with all one's might; to one's heart's content","secretly; stealthily","reluctantly; grudgingly","indirectly; casually (hinting)"],"a":0,"e":"思いっきり means doing something fully without restraint (思いっきり泣く = cry one's eyes out, 思いっきり楽しむ = enjoy to the max). ≒ 思い切り."}
+   ]},
+  {"w":"稽古","r":"けいこ","m":"practice; training; lessons (esp. arts, sumo, traditional skills)","c":"noun","lv":1,
+   "ex":[{"jp":"毎日、剣道の稽古に励んでいる。","en":"I devote myself to kendo practice every day."}],
+   "qs":[
+     {"t":"fitb","s":"力士は朝早くから厳しい＿＿＿＿に明け暮れる。","en":"Sumo wrestlers spend their days in hard training from early morning.","o":["稽古","試合","休憩","観戦"],"a":0,"e":"稽古 = practice/training in an art or traditional discipline (martial arts, dance, sumo). 試合 = a match/bout. 休憩 = a break/rest. 観戦(かんせん) = watching a game/match (as a spectator)."},
+     {"t":"meaning","s":"「稽古」の意味は？","o":["practice; training; lessons (esp. arts, sumo)","a match; a bout","a break; a rest","watching a game as a spectator"],"a":0,"e":"稽古 is practice in traditional arts and disciplines (お稽古 = (taking) lessons, 稽古をつける = to train/coach someone). ≒ 練習, but with a traditional/disciplinary flavor."}
+   ]},
+  {"w":"三角","r":"さんかく","m":"triangle; triangular shape","c":"noun","lv":1,
+   "ex":[{"jp":"おにぎりを三角の形に握る。","en":"You shape the rice ball into a triangle."}],
+   "qs":[
+     {"t":"fitb","s":"折り紙を半分に折ると、＿＿＿＿の形になる。","en":"When you fold the origami in half, it becomes a triangle.","o":["三角","四角","丸","楕円"],"a":0,"e":"三角(さんかく) = a triangle. 四角(しかく) = a square/quadrilateral. 丸(まる) = a circle/round shape. 楕円(だえん) = an oval/ellipse."},
+     {"t":"meaning","s":"「三角」の意味は？","o":["triangle; triangular shape","a square; quadrilateral","a circle; round shape","an oval; ellipse"],"a":0,"e":"三角 is a triangle (三角形 = a triangle figure, 三角関係 = a love triangle). Contrast 四角 (square)."}
+   ]},
+  {"w":"水平","r":"すいへい","m":"horizontal; level","c":"naadj","lv":1,
+   "ex":[{"jp":"棚を水平に取り付ける。","en":"To install the shelf level (horizontally)."}],
+   "qs":[
+     {"t":"fitb","s":"カメラを＿＿＿＿に構えないと、写真が傾いてしまう。","en":"If you don't hold the camera level, the photo comes out tilted.","o":["水平","垂直","斜め","平行"],"a":0,"e":"水平 = horizontal/level (parallel to the ground). 垂直(すいちょく) = vertical/perpendicular. 斜め = diagonal/slanted. 平行(へいこう) = parallel."},
+     {"t":"meaning","s":"「水平」の意味は？","o":["horizontal; level","vertical; perpendicular","diagonal; slanted","parallel"],"a":0,"e":"水平 means level/horizontal (水平線 = the horizon, 水平に保つ = keep level). Opposite of 垂直 (vertical)."}
+   ]},
+  {"w":"すっきり","r":"すっきり","m":"refreshed; clear; neat and tidy; uncluttered","c":"adv","lv":1,
+   "ex":[{"jp":"部屋を片付けたら、気分がすっきりした。","en":"After tidying the room, I felt refreshed."}],
+   "qs":[
+     {"t":"fitb","s":"余計な装飾を取り除き、＿＿＿＿としたデザインに変えた。","en":"We removed the excess ornamentation and changed it to a clean, uncluttered design.","o":["すっきり","ぐったり","うっかり","がっかり"],"a":0,"e":"すっきり = refreshed/clear/neat (free of clutter or discomfort). ぐったり = limp/worn out (exhausted). うっかり = carelessly/absent-mindedly. がっかり = disappointed."},
+     {"t":"meaning","s":"「すっきり」の意味は？","o":["refreshed; clear; neat; uncluttered","limp; worn out; exhausted","carelessly; absent-mindedly","disappointed"],"a":0,"e":"すっきり conveys a clean, refreshed, unburdened feeling (頭がすっきりする = feel clear-headed, すっきりした部屋 = a tidy room)."}
+   ]},
+  {"w":"増大","r":"ぞうだい","m":"increase; growth; enlargement (in amount or degree)","c":"noun","lv":1,
+   "ex":[{"jp":"利用者の増大に対応する。","en":"To cope with the increase in users."}],
+   "qs":[
+     {"t":"fitb","s":"高齢化に伴い、医療費の＿＿＿＿が続いている。","en":"With the aging population, the increase in medical costs continues.","o":["増大","減少","縮小","維持"],"a":0,"e":"増大 = increase/growth (in scale, amount, or degree). 減少 = decrease/decline (the opposite). 縮小 = reduction/scaling down. 維持(いじ) = maintenance/keeping as is."},
+     {"t":"meaning","s":"「増大」の意味は？","o":["increase; growth; enlargement","decrease; decline","reduction; scaling down","maintenance; keeping as is"],"a":0,"e":"増大 means growing larger in amount or degree (リスクの増大 = increased risk, 負担が増大する = the burden grows). Opposite of 減少/縮小."}
+   ]},
+  {"w":"潰す","r":"つぶす","m":"to crush; to squash; to kill (time); to ruin; to waste","c":"verb","lv":1,
+   "ex":[{"jp":"空き缶を踏んで潰した。","en":"I stepped on the empty can and crushed it."}],
+   "qs":[
+     {"t":"fitb","s":"電車の待ち時間を、本を読んで＿＿＿＿。","en":"I killed the time waiting for the train by reading a book.","o":["潰した","隠した","断った","逃した"],"a":0,"e":"潰す = to crush/squash; figuratively to kill (time), ruin (a plan), or waste. 隠す = to hide. 断る(ことわる) = to refuse/decline. 逃す(のがす) = to miss/let slip."},
+     {"t":"meaning","s":"「潰す」の意味は？","o":["to crush; to squash; to kill (time); to ruin; to waste","to hide; to conceal","to refuse; to decline","to miss; to let slip"],"a":0,"e":"潰す literally means to crush (潰れる is the intransitive pair) and figuratively to kill time (時間を潰す), ruin (計画を潰す = wreck a plan), or waste (顔を潰す = make someone lose face)."}
+   ]},
+  {"w":"出入り","r":"でいり","m":"coming and going; going in and out; frequenting","c":"noun","lv":1,
+   "ex":[{"jp":"このビルは人の出入りが激しい。","en":"There's heavy coming and going of people in this building."}],
+   "qs":[
+     {"t":"fitb","s":"工事関係者以外の＿＿＿＿は禁止されている。","en":"Entry and exit by anyone other than construction personnel is prohibited.","o":["出入り","出席","出発","出張"],"a":0,"e":"出入り = going in and out/coming and going (also frequenting a place). 出席 = attendance (being present). 出発 = departure/setting off. 出張 = a business trip."},
+     {"t":"meaning","s":"「出入り」の意味は？","o":["coming and going; going in and out; frequenting","attendance; being present","departure; setting off","a business trip"],"a":0,"e":"出入り means entering and leaving (出入り口 = an entrance/exit, 出入りが激しい = a lot of traffic in and out, 出入りの業者 = a regular vendor)."}
+   ]},
+  {"w":"評論","r":"ひょうろん","m":"criticism; critique; commentary; review","c":"noun","lv":1,
+   "ex":[{"jp":"彼は映画評論を書いている。","en":"He writes film criticism."}],
+   "qs":[
+     {"t":"fitb","s":"その＿＿＿＿家は、社会問題について鋭い意見を述べる。","en":"That critic offers sharp opinions on social issues.","o":["評論","評判","評価","批判"],"a":0,"e":"評論 = critical commentary/critique (analyzing and discussing a work or issue). 評判(ひょうばん) = reputation/public talk. 評価 = evaluation/appraisal (judging worth). 批判 = criticism (pointing out faults, often negative)."},
+     {"t":"meaning","s":"「評論」の意味は？","o":["criticism; critique; commentary; review","reputation; public talk","evaluation; appraisal","criticism; finding fault (often negative)"],"a":0,"e":"評論 is reasoned critique/commentary (評論家 = a critic/commentator, 文芸評論 = literary criticism). 批判 leans negative (faultfinding); 評論 is balanced analysis."}
+   ]},
+  {"w":"名物","r":"めいぶつ","m":"a famous local product; specialty; (also) a well-known character","c":"noun","lv":1,
+   "ex":[{"jp":"この町の名物はうなぎだ。","en":"This town's specialty is eel."}],
+   "qs":[
+     {"t":"fitb","s":"旅行先では、その土地の＿＿＿＿料理を必ず味わう。","en":"When traveling, I always sample the local specialty cuisine.","o":["名物","名作","名所","名人"],"a":0,"e":"名物 = a famous local product/specialty (often food). 名作 = a masterpiece (a celebrated work). 名所(めいしょ) = a famous place/scenic spot. 名人(めいじん) = a master/expert."},
+     {"t":"meaning","s":"「名物」の意味は？","o":["a famous local product; specialty","a masterpiece; celebrated work","a famous place; scenic spot","a master; an expert"],"a":0,"e":"名物 is something a place is famous for (名物料理 = a signature local dish); can also mean a well-known local figure (名物社長 = a famous/colorful boss)."}
+   ]},
+  {"w":"宴会","r":"えんかい","m":"banquet; (drinking) party; feast","c":"noun","lv":1,
+   "ex":[{"jp":"忘年会の宴会で盛り上がった。","en":"The year-end banquet was lively."}],
+   "qs":[
+     {"t":"fitb","s":"取引先を招いて、ホテルで盛大な＿＿＿＿を開いた。","en":"We invited our business partners and held a grand banquet at the hotel.","o":["宴会","会議","面会","集会"],"a":0,"e":"宴会 = a banquet/drinking party (social feast). 会議 = a (business) meeting. 面会 = visiting/meeting someone (e.g. a patient). 集会 = an organized assembly/rally."},
+     {"t":"meaning","s":"「宴会」の意味は？","o":["banquet; drinking party; feast","a business meeting","visiting/meeting someone","an organized assembly; rally"],"a":0,"e":"宴会 is a celebratory party with food and drink (宴会場 = a banquet hall, 宴会芸 = party entertainment/tricks)."}
+   ]},
+  {"w":"香水","r":"こうすい","m":"perfume; fragrance","c":"noun","lv":1,
+   "ex":[{"jp":"彼女はいい香りの香水をつけている。","en":"She is wearing a nice-smelling perfume."}],
+   "qs":[
+     {"t":"fitb","s":"つけすぎた＿＿＿＿の匂いが、部屋中に充満していた。","en":"The smell of too much perfume filled the whole room.","o":["香水","化粧","石鹸","洗剤"],"a":0,"e":"香水(こうすい) = perfume/fragrance. 化粧(けしょう) = makeup/cosmetics. 石鹸(せっけん) = soap. 洗剤(せんざい) = detergent."},
+     {"t":"meaning","s":"「香水」の意味は？","o":["perfume; fragrance","makeup; cosmetics","soap","detergent"],"a":0,"e":"香水 is perfume (香水をつける = put on perfume, 香水の香り = the scent of perfume)."}
+   ]},
+  {"w":"混合","r":"こんごう","m":"mixing; mixture; blending","c":"noun","lv":1,
+   "ex":[{"jp":"二つの薬品を混合する。","en":"To mix the two chemicals."}],
+   "qs":[
+     {"t":"fitb","s":"この競技は、男女＿＿＿＿のチームで行われる。","en":"This event is played with mixed men's and women's teams.","o":["混合","分離","単独","純粋"],"a":0,"e":"混合 = mixing/blending different things together. 分離(ぶんり) = separation (pulling apart). 単独(たんどく) = single/solo/alone. 純粋 = pure/unmixed."},
+     {"t":"meaning","s":"「混合」の意味は？","o":["mixing; mixture; blending","separation; pulling apart","single; solo; alone","pure; unmixed"],"a":0,"e":"混合 means combining different elements into a mixture (混合物 = a mixture, 男女混合 = mixed-gender). Opposite of 分離."}
+   ]},
+  {"w":"妥当","r":"だとう","m":"valid; appropriate; reasonable; proper","c":"naadj","lv":1,
+   "ex":[{"jp":"その判断は妥当だと思う。","en":"I think that judgment is reasonable."}],
+   "qs":[
+     {"t":"fitb","s":"提示された価格は、市場相場から見て＿＿＿＿だ。","en":"The price offered is reasonable in light of the market rate.","o":["妥当","不当","過剰","異常"],"a":0,"e":"妥当 = valid/appropriate/reasonable (fitting and justified). 不当(ふとう) = unjust/unreasonable (the opposite). 過剰 = excessive. 異常 = abnormal/unusual."},
+     {"t":"meaning","s":"「妥当」の意味は？","o":["valid; appropriate; reasonable; proper","unjust; unreasonable","excessive; too much","abnormal; unusual"],"a":0,"e":"妥当 means fitting and justified (妥当な judgment/price = a reasonable one, 妥当性 = validity/appropriateness). Opposite of 不当. Don't confuse with 妥協 (compromise)."}
+   ]},
+  {"w":"直線","r":"ちょくせん","m":"a straight line","c":"noun","lv":1,
+   "ex":[{"jp":"二点を直線で結ぶ。","en":"To connect two points with a straight line."}],
+   "qs":[
+     {"t":"fitb","s":"定規を使って、ノートに＿＿＿＿を引いた。","en":"Using a ruler, I drew a straight line in my notebook.","o":["直線","曲線","点線","対角線"],"a":0,"e":"直線 = a straight line. 曲線(きょくせん) = a curve/curved line. 点線(てんせん) = a dotted line. 対角線(たいかくせん) = a diagonal line."},
+     {"t":"meaning","s":"「直線」の意味は？","o":["a straight line","a curve; curved line","a dotted line","a diagonal line"],"a":0,"e":"直線 is a straight line (直線距離 = straight-line distance, 直線的 = straightforward/linear). Opposite of 曲線 (curve)."}
+   ]},
+  {"w":"方言","r":"ほうげん","m":"dialect; regional speech","c":"noun","lv":1,
+   "ex":[{"jp":"祖母は強い方言で話す。","en":"My grandmother speaks with a strong dialect."}],
+   "qs":[
+     {"t":"fitb","s":"同じ日本語でも、地域によって＿＿＿＿が大きく異なる。","en":"Even in the same Japanese, the dialect differs greatly by region.","o":["方言","標準語","外来語","流行語"],"a":0,"e":"方言 = a regional dialect. 標準語(ひょうじゅんご) = the standard language. 外来語(がいらいご) = loanwords (from foreign languages). 流行語(りゅうこうご) = a buzzword/trendy expression."},
+     {"t":"meaning","s":"「方言」の意味は？","o":["dialect; regional speech","the standard language","loanwords from foreign languages","a buzzword; trendy expression"],"a":0,"e":"方言 is regional speech that differs from the standard (関西方言 = the Kansai dialect, お国言葉 = local dialect). Opposite of 標準語."}
+   ]},
+  {"w":"膨大","r":"ぼうだい","m":"enormous; vast; huge (in quantity/scale)","c":"naadj","lv":1,
+   "ex":[{"jp":"この調査には膨大な時間がかかった。","en":"This survey took an enormous amount of time."}],
+   "qs":[
+     {"t":"fitb","s":"インターネット上には、＿＿＿＿な量の情報があふれている。","en":"A vast amount of information overflows on the internet.","o":["膨大","僅か","微量","小規模"],"a":0,"e":"膨大 = enormous/vast in quantity or scale. 僅か(わずか) = a mere/slight amount. 微量(びりょう) = a trace/tiny amount. 小規模(しょうきぼ) = small-scale."},
+     {"t":"meaning","s":"「膨大」の意味は？","o":["enormous; vast; huge in quantity/scale","a mere/slight amount","a trace; tiny amount","small-scale"],"a":0,"e":"膨大 describes an overwhelming amount or scale (膨大なデータ = vast data, 膨大な費用 = enormous costs). Don't confuse with 莫大 (huge, esp. of money/figures)."}
+   ]},
+  {"w":"群れ","r":"むれ","m":"a flock; herd; crowd; swarm (a group of creatures)","c":"noun","lv":1,
+   "ex":[{"jp":"羊の群れが草原を移動している。","en":"A flock of sheep is moving across the grassland."}],
+   "qs":[
+     {"t":"fitb","s":"渡り鳥が大きな＿＿＿＿をなして、南へ飛んでいった。","en":"The migratory birds formed a large flock and flew south.","o":["群れ","列","束","粒"],"a":0,"e":"群れ = a flock/herd/swarm (a mass of animals or people moving together). 列(れつ) = a line/row/queue. 束(たば) = a bundle/bunch (tied together). 粒(つぶ) = a grain/small bit."},
+     {"t":"meaning","s":"「群れ」の意味は？","o":["a flock; herd; crowd; swarm","a line; row; queue","a bundle; bunch","a grain; small bit"],"a":0,"e":"群れ is a group of creatures gathered or moving together (魚の群れ = a school of fish, 群れをなす = form a flock). The verb is 群れる."}
+   ]},
+  {"w":"王女","r":"おうじょ","m":"princess (a king's daughter)","c":"noun","lv":1,
+   "ex":[{"jp":"物語の王女は美しく賢かった。","en":"The princess in the story was beautiful and wise."}],
+   "qs":[
+     {"t":"fitb","s":"その国の＿＿＿＿は、外国の王子と結婚した。","en":"The princess of that country married a foreign prince.","o":["王女","王子","女王","王様"],"a":0,"e":"王女(おうじょ) = a princess (a king's daughter). 王子(おうじ) = a prince (a king's son). 女王(じょおう) = a queen (a reigning female monarch). 王様(おうさま) = the king."},
+     {"t":"meaning","s":"「王女」の意味は？","o":["a princess (a king's daughter)","a prince (a king's son)","a queen (reigning female monarch)","the king"],"a":0,"e":"王女 is a princess by birth. Distinct from 女王 (a queen who reigns) and 王子 (prince)."}
+   ]},
+  {"w":"下旬","r":"げじゅん","m":"the last third of a month (roughly the 21st–end)","c":"noun","lv":1,
+   "ex":[{"jp":"発売は来月の下旬の予定だ。","en":"The release is scheduled for late next month."}],
+   "qs":[
+     {"t":"fitb","s":"梅雨は六月＿＿＿＿から七月にかけて続く。","en":"The rainy season continues from late June into July.","o":["下旬","上旬","中旬","月末"],"a":0,"e":"下旬(げじゅん) = the last third of a month (~21st onward). 上旬(じょうじゅん) = the first third (1st–10th). 中旬(ちゅうじゅん) = the middle third (11th–20th). 月末 = the very end of the month."},
+     {"t":"meaning","s":"「下旬」の意味は？","o":["the last third of a month (~21st–end)","the first third (1st–10th)","the middle third (11th–20th)","the very end of the month"],"a":0,"e":"下旬 covers roughly the 21st to month's end. The trio: 上旬 (early), 中旬 (mid), 下旬 (late)."}
+   ]},
+  {"w":"心当たり","r":"こころあたり","m":"an idea/clue (of what's behind something); recollection","c":"noun","lv":1,
+   "ex":[{"jp":"犯人について心当たりはありますか。","en":"Do you have any idea who the culprit might be?"}],
+   "qs":[
+     {"t":"fitb","s":"財布をどこで失くしたか、全く＿＿＿＿がない。","en":"I have no idea at all where I lost my wallet.","o":["心当たり","思いやり","心構え","気がかり"],"a":0,"e":"心当たり = a clue/idea/recollection of what might be behind something. 思いやり = consideration/empathy. 心構え(こころがまえ) = mental preparedness/readiness. 気がかり = a worry/concern."},
+     {"t":"meaning","s":"「心当たり」の意味は？","o":["an idea/clue of what's behind something; recollection","consideration; empathy","mental preparedness; readiness","a worry; concern"],"a":0,"e":"心当たり is having some notion of the cause or whereabouts of something (心当たりがある = to have an idea, 心当たりを探す = search where you think it might be)."}
+   ]},
+  {"w":"小遣い","r":"こづかい","m":"pocket money; spending money; allowance","c":"noun","lv":1,
+   "ex":[{"jp":"子どもに毎月小遣いをあげている。","en":"I give my child an allowance every month."}],
+   "qs":[
+     {"t":"fitb","s":"お＿＿＿＿をためて、ずっと欲しかったゲームを買った。","en":"I saved up my allowance and bought the game I'd long wanted.","o":["小遣い","給料","貯金","借金"],"a":0,"e":"小遣い = pocket money/spending allowance (often お小遣い). 給料(きゅうりょう) = salary/wages (pay for work). 貯金(ちょきん) = savings. 借金 = a debt/loan owed."},
+     {"t":"meaning","s":"「小遣い」の意味は？","o":["pocket money; spending money; allowance","salary; wages for work","savings","a debt; money owed"],"a":0,"e":"小遣い is money for personal spending (お小遣い = an allowance, 小遣い稼ぎ = earning a bit of pocket money)."}
+   ]},
+  {"w":"実物","r":"じつぶつ","m":"the real thing; the actual object; (in) the flesh","c":"noun","lv":1,
+   "ex":[{"jp":"写真より実物のほうがきれいだ。","en":"The real thing is prettier than the photo."}],
+   "qs":[
+     {"t":"fitb","s":"通販で買う前に、店で＿＿＿＿を確認したい。","en":"Before buying online, I want to check the actual item in the store.","o":["実物","模型","写真","見本"],"a":0,"e":"実物 = the real/actual thing (as opposed to a copy or image). 模型(もけい) = a model/replica. 写真 = a photograph. 見本(みほん) = a sample/specimen (shown as an example)."},
+     {"t":"meaning","s":"「実物」の意味は？","o":["the real thing; the actual object; in the flesh","a model; replica","a photograph","a sample; specimen"],"a":0,"e":"実物 is the genuine article itself (実物大 = life-size, 実物を見る = see the real thing). Contrast a model, photo, or sample."}
+   ]},
+  {"w":"体系","r":"たいけい","m":"system; organized structure (of knowledge/theory)","c":"noun","lv":1,
+   "ex":[{"jp":"その学問は理論の体系がしっかりしている。","en":"That discipline has a well-organized system of theory."}],
+   "qs":[
+     {"t":"fitb","s":"複雑な税制を、分かりやすい＿＿＿＿に整理する必要がある。","en":"We need to organize the complex tax rules into an understandable system.","o":["体系","体制","体格","団体"],"a":0,"e":"体系 = an organized system/structure of ideas or elements (a coherent whole). 体制 = an organizational/political system (how a group is set up to operate). 体格 = physique/build. 団体 = a group/organization."},
+     {"t":"meaning","s":"「体系」の意味は？","o":["a system; organized structure of knowledge/theory","an organizational/political system; setup","physique; bodily build","a group; organization"],"a":0,"e":"体系 is a coherent organized system of related parts (体系的 = systematic, 賃金体系 = a wage structure, 文法体系 = a grammar system). 体制 is more about organizational/power structure."}
+   ]},
+  {"w":"防犯","r":"ぼうはん","m":"crime prevention; (anti-)crime security","c":"noun","lv":1,
+   "ex":[{"jp":"店の入り口に防犯カメラを設置した。","en":"We installed a security camera at the shop entrance."}],
+   "qs":[
+     {"t":"fitb","s":"地域住民が協力して、＿＿＿＿パトロールを行っている。","en":"Local residents cooperate to carry out crime-prevention patrols.","o":["防犯","防災","防止","予防"],"a":0,"e":"防犯 = preventing crime (security against criminals). 防災(ぼうさい) = disaster prevention/preparedness. 防止 = prevention (stopping something bad, general). 予防(よぼう) = prevention (esp. of illness, in advance)."},
+     {"t":"meaning","s":"「防犯」の意味は？","o":["crime prevention; anti-crime security","disaster prevention/preparedness","prevention; stopping something bad (general)","prevention (esp. of illness), in advance"],"a":0,"e":"防犯 specifically means guarding against crime (防犯ブザー = a personal alarm, 防犯対策 = anti-crime measures). 防災 is for natural disasters."}
+   ]},
+  {"w":"育児","r":"いくじ","m":"childcare; child-rearing; raising children","c":"noun","lv":1,
+   "ex":[{"jp":"夫婦で協力して育児をしている。","en":"The couple cooperates in raising their child."}],
+   "qs":[
+     {"t":"fitb","s":"父親も＿＿＿＿に積極的に参加する家庭が増えてきた。","en":"More households now have fathers actively taking part in childcare.","o":["育児","教育","保育","出産"],"a":0,"e":"育児 = raising/caring for one's own children (at home). 教育 = education (teaching/schooling). 保育(ほいく) = (professional) day-care/nursing of children. 出産(しゅっさん) = childbirth/giving birth."},
+     {"t":"meaning","s":"「育児」の意味は？","o":["childcare; child-rearing; raising children","education; teaching; schooling","professional day-care of children","childbirth; giving birth"],"a":0,"e":"育児 is rearing children (育児休暇 = childcare leave, 育児書 = a parenting book). 保育 is professional childcare; 教育 is education."}
+   ]},
+  {"w":"会館","r":"かいかん","m":"hall; assembly hall; meeting building","c":"noun","lv":1,
+   "ex":[{"jp":"市民会館でコンサートが開かれる。","en":"A concert will be held at the citizens' hall."}],
+   "qs":[
+     {"t":"fitb","s":"地域の催しは、たいてい近くの市民＿＿＿＿で行われる。","en":"Community events are usually held at the nearby citizens' hall.","o":["会館","会議","会場","会費"],"a":0,"e":"会館 = a hall/building for meetings and events (a facility). 会議 = a meeting (the gathering). 会場 = a venue (the place for a specific event). 会費 = a membership fee/dues."},
+     {"t":"meaning","s":"「会館」の意味は？","o":["a hall; assembly hall; meeting building","a meeting (the gathering itself)","a venue for a specific event","a membership fee; dues"],"a":0,"e":"会館 is a building used for gatherings and events (市民会館 = civic hall, 同窓会館 = an alumni hall)."}
+   ]},
+  {"w":"水平線","r":"すいへいせん","m":"the horizon (where sea/sky meet)","c":"noun","lv":1,
+   "ex":[{"jp":"水平線から太陽が昇ってきた。","en":"The sun rose from the horizon."}],
+   "qs":[
+     {"t":"fitb","s":"船が遠ざかり、やがて＿＿＿＿の彼方に消えた。","en":"The ship receded and eventually vanished beyond the horizon.","o":["水平線","地平線","稜線","境界線"],"a":0,"e":"水平線 = the horizon over the sea (sea-and-sky line). 地平線(ちへいせん) = the horizon over land. 稜線(りょうせん) = a mountain ridgeline. 境界線(きょうかいせん) = a boundary line."},
+     {"t":"meaning","s":"「水平線」の意味は？","o":["the horizon over the sea (sea-sky line)","the horizon over land","a mountain ridgeline","a boundary line"],"a":0,"e":"水平線 is the sea horizon; over land it's 地平線. Both mean where earth/sea meets sky."}
+   ]},
+  {"w":"清掃","r":"せいそう","m":"cleaning; sanitation (esp. of public/large spaces)","c":"noun","lv":1,
+   "ex":[{"jp":"ボランティアで公園の清掃をした。","en":"We cleaned the park as volunteers."}],
+   "qs":[
+     {"t":"fitb","s":"駅の構内は、専門の業者によって毎晩＿＿＿＿される。","en":"The station premises are cleaned every night by a professional contractor.","o":["清掃","洗濯","整理","片付け"],"a":0,"e":"清掃 = cleaning/sanitation (formal, often of public or large spaces). 洗濯 = doing laundry. 整理 = tidying/organizing/sorting. 片付け = clearing away/tidying up."},
+     {"t":"meaning","s":"「清掃」の意味は？","o":["cleaning; sanitation (formal, of public spaces)","doing laundry","tidying; organizing; sorting","clearing away; tidying up"],"a":0,"e":"清掃 is formal cleaning, often of public areas (清掃車 = a garbage/cleaning truck, 清掃員 = a cleaner/janitor). 掃除 is the everyday word for cleaning."}
+   ]},
+  {"w":"手首","r":"てくび","m":"wrist","c":"noun","lv":1,
+   "ex":[{"jp":"転んで手首を痛めた。","en":"I fell and hurt my wrist."}],
+   "qs":[
+     {"t":"fitb","s":"テニスのしすぎで、＿＿＿＿に負担がかかった。","en":"From playing too much tennis, my wrist got strained.","o":["手首","足首","肘","肩"],"a":0,"e":"手首(てくび) = the wrist. 足首(あしくび) = the ankle. 肘(ひじ) = the elbow. 肩(かた) = the shoulder."},
+     {"t":"meaning","s":"「手首」の意味は？","o":["the wrist","the ankle","the elbow","the shoulder"],"a":0,"e":"手首 is the wrist (手首を回す = rotate one's wrist). The parallel 足首 = ankle."}
+   ]},
+  {"w":"判事","r":"はんじ","m":"judge; justice (in a court)","c":"noun","lv":1,
+   "ex":[{"jp":"判事が判決を言い渡した。","en":"The judge handed down the verdict."}],
+   "qs":[
+     {"t":"fitb","s":"裁判で、＿＿＿＿は双方の主張を慎重に検討した。","en":"In the trial, the judge carefully examined both sides' arguments.","o":["判事","弁護士","検事","被告"],"a":0,"e":"判事(はんじ) = a judge (presides and rules; ≒ 裁判官). 弁護士(べんごし) = a lawyer/attorney (defends a client). 検事(けんじ) = a (public) prosecutor. 被告(ひこく) = the defendant."},
+     {"t":"meaning","s":"「判事」の意味は？","o":["a judge; justice (presides over a court)","a lawyer; attorney","a public prosecutor","the defendant"],"a":0,"e":"判事 is a judge who decides cases (≒ 裁判官). Distinct from 検事 (prosecutor) and 弁護士 (lawyer)."}
+   ]},
+  {"w":"噴火","r":"ふんか","m":"(volcanic) eruption","c":"noun","lv":1,
+   "ex":[{"jp":"その火山は百年前に噴火した。","en":"That volcano erupted a hundred years ago."}],
+   "qs":[
+     {"t":"fitb","s":"火山が＿＿＿＿し、大量の溶岩が流れ出した。","en":"The volcano erupted, and a large amount of lava flowed out.","o":["噴火","噴水","爆発","地震"],"a":0,"e":"噴火 = a volcanic eruption (a volcano spewing lava/ash). 噴水(ふんすい) = a fountain (spouting water). 爆発(ばくはつ) = an explosion. 地震 = an earthquake."},
+     {"t":"meaning","s":"「噴火」の意味は？","o":["a volcanic eruption","a fountain (spouting water)","an explosion","an earthquake"],"a":0,"e":"噴火 is a volcano erupting (噴火口 = a crater, 大噴火 = a major eruption). The volcano is 火山."}
+   ]},
+  {"w":"牧場","r":"ぼくじょう","m":"ranch; pasture; stock farm","c":"noun","lv":1,
+   "ex":[{"jp":"牧場で牛が草を食べている。","en":"Cows are grazing on the ranch."}],
+   "qs":[
+     {"t":"fitb","s":"広々とした＿＿＿＿で、馬がのんびりと過ごしていた。","en":"On the wide-open ranch, the horses were relaxing.","o":["牧場","農場","果樹園","菜園"],"a":0,"e":"牧場 = a ranch/pasture for raising livestock (cattle, horses, sheep). 農場(のうじょう) = a farm (general, crops or animals). 果樹園(かじゅえん) = an orchard (fruit trees). 菜園(さいえん) = a vegetable garden."},
+     {"t":"meaning","s":"「牧場」の意味は？","o":["a ranch; pasture; stock farm (livestock)","a farm (general, crops or animals)","an orchard; fruit-tree garden","a vegetable garden"],"a":0,"e":"牧場 is land for grazing livestock (牧場主 = a rancher, also read まきば in casual/poetic use)."}
+   ]},
+  {"w":"英文","r":"えいぶん","m":"English text; a sentence/writing in English","c":"noun","lv":1,
+   "ex":[{"jp":"この英文を日本語に訳してください。","en":"Please translate this English text into Japanese."}],
+   "qs":[
+     {"t":"fitb","s":"海外の取引先に送る＿＿＿＿のメールを、上司に確認してもらった。","en":"I had my boss check the English email I was sending to an overseas client.","o":["英文","和文","作文","本文"],"a":0,"e":"英文 = text written in English. 和文(わぶん) = text written in Japanese. 作文(さくぶん) = a composition/essay one writes. 本文(ほんぶん) = the main body text."},
+     {"t":"meaning","s":"「英文」の意味は？","o":["English text; writing in English","text written in Japanese","a composition; essay one writes","the main body text"],"a":0,"e":"英文 means English-language writing (英文法 = English grammar, 英文を読む = read English text). Its counterpart is 和文 (Japanese text)."}
+   ]},
+  {"w":"間接","r":"かんせつ","m":"indirect; secondhand (not direct)","c":"noun","lv":1,
+   "ex":[{"jp":"その話は間接的に聞いた。","en":"I heard that story indirectly (secondhand)."}],
+   "qs":[
+     {"t":"fitb","s":"喫煙は、本人だけでなく＿＿＿＿喫煙で周囲にも害を与える。","en":"Smoking harms not only the smoker but also those around them through secondhand smoke.","o":["間接","直接","間隔","間違い"],"a":0,"e":"間接 = indirect (through an intermediary, not direct). 直接(ちょくせつ) = direct (the opposite). 間隔 = an interval/spacing. 間違い = a mistake/error."},
+     {"t":"meaning","s":"「間接」の意味は？","o":["indirect; secondhand; through an intermediary","direct; firsthand","an interval; spacing","a mistake; error"],"a":0,"e":"間接 means not direct — via something in between (間接的 = indirect, 間接照明 = indirect lighting, 間接喫煙 = secondhand smoke). Opposite of 直接."}
+   ]},
+  {"w":"器具","r":"きぐ","m":"apparatus; instrument; utensil; appliance (a tool/device)","c":"noun","lv":1,
+   "ex":[{"jp":"実験には専用の器具が必要だ。","en":"The experiment requires special apparatus."}],
+   "qs":[
+     {"t":"fitb","s":"運動用の＿＿＿＿を使って、自宅で筋トレをしている。","en":"I do strength training at home using exercise equipment.","o":["器具","家具","道具","工具"],"a":0,"e":"器具 = an apparatus/instrument/appliance (often specialized, for a function). 家具(かぐ) = furniture. 道具(どうぐ) = a tool/implement (general). 工具(こうぐ) = (work)tools (for building/repair, e.g. wrenches)."},
+     {"t":"meaning","s":"「器具」の意味は？","o":["apparatus; instrument; utensil; appliance","furniture","a tool; implement (general)","work tools (for building/repair)"],"a":0,"e":"器具 refers to functional instruments and appliances (調理器具 = cooking utensils, 医療器具 = medical instruments, 照明器具 = lighting fixtures)."}
+   ]},
+  {"w":"彫刻","r":"ちょうこく","m":"sculpture; carving; engraving","c":"noun","lv":1,
+   "ex":[{"jp":"公園に大きな彫刻が置かれている。","en":"A large sculpture is placed in the park."}],
+   "qs":[
+     {"t":"fitb","s":"その芸術家は、大理石から見事な＿＿＿＿を作り出した。","en":"That artist produced a magnificent sculpture out of marble.","o":["彫刻","絵画","陶器","版画"],"a":0,"e":"彫刻 = sculpture/carving (3D, shaped by carving). 絵画(かいが) = paintings/pictures. 陶器(とうき) = pottery/ceramics. 版画(はんが) = a (woodblock) print."},
+     {"t":"meaning","s":"「彫刻」の意味は？","o":["sculpture; carving; engraving","paintings; pictures","pottery; ceramics","a (woodblock) print"],"a":0,"e":"彫刻 is the art of carving/sculpting (彫刻家 = a sculptor, 木彫刻 = wood carving). The verb is 彫る (to carve)."}
+   ]},
+  {"w":"吐き気","r":"はきけ","m":"nausea; an urge to vomit; queasiness","c":"noun","lv":1,
+   "ex":[{"jp":"乗り物酔いで吐き気がした。","en":"I felt nauseous from motion sickness."}],
+   "qs":[
+     {"t":"fitb","s":"ひどい臭いに、思わず＿＿＿＿を催した。","en":"The terrible smell made me feel nauseous in spite of myself.","o":["吐き気","眠気","寒気","食欲"],"a":0,"e":"吐き気 = nausea/an urge to vomit. 眠気(ねむけ) = drowsiness/sleepiness. 寒気(さむけ) = a chill/the shivers. 食欲(しょくよく) = appetite."},
+     {"t":"meaning","s":"「吐き気」の意味は？","o":["nausea; an urge to vomit; queasiness","drowsiness; sleepiness","a chill; the shivers","appetite"],"a":0,"e":"吐き気 is the feeling of wanting to throw up (吐き気がする = feel nauseous, 吐き気を催す = be overcome with nausea)."}
+   ]},
+  {"w":"もたれる","r":"もたれる","m":"to lean on/against; (of food) to sit heavy on the stomach","c":"verb","lv":1,
+   "ex":[{"jp":"壁にもたれて立っていた。","en":"I was standing leaning against the wall."}],
+   "qs":[
+     {"t":"fitb","s":"疲れて、彼は椅子の背に深く＿＿＿＿。","en":"Tired, he leaned back deeply into the chair.","o":["もたれた","ぶつかった","つまずいた","しがみついた"],"a":0,"e":"もたれる = to lean on/against (rest one's weight); also (food) to lie heavy. ぶつかる = to collide/bump into. つまずく = to trip/stumble. しがみつく = to cling/hold on tightly."},
+     {"t":"meaning","s":"「もたれる」の意味は？","o":["to lean on/against; (of food) to sit heavy on the stomach","to collide; to bump into","to trip; to stumble","to cling; to hold on tightly"],"a":0,"e":"もたれる means to rest one's weight against something (壁にもたれる = lean on the wall) and, of food, to feel heavy (胃がもたれる = have an upset/heavy stomach)."}
+   ]},
+  {"w":"苦情","r":"くじょう","m":"a complaint; a grievance; a grumble","c":"noun","lv":1,
+   "ex":[{"jp":"騒音について苦情が寄せられた。","en":"Complaints were submitted about the noise."}],
+   "qs":[
+     {"t":"fitb","s":"サービスの悪さに、客から＿＿＿＿が殺到した。","en":"Complaints flooded in from customers about the poor service.","o":["苦情","感謝","要望","賛成"],"a":0,"e":"苦情 = a complaint/grievance (expressing dissatisfaction). 感謝 = gratitude. 要望(ようぼう) = a request/demand (asking for something). 賛成 = agreement/approval."},
+     {"t":"meaning","s":"「苦情」の意味は？","o":["a complaint; grievance; grumble","gratitude; thankfulness","a request; demand","agreement; approval"],"a":0,"e":"苦情 is a complaint about dissatisfaction (苦情を言う = make a complaint, 苦情処理 = complaint handling). ≒ クレーム."}
+   ]},
+  {"w":"寺院","r":"じいん","m":"temple (Buddhist); a (formal) place of worship","c":"noun","lv":1,
+   "ex":[{"jp":"京都には古い寺院が多い。","en":"There are many old temples in Kyoto."}],
+   "qs":[
+     {"t":"fitb","s":"その＿＿＿＿は、千年以上の歴史を持つ。","en":"That temple has a history of over a thousand years.","o":["寺院","神社","教会","城"],"a":0,"e":"寺院(じいん) = a (Buddhist) temple (formal term; ≒ お寺). 神社(じんじゃ) = a Shinto shrine. 教会(きょうかい) = a (Christian) church. 城(しろ) = a castle."},
+     {"t":"meaning","s":"「寺院」の意味は？","o":["a (Buddhist) temple","a Shinto shrine","a (Christian) church","a castle"],"a":0,"e":"寺院 is the formal word for a Buddhist temple (仏教寺院 = a Buddhist temple). Don't confuse with 神社 (Shinto shrine)."}
+   ]},
+  {"w":"消耗","r":"しょうもう","m":"exhaustion; consumption; wear (using up energy/supplies)","c":"noun","lv":1,
+   "ex":[{"jp":"激しい運動で体力を消耗した。","en":"I used up my stamina with intense exercise."}],
+   "qs":[
+     {"t":"fitb","s":"長時間の交渉で、精神的に大きく＿＿＿＿した。","en":"The long negotiation left me greatly drained mentally.","o":["消耗","回復","補充","蓄積"],"a":0,"e":"消耗 = using up/being worn down (energy, supplies, stamina). 回復 = recovery/restoration. 補充(ほじゅう) = replenishing/refilling. 蓄積(ちくせき) = accumulation/building up."},
+     {"t":"meaning","s":"「消耗」の意味は？","o":["exhaustion; consumption; wearing down (using up)","recovery; restoration","replenishing; refilling","accumulation; building up"],"a":0,"e":"消耗 means using up or being drained (消耗品 = consumables/expendables, 体力を消耗 = deplete one's stamina). Also commonly read しょうこう in some contexts."}
+   ]},
+  {"w":"続々","r":"ぞくぞく","m":"one after another; in rapid succession; successively","c":"adv","lv":1,
+   "ex":[{"jp":"新商品が続々と発売される。","en":"New products are released one after another."}],
+   "qs":[
+     {"t":"fitb","s":"開店と同時に、客が＿＿＿＿と店内に入ってきた。","en":"The moment it opened, customers came into the shop one after another.","o":["続々","めったに","たまに","次第に"],"a":0,"e":"続々(と) = one after another/in rapid succession (many things coming in a stream). めったに = (with neg.) rarely. たまに = occasionally. 次第に = gradually."},
+     {"t":"meaning","s":"「続々」の意味は？","o":["one after another; in rapid succession","rarely; seldom (with neg.)","occasionally; once in a while","gradually; little by little"],"a":0,"e":"続々 describes things arriving or happening in a continuous stream (続々と集まる = gather in droves, 続々入荷 = arriving in stock one after another)."}
+   ]},
+  {"w":"灰色","r":"はいいろ","m":"gray; ashen color","c":"noun","lv":1,
+   "ex":[{"jp":"空が灰色の雲に覆われている。","en":"The sky is covered with gray clouds."}],
+   "qs":[
+     {"t":"fitb","s":"彼はいつも＿＿＿＿のスーツを着ている。","en":"He always wears a gray suit.","o":["灰色","金色","水色","茶色"],"a":0,"e":"灰色(はいいろ) = gray/ashen. 金色(きんいろ) = gold(en). 水色(みずいろ) = light blue. 茶色(ちゃいろ) = brown."},
+     {"t":"meaning","s":"「灰色」の意味は？","o":["gray; ashen color","gold; golden","light blue","brown"],"a":0,"e":"灰色 is gray, the color of ash (灰 = ash). Figuratively, 灰色の人生 = a bleak/dreary life. ≒ グレー."}
+   ]},
+  {"w":"海洋","r":"かいよう","m":"the ocean; the seas (large-scale, scientific)","c":"noun","lv":1,
+   "ex":[{"jp":"海洋には未知の生物が多い。","en":"There are many unknown creatures in the ocean."}],
+   "qs":[
+     {"t":"fitb","s":"プラスチックごみによる＿＿＿＿汚染が深刻化している。","en":"Ocean pollution from plastic waste is worsening.","o":["海洋","海岸","湖","河川"],"a":0,"e":"海洋 = the ocean/seas (large-scale, often scientific/policy contexts). 海岸 = the coast/shore. 湖(みずうみ) = a lake. 河川(かせん) = rivers (formal term)."},
+     {"t":"meaning","s":"「海洋」の意味は？","o":["the ocean; the seas (large-scale)","the coast; the shore","a lake","rivers (formal term)"],"a":0,"e":"海洋 refers to the oceans at large (海洋資源 = marine resources, 海洋汚染 = ocean pollution). More scientific/grand than 海 (the everyday 'sea')."}
+   ]},
+  {"w":"乾杯","r":"かんぱい","m":"a toast; 'Cheers!'; drinking to someone/something","c":"noun","lv":1,
+   "ex":[{"jp":"みんなで乾杯しよう。","en":"Let's make a toast, everyone."}],
+   "qs":[
+     {"t":"fitb","s":"新郎新婦の幸せを願って、グラスを上げて＿＿＿＿した。","en":"Wishing the newlyweds happiness, we raised our glasses and toasted.","o":["乾杯","拍手","握手","挨拶"],"a":0,"e":"乾杯(かんぱい) = a toast/'Cheers!' (raising glasses). 拍手(はくしゅ) = applause/clapping. 握手(あくしゅ) = a handshake. 挨拶(あいさつ) = a greeting."},
+     {"t":"meaning","s":"「乾杯」の意味は？","o":["a toast; 'Cheers!'; drinking to something","applause; clapping","a handshake","a greeting"],"a":0,"e":"乾杯 is a toast (乾杯の音頭 = leading a toast). Literally '(drink the cup) dry.'"}
+   ]},
+  {"w":"中旬","r":"ちゅうじゅん","m":"the middle third of a month (roughly the 11th–20th)","c":"noun","lv":1,
+   "ex":[{"jp":"桜は四月の中旬に満開になる。","en":"The cherry blossoms reach full bloom in mid-April."}],
+   "qs":[
+     {"t":"fitb","s":"プロジェクトの締め切りは、来月の＿＿＿＿あたりだ。","en":"The project deadline is around the middle of next month.","o":["中旬","上旬","下旬","中間"],"a":0,"e":"中旬(ちゅうじゅん) = the middle third of a month (~11th–20th). 上旬 = the first third (1st–10th). 下旬 = the last third (21st–end). 中間 = the middle (general, between two things)."},
+     {"t":"meaning","s":"「中旬」の意味は？","o":["the middle third of a month (~11th–20th)","the first third (1st–10th)","the last third (21st–end)","the middle (general, between two things)"],"a":0,"e":"中旬 is the mid-month period. The set: 上旬 (early), 中旬 (mid), 下旬 (late)."}
+   ]},
+  {"w":"番地","r":"ばんち","m":"house/lot number; street address number","c":"noun","lv":1,
+   "ex":[{"jp":"住所の番地を正確に書く。","en":"I write the address's lot number accurately."}],
+   "qs":[
+     {"t":"fitb","s":"地図を見ても、その＿＿＿＿の家がどこか分からなかった。","en":"Even looking at the map, I couldn't tell where the house with that lot number was.","o":["番地","番号","住所","地域"],"a":0,"e":"番地 = the lot/house number within an address. 番号(ばんごう) = a number (general identifier, e.g. phone). 住所 = the full address. 地域 = a region/area."},
+     {"t":"meaning","s":"「番地」の意味は？","o":["house/lot number in an address","a number (general identifier)","the full address","a region; area"],"a":0,"e":"番地 is the lot number part of a Japanese address (一丁目三番地 = block 1, lot 3). The whole address is 住所."}
+   ]},
+  {"w":"学術","r":"がくじゅつ","m":"science and learning; scholarship; academic study","c":"noun","lv":1,
+   "ex":[{"jp":"その雑誌は学術的な記事を載せている。","en":"That journal carries academic articles."}],
+   "qs":[
+     {"t":"fitb","s":"研究成果は、権威ある＿＿＿＿雑誌に掲載された。","en":"The research findings were published in a prestigious academic journal.","o":["学術","芸術","技術","美術"],"a":0,"e":"学術 = scholarship/academic study (scholarly research). 芸術(げいじゅつ) = (fine) art. 技術 = technology/technique. 美術(びじゅつ) = visual/fine arts."},
+     {"t":"meaning","s":"「学術」の意味は？","o":["scholarship; academic study; science and learning","(fine) art","technology; technique","visual/fine arts"],"a":0,"e":"学術 pertains to academic scholarship (学術論文 = a scholarly paper, 学術用語 = academic terminology, 学術会議 = an academic conference)."}
+   ]},
+  {"w":"課税","r":"かぜい","m":"taxation; levying a tax","c":"noun","lv":1,
+   "ex":[{"jp":"輸入品に課税される。","en":"A tax is levied on imported goods."}],
+   "qs":[
+     {"t":"fitb","s":"一定の収入を超えると、＿＿＿＿の対象になる。","en":"Once you exceed a certain income, you become subject to taxation.","o":["課税","減税","免税","納税"],"a":0,"e":"課税 = imposing/levying a tax (on someone). 減税(げんぜい) = a tax cut/reduction. 免税(めんぜい) = tax exemption/duty-free. 納税(のうぜい) = paying tax (by the taxpayer)."},
+     {"t":"meaning","s":"「課税」の意味は？","o":["taxation; levying a tax","a tax cut; reduction","tax exemption; duty-free","paying tax (by the taxpayer)"],"a":0,"e":"課税 is the act of imposing tax (課税対象 = taxable, 課税所得 = taxable income). 納税 is the citizen's side (paying); 免税 is exemption."}
+   ]},
+  {"w":"記号","r":"きごう","m":"a symbol; sign; mark (a meaningful notation)","c":"noun","lv":1,
+   "ex":[{"jp":"地図の記号の意味を覚える。","en":"I memorize the meanings of the map symbols."}],
+   "qs":[
+     {"t":"fitb","s":"重要な箇所には、星の＿＿＿＿を付けておいた。","en":"I put a star symbol next to the important parts.","o":["記号","番号","暗号","符号"],"a":0,"e":"記号 = a symbol/sign/mark (a notation with meaning, e.g. ＋, ♪). 番号 = a number (an identifier). 暗号(あんごう) = a code/cipher (secret). 符号(ふごう) = a sign/symbol/code (close to 記号; often in math/data as a 'sign')."},
+     {"t":"meaning","s":"「記号」の意味は？","o":["a symbol; sign; mark (meaningful notation)","a number (an identifier)","a code; cipher (secret)","a sign; code (esp. math/data)"],"a":0,"e":"記号 is a symbol or mark standing for something (発音記号 = phonetic symbols, 記号で表す = represent with symbols)."}
+   ]},
+  {"w":"産地","r":"さんち","m":"a producing region; place of origin (of goods)","c":"noun","lv":1,
+   "ex":[{"jp":"この野菜の産地は北海道だ。","en":"The production region of this vegetable is Hokkaido."}],
+   "qs":[
+     {"t":"fitb","s":"食品を買うときは、＿＿＿＿の表示を確認している。","en":"When buying food, I check the labeling of the place of origin.","o":["産地","現地","各地","土地"],"a":0,"e":"産地 = the region where a product is grown/made (its origin). 現地 = the actual site/local area (where something happens). 各地 = various places/regions. 土地 = land/a plot of ground."},
+     {"t":"meaning","s":"「産地」の意味は？","o":["a producing region; place of origin of goods","the actual site; local area","various places; regions","land; a plot of ground"],"a":0,"e":"産地 is where a product originates (産地直送 = shipped directly from the source, 名産地 = a region famous for a product)."}
+   ]},
+  {"w":"省略","r":"しょうりゃく","m":"omission; abbreviation; leaving out (for brevity)","c":"noun","lv":1,
+   "ex":[{"jp":"詳しい説明は省略します。","en":"I'll omit the detailed explanation."}],
+   "qs":[
+     {"t":"fitb","s":"長い正式名称は、頭文字をとって＿＿＿＿される。","en":"The long official name is abbreviated using its initials.","o":["省略","削除","追加","強調"],"a":0,"e":"省略 = omitting/abbreviating (leaving out for brevity, while implied). 削除 = deletion (removing entirely). 追加 = addition (adding on). 強調 = emphasis/stressing."},
+     {"t":"meaning","s":"「省略」の意味は？","o":["omission; abbreviation; leaving out for brevity","deletion; removing entirely","addition; adding on","emphasis; stressing"],"a":0,"e":"省略 means leaving something out, often understood from context (以下省略 = the rest is omitted, 省略形 = an abbreviated form). 削除 is outright deletion."}
+   ]},
+  {"w":"線路","r":"せんろ","m":"railway track; railroad line","c":"noun","lv":1,
+   "ex":[{"jp":"線路の近くに住んでいる。","en":"I live near the railway tracks."}],
+   "qs":[
+     {"t":"fitb","s":"動物が＿＿＿＿に立ち入り、電車が緊急停止した。","en":"An animal entered the tracks, and the train made an emergency stop.","o":["線路","道路","通路","回路"],"a":0,"e":"線路 = railway tracks/the rail line. 道路 = a road/street (for vehicles). 通路 = a passage/aisle (for people). 回路 = an (electric) circuit."},
+     {"t":"meaning","s":"「線路」の意味は？","o":["railway track; railroad line","a road; street for vehicles","a passage; aisle for people","an electric circuit"],"a":0,"e":"線路 is the railway track (線路沿い = along the tracks, 線路を渡る = cross the tracks)."}
+   ]},
+  {"w":"殴る","r":"なぐる","m":"to hit; to strike; to punch; to beat","c":"verb","lv":1,
+   "ex":[{"jp":"暴力で人を殴ってはいけない。","en":"You must not hit people with violence."}],
+   "qs":[
+     {"t":"fitb","s":"カッとなって相手を＿＿＿＿しまい、後で深く反省した。","en":"He flew into a rage and ended up punching the other person, and deeply regretted it later.","o":["殴って","褒めて","慰めて","支えて"],"a":0,"e":"殴る = to hit/punch/strike (with a fist). 褒める(ほめる) = to praise. 慰める(なぐさめる) = to comfort/console. 支える(ささえる) = to support/hold up."},
+     {"t":"meaning","s":"「殴る」の意味は？","o":["to hit; to strike; to punch; to beat","to praise","to comfort; to console","to support; to hold up"],"a":0,"e":"殴る means to strike with a fist (殴り合い = a fistfight, 顔を殴る = punch in the face)."}
+   ]},
+  {"w":"包丁","r":"ほうちょう","m":"kitchen knife; carving knife","c":"noun","lv":1,
+   "ex":[{"jp":"包丁で野菜を切る。","en":"I cut vegetables with a kitchen knife."}],
+   "qs":[
+     {"t":"fitb","s":"よく切れるように、＿＿＿＿を砥石で研いだ。","en":"I sharpened the kitchen knife on a whetstone so it would cut well.","o":["包丁","はさみ","まな板","フォーク"],"a":0,"e":"包丁(ほうちょう) = a kitchen knife. はさみ = scissors. まな板(まないた) = a cutting board. フォーク = a fork."},
+     {"t":"meaning","s":"「包丁」の意味は？","o":["a kitchen knife; carving knife","scissors","a cutting board","a fork"],"a":0,"e":"包丁 is a kitchen knife (包丁を研ぐ = sharpen a knife, 出刃包丁 = a fish-cleaving knife)."}
+   ]},
+  {"w":"役所","r":"やくしょ","m":"a government office; public office (city hall, etc.)","c":"noun","lv":1,
+   "ex":[{"jp":"転入の手続きは役所で行う。","en":"You do the move-in procedures at the government office."}],
+   "qs":[
+     {"t":"fitb","s":"住民票を取りに、市の＿＿＿＿へ行った。","en":"I went to the city office to get a residence certificate.","o":["役所","役者","役目","役割"],"a":0,"e":"役所(やくしょ) = a government/public office (where administrative business is done). 役者(やくしゃ) = an actor. 役目(やくめ) = a role/duty. 役割(やくわり) = a role/part one plays."},
+     {"t":"meaning","s":"「役所」の意味は？","o":["a government office; public office (city hall)","an actor","a role; duty","a role; part one plays"],"a":0,"e":"役所 is a government office handling public administration (市役所 = city hall, 区役所 = ward office, 役所仕事 = bureaucratic/red-tape work)."}
+   ]},
+  {"w":"郵送","r":"ゆうそう","m":"mailing; sending by post","c":"noun","lv":1,
+   "ex":[{"jp":"書類を郵送で送ってください。","en":"Please send the documents by mail."}],
+   "qs":[
+     {"t":"fitb","s":"申込書は、窓口提出のほか＿＿＿＿でも受け付けています。","en":"Application forms are accepted by mail as well as in-person submission.","o":["郵送","配達","運送","発送"],"a":0,"e":"郵送 = sending via the postal service (by mail). 配達(はいたつ) = delivery (bringing to the recipient). 運送(うんそう) = transport/freight carriage. 発送(はっそう) = dispatching/shipping out (sending off, by any means)."},
+     {"t":"meaning","s":"「郵送」の意味は？","o":["mailing; sending by post","delivery; bringing to the recipient","transport; freight carriage","dispatching; shipping out"],"a":0,"e":"郵送 specifically means sending through the post (郵送料 = postage, 郵送で届く = arrive by mail)."}
+   ]},
+  {"w":"加熱","r":"かねつ","m":"heating; applying heat; (figurative) overheating","c":"noun","lv":1,
+   "ex":[{"jp":"牛乳を加熱して温める。","en":"I heat the milk to warm it."}],
+   "qs":[
+     {"t":"fitb","s":"この食品は、電子レンジで十分に＿＿＿＿してから食べる。","en":"This food is eaten after thoroughly heating it in the microwave.","o":["加熱","冷却","加圧","保温"],"a":0,"e":"加熱 = heating/applying heat. 冷却(れいきゃく) = cooling. 加圧(かあつ) = applying pressure. 保温(ほおん) = keeping warm/retaining heat."},
+     {"t":"meaning","s":"「加熱」の意味は？","o":["heating; applying heat","cooling","applying pressure","keeping warm; retaining heat"],"a":0,"e":"加熱 means heating something up (加熱処理 = heat treatment, 加熱調理 = cooking with heat). Figuratively 加熱する = to heat up/overheat (e.g. competition). Opposite: 冷却."}
+   ]},
+  {"w":"観念","r":"かんねん","m":"a concept; notion; idea; (also) resigning oneself","c":"noun","lv":1,
+   "ex":[{"jp":"時間に対する観念は人によって違う。","en":"People's notion of time differs from person to person."}],
+   "qs":[
+     {"t":"fitb","s":"彼には罪の＿＿＿＿が薄く、悪びれる様子がなかった。","en":"He had little sense of guilt and showed no signs of remorse.","o":["観念","観察","観客","観光"],"a":0,"e":"観念 = a concept/notion/idea (an abstract mental conception). 観察 = observation (watching closely). 観客 = the audience/spectators. 観光 = sightseeing/tourism."},
+     {"t":"meaning","s":"「観念」の意味は？","o":["a concept; notion; idea (mental conception)","observation; watching closely","the audience; spectators","sightseeing; tourism"],"a":0,"e":"観念 is an abstract idea or sense (固定観念 = a fixed idea/stereotype, 時間の観念 = sense of time). As a verb, 観念する = to resign oneself/give up."}
+   ]},
+  {"w":"限度","r":"げんど","m":"a limit; bounds; the maximum extent","c":"noun","lv":1,
+   "ex":[{"jp":"我慢にも限度がある。","en":"There's a limit even to one's patience."}],
+   "qs":[
+     {"t":"fitb","s":"カードの利用には、月ごとの＿＿＿＿が設定されている。","en":"A monthly limit is set on use of the card.","o":["限度","程度","限界","制限"],"a":0,"e":"限度 = a set limit/bounds (the maximum allowed). 程度 = a degree/extent (how much). 限界(げんかい) = the absolute limit/breaking point (one's capacity). 制限(せいげん) = a restriction/limitation (imposed). 限度 and 限界 overlap; 限度 is a defined ceiling, 限界 the ultimate breaking point."},
+     {"t":"meaning","s":"「限度」の意味は？","o":["a limit; bounds; the maximum extent","a degree; extent; how much","the absolute limit; breaking point","a restriction; limitation (imposed)"],"a":0,"e":"限度 is the set boundary or maximum (限度額 = a maximum amount, 限度を超える = exceed the limit). 限界 is the ultimate breaking point."}
+   ]},
+  {"w":"娯楽","r":"ごらく","m":"entertainment; amusement; recreation","c":"noun","lv":1,
+   "ex":[{"jp":"映画は手軽な娯楽の一つだ。","en":"Movies are one form of easy entertainment."}],
+   "qs":[
+     {"t":"fitb","s":"テレビが、当時の人々にとって最大の＿＿＿＿だった。","en":"Television was the greatest form of entertainment for people back then.","o":["娯楽","労働","学習","運動"],"a":0,"e":"娯楽 = entertainment/amusement/recreation (for enjoyment). 労働 = labor/work. 学習 = learning/study. 運動 = exercise; a movement."},
+     {"t":"meaning","s":"「娯楽」の意味は？","o":["entertainment; amusement; recreation","labor; work","learning; study","exercise; a movement"],"a":0,"e":"娯楽 is leisure entertainment (娯楽施設 = entertainment facilities, 娯楽番組 = an entertainment program)."}
+   ]},
+  {"w":"住居","r":"じゅうきょ","m":"a dwelling; residence; one's home","c":"noun","lv":1,
+   "ex":[{"jp":"新しい住居を探している。","en":"I'm looking for a new place to live."}],
+   "qs":[
+     {"t":"fitb","s":"この建物は、店舗と＿＿＿＿が一体となった構造だ。","en":"This building has a structure combining a shop and a residence.","o":["住居","住所","近所","別荘"],"a":0,"e":"住居(じゅうきょ) = a dwelling/residence (the building/place one lives). 住所 = an address (the written location). 近所 = the neighborhood (nearby area). 別荘(べっそう) = a villa/vacation home."},
+     {"t":"meaning","s":"「住居」の意味は？","o":["a dwelling; residence; one's home (the place)","an address (written location)","the neighborhood; nearby area","a villa; vacation home"],"a":0,"e":"住居 is a place of residence (住居費 = housing costs, 住居侵入 = trespassing into a dwelling). Distinct from 住所 (the address)."}
+   ]},
+  {"w":"調節","r":"ちょうせつ","m":"adjustment; regulation; control (fine-tuning a level)","c":"noun","lv":1,
+   "ex":[{"jp":"エアコンの温度を調節する。","en":"I adjust the air conditioner's temperature."}],
+   "qs":[
+     {"t":"fitb","s":"カーテンで、部屋に入る光の量を＿＿＿＿する。","en":"I regulate the amount of light entering the room with the curtains.","o":["調節","調査","調子","強調"],"a":0,"e":"調節 = adjusting/regulating to a desired level (fine-tuning, e.g. temperature, volume). 調査 = investigation/survey. 調子(ちょうし) = condition/tune/pace (how something is going). 強調 = emphasis/stressing."},
+     {"t":"meaning","s":"「調節」の意味は？","o":["adjustment; regulation; fine-tuning a level","investigation; a survey","condition; tune; pace","emphasis; stressing"],"a":0,"e":"調節 means adjusting something to the right level (温度調節 = temperature control, 音量を調節 = adjust the volume). ≒ 調整, but 調節 leans toward fine-tuning levels."}
+   ]},
+  {"w":"満員","r":"まんいん","m":"full (of people); no vacancy; packed; sold out","c":"noun","lv":1,
+   "ex":[{"jp":"朝の電車はいつも満員だ。","en":"The morning train is always packed."}],
+   "qs":[
+     {"t":"fitb","s":"コンサートは＿＿＿＿で、当日券は手に入らなかった。","en":"The concert was sold out, and same-day tickets weren't available.","o":["満員","空席","定員","満点"],"a":0,"e":"満員 = full of people/no vacancy (packed to capacity). 空席(くうせき) = an empty/vacant seat. 定員(ていいん) = the capacity/fixed number of people allowed. 満点 = a perfect score."},
+     {"t":"meaning","s":"「満員」の意味は？","o":["full of people; no vacancy; packed; sold out","an empty/vacant seat","the capacity; fixed number allowed","a perfect score"],"a":0,"e":"満員 means filled to capacity with people (満員電車 = a packed train, 満員御礼 = 'thank you, full house')."}
+   ]},
+  {"w":"薬局","r":"やっきょく","m":"pharmacy; drugstore; chemist's","c":"noun","lv":1,
+   "ex":[{"jp":"薬局で風邪薬を買った。","en":"I bought cold medicine at the pharmacy."}],
+   "qs":[
+     {"t":"fitb","s":"処方箋を持って、病院前の＿＿＿＿で薬を受け取った。","en":"With my prescription, I picked up the medicine at the pharmacy in front of the hospital.","o":["薬局","病院","診療所","保健所"],"a":0,"e":"薬局(やっきょく) = a pharmacy/drugstore (dispenses medicine). 病院 = a hospital. 診療所(しんりょうじょ) = a clinic (small medical practice). 保健所(ほけんじょ) = a public health center."},
+     {"t":"meaning","s":"「薬局」の意味は？","o":["a pharmacy; drugstore; chemist's","a hospital","a clinic; small medical practice","a public health center"],"a":0,"e":"薬局 dispenses and sells medicine (調剤薬局 = a dispensing pharmacy, 薬剤師 = a pharmacist)."}
+   ]},
+  {"w":"友好","r":"ゆうこう","m":"friendship; amity (between groups/nations)","c":"noun","lv":1,
+   "ex":[{"jp":"両国は友好関係を深めている。","en":"The two countries are deepening their friendly relations."}],
+   "qs":[
+     {"t":"fitb","s":"姉妹都市として、長年にわたり＿＿＿＿を築いてきた。","en":"As sister cities, they have built friendly ties over many years.","o":["友好","敵対","対立","競争"],"a":0,"e":"友好 = friendship/amity (esp. between groups or nations). 敵対(てきたい) = hostility/antagonism (the opposite). 対立 = confrontation/opposition. 競争 = competition/rivalry."},
+     {"t":"meaning","s":"「友好」の意味は？","o":["friendship; amity (between groups/nations)","hostility; antagonism","confrontation; opposition","competition; rivalry"],"a":0,"e":"友好 means friendly relations on a group/national level (友好的 = friendly/amicable, 友好条約 = a treaty of friendship). For personal friendship, 友情 is used."}
+   ]},
+  {"w":"架空","r":"かくう","m":"fictional; imaginary; made-up; fanciful","c":"naadj","lv":1,
+   "ex":[{"jp":"この物語は架空の世界が舞台だ。","en":"This story is set in a fictional world."}],
+   "qs":[
+     {"t":"fitb","s":"登場人物はすべて＿＿＿＿で、実在の人物ではない。","en":"All the characters are fictional and not real people.","o":["架空","実在","現実","事実"],"a":0,"e":"架空 = fictional/imaginary/made-up (not real). 実在(じつざい) = actually existing/real. 現実 = reality/the actual. 事実 = a fact/the truth."},
+     {"t":"meaning","s":"「架空」の意味は？","o":["fictional; imaginary; made-up","actually existing; real","reality; the actual","a fact; the truth"],"a":0,"e":"架空 means made-up/not real (架空の人物 = a fictional character, 架空請求 = a bogus/phantom billing scam). Opposite of 実在."}
+   ]},
+  {"w":"功績","r":"こうせき","m":"achievement; (meritorious) contribution; distinguished service","c":"noun","lv":1,
+   "ex":[{"jp":"彼の功績は高く評価されている。","en":"His achievements are highly regarded."}],
+   "qs":[
+     {"t":"fitb","s":"その科学者は、医学の発展に大きな＿＿＿＿を残した。","en":"That scientist left great contributions to the advancement of medicine.","o":["功績","失敗","損害","責任"],"a":0,"e":"功績 = a meritorious achievement/contribution (praiseworthy deeds). 失敗 = a failure. 損害(そんがい) = damage/loss. 責任 = responsibility."},
+     {"t":"meaning","s":"「功績」の意味は？","o":["achievement; meritorious contribution; distinguished service","a failure","damage; loss","responsibility"],"a":0,"e":"功績 refers to praiseworthy accomplishments (功績をたたえる = honor someone's achievements, 多大な功績 = great contributions)."}
+   ]},
+  {"w":"上品","r":"じょうひん","m":"refined; elegant; classy; in good taste","c":"naadj","lv":1,
+   "ex":[{"jp":"彼女は上品な話し方をする。","en":"She speaks in a refined manner."}],
+   "qs":[
+     {"t":"fitb","s":"その店は、落ち着いた＿＿＿＿な雰囲気で人気がある。","en":"That shop is popular for its calm, refined atmosphere.","o":["上品","下品","派手","地味"],"a":0,"e":"上品(じょうひん) = refined/elegant/in good taste. 下品(げひん) = vulgar/coarse/in poor taste (the opposite). 派手 = flashy/showy. 地味 = plain/subdued."},
+     {"t":"meaning","s":"「上品」の意味は？","o":["refined; elegant; classy; in good taste","vulgar; coarse; in poor taste","flashy; showy","plain; subdued"],"a":0,"e":"上品 describes elegance and good taste (上品な味 = a delicate, refined flavor). Opposite of 下品 (vulgar)."}
+   ]},
+  {"w":"電流","r":"でんりゅう","m":"electric current","c":"noun","lv":1,
+   "ex":[{"jp":"この線に電流が流れている。","en":"An electric current is flowing through this wire."}],
+   "qs":[
+     {"t":"fitb","s":"スイッチを入れると、回路に＿＿＿＿が流れる。","en":"When you flip the switch, current flows through the circuit.","o":["電流","電圧","電波","電池"],"a":0,"e":"電流 = electric current (the flow of charge). 電圧(でんあつ) = voltage (electric pressure). 電波 = radio waves/signal. 電池 = a battery."},
+     {"t":"meaning","s":"「電流」の意味は？","o":["electric current (flow of charge)","voltage (electric pressure)","radio waves; signal","a battery"],"a":0,"e":"電流 is the flow of electricity (電流が流れる = current flows, 電流計 = an ammeter). 電圧 is voltage."}
+   ]},
+  {"w":"内科","r":"ないか","m":"internal medicine; the internal medicine department","c":"noun","lv":1,
+   "ex":[{"jp":"熱が出たので内科を受診した。","en":"I had a fever, so I saw the internal medicine department."}],
+   "qs":[
+     {"t":"fitb","s":"手術ではなく薬で治す病気なら、＿＿＿＿が専門だ。","en":"For illnesses treated with medicine rather than surgery, internal medicine is the specialty.","o":["内科","外科","産婦人科","歯科"],"a":0,"e":"内科(ないか) = internal medicine (treats with medication, not surgery). 外科(げか) = surgery (operates). 産婦人科(さんふじんか) = obstetrics and gynecology. 歯科(しか) = dentistry."},
+     {"t":"meaning","s":"「内科」の意味は？","o":["internal medicine (treats with medication)","surgery (operates)","obstetrics and gynecology","dentistry"],"a":0,"e":"内科 treats illnesses non-surgically with medicine (内科医 = a physician/internist). Contrast 外科 (surgery)."}
+   ]},
+  {"w":"卑怯","r":"ひきょう","m":"cowardly; unfair; mean; dirty (in conduct)","c":"naadj","lv":1,
+   "ex":[{"jp":"嘘をついて逃げるなんて卑怯だ。","en":"Lying and running away is cowardly."}],
+   "qs":[
+     {"t":"fitb","s":"弱い者をいじめるなんて、＿＿＿＿なやり方だ。","en":"Bullying the weak is a cowardly, dirty way to behave.","o":["卑怯","勇敢","正直","公平"],"a":0,"e":"卑怯(ひきょう) = cowardly/unfair/underhanded. 勇敢(ゆうかん) = brave/courageous (the opposite). 正直 = honest/truthful. 公平 = fair/impartial."},
+     {"t":"meaning","s":"「卑怯」の意味は？","o":["cowardly; unfair; mean; underhanded","brave; courageous","honest; truthful","fair; impartial"],"a":0,"e":"卑怯 condemns cowardly or dishonorable conduct (卑怯者 = a coward, 卑怯な手 = a dirty trick). Opposite of 勇敢/正々堂々."}
+   ]}
+]

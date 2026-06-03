@@ -1,0 +1,22 @@
+
+=== batch near あっ ===
+Traceback (most recent call last):
+  File "/Users/bilal/JLPT study/vocab-n2/build_vocab.py", line 521, in main
+    for _idx, rec in fut.result():
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/bilal/JLPT study/vocab-n2/build_vocab.py", line 380, in generate_batch
+    resp = client.messages.create(
+  File "/Users/bilal/Library/Python/3.9/lib/python/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/bilal/Library/Python/3.9/lib/python/site-packages/anthropic/resources/messages/messages.py", line 1006, in create
+    return self._post(
+  File "/Users/bilal/Library/Python/3.9/lib/python/site-packages/anthropic/_base_client.py", line 1374, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/bilal/Library/Python/3.9/lib/python/site-packages/anthropic/_base_client.py", line 1147, in request
+    raise self._make_status_error_from_response(err.response) from None
+anthropic.AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}, 'request_id': 'req_011Cbf1HQm5GvteyfgjGDUYD'}

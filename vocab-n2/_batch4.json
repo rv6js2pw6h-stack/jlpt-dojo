@@ -1,0 +1,602 @@
+[
+  {
+    "w": "接続",
+    "r": "せつぞく",
+    "m": "connection; joining; link (e.g. network, trains)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "インターネットの接続が不安定で、作業が進まない。", "en": "The internet connection is unstable, so the work isn't progressing."}],
+    "qs": [
+      {"t": "fitb", "s": "ケーブルの＿＿＿＿が緩んでいたため、画面が映らなかった。", "en": "The cable connection was loose, so the screen wouldn't display.", "o": ["接続", "接触", "連結", "結合"], "a": 0, "e": "接続 = connecting devices, networks, or lines. 接触 = physical contact/touching. 連結 = coupling (train cars). 結合 = bonding/union (chemistry, abstract joining)."},
+      {"t": "meaning", "s": "「接続」の意味は？", "o": ["connection; joining; link", "physical contact; touching", "coupling of train cars", "chemical bonding; union"], "a": 0, "e": "接続 is used for hooking things up — ネット接続 (internet connection), 接続詞 (conjunction), 乗り換え接続 (train transfer connection)."}
+    ]
+  },
+  {
+    "w": "当たり前",
+    "r": "あたりまえ",
+    "m": "natural; obvious; to be expected; ordinary",
+    "c": "naadj",
+    "lv": 1,
+    "ex": [{"jp": "約束を守るのは当たり前のことだ。", "en": "Keeping a promise is only natural."}],
+    "qs": [
+      {"t": "fitb", "s": "毎日使えていた水道が、＿＿＿＿ではないと災害で気づいた。", "en": "The disaster made me realize that running water, which I'd used daily, isn't something to be taken for granted.", "o": ["当たり前", "出鱈目", "大げさ", "あべこべ"], "a": 0, "e": "当たり前 = natural, obvious, taken for granted. 出鱈目(でたらめ) = nonsense, random/false. 大げさ = exaggerated. あべこべ = reversed, the other way around."},
+      {"t": "meaning", "s": "「当たり前」の意味は？", "o": ["natural; obvious; to be expected", "nonsense; random and false", "exaggerated; overblown", "reversed; backwards"], "a": 0, "e": "当たり前 means something is so normal or reasonable it needs no explanation (当たり前のことを言う = to state the obvious)."}
+    ]
+  },
+  {
+    "w": "思い掛けない",
+    "r": "おもいがけない",
+    "m": "unexpected; unforeseen; by chance",
+    "c": "iadj",
+    "lv": 1,
+    "ex": [{"jp": "思い掛けないところで昔の友人に会った。", "en": "I ran into an old friend in an unexpected place."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿知らせに、彼女は言葉を失った。", "en": "At the unexpected news, she was at a loss for words.", "o": ["思い掛けない", "やむを得ない", "申し訳ない", "数えきれない"], "a": 0, "e": "思い掛けない = unexpected, unforeseen. やむを得ない = unavoidable, can't be helped. 申し訳ない = inexcusable, very sorry. 数えきれない = countless, too many to count."},
+      {"t": "meaning", "s": "「思い掛けない」の意味は？", "o": ["unexpected; unforeseen", "unavoidable; can't be helped", "inexcusable; deeply sorry", "countless; innumerable"], "a": 0, "e": "思い掛けない describes something you never anticipated (思い掛けない出来事 = an unforeseen event). Commonly written 思いがけない."}
+    ]
+  },
+  {
+    "w": "交流",
+    "r": "こうりゅう",
+    "m": "exchange; interaction; interchange (people, cultures)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この町は外国の都市と文化交流を続けている。", "en": "This town continues cultural exchange with cities abroad."}],
+    "qs": [
+      {"t": "fitb", "s": "留学を通して、様々な国の学生と＿＿＿＿を深めた。", "en": "Through studying abroad, I deepened my interaction with students from various countries.", "o": ["交流", "交換", "交差", "交代"], "a": 0, "e": "交流 = mutual interaction/exchange between people or groups. 交換 = swapping concrete things. 交差 = crossing/intersecting. 交代 = taking turns, alternating."},
+      {"t": "meaning", "s": "「交流」の意味は？", "o": ["exchange; interaction between people/cultures", "swapping concrete objects", "crossing; intersecting", "taking turns; alternating"], "a": 0, "e": "交流 emphasizes ongoing human or cultural interaction (国際交流 = international exchange, 交流会 = social/networking event). Also means alternating current (AC)."}
+    ]
+  },
+  {
+    "w": "中身",
+    "r": "なかみ",
+    "m": "contents; substance; what is inside",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "箱の中身を確認してから、サインしてください。", "en": "Please check the contents of the box before signing."}],
+    "qs": [
+      {"t": "fitb", "s": "見た目は立派だが、話の＿＿＿＿が全くなかった。", "en": "It looked impressive, but the talk had no substance at all.", "o": ["中身", "表面", "外見", "本物"], "a": 0, "e": "中身 = contents or substance, what's actually inside. 表面 = surface. 外見 = outward appearance. 本物 = the real thing/genuine article."},
+      {"t": "meaning", "s": "「中身」の意味は？", "o": ["contents; substance; what is inside", "surface; outer face", "outward appearance; looks", "the real thing; genuine article"], "a": 0, "e": "中身 contrasts with appearance — it's the actual content or substance (財布の中身 = wallet contents, 中身のある議論 = a substantive discussion)."}
+    ]
+  },
+  {
+    "w": "いきなり",
+    "r": "いきなり",
+    "m": "suddenly; abruptly; without warning",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "彼はいきなり立ち上がって部屋を出て行った。", "en": "He suddenly stood up and left the room."}],
+    "qs": [
+      {"t": "fitb", "s": "準備運動もせずに＿＿＿＿走り出すと、けがをしやすい。", "en": "If you start running abruptly without warming up, you're prone to injury.", "o": ["いきなり", "うっかり", "じっくり", "そっくり"], "a": 0, "e": "いきなり = suddenly, with no lead-up. うっかり = carelessly, absent-mindedly. じっくり = carefully, taking one's time. そっくり = exactly alike; entirely."},
+      {"t": "meaning", "s": "「いきなり」の意味は？", "o": ["suddenly; abruptly; without warning", "carelessly; absent-mindedly", "carefully; taking one's time", "exactly alike; identical"], "a": 0, "e": "いきなり stresses that something happens with no preparation or warning (いきなり質問された = was asked out of the blue). Similar to 突然 but more colloquial."}
+    ]
+  },
+  {
+    "w": "継続",
+    "r": "けいぞく",
+    "m": "continuation; carrying on; keeping up",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "上達のためには毎日の練習を継続することが大切だ。", "en": "To improve, it's important to keep up daily practice."}],
+    "qs": [
+      {"t": "fitb", "s": "資金不足のため、プロジェクトの＿＿＿＿が難しくなった。", "en": "Due to lack of funds, continuing the project became difficult.", "o": ["継続", "持続", "連続", "存続"], "a": 0, "e": "継続 = continuing an activity or effort (often deliberate). 持続 = sustaining a state/level. 連続 = consecutive, unbroken sequence. 存続 = survival/continued existence of an organization."},
+      {"t": "meaning", "s": "「継続」の意味は？", "o": ["continuation; carrying on an activity", "sustaining a state or level", "consecutive; an unbroken sequence", "continued existence; survival"], "a": 0, "e": "継続 = keeping an action going over time (継続は力なり = perseverance pays off, lit. 'continuation is strength'). 連続 emphasizes back-to-back sequence instead."}
+    ]
+  },
+  {
+    "w": "書籍",
+    "r": "しょせき",
+    "m": "books; publications (formal term for books)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この出版社は専門的な書籍を多く扱っている。", "en": "This publisher handles many specialized books."}],
+    "qs": [
+      {"t": "fitb", "s": "電子＿＿＿＿の普及で、紙の本の売上が減っている。", "en": "With the spread of e-books, sales of paper books are declining.", "o": ["書籍", "書類", "文章", "雑誌"], "a": 0, "e": "書籍 = books/publications (formal). 書類 = documents/paperwork. 文章 = written text/passage/sentence. 雑誌 = magazine."},
+      {"t": "meaning", "s": "「書籍」の意味は？", "o": ["books; publications (formal)", "documents; paperwork", "written text; a passage", "magazine"], "a": 0, "e": "書籍 is the formal word for books, used in publishing and commerce (電子書籍 = e-book, 書籍化 = turning into a book). 本 is the everyday word."}
+    ]
+  },
+  {
+    "w": "少なくとも",
+    "r": "すくなくとも",
+    "m": "at least; at the very least",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "完成までに少なくとも一週間はかかるだろう。", "en": "It will take at least a week to complete."}],
+    "qs": [
+      {"t": "fitb", "s": "全員は無理でも、＿＿＿＿半数の賛成は必要だ。", "en": "Even if not everyone, we need at least half to agree.", "o": ["少なくとも", "せいぜい", "わざわざ", "今にも"], "a": 0, "e": "少なくとも = at least (a minimum bound). せいぜい = at most, at best (an upper limit). わざわざ = going out of one's way. 今にも = at any moment now."},
+      {"t": "meaning", "s": "「少なくとも」の意味は？", "o": ["at least; at the very least", "at most; at best", "going out of one's way to", "at any moment now"], "a": 0, "e": "少なくとも sets a minimum (少なくとも三人 = at least three people). Its opposite is せいぜい (at most)."}
+    ]
+  },
+  {
+    "w": "間も無く",
+    "r": "まもなく",
+    "m": "soon; shortly; before long",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "間も無く電車が到着いたします。", "en": "The train will arrive shortly."}],
+    "qs": [
+      {"t": "fitb", "s": "開演まで＿＿＿＿ですので、お席にお戻りください。", "en": "The performance will begin shortly, so please return to your seats.", "o": ["間も無く", "とっくに", "いつまでも", "たまたま"], "a": 0, "e": "間も無く = soon, before long (a short time from now). とっくに = long ago, already. いつまでも = forever, indefinitely. たまたま = by chance, happened to."},
+      {"t": "meaning", "s": "「間も無く」の意味は？", "o": ["soon; shortly; before long", "long ago; already", "forever; indefinitely", "by chance; happened to"], "a": 0, "e": "間も無く (often written まもなく) means a short time from now. Common in announcements (まもなく発車します = departing shortly)."}
+    ]
+  },
+  {
+    "w": "送料",
+    "r": "そうりょう",
+    "m": "postage; shipping cost; carriage charge",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "五千円以上のお買い上げで送料は無料になります。", "en": "Shipping is free for purchases over 5,000 yen."}],
+    "qs": [
+      {"t": "fitb", "s": "商品は安かったが、＿＿＿＿を含めると割高だった。", "en": "The item was cheap, but including shipping it was rather expensive.", "o": ["送料", "料金", "代金", "手数料"], "a": 0, "e": "送料 = shipping/postage cost specifically. 料金 = fee/charge (general). 代金 = the price/payment for goods. 手数料 = handling/service fee, commission."},
+      {"t": "meaning", "s": "「送料」の意味は？", "o": ["postage; shipping cost", "fee; charge (general)", "the price paid for goods", "handling fee; commission"], "a": 0, "e": "送料 specifically covers the cost of sending/delivering something (送料無料 = free shipping, 送料込み = shipping included)."}
+    ]
+  },
+  {
+    "w": "自宅",
+    "r": "じたく",
+    "m": "one's own home; one's residence",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "最近は自宅で仕事をする人が増えた。", "en": "Recently more people work from home."}],
+    "qs": [
+      {"t": "fitb", "s": "退院後はしばらく＿＿＿＿で療養することになった。", "en": "After being discharged, he was to recuperate at home for a while.", "o": ["自宅", "住所", "宿舎", "実家"], "a": 0, "e": "自宅 = one's own home/residence. 住所 = address (the location/written address). 宿舎 = dormitory/lodging (provided housing). 実家 = one's parents' home/family home."},
+      {"t": "meaning", "s": "「自宅」の意味は？", "o": ["one's own home; one's residence", "address; written location", "dormitory; provided lodging", "one's parents' home"], "a": 0, "e": "自宅 = the home where you live (自宅勤務 = working from home, 自宅療養 = recovering at home). 実家 specifically means the family home you grew up in."}
+    ]
+  },
+  {
+    "w": "前後",
+    "r": "ぜんご",
+    "m": "before and after; around (approximate); order",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "開会式の前後は会場がとても混雑する。", "en": "The venue is very crowded before and after the opening ceremony."}],
+    "qs": [
+      {"t": "fitb", "s": "会費は一人五千円＿＿＿＿を予定しています。", "en": "We're planning a membership fee of around 5,000 yen per person.", "o": ["前後", "以上", "ばかり", "限り"], "a": 0, "e": "前後 after a number = approximately/around that amount. 以上 = that amount or more. ばかり = only/just about. 限り = as far as/limit. Note: 前後 also means 'before and after.'"},
+      {"t": "meaning", "s": "「前後」の意味は？", "o": ["before and after; around (approximate)", "that amount or more", "only; nothing but", "limit; as far as"], "a": 0, "e": "前後 means 'before and after' (前後の文脈 = surrounding context) and, after a quantity, 'approximately' (三時前後 = around 3 o'clock). It can also mean the order/sequence of things."}
+    ]
+  },
+  {
+    "w": "確率",
+    "r": "かくりつ",
+    "m": "probability; likelihood; chance",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "明日の降水確率は七十パーセントだ。", "en": "Tomorrow's chance of rain is seventy percent."}],
+    "qs": [
+      {"t": "fitb", "s": "この治療法で回復する＿＿＿＿は非常に高い。", "en": "The probability of recovery with this treatment is very high.", "o": ["確率", "比率", "効率", "割合"], "a": 0, "e": "確率 = probability/likelihood of an event. 比率 = ratio/proportion between quantities. 効率 = efficiency. 割合 = proportion/percentage of a whole."},
+      {"t": "meaning", "s": "「確率」の意味は？", "o": ["probability; likelihood; chance", "ratio between quantities", "efficiency", "proportion of a whole"], "a": 0, "e": "確率 expresses how likely something is to happen (確率が高い = high probability, 成功の確率 = chance of success). Distinct from 割合 (a share of a whole)."}
+    ]
+  },
+  {
+    "w": "診断",
+    "r": "しんだん",
+    "m": "diagnosis; medical examination; assessment",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "医師の診断によると、ただの疲労だそうだ。", "en": "According to the doctor's diagnosis, it's just fatigue."}],
+    "qs": [
+      {"t": "fitb", "s": "会社は社員に年に一度の健康＿＿＿＿を義務づけている。", "en": "The company requires employees to have an annual health check-up.", "o": ["診断", "診察", "検査", "治療"], "a": 0, "e": "診断 = diagnosis (the doctor's conclusion/assessment). 診察 = the act of examining a patient. 検査 = testing/inspection (e.g. blood test). 治療 = treatment/therapy."},
+      {"t": "meaning", "s": "「診断」の意味は？", "o": ["diagnosis; medical assessment", "examining a patient (the act)", "testing; inspection", "treatment; therapy"], "a": 0, "e": "診断 is the conclusion a doctor reaches (健康診断 = health check-up, 診断書 = medical certificate). Also used figuratively (経営診断 = business assessment)."}
+    ]
+  },
+  {
+    "w": "体制",
+    "r": "たいせい",
+    "m": "system; structure; setup; regime (organizational)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "会社は新しい経営体制に移行した。", "en": "The company shifted to a new management structure."}],
+    "qs": [
+      {"t": "fitb", "s": "災害に備えて、二十四時間対応の＿＿＿＿を整えた。", "en": "In preparation for disasters, they set up a 24-hour response system.", "o": ["体制", "体格", "態度", "姿勢"], "a": 0, "e": "体制 = organizational system/structure/setup (how a group is arranged to function). 体格 = physique/build (of a body). 態度 = attitude/manner. 姿勢 = posture, or one's stance toward something."},
+      {"t": "meaning", "s": "「体制」の意味は？", "o": ["system; structure; organizational setup", "physique; bodily build", "attitude; manner", "posture; stance"], "a": 0, "e": "体制 refers to how an organization or society is structured to operate (政治体制 = political system, 受け入れ体制 = reception/support setup)."}
+    ]
+  },
+  {
+    "w": "目指す",
+    "r": "めざす",
+    "m": "to aim at; to aspire to; to set one's sights on",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "彼は医者になることを目指して勉強している。", "en": "He is studying with the goal of becoming a doctor."}],
+    "qs": [
+      {"t": "fitb", "s": "チームは全国大会での優勝を＿＿＿＿、毎日練習している。", "en": "The team practices every day, aiming to win the national tournament.", "o": ["目指して", "見つめて", "見直して", "見送って"], "a": 0, "e": "目指す = to aim for/aspire to a goal. 見つめる = to gaze at/stare. 見直す = to review/reconsider. 見送る = to see someone off; to pass on (an opportunity)."},
+      {"t": "meaning", "s": "「目指す」の意味は？", "o": ["to aim at; to aspire to a goal", "to gaze at; to stare", "to review; to reconsider", "to see off; to forgo"], "a": 0, "e": "目指す means to set a goal and work toward it (頂上を目指す = head for the summit, 優勝を目指す = aim for victory)."}
+    ]
+  },
+  {
+    "w": "回転",
+    "r": "かいてん",
+    "m": "rotation; revolution; turning; turnover",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "観覧車がゆっくりと回転している。", "en": "The Ferris wheel is slowly rotating."}],
+    "qs": [
+      {"t": "fitb", "s": "この店は客の＿＿＿＿が速いので、すぐに席が空く。", "en": "This restaurant has fast customer turnover, so seats open up quickly.", "o": ["回転", "循環", "移動", "変化"], "a": 0, "e": "回転 = rotation/turning, or turnover (cycling of customers, stock). 循環 = circulation (blood, money flowing in a loop). 移動 = movement from place to place. 変化 = change/transformation."},
+      {"t": "meaning", "s": "「回転」の意味は？", "o": ["rotation; turning; turnover", "circulation in a loop", "movement from place to place", "change; transformation"], "a": 0, "e": "回転 = spinning/turning (回転寿司 = conveyor-belt sushi) and figuratively turnover or quickness (頭の回転が速い = quick-witted)."}
+    ]
+  },
+  {
+    "w": "きっかけ",
+    "r": "きっかけ",
+    "m": "trigger; opportunity; the thing that starts something",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "その出会いがきっかけで、彼は画家になった。", "en": "That encounter was what led him to become a painter."}],
+    "qs": [
+      {"t": "fitb", "s": "留学が日本語に興味を持つ＿＿＿＿になった。", "en": "Studying abroad became the trigger for my interest in Japanese.", "o": ["きっかけ", "おかげ", "わけ", "せい"], "a": 0, "e": "きっかけ = the trigger/catalyst that starts something. おかげ = thanks to (positive cause). わけ = reason/circumstance. せい = fault/blame (negative cause)."},
+      {"t": "meaning", "s": "「きっかけ」の意味は？", "o": ["trigger; the thing that starts something", "thanks to (a positive cause)", "reason; circumstances", "fault; blame for something bad"], "a": 0, "e": "きっかけ is the catalyst or opening event that sets something in motion (〜をきっかけに = triggered by / using ~ as an opportunity)."}
+    ]
+  },
+  {
+    "w": "特殊",
+    "r": "とくしゅ",
+    "m": "special; unique; peculiar; specialized",
+    "c": "naadj",
+    "lv": 1,
+    "ex": [{"jp": "この作業には特殊な道具が必要だ。", "en": "This task requires special tools."}],
+    "qs": [
+      {"t": "fitb", "s": "それは＿＿＿＿なケースで、普通は起こらない。", "en": "That is a special case; it doesn't normally happen.", "o": ["特殊", "普通", "平凡", "一般"], "a": 0, "e": "特殊 = special, unusual, out of the ordinary. 普通 = ordinary/normal. 平凡 = mediocre, commonplace. 一般 = general/common (the broad norm)."},
+      {"t": "meaning", "s": "「特殊」の意味は？", "o": ["special; unique; peculiar", "ordinary; normal", "mediocre; commonplace", "general; common"], "a": 0, "e": "特殊 emphasizes that something is exceptional or specialized, differing from the norm (特殊技能 = specialized skill). Its antonym is 一般 (general)."}
+    ]
+  },
+  {
+    "w": "当日",
+    "r": "とうじつ",
+    "m": "the day in question; the very day; that day",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "チケットは当日でも購入できます。", "en": "Tickets can be purchased even on the day itself."}],
+    "qs": [
+      {"t": "fitb", "s": "予約は前日までに、＿＿＿＿のキャンセルはご遠慮ください。", "en": "Please reserve by the day before; we ask that you refrain from same-day cancellations.", "o": ["当日", "当時", "前日", "翌日"], "a": 0, "e": "当日 = the very day (of an event). 当時 = back then, at that time (a past era). 前日 = the day before. 翌日 = the next day."},
+      {"t": "meaning", "s": "「当日」の意味は？", "o": ["the very day; the day in question", "back then; at that time (past)", "the previous day", "the following day"], "a": 0, "e": "当日 refers to the actual day an event takes place (当日券 = same-day ticket, 当日券売り場 = day-of box office). Don't confuse with 当時 (in those days)."}
+    ]
+  },
+  {
+    "w": "解放",
+    "r": "かいほう",
+    "m": "release; liberation; setting free",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "試験が終わって、ようやくプレッシャーから解放された。", "en": "With the exam over, I was finally released from the pressure."}],
+    "qs": [
+      {"t": "fitb", "s": "人質は無事に＿＿＿＿され、家族のもとへ戻った。", "en": "The hostages were safely released and returned to their families.", "o": ["解放", "開放", "釈放", "放置"], "a": 0, "e": "解放 = liberation/freeing from restraint or suffering. 開放 = opening up (a space/market to access). 釈放 = legal release of a prisoner. 放置 = leaving something neglected/unattended."},
+      {"t": "meaning", "s": "「解放」の意味は？", "o": ["release; liberation; setting free", "opening up (a space or market)", "legal release of a prisoner", "leaving neglected; abandoning"], "a": 0, "e": "解放 = freeing from confinement, oppression, or burden (奴隷解放 = emancipation of slaves, 解放感 = sense of liberation). Compare 開放 (throwing open to access)."}
+    ]
+  },
+  {
+    "w": "性能",
+    "r": "せいのう",
+    "m": "performance; capability; (technical) specs of a machine",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "新しいカメラは性能が大幅に向上した。", "en": "The new camera's performance improved significantly."}],
+    "qs": [
+      {"t": "fitb", "s": "価格は高いが、それに見合った＿＿＿＿を備えている。", "en": "It's expensive, but it has performance to match.", "o": ["性能", "性格", "機能", "効能"], "a": 0, "e": "性能 = the performance level/capability of a machine. 性格 = personality/character (of a person). 機能 = function/feature (what it can do). 効能 = efficacy/benefits (of medicine, etc.)."},
+      {"t": "meaning", "s": "「性能」の意味は？", "o": ["performance; capability of a machine", "personality; character of a person", "function; feature", "efficacy; medicinal benefit"], "a": 0, "e": "性能 measures how well a machine performs (高性能 = high-performance, エンジン性能 = engine performance). 機能 is what features it has; 性能 is how well it does them."}
+    ]
+  },
+  {
+    "w": "解散",
+    "r": "かいさん",
+    "m": "breakup; dissolution; disbanding",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "そのバンドは十年の活動の後、解散した。", "en": "The band broke up after ten years of activity."}],
+    "qs": [
+      {"t": "fitb", "s": "首相は衆議院の＿＿＿＿を決断し、総選挙が行われた。", "en": "The prime minister decided to dissolve the lower house, and a general election was held.", "o": ["解散", "解消", "中止", "閉鎖"], "a": 0, "e": "解散 = disbanding a group/parliament; people dispersing. 解消 = dissolving an arrangement/resolving (契約解消 = contract cancellation). 中止 = calling off an event. 閉鎖 = closing down a facility."},
+      {"t": "meaning", "s": "「解散」の意味は？", "o": ["breakup; dissolution; disbanding", "dissolving an arrangement; cancellation", "calling off an event", "closing down a facility"], "a": 0, "e": "解散 = a group disbanding or people dispersing (国会解散 = dissolution of parliament, 現地解散 = dismissing/parting ways on site)."}
+    ]
+  },
+  {
+    "w": "整備",
+    "r": "せいび",
+    "m": "maintenance; servicing; putting in order; development of infrastructure",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "飛行機は離陸前に入念に整備される。", "en": "The aircraft is carefully serviced before takeoff."}],
+    "qs": [
+      {"t": "fitb", "s": "市は自転車専用道路の＿＿＿＿を進めている。", "en": "The city is developing dedicated bicycle lanes.", "o": ["整備", "修理", "整理", "建設"], "a": 0, "e": "整備 = maintaining/servicing equipment, or developing/putting infrastructure in order. 修理 = repairing what's broken. 整理 = tidying/organizing/sorting. 建設 = construction of something new."},
+      {"t": "meaning", "s": "「整備」の意味は？", "o": ["maintenance; servicing; putting in order", "repairing what is broken", "tidying; sorting; organizing", "construction of something new"], "a": 0, "e": "整備 means keeping equipment in working order (車の整備 = car servicing) and developing/arranging systems or facilities (法整備 = developing legislation, 環境整備 = setting up the environment)."}
+    ]
+  },
+  {
+    "w": "標準",
+    "r": "ひょうじゅん",
+    "m": "standard; norm; average level",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この機能は標準で搭載されている。", "en": "This feature is installed as standard."}],
+    "qs": [
+      {"t": "fitb", "s": "彼の身長は日本人男性の＿＿＿＿よりやや高い。", "en": "His height is slightly above the average for Japanese men.", "o": ["標準", "基準", "目標", "水準"], "a": 0, "e": "標準 = the standard/norm/average level. 基準 = the criterion used to judge. 目標 = goal/target one aims for. 水準 = level/standard of quality (レベル). 標準 and 基準 overlap, but 基準 is the yardstick, 標準 the typical norm."},
+      {"t": "meaning", "s": "「標準」の意味は？", "o": ["standard; norm; average level", "criterion used to judge", "goal; target to aim for", "level; quality benchmark"], "a": 0, "e": "標準 = the typical or default norm (標準語 = standard language, 標準サイズ = standard size). 基準 is the reference point for judging; 標準 is the ordinary average."}
+    ]
+  },
+  {
+    "w": "元々",
+    "r": "もともと",
+    "m": "originally; from the start; by nature",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "彼は元々無口な人だった。", "en": "He was a quiet person from the start."}],
+    "qs": [
+      {"t": "fitb", "s": "この土地は＿＿＿＿田んぼだったが、今は住宅地になっている。", "en": "This land was originally rice paddies, but now it's a residential area.", "o": ["元々", "今さら", "そろそろ", "改めて"], "a": 0, "e": "元々 = originally, from the start (the state before any change). 今さら = now, at this late stage. そろそろ = soon, it's about time. 改めて = once more, formally/again."},
+      {"t": "meaning", "s": "「元々」の意味は？", "o": ["originally; from the start; by nature", "now, at this late stage", "soon; it's about time", "once more; anew; formally"], "a": 0, "e": "元々 points to how things were at the very beginning, before any change (元々の計画 = the original plan). Compare 本来 (as it ought to be by nature)."}
+    ]
+  },
+  {
+    "w": "改正",
+    "r": "かいせい",
+    "m": "revision; amendment (of laws, rules)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "道路交通法が改正され、罰則が厳しくなった。", "en": "The Road Traffic Act was revised, and penalties became stricter."}],
+    "qs": [
+      {"t": "fitb", "s": "労働環境を守るため、法律の＿＿＿＿が求められている。", "en": "To protect the work environment, revision of the law is being called for.", "o": ["改正", "改善", "改革", "修正"], "a": 0, "e": "改正 = formal revision/amendment of laws or rules. 改善 = improvement of a bad situation. 改革 = reform (sweeping structural change). 修正 = correction/fixing of errors or text."},
+      {"t": "meaning", "s": "「改正」の意味は？", "o": ["revision; amendment of laws or rules", "improvement of a bad situation", "reform; sweeping structural change", "correction; fixing of errors"], "a": 0, "e": "改正 specifically means amending laws, rules, or schedules (法改正 = legal amendment, ダイヤ改正 = timetable revision). 修正 is for fixing mistakes in text."}
+    ]
+  },
+  {
+    "w": "基礎",
+    "r": "きそ",
+    "m": "foundation; basis; fundamentals; groundwork",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "何事も基礎をしっかり固めることが大切だ。", "en": "In anything, it's important to firmly establish the fundamentals."}],
+    "qs": [
+      {"t": "fitb", "s": "応用問題を解く前に、まず＿＿＿＿を復習しよう。", "en": "Before tackling applied problems, let's first review the fundamentals.", "o": ["基礎", "応用", "発展", "完成"], "a": 0, "e": "基礎 = the foundation/basics on which more is built. 応用 = application (using basics in practice). 発展 = development/advancement. 完成 = completion."},
+      {"t": "meaning", "s": "「基礎」の意味は？", "o": ["foundation; basis; fundamentals", "application; practical use", "development; advancement", "completion; finishing"], "a": 0, "e": "基礎 = the groundwork everything else rests on (基礎知識 = basic knowledge, 基礎工事 = foundation work). Its natural counterpart is 応用 (application)."}
+    ]
+  },
+  {
+    "w": "形式",
+    "r": "けいしき",
+    "m": "form; format; formality; style",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "レポートは決められた形式で提出してください。", "en": "Please submit the report in the prescribed format."}],
+    "qs": [
+      {"t": "fitb", "s": "彼の謝罪は＿＿＿＿だけで、誠意が感じられなかった。", "en": "His apology was a mere formality; no sincerity could be felt.", "o": ["形式", "内容", "本質", "実質"], "a": 0, "e": "形式 = outward form/format/formality. 内容 = content/substance. 本質 = essence/true nature. 実質 = substance/actual reality (as opposed to nominal)."},
+      {"t": "meaning", "s": "「形式」の意味は？", "o": ["form; format; formality; style", "content; substance", "essence; true nature", "substance; actual reality"], "a": 0, "e": "形式 is the outward shape or set form, often contrasted with content (形式的 = a mere formality, 形式を整える = put into proper form). Opposite of 内容/実質."}
+    ]
+  },
+  {
+    "w": "姿勢",
+    "r": "しせい",
+    "m": "posture; stance; attitude (toward something)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "長時間悪い姿勢で座ると腰を痛める。", "en": "Sitting in a bad posture for long hours hurts your back."}],
+    "qs": [
+      {"t": "fitb", "s": "問題に真剣に取り組む彼の＿＿＿＿に好感を持った。", "en": "I was favorably impressed by his serious attitude toward the problem.", "o": ["姿勢", "態度", "性格", "立場"], "a": 0, "e": "姿勢 = physical posture, or one's stance/approach toward something. 態度 = attitude/manner shown in behavior. 性格 = personality. 立場 = position/standpoint (one's situation). 姿勢 and 態度 overlap, but 姿勢 stresses one's committed approach."},
+      {"t": "meaning", "s": "「姿勢」の意味は？", "o": ["posture; stance; attitude toward something", "attitude shown through behavior", "personality; character", "position; standpoint; situation"], "a": 0, "e": "姿勢 = bodily posture (姿勢がいい = good posture) and figuratively one's committed stance/approach (前向きな姿勢 = a positive attitude/approach)."}
+    ]
+  },
+  {
+    "w": "勝負",
+    "r": "しょうぶ",
+    "m": "match; contest; a game where win/loss is decided",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "最後まであきらめなければ、勝負はわからない。", "en": "If you don't give up until the end, the outcome is anyone's guess."}],
+    "qs": [
+      {"t": "fitb", "s": "実力が拮抗しており、なかなか＿＿＿＿がつかなかった。", "en": "Their abilities were evenly matched, so the contest wouldn't be decided.", "o": ["勝負", "試合", "競争", "対戦"], "a": 0, "e": "勝負 = a contest in which winning or losing is at stake (勝負がつく = the outcome is decided). 試合 = a (sports) match. 競争 = competition/rivalry. 対戦 = facing off against an opponent."},
+      {"t": "meaning", "s": "「勝負」の意味は？", "o": ["a contest where win/loss is decided", "a sports match", "competition; rivalry", "facing off against an opponent"], "a": 0, "e": "勝負 centers on the win-or-lose outcome (勝負を挑む = to challenge, 真剣勝負 = a serious showdown). Also used figuratively for a decisive moment (ここが勝負だ = this is the make-or-break point)."}
+    ]
+  },
+  {
+    "w": "発電",
+    "r": "はつでん",
+    "m": "electricity generation; power generation",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この地域は風力で発電している。", "en": "This region generates electricity from wind power."}],
+    "qs": [
+      {"t": "fitb", "s": "太陽光＿＿＿＿は環境にやさしいと注目されている。", "en": "Solar power generation is drawing attention as environmentally friendly.", "o": ["発電", "電力", "充電", "停電"], "a": 0, "e": "発電 = generating electricity. 電力 = electric power (the energy itself). 充電 = charging a battery. 停電 = power outage/blackout."},
+      {"t": "meaning", "s": "「発電」の意味は？", "o": ["electricity/power generation", "electric power (the energy)", "charging a battery", "power outage; blackout"], "a": 0, "e": "発電 = producing electricity (発電所 = power plant, 火力発電 = thermal power generation). 電力 is the resulting power; 充電 is charging a device."}
+    ]
+  },
+  {
+    "w": "方針",
+    "r": "ほうしん",
+    "m": "policy; course of action; guiding principle",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "会社の方針に従って業務を進める。", "en": "We carry out our work in line with company policy."}],
+    "qs": [
+      {"t": "fitb", "s": "政府は新たな経済＿＿＿＿を打ち出した。", "en": "The government rolled out a new economic policy.", "o": ["方針", "方法", "方向", "目的"], "a": 0, "e": "方針 = a guiding policy/course of action. 方法 = method/means (how to do it). 方向 = direction (which way). 目的 = purpose/objective (the goal)."},
+      {"t": "meaning", "s": "「方針」の意味は？", "o": ["policy; course of action; guiding principle", "method; means of doing", "direction; which way", "purpose; objective"], "a": 0, "e": "方針 is the basic direction or policy guiding decisions (基本方針 = basic policy, 方針を決める = decide on a course of action). 方法 is the concrete how-to."}
+    ]
+  },
+  {
+    "w": "一応",
+    "r": "いちおう",
+    "m": "for now; tentatively; just in case; more or less",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "一応、念のために確認しておきます。", "en": "Just to be safe, I'll check it for now."}],
+    "qs": [
+      {"t": "fitb", "s": "完璧ではないが、＿＿＿＿最後まで仕上げた。", "en": "It's not perfect, but I more or less finished it.", "o": ["一応", "完全に", "やはり", "ますます"], "a": 0, "e": "一応 = tentatively/more or less/just in case (done to a minimal or provisional degree). 完全に = completely. やはり = as expected/after all. ますます = increasingly, more and more."},
+      {"t": "meaning", "s": "「一応」の意味は？", "o": ["for now; tentatively; more or less; just in case", "completely; perfectly", "as expected; after all", "increasingly; more and more"], "a": 0, "e": "一応 signals that something is done provisionally or to a minimal extent (一応できた = it's more or less done, 一応聞いてみる = ask just in case)."}
+    ]
+  },
+  {
+    "w": "どうせ",
+    "r": "どうせ",
+    "m": "anyway; in any case; (resignedly) after all",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "どうせ間に合わないから、急いでも無駄だ。", "en": "We won't make it anyway, so there's no point rushing."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿やるなら、最後まで全力で取り組もう。", "en": "If we're going to do it anyway, let's give it our all to the end.", "o": ["どうせ", "どうか", "どうにか", "どうやら"], "a": 0, "e": "どうせ = anyway/in any case (often with a resigned or fatalistic tone). どうか = please (request); somehow. どうにか = somehow or other (managing). どうやら = apparently, it seems."},
+      {"t": "meaning", "s": "「どうせ」の意味は？", "o": ["anyway; in any case (often resigned)", "please; somehow (in requests)", "somehow or other; manage to", "apparently; it seems"], "a": 0, "e": "どうせ carries a 'no matter what' or resigned nuance (どうせ無理だ = it's hopeless anyway). When paired with a positive resolve it means 'since we're doing it regardless...'"}
+    ]
+  },
+  {
+    "w": "公共",
+    "r": "こうきょう",
+    "m": "public; communal; for the community",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "公共の場所では静かにしましょう。", "en": "Let's be quiet in public places."}],
+    "qs": [
+      {"t": "fitb", "s": "図書館や公園などの＿＿＿＿施設は誰でも利用できる。", "en": "Public facilities such as libraries and parks can be used by anyone.", "o": ["公共", "公開", "公式", "公平"], "a": 0, "e": "公共 = public/communal (belonging to society at large). 公開 = making something open to the public (releasing/disclosing). 公式 = official/formal. 公平 = fair/impartial."},
+      {"t": "meaning", "s": "「公共」の意味は？", "o": ["public; communal; for the community", "open to the public; disclosed", "official; formal", "fair; impartial"], "a": 0, "e": "公共 describes things shared by or serving the general public (公共交通機関 = public transport, 公共料金 = utility charges)."}
+    ]
+  },
+  {
+    "w": "成立",
+    "r": "せいりつ",
+    "m": "formation; establishment; coming into effect (deal, law)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "両者の合意により、契約が成立した。", "en": "With both parties' agreement, the contract was concluded."}],
+    "qs": [
+      {"t": "fitb", "s": "新しい法律が国会で可決され、＿＿＿＿した。", "en": "The new law was passed by the Diet and came into effect.", "o": ["成立", "成長", "完成", "達成"], "a": 0, "e": "成立 = an agreement/law/deal coming into being or taking effect. 成長 = growth/maturing. 完成 = completion of a物 (object/project). 達成 = achieving a goal."},
+      {"t": "meaning", "s": "「成立」の意味は？", "o": ["formation; establishment; coming into effect", "growth; maturing", "completion of an object or project", "achievement of a goal"], "a": 0, "e": "成立 = the point at which something abstract is established or concluded (契約成立 = a deal is struck, 法案成立 = a bill becomes law, 取引成立 = transaction closed)."}
+    ]
+  },
+  {
+    "w": "統一",
+    "r": "とういつ",
+    "m": "unification; unity; standardization; consolidation",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "資料のフォーマットを統一してください。", "en": "Please standardize the format of the documents."}],
+    "qs": [
+      {"t": "fitb", "s": "分裂していた国が一つに＿＿＿＿された。", "en": "The divided country was unified into one.", "o": ["統一", "統合", "結合", "団結"], "a": 0, "e": "統一 = unifying into one / standardizing to be consistent. 統合 = integrating/merging separate things into a whole. 結合 = bonding/joining together. 団結 = people uniting in solidarity."},
+      {"t": "meaning", "s": "「統一」の意味は？", "o": ["unification; making uniform; standardizing", "integration; merging into a whole", "bonding; physically joining", "solidarity; people uniting"], "a": 0, "e": "統一 means bringing things together into one or making them consistent (天下統一 = unifying the realm, デザインを統一する = unify the design). 統合 stresses merging separate units."}
+    ]
+  },
+  {
+    "w": "民間",
+    "r": "みんかん",
+    "m": "private sector; civilian; non-governmental",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "そのサービスは民間企業によって運営されている。", "en": "That service is run by a private company."}],
+    "qs": [
+      {"t": "fitb", "s": "宇宙開発に＿＿＿＿企業が次々と参入している。", "en": "Private companies are entering the space-development field one after another.", "o": ["民間", "国営", "公共", "官庁"], "a": 0, "e": "民間 = private sector / civilian (non-government). 国営 = state-run/government-operated. 公共 = public/communal. 官庁 = government office/agency."},
+      {"t": "meaning", "s": "「民間」の意味は？", "o": ["private sector; civilian; non-governmental", "state-run; government-operated", "public; communal", "government office; agency"], "a": 0, "e": "民間 refers to the private, non-governmental sphere (民間企業 = private company, 民間人 = civilian). Its opposite is 官 (government) — e.g. 官民連携 = public-private partnership."}
+    ]
+  },
+  {
+    "w": "改めて",
+    "r": "あらためて",
+    "m": "again; anew; on another occasion; formally",
+    "c": "adv",
+    "lv": 1,
+    "ex": [{"jp": "詳細については改めてご連絡いたします。", "en": "I will contact you again regarding the details."}],
+    "qs": [
+      {"t": "fitb", "s": "彼の言葉を聞いて、平和の大切さを＿＿＿＿感じた。", "en": "Hearing his words, I felt anew the importance of peace.", "o": ["改めて", "初めて", "前もって", "今ごろ"], "a": 0, "e": "改めて = once again/anew (often freshly reaffirming), or formally on another occasion. 初めて = for the first time. 前もって = in advance/beforehand. 今ごろ = around now; at this late point."},
+      {"t": "meaning", "s": "「改めて」の意味は？", "o": ["again; anew; freshly; on another occasion", "for the first time", "in advance; beforehand", "around now; at this late point"], "a": 0, "e": "改めて means doing something over again or freshly, often more formally or with renewed feeling (改めて考える = reconsider, 改めてお礼を = thank you once again)."}
+    ]
+  },
+  {
+    "w": "一定",
+    "r": "いってい",
+    "m": "fixed; constant; set; a certain (level)",
+    "c": "naadj",
+    "lv": 1,
+    "ex": [{"jp": "室温を一定に保つことが重要だ。", "en": "It's important to keep the room temperature constant."}],
+    "qs": [
+      {"t": "fitb", "s": "この仕事には＿＿＿＿の経験が求められる。", "en": "This job requires a certain (set) level of experience.", "o": ["一定", "相当", "余分", "莫大"], "a": 0, "e": "一定 = fixed/constant, or 'a certain set amount' (一定の〜). 相当 = considerable; corresponding to. 余分 = extra/surplus. 莫大 = enormous/vast."},
+      {"t": "meaning", "s": "「一定」の意味は？", "o": ["fixed; constant; a certain set level", "considerable; corresponding", "extra; surplus", "enormous; vast"], "a": 0, "e": "一定 means unchanging/constant (一定の速度 = constant speed) or a defined fixed amount (一定の条件 = certain set conditions)."}
+    ]
+  },
+  {
+    "w": "回答",
+    "r": "かいとう",
+    "m": "reply; answer; response (to a question or survey)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "アンケートへのご回答ありがとうございました。", "en": "Thank you for your responses to the survey."}],
+    "qs": [
+      {"t": "fitb", "s": "問い合わせに対する正式な＿＿＿＿は来週届く予定だ。", "en": "The official reply to the inquiry is scheduled to arrive next week.", "o": ["回答", "解答", "返事", "応答"], "a": 0, "e": "回答 = a reply/response to a question, inquiry, or survey. 解答 = the answer/solution to a problem (math, quiz). 返事 = a reply (casual, to being called or to a message). 応答 = response (real-time, e.g. on a radio)."},
+      {"t": "meaning", "s": "「回答」の意味は？", "o": ["reply; response to a question or survey", "the answer/solution to a problem", "a casual reply to a message or call", "real-time response"], "a": 0, "e": "回答 is a formal reply to an inquiry or survey (回答用紙 = answer sheet for a questionnaire). 解答 is reserved for solving problems with a correct answer (試験の解答 = exam answers)."}
+    ]
+  },
+  {
+    "w": "普及",
+    "r": "ふきゅう",
+    "m": "spread; diffusion; becoming widespread",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "スマートフォンは急速に普及した。", "en": "Smartphones spread rapidly."}],
+    "qs": [
+      {"t": "fitb", "s": "再生可能エネルギーの＿＿＿＿が世界中で進んでいる。", "en": "The spread of renewable energy is advancing worldwide.", "o": ["普及", "拡大", "流行", "発展"], "a": 0, "e": "普及 = becoming widely adopted/widespread among people. 拡大 = expansion/enlargement in scale. 流行 = a trend/fashion (often temporary). 発展 = development/advancement."},
+      {"t": "meaning", "s": "「普及」の意味は？", "o": ["spread; becoming widespread among people", "expansion; enlargement in scale", "a trend; temporary fashion", "development; advancement"], "a": 0, "e": "普及 emphasizes wide adoption so something becomes common (普及率 = penetration rate, インターネットの普及 = spread of the internet). Differs from 流行 (a passing fad)."}
+    ]
+  },
+  {
+    "w": "削除",
+    "r": "さくじょ",
+    "m": "deletion; removal; erasing (text, data)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "不要なファイルを削除して容量を空けた。", "en": "I deleted unnecessary files to free up space."}],
+    "qs": [
+      {"t": "fitb", "s": "投稿が規約に違反していたため、運営により＿＿＿＿された。", "en": "Because the post violated the rules, it was deleted by the administrators.", "o": ["削除", "追加", "修正", "省略"], "a": 0, "e": "削除 = deleting/removing entirely. 追加 = adding (the opposite). 修正 = correcting/editing. 省略 = omitting/abbreviating (leaving out, often for brevity)."},
+      {"t": "meaning", "s": "「削除」の意味は？", "o": ["deletion; removal; erasing", "addition; adding on", "correction; editing", "omission; abbreviation"], "a": 0, "e": "削除 means to delete or strike out (データを削除 = delete data, 削除キー = delete key). Its opposite is 追加 (add); 省略 means leaving out for brevity."}
+    ]
+  },
+  {
+    "w": "外部",
+    "r": "がいぶ",
+    "m": "the outside; external; outside party",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この情報を外部に漏らしてはいけない。", "en": "This information must not be leaked to outside parties."}],
+    "qs": [
+      {"t": "fitb", "s": "専門知識が足りないので、＿＿＿＿の業者に作業を委託した。", "en": "Since we lacked expertise, we outsourced the work to an external contractor.", "o": ["外部", "内部", "周囲", "表面"], "a": 0, "e": "外部 = the outside/external party (beyond an organization or boundary). 内部 = the inside/internal (the opposite). 周囲 = surroundings, those around. 表面 = surface."},
+      {"t": "meaning", "s": "「外部」の意味は？", "o": ["the outside; external; outside party", "the inside; internal", "surroundings; those around one", "surface; outer face"], "a": 0, "e": "外部 refers to what is outside an organization or system (外部委託 = outsourcing, 外部からの侵入 = intrusion from outside). Opposite of 内部."}
+    ]
+  },
+  {
+    "w": "相互",
+    "r": "そうご",
+    "m": "mutual; reciprocal; each other",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "二国間の相互理解を深める必要がある。", "en": "We need to deepen mutual understanding between the two countries."}],
+    "qs": [
+      {"t": "fitb", "s": "チームの成功には、メンバー間の＿＿＿＿の信頼が欠かせない。", "en": "Mutual trust among members is essential to the team's success.", "o": ["相互", "個別", "一方", "対等"], "a": 0, "e": "相互 = mutual/reciprocal (both sides toward each other). 個別 = individual/separate. 一方 = one side only; on the other hand. 対等 = equal footing/on par."},
+      {"t": "meaning", "s": "「相互」の意味は？", "o": ["mutual; reciprocal; each other", "individual; separate; case-by-case", "one side only", "equal footing; on par"], "a": 0, "e": "相互 indicates an action or relationship going both ways (相互理解 = mutual understanding, 相互作用 = interaction). Compare 一方的 (one-sided)."}
+    ]
+  },
+  {
+    "w": "期限",
+    "r": "きげん",
+    "m": "deadline; time limit; term; expiration",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "申し込みの期限は今月末までです。", "en": "The application deadline is the end of this month."}],
+    "qs": [
+      {"t": "fitb", "s": "レポートの提出＿＿＿＿が明日に迫っている。", "en": "The deadline for submitting the report is coming up tomorrow.", "o": ["期限", "期間", "時期", "期待"], "a": 0, "e": "期限 = a deadline or cutoff point (the limit by which). 期間 = a span/duration of time. 時期 = a time/season/period (when). 期待 = expectation/hope."},
+      {"t": "meaning", "s": "「期限」の意味は？", "o": ["deadline; time limit; expiration", "span; duration of time", "a time; season; period (when)", "expectation; hope"], "a": 0, "e": "期限 marks the cutoff or expiry point (締め切り期限 = deadline, 賞味期限 = best-before date, 期限切れ = expired). 期間 is the length of time instead."}
+    ]
+  },
+  {
+    "w": "申請",
+    "r": "しんせい",
+    "m": "application; formal request; petition (to an authority)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "ビザの申請には多くの書類が必要だ。", "en": "Applying for a visa requires many documents."}],
+    "qs": [
+      {"t": "fitb", "s": "補助金を受け取るには、市役所で＿＿＿＿の手続きをする。", "en": "To receive the subsidy, you complete the application procedure at city hall.", "o": ["申請", "応募", "提案", "依頼"], "a": 0, "e": "申請 = a formal application/request to an authority (often official). 応募 = applying in response to a recruitment/call. 提案 = a proposal/suggestion. 依頼 = a request to someone to do something."},
+      {"t": "meaning", "s": "「申請」の意味は？", "o": ["application; formal request to an authority", "applying in response to a recruitment call", "proposal; suggestion", "a request asking someone to do something"], "a": 0, "e": "申請 is a formal request submitted to an official body (申請書 = application form, ビザ申請 = visa application). 応募 is responding to a posted opening."}
+    ]
+  },
+  {
+    "w": "低下",
+    "r": "ていか",
+    "m": "decline; drop; deterioration; fall (in level)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "睡眠不足は集中力の低下を招く。", "en": "Lack of sleep leads to a decline in concentration."}],
+    "qs": [
+      {"t": "fitb", "s": "年齢とともに体力の＿＿＿＿を感じるようになった。", "en": "With age, I've come to feel a decline in my physical strength.", "o": ["低下", "向上", "上昇", "減少"], "a": 0, "e": "低下 = a drop in level/quality/ability. 向上 = improvement/rising (the opposite). 上昇 = a rise (in figures, temperature, price). 減少 = decrease in quantity/number."},
+      {"t": "meaning", "s": "「低下」の意味は？", "o": ["decline; drop; deterioration in level", "improvement; betterment", "a rise (in figures or temperature)", "decrease in quantity or number"], "a": 0, "e": "低下 = a fall in level, quality, or ability (品質の低下 = quality decline, 気温低下 = temperature drop). Opposite of 向上 (improvement); 減少 is for countable amounts."}
+    ]
+  }
+]
