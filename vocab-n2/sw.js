@@ -1,5 +1,5 @@
 /* N2 語彙 道場 — Service Worker */
-const CACHE = "n2vocab-v6";
+const CACHE = "n2vocab-v7";
 const ASSETS = ["./", "./index.html", "./styles.css", "./vocab-n2.js?v=520", "./app.js", "./manifest.json"];
 
 self.addEventListener("install", (e) => {

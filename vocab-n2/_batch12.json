@@ -1,0 +1,674 @@
+[
+  {
+    "w": "経緯",
+    "r": "いきさつ",
+    "m": "circumstances; background; how things came about",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "事件の経緯を詳しく説明してください。", "en": "Please explain in detail the circumstances of the incident."}],
+    "qs": [
+      {"t": "fitb", "s": "なぜこうなったのか、その＿＿＿＿を正直に話してほしい。", "en": "I want you to honestly explain the background of how this came about.", "o": ["経緯", "原因", "理由", "背景"], "a": 0, "e": "経緯(いきさつ) = the course of events / how things unfolded over time. 原因(げんいん) = the cause. 理由(りゆう) = a stated reason. 背景(はいけい) = background/context."},
+      {"t": "meaning", "s": "「経緯」の意味は？", "o": ["circumstances; how things came about", "cause; reason", "stated reason", "background; context"], "a": 0, "e": "経緯(いきさつ) describes the sequence of events that led to a situation (事件の経緯 = the circumstances of the incident). Also read けいい in formal/written contexts."}
+    ]
+  },
+  {
+    "w": "手がかり",
+    "r": "てがかり",
+    "m": "clue; lead; starting point",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "警察は犯人を追う手がかりをようやく見つけた。", "en": "The police finally found a clue to pursue the culprit."}],
+    "qs": [
+      {"t": "fitb", "s": "解決の＿＿＿＿をつかむまで、調査を続けるつもりだ。", "en": "I intend to continue the investigation until I get a clue to the solution.", "o": ["手がかり", "糸口", "きっかけ", "証拠"], "a": 0, "e": "手がかり(てがかり) = a clue/lead (something to grab onto). 糸口(いとぐち) = a starting point / thread to pull (to unravel a problem). きっかけ = a trigger/opportunity. 証拠(しょうこ) = evidence."},
+      {"t": "meaning", "s": "「手がかり」の意味は？", "o": ["clue; lead; something to go on", "starting thread; opening", "trigger; opportunity", "evidence; proof"], "a": 0, "e": "手がかり is what you use to make progress (犯人の手がかり = a lead on the culprit, 手がかりをつかむ = to get a lead). 糸口 is the point from which you start unraveling a problem."}
+    ]
+  },
+  {
+    "w": "見解",
+    "r": "けんかい",
+    "m": "view; opinion; standpoint (formal)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "政府はこの問題について公式の見解を発表した。", "en": "The government announced an official view on this issue."}],
+    "qs": [
+      {"t": "fitb", "s": "専門家の＿＿＿＿を聞いてから、最終的な判断をしたい。", "en": "I would like to hear the experts' views before making a final decision.", "o": ["見解", "意見", "見方", "主張"], "a": 0, "e": "見解(けんかい) = a formal view or position (公式見解 = official position). 意見(いけん) = opinion (general). 見方(みかた) = a way of seeing. 主張(しゅちょう) = an assertion."},
+      {"t": "meaning", "s": "「見解」の意味は？", "o": ["view; standpoint (formal)", "opinion (general)", "way of seeing; perspective", "assertion; claim"], "a": 0, "e": "見解 is used in formal or official contexts (見解の相違 = a difference of opinion, 見解を示す = to present a view). It is more formal than 意見."}
+    ]
+  },
+  {
+    "w": "余裕",
+    "r": "よゆう",
+    "m": "margin; room; composure; leeway",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "締め切りまで余裕があるうちに、早めに取りかかろう。", "en": "Let's get started early while we still have time to spare before the deadline."}],
+    "qs": [
+      {"t": "fitb", "s": "毎日残業が続き、趣味を楽しむ心の＿＿＿＿がなくなってしまった。", "en": "With overtime continuing every day, I have lost the mental room to enjoy my hobbies.", "o": ["余裕", "時間", "ゆとり", "余暇"], "a": 0, "e": "余裕(よゆう) = margin/leeway/composure (time, money, mental capacity to spare). ゆとり = space/latitude (broader sense of ease). 時間(じかん) = time. 余暇(よか) = leisure time."},
+      {"t": "meaning", "s": "「余裕」の意味は？", "o": ["margin; leeway; composure", "space; latitude (broad)", "time", "leisure time"], "a": 0, "e": "余裕 means having more than the minimum required (余裕がある = to have room to spare, 余裕をもって = with composure, 余裕の勝利 = an easy win)."}
+    ]
+  },
+  {
+    "w": "手間",
+    "r": "てま",
+    "m": "time and effort; trouble; labor",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "手間がかかるが、手作りの料理はやはりおいしい。", "en": "It takes time and effort, but homemade food is still delicious."}],
+    "qs": [
+      {"t": "fitb", "s": "この書類は記入箇所が多く、かなり＿＿＿＿がかかる。", "en": "This document has many fields to fill in and takes quite a bit of effort.", "o": ["手間", "手数", "労力", "時間"], "a": 0, "e": "手間(てま) = time and effort (手間がかかる = to take effort). 手数(てすう) = trouble/steps (お手数をおかけします = sorry for the trouble). 労力(ろうりょく) = labor/effort (more formal). 時間(じかん) = time."},
+      {"t": "meaning", "s": "「手間」の意味は？", "o": ["time and effort; trouble", "steps; formalities", "labor; effort (formal)", "time"], "a": 0, "e": "手間 is the practical effort something requires (手間を省く = to save effort, 手間暇かける = to take great pains over something)."}
+    ]
+  },
+  {
+    "w": "見当",
+    "r": "けんとう",
+    "m": "estimate; idea; guess; sense of direction",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "彼がどこにいるのか見当もつかない。", "en": "I have no idea where he is."}],
+    "qs": [
+      {"t": "fitb", "s": "費用がどのくらいかかるか、大まかな＿＿＿＿もつかない。", "en": "I don't even have a rough idea of how much the costs will be.", "o": ["見当", "目安", "見込み", "目標"], "a": 0, "e": "見当(けんとう) = a rough idea/guess (見当がつく = to have an idea, 見当違い = being totally off the mark). 目安(めやす) = a rough guide/benchmark. 見込み(みこみ) = a prospect/expectation. 目標(もくひょう) = a goal."},
+      {"t": "meaning", "s": "「見当」の意味は？", "o": ["rough idea; estimate; guess", "rough benchmark; guide", "prospect; expectation", "goal; target"], "a": 0, "e": "見当 is an intuitive estimate (見当をつける = to make a rough guess, 見当違い = completely off target/beside the point)."}
+    ]
+  },
+  {
+    "w": "手順",
+    "r": "てじゅん",
+    "m": "procedure; steps; order of operations",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "正しい手順に従って機器を操作してください。", "en": "Please operate the device following the correct procedure."}],
+    "qs": [
+      {"t": "fitb", "s": "作業の＿＿＿＿を間違えると、取り返しのつかないことになる。", "en": "If you get the order of operations wrong, it can lead to irreversible consequences.", "o": ["手順", "手続き", "順序", "工程"], "a": 0, "e": "手順(てじゅん) = procedure/steps (the sequence for doing something). 手続き(てつづき) = procedure/formalities (administrative steps). 順序(じゅんじょ) = order/sequence. 工程(こうてい) = a process/stage (manufacturing)."},
+      {"t": "meaning", "s": "「手順」の意味は？", "o": ["procedure; steps; order", "administrative formalities", "order; sequence", "manufacturing process; stage"], "a": 0, "e": "手順 is the step-by-step method for completing a task (手順書 = procedure manual, 手順を踏む = to follow the proper steps)."}
+    ]
+  },
+  {
+    "w": "反響",
+    "r": "はんきょう",
+    "m": "response; reaction; repercussion; echo",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "その記事は多くの読者から大きな反響を呼んだ。", "en": "That article generated a huge response from many readers."}],
+    "qs": [
+      {"t": "fitb", "s": "新商品の発表に対して、予想を超える大きな＿＿＿＿があった。", "en": "The announcement of the new product generated a bigger response than expected.", "o": ["反響", "反応", "反論", "評判"], "a": 0, "e": "反響(はんきょう) = response/repercussion (wide, social ripple). 反応(はんのう) = reaction (immediate, individual). 反論(はんろん) = counterargument. 評判(ひょうばん) = reputation."},
+      {"t": "meaning", "s": "「反響」の意味は？", "o": ["response; repercussion (wide/social)", "reaction (immediate/individual)", "counterargument; rebuttal", "reputation; word of mouth"], "a": 0, "e": "反響 is the ripple effect of something on society (大きな反響を呼ぶ = to generate a big response, 反響が広がる = the response spreads). Also means a literal echo."}
+    ]
+  },
+  {
+    "w": "節約",
+    "r": "せつやく",
+    "m": "economy; saving; frugality",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "光熱費を節約するために、こまめに電気を消している。", "en": "I turn off lights diligently to save on utility bills."}],
+    "qs": [
+      {"t": "fitb", "s": "旅行のために毎月三万円ずつ＿＿＿＿している。", "en": "I am saving 30,000 yen every month for a trip.", "o": ["節約", "貯金", "蓄え", "倹約"], "a": 0, "e": "節約(せつやく) = saving/reducing expenditure (not wasting). 貯金(ちょきん) = saving money (accumulating). 蓄え(たくわえ) = savings/reserve (stored up). 倹約(けんやく) = frugality (virtue of not spending)."},
+      {"t": "meaning", "s": "「節約」の意味は？", "o": ["saving; reducing waste/expenditure", "saving money (accumulating)", "savings; reserve (stored up)", "frugality (as a virtue)"], "a": 0, "e": "節約 is about cutting back on use (エネルギー節約 = energy saving, 時間を節約する = to save time). 貯金 is accumulating money in a bank or piggy bank."}
+    ]
+  },
+  {
+    "w": "工場",
+    "r": "こうじょう",
+    "m": "factory; plant; works",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この工場では一日に千台の車が製造されている。", "en": "A thousand cars are manufactured at this factory per day."}],
+    "qs": [
+      {"t": "fitb", "s": "海外に＿＿＿＿を建設し、人件費を削減する計画が進んでいる。", "en": "A plan is advancing to build a factory overseas and reduce labor costs.", "o": ["工場", "工場団地", "製造所", "拠点"], "a": 0, "e": "工場(こうじょう) = factory/plant (general). 工場団地(こうじょうだんち) = an industrial estate. 製造所(せいぞうしょ) = a manufacturing facility (formal/legal). 拠点(きょてん) = a base of operations."},
+      {"t": "meaning", "s": "「工場」の意味は？", "o": ["factory; plant", "industrial estate", "manufacturing facility (formal)", "base of operations"], "a": 0, "e": "工場 is the standard word for a factory (工場長 = factory manager, 工場見学 = factory tour, 工場勤務 = factory work)."}
+    ]
+  },
+  {
+    "w": "仕組み",
+    "r": "しくみ",
+    "m": "mechanism; structure; how it works",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "このアプリの仕組みを理解するのに少し時間がかかった。", "en": "It took a little time to understand how this app works."}],
+    "qs": [
+      {"t": "fitb", "s": "税金の＿＿＿＿を学校でもっと教えるべきだという声がある。", "en": "There are voices saying the mechanism of taxation should be taught more in schools.", "o": ["仕組み", "制度", "構造", "システム"], "a": 0, "e": "仕組み(しくみ) = mechanism/how something works (explanatory). 制度(せいど) = a system/institution (established). 構造(こうぞう) = structure (physical or analytical). システム = system (loanword, often technical)."},
+      {"t": "meaning", "s": "「仕組み」の意味は？", "o": ["mechanism; how it works", "institution; established system", "structure (physical/analytical)", "system (technical loanword)"], "a": 0, "e": "仕組み answers the question 'how does it work?' (社会の仕組み = how society works, 仕組みを理解する = to understand the mechanism)."}
+    ]
+  },
+  {
+    "w": "見通す",
+    "r": "みとおす",
+    "m": "to see through; to foresee; to look ahead",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "経験豊富な彼女は状況の先を見通す力を持っている。", "en": "With her wealth of experience, she has the ability to foresee how situations will unfold."}],
+    "qs": [
+      {"t": "fitb", "s": "彼は相手の意図を鋭く＿＿＿＿、冷静に対応した。", "en": "He sharply saw through the other party's intentions and responded calmly.", "o": ["見通し", "見抜き", "見透かし", "看破し"], "a": 0, "e": "見通す(みとおす) = to see through / look ahead to the end. 見抜く(みぬく) = to see through / detect (a lie, a weakness). 見透かす(みすかす) = to see through (someone's hidden motives). 看破する(かんぱする) = to see through / expose (formal)."},
+      {"t": "meaning", "s": "「見通す」の意味は？", "o": ["to see through; to foresee", "to detect; to see through (a lie)", "to see through (hidden motives)", "to expose; to see through (formal)"], "a": 0, "e": "見通す = looking all the way through or ahead (将来を見通す = to foresee the future). 見抜く focuses on detecting what is hidden or false."}
+    ]
+  },
+  {
+    "w": "思い込む",
+    "r": "おもいこむ",
+    "m": "to be convinced; to assume; to take for granted",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "自分が正しいと思い込んでいると、人の意見が聞けなくなる。", "en": "If you are convinced you are right, you become unable to hear others' opinions."}],
+    "qs": [
+      {"t": "fitb", "s": "彼はその噂を事実だと＿＿＿＿んでいたが、実は嘘だった。", "en": "He was convinced that the rumour was true, but it was actually a lie.", "o": ["思い込", "信じ込", "決めつけ", "思い違い"], "a": 0, "e": "思い込む(おもいこむ) = to be convinced of something (often mistakenly). 信じ込む(しんじこむ) = to fully believe (completely taken in). 決めつける(きめつける) = to judge/conclude without sufficient reason. 思い違い(おもいちがい) = a misconception."},
+      {"t": "meaning", "s": "「思い込む」の意味は？", "o": ["to be (wrongly) convinced; to assume", "to fully believe; to be taken in", "to judge without basis; to assume", "a misconception; being mistaken"], "a": 0, "e": "思い込む = being firmly (and often wrongly) convinced (思い込みが激しい = very prone to assumptions, 思い込みを捨てる = to let go of assumptions)."}
+    ]
+  },
+  {
+    "w": "打ち消す",
+    "r": "うちけす",
+    "m": "to deny; to negate; to cancel out",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "会社はその報道を即座に打ち消す声明を出した。", "en": "The company immediately issued a statement denying the report."}],
+    "qs": [
+      {"t": "fitb", "s": "良い部分も多いが、今回の失敗がそれを＿＿＿＿してしまった。", "en": "There are many good points too, but this failure has cancelled them out.", "o": ["打ち消し", "否定し", "相殺し", "消し去り"], "a": 0, "e": "打ち消す(うちけす) = to negate/cancel out (a claim, an effect). 否定する(ひていする) = to deny/negate. 相殺する(そうさいする) = to offset/cancel out (financial). 消し去る(けしさる) = to erase/wipe out."},
+      {"t": "meaning", "s": "「打ち消す」の意味は？", "o": ["to negate; to cancel out; to deny", "to deny; to negate (general)", "to offset; to cancel (financial)", "to erase; to wipe out"], "a": 0, "e": "打ち消す = actively negating something (噂を打ち消す = to deny a rumour, 効果を打ち消す = to cancel out an effect). 打ち消し形 in grammar = the negative form."}
+    ]
+  },
+  {
+    "w": "引き起こす",
+    "r": "ひきおこす",
+    "m": "to cause; to trigger; to bring about",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "その一言が大きな誤解を引き起こした。", "en": "That single remark triggered a major misunderstanding."}],
+    "qs": [
+      {"t": "fitb", "s": "このウイルスは重篤な症状を＿＿＿＿可能性がある。", "en": "This virus has the potential to cause severe symptoms.", "o": ["引き起こす", "もたらす", "生じさせる", "招く"], "a": 0, "e": "引き起こす(ひきおこす) = to trigger/cause (an undesirable event). もたらす = to bring about (can be positive or negative). 生じさせる(しょうじさせる) = to generate/cause (formal). 招く(まねく) = to invite/cause (often unintended)."},
+      {"t": "meaning", "s": "「引き起こす」の意味は？", "o": ["to cause; to trigger (an event)", "to bring about (positive or negative)", "to generate; to cause (formal)", "to invite; to cause (unintended)"], "a": 0, "e": "引き起こす has a strong nuance of triggering something undesirable (事故を引き起こす = to cause an accident, 問題を引き起こす = to cause problems)."}
+    ]
+  },
+  {
+    "w": "言い訳",
+    "r": "いいわけ",
+    "m": "excuse; justification",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "失敗した時に言い訳をするより、素直に謝る方が信頼される。", "en": "When you fail, being honest and apologizing is more trusted than making excuses."}],
+    "qs": [
+      {"t": "fitb", "s": "どんな理由があっても、遅刻の＿＿＿＿は通用しない。", "en": "No matter what the reason, an excuse for being late doesn't hold.", "o": ["言い訳", "弁解", "弁明", "釈明"], "a": 0, "e": "言い訳(いいわけ) = an excuse (often dismissive: 言い訳にならない = that's no excuse). 弁解(べんかい) = justification/defense (more neutral). 弁明(べんめい) = a formal explanation of one's actions. 釈明(しゃくめい) = an explanation to clear oneself (formal/public)."},
+      {"t": "meaning", "s": "「言い訳」の意味は？", "o": ["excuse (often dismissive)", "justification; defense (neutral)", "formal explanation of one's actions", "public clarification (formal)"], "a": 0, "e": "言い訳 is an excuse you give to avoid blame (言い訳をする = to make excuses, 言い訳がましい = full of excuses). 弁解 is more neutral and can be a legitimate explanation."}
+    ]
+  },
+  {
+    "w": "行き違い",
+    "r": "ゆきちがい",
+    "m": "miscommunication; crossed wires; misunderstanding",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "連絡の行き違いで、二人は別の場所で待ち続けた。", "en": "Due to a communication mix-up, the two kept waiting at different places."}],
+    "qs": [
+      {"t": "fitb", "s": "どうやらメールの＿＿＿＿があったようで、会議の時間が伝わっていなかった。", "en": "It seems there was a miscommunication in the emails and the meeting time was not conveyed.", "o": ["行き違い", "すれ違い", "誤解", "連絡ミス"], "a": 0, "e": "行き違い(ゆきちがい) = a communication mix-up (messages crossing / missing each other). すれ違い(すれちがい) = passing without meeting / emotional disconnect. 誤解(ごかい) = a misunderstanding. 連絡ミス(れんらくミス) = a communication error."},
+      {"t": "meaning", "s": "「行き違い」の意味は？", "o": ["miscommunication; crossed wires", "passing without meeting; disconnect", "misunderstanding", "communication error"], "a": 0, "e": "行き違い is specifically when messages or people miss each other (連絡の行き違い = wires got crossed). すれ違い often refers to an emotional or relationship disconnect."}
+    ]
+  },
+  {
+    "w": "立場",
+    "r": "たちば",
+    "m": "position; standpoint; situation",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "相手の立場に立って考えることが、円滑なコミュニケーションの鍵だ。", "en": "Thinking from the other person's standpoint is the key to smooth communication."}],
+    "qs": [
+      {"t": "fitb", "s": "上司という＿＿＿＿上、部下の失敗には責任をとらなければならない。", "en": "Given my position as a superior, I must take responsibility for my subordinates' mistakes.", "o": ["立場", "立場", "地位", "役職"], "a": 0, "e": "立場(たちば) = one's position/standpoint (social or argumentative). 地位(ちい) = status/rank. 役職(やくしょく) = one's post/title."},
+      {"t": "meaning", "s": "「立場」の意味は？", "o": ["position; standpoint; situation", "status; rank", "post; job title", "role; function"], "a": 0, "e": "立場 = the position you occupy, which determines your perspective and responsibilities (立場をわきまえる = to know one's place, 立場が違う = to have different standpoints)."}
+    ]
+  },
+  {
+    "w": "切り替える",
+    "r": "きりかえる",
+    "m": "to switch; to change over; to shift",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "気持ちをうまく切り替えて、次の試合に集中しよう。", "en": "Let's switch our mindset well and focus on the next match."}],
+    "qs": [
+      {"t": "fitb", "s": "仕事モードからプライベートモードに素早く＿＿＿＿ことが、健康の秘訣だ。", "en": "The secret to good health is quickly switching from work mode to private mode.", "o": ["切り替える", "転換する", "変える", "移行する"], "a": 0, "e": "切り替える(きりかえる) = to switch/change over (modes, channels, thinking). 転換する(てんかんする) = to shift/convert (broader, more formal). 変える(かえる) = to change. 移行する(いこうする) = to transition/migrate."},
+      {"t": "meaning", "s": "「切り替える」の意味は？", "o": ["to switch; to change over", "to shift; to convert (formal)", "to change (general)", "to transition; to migrate"], "a": 0, "e": "切り替える is an active, clean switch (チャンネルを切り替える = to switch channels, 気持ちを切り替える = to switch one's mindset). 切り替えが早い = quick to move on."}
+    ]
+  },
+  {
+    "w": "踏み切る",
+    "r": "ふみきる",
+    "m": "to take the plunge; to decide to act; to cross a line",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "長年迷っていたが、ついに独立に踏み切った。", "en": "I had been hesitating for years, but finally took the plunge and went independent."}],
+    "qs": [
+      {"t": "fitb", "s": "大きなリスクを伴う投資に＿＿＿＿のは、勇気が必要だ。", "en": "It takes courage to take the plunge on an investment that involves a large risk.", "o": ["踏み切る", "踏み出す", "決断する", "踏み込む"], "a": 0, "e": "踏み切る(ふみきる) = to take the plunge / make a decisive move (after hesitation). 踏み出す(ふみだす) = to take a first step. 決断する(けつだんする) = to make a decision. 踏み込む(ふみこむ) = to step into / delve into (a topic or place)."},
+      {"t": "meaning", "s": "「踏み切る」の意味は？", "o": ["to take the plunge; to make a decisive move", "to take a first step (forward)", "to make a decision", "to step into; to delve into"], "a": 0, "e": "踏み切る implies overcoming hesitation to act (辞表を提出することに踏み切った = took the plunge and submitted the resignation letter). 踏み出す is the first step forward."}
+    ]
+  },
+  {
+    "w": "見極める",
+    "r": "みきわめる",
+    "m": "to determine; to ascertain; to judge accurately",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "相手の本音を見極めることが、交渉では重要だ。", "en": "In negotiations, accurately determining the other party's true intentions is important."}],
+    "qs": [
+      {"t": "fitb", "s": "商品の品質を正しく＿＿＿＿目が必要だ。", "en": "You need an eye to correctly judge the quality of products.", "o": ["見極める", "見分ける", "判断する", "評価する"], "a": 0, "e": "見極める(みきわめる) = to ascertain / judge to the end (thoroughly). 見分ける(みわける) = to distinguish / tell apart. 判断する(はんだんする) = to judge/assess. 評価する(ひょうかする) = to evaluate."},
+      {"t": "meaning", "s": "「見極める」の意味は？", "o": ["to determine; to ascertain thoroughly", "to distinguish; to tell apart", "to judge; to assess", "to evaluate; to rate"], "a": 0, "e": "見極める = reaching a definitive conclusion through careful observation (本物かどうか見極める = to determine whether it is genuine, タイミングを見極める = to judge the timing precisely)."}
+    ]
+  },
+  {
+    "w": "成り立つ",
+    "r": "なりたつ",
+    "m": "to hold true; to be established; to come to be",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "この契約は双方の合意があって初めて成り立つ。", "en": "This contract only holds when both parties agree."}],
+    "qs": [
+      {"t": "fitb", "s": "社会は人々の信頼関係の上に＿＿＿＿いる。", "en": "Society is established upon relationships of trust among people.", "o": ["成り立って", "成立して", "築かれて", "支えられて"], "a": 0, "e": "成り立つ(なりたつ) = to hold/be constituted (naturally, as an ongoing state). 成立する(せいりつする) = to be established/concluded (an event: 契約が成立する = the contract is concluded). 築く(きずく) = to build/construct. 支える(ささえる) = to support."},
+      {"t": "meaning", "s": "「成り立つ」の意味は？", "o": ["to hold; to be constituted; to be founded on", "to be established; to be concluded", "to build; to construct", "to support; to sustain"], "a": 0, "e": "成り立つ = existing or being valid based on certain conditions (論理が成り立つ = the logic holds, 商売が成り立つ = the business is viable)."}
+    ]
+  },
+  {
+    "w": "見かける",
+    "r": "みかける",
+    "m": "to happen to see; to come across; to spot",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "近所で彼女を見かけたが、声をかけられなかった。", "en": "I happened to spot her in the neighborhood but couldn't bring myself to call out to her."}],
+    "qs": [
+      {"t": "fitb", "s": "このあたりでは最近、野生の鹿を＿＿＿＿ことが増えた。", "en": "In this area, sightings of wild deer have increased recently.", "o": ["見かける", "目撃する", "見つける", "発見する"], "a": 0, "e": "見かける(みかける) = to happen to see/spot (casually, in passing). 目撃する(もくげきする) = to witness (an incident). 見つける(みつける) = to find (after looking). 発見する(はっけんする) = to discover."},
+      {"t": "meaning", "s": "「見かける」の意味は？", "o": ["to happen to see; to spot (casually)", "to witness (an incident)", "to find (after looking)", "to discover"], "a": 0, "e": "見かける = noticing something without particularly looking for it (見かけない顔 = an unfamiliar face, 最近見かけない = haven't seen around lately)."}
+    ]
+  },
+  {
+    "w": "言い張る",
+    "r": "いいはる",
+    "m": "to insist; to assert stubbornly; to maintain",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "証拠を見せても、彼は自分は無関係だと言い張った。", "en": "Even when shown evidence, he stubbornly insisted he had nothing to do with it."}],
+    "qs": [
+      {"t": "fitb", "s": "彼女は自分のやり方が正しいと最後まで＿＿＿＿た。", "en": "She stubbornly maintained to the end that her way was correct.", "o": ["言い張っ", "主張し", "言い続け", "強調し"], "a": 0, "e": "言い張る(いいはる) = to stubbornly insist (despite opposition). 主張する(しゅちょうする) = to assert/claim (neutral). 言い続ける(いいつづける) = to keep saying. 強調する(きょうちょうする) = to emphasize."},
+      {"t": "meaning", "s": "「言い張る」の意味は？", "o": ["to insist stubbornly; to maintain", "to assert; to claim (neutral)", "to keep saying; to repeat", "to emphasize; to stress"], "a": 0, "e": "言い張る implies refusing to back down (無実を言い張る = to stubbornly maintain one's innocence). It carries a negative nuance of being unreasonably insistent."}
+    ]
+  },
+  {
+    "w": "仕上げる",
+    "r": "しあげる",
+    "m": "to finish; to complete; to put the finishing touches on",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "締め切り前夜に、ようやくレポートを仕上げた。", "en": "On the night before the deadline, I finally finished the report."}],
+    "qs": [
+      {"t": "fitb", "s": "三年かけて作った作品を、来月ついに＿＿＿＿予定だ。", "en": "The work I have spent three years on is scheduled to be finally completed next month.", "o": ["仕上げる", "完成させる", "仕上がる", "まとめる"], "a": 0, "e": "仕上げる(しあげる) = to finish/complete (transitive: you complete it). 完成させる(かんせいさせる) = to bring to completion (formal). 仕上がる(しあがる) = to be finished (intransitive). まとめる = to put together/compile."},
+      {"t": "meaning", "s": "「仕上げる」の意味は？", "o": ["to finish; to complete (transitive)", "to bring to completion (formal)", "to be finished (intransitive)", "to compile; to put together"], "a": 0, "e": "仕上げる = bringing something to its final, polished state (作品を仕上げる = to complete a work, 仕上げに = for the finishing touch)."}
+    ]
+  },
+  {
+    "w": "使い捨て",
+    "r": "つかいすて",
+    "m": "disposable; throwaway; single-use",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "環境のために使い捨てプラスチックの使用を減らすべきだ。", "en": "We should reduce the use of disposable plastics for the environment."}],
+    "qs": [
+      {"t": "fitb", "s": "このカメラは＿＿＿＿タイプで、現像後に返却する形式だ。", "en": "This camera is a disposable type, returned after the film is developed.", "o": ["使い捨て", "一回限り", "インスタント", "レンタル"], "a": 0, "e": "使い捨て(つかいすて) = disposable/single-use (物理的に捨てる). 一回限り(いっかいかぎり) = one-time only. インスタント = instant (loanword). レンタル = rental."},
+      {"t": "meaning", "s": "「使い捨て」の意味は？", "o": ["disposable; single-use; throwaway", "one-time only", "instant (loanword)", "rental; for hire"], "a": 0, "e": "使い捨て = designed to be used once and discarded (使い捨てカイロ = disposable hand warmer, 使い捨て文化 = throwaway culture). Used figuratively: 使い捨ての労働者 = disposable workers."}
+    ]
+  },
+  {
+    "w": "やり取り",
+    "r": "やりとり",
+    "m": "exchange; back-and-forth; communication",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "メールでのやり取りを通じて、彼女とは良い関係が築けた。", "en": "Through email exchanges, I was able to build a good relationship with her."}],
+    "qs": [
+      {"t": "fitb", "s": "契約の詳細については、弁護士との＿＿＿＿を重ねてから決定する。", "en": "Regarding the details of the contract, we will decide after repeated exchanges with the lawyer.", "o": ["やり取り", "交渉", "話し合い", "交流"], "a": 0, "e": "やり取り(やりとり) = back-and-forth exchange (messages, opinions). 交渉(こうしょう) = negotiation. 話し合い(はなしあい) = discussion/talk. 交流(こうりゅう) = exchange/interaction (broader relationship)."},
+      {"t": "meaning", "s": "「やり取り」の意味は？", "o": ["back-and-forth exchange", "negotiation", "discussion; talk", "exchange; interaction (broad)"], "a": 0, "e": "やり取り is the mutual giving and receiving in communication (メールのやり取り = email exchange, 意見のやり取り = exchange of opinions)."}
+    ]
+  },
+  {
+    "w": "受け入れる",
+    "r": "うけいれる",
+    "m": "to accept; to receive; to take in",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "異なる意見を受け入れることで、視野が広がる。", "en": "By accepting different opinions, your perspective expands."}],
+    "qs": [
+      {"t": "fitb", "s": "現実をそのまま＿＿＿＿ことが、前に進む第一歩だ。", "en": "Accepting reality as it is is the first step to moving forward.", "o": ["受け入れる", "受け止める", "認める", "容認する"], "a": 0, "e": "受け入れる(うけいれる) = to accept/take in (a person, idea, situation). 受け止める(うけとめる) = to receive/take on board (an impact, news). 認める(みとめる) = to recognize/acknowledge. 容認する(ようにんする) = to tolerate/permit (formal)."},
+      {"t": "meaning", "s": "「受け入れる」の意味は？", "o": ["to accept; to take in", "to receive; to take on board (an impact)", "to acknowledge; to recognize", "to tolerate; to permit (formal)"], "a": 0, "e": "受け入れる = welcoming or accepting something (移民を受け入れる = to accept immigrants, 条件を受け入れる = to accept the terms). 受け止める has more of a 'taking the hit' nuance."}
+    ]
+  },
+  {
+    "w": "引き受ける",
+    "r": "ひきうける",
+    "m": "to take on; to undertake; to accept responsibility for",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "難しい仕事だとわかっていたが、喜んで引き受けた。", "en": "I knew it was a difficult job, but I willingly took it on."}],
+    "qs": [
+      {"t": "fitb", "s": "その仕事は私が＿＿＿＿ます。責任をもって対応します。", "en": "I will take on that job. I will handle it with responsibility.", "o": ["引き受け", "担当し", "対応し", "請け負い"], "a": 0, "e": "引き受ける(ひきうける) = to take on/accept (a task, responsibility). 担当する(たんとうする) = to be in charge of. 対応する(たいおうする) = to deal with/respond to. 請け負う(うけおう) = to contract/undertake (commercially)."},
+      {"t": "meaning", "s": "「引き受ける」の意味は？", "o": ["to take on; to accept (responsibility)", "to be in charge of", "to deal with; to respond to", "to contract; to undertake (commercial)"], "a": 0, "e": "引き受ける = committing to take responsibility for something (仕事を引き受ける = to take on a job, 保証人を引き受ける = to become a guarantor)."}
+    ]
+  },
+  {
+    "w": "落ち着く",
+    "r": "おちつく",
+    "m": "to calm down; to settle; to feel at ease",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "深呼吸して少し落ち着いてから、話してください。", "en": "Take a deep breath, calm down a little, then speak."}],
+    "qs": [
+      {"t": "fitb", "s": "引越しが終わり、新居での生活がようやく＿＿＿＿いた。", "en": "The move was over and life in the new home had finally settled down.", "o": ["落ち着", "安定し", "慣れ", "落ち着き"], "a": 0, "e": "落ち着く(おちつく) = to calm/settle down (emotionally or situationally). 安定する(あんていする) = to stabilize. 慣れる(なれる) = to get used to. 落ち着き(おちつき) = composure/calmness (noun)."},
+      {"t": "meaning", "s": "「落ち着く」の意味は？", "o": ["to calm down; to settle", "to stabilize", "to get used to", "composure; calmness (noun)"], "a": 0, "e": "落ち着く = returning to a calm, settled state (気持ちが落ち着く = feelings settle, 状況が落ち着く = the situation calms down, 落ち着いた色 = subdued/calm colour)."}
+    ]
+  },
+  {
+    "w": "申し出る",
+    "r": "もうしでる",
+    "m": "to offer; to propose; to report (formally)",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "困っている人を見かけたので、手伝いを申し出た。", "en": "Seeing someone in trouble, I offered to help."}],
+    "qs": [
+      {"t": "fitb", "s": "彼はボランティアとして参加することを自ら＿＿＿＿た。", "en": "He voluntarily offered to participate as a volunteer.", "o": ["申し出", "申し込み", "提案し", "名乗り出"], "a": 0, "e": "申し出る(もうしでる) = to offer/volunteer proactively (formal, you initiate). 申し込む(もうしこむ) = to apply/register. 提案する(ていあんする) = to propose. 名乗り出る(なのりでる) = to come forward/identify oneself."},
+      {"t": "meaning", "s": "「申し出る」の意味は？", "o": ["to offer; to volunteer (proactively)", "to apply; to register", "to propose; to suggest", "to come forward; to identify oneself"], "a": 0, "e": "申し出る = proactively making an offer or proposal to someone of higher standing (辞表を申し出る = to tender a resignation, 援助を申し出る = to offer assistance)."}
+    ]
+  },
+  {
+    "w": "うなずく",
+    "r": "うなずく",
+    "m": "to nod; to nod in agreement",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "彼は黙ってうなずき、話を聞き続けた。", "en": "He silently nodded and continued listening."}],
+    "qs": [
+      {"t": "fitb", "s": "説明を聞いてようやく納得し、深く＿＿＿＿た。", "en": "After finally being convinced by the explanation, I nodded deeply.", "o": ["うなずい", "同意し", "頷き", "賛成し"], "a": 0, "e": "うなずく = to nod (the physical action of lowering the head in agreement). 同意する(どういする) = to agree (verbal/formal). 頷く = alternate spelling of うなずく. 賛成する(さんせいする) = to be in favour of."},
+      {"t": "meaning", "s": "「うなずく」の意味は？", "o": ["to nod; to nod in agreement", "to agree (formally)", "to be in favour; to support", "to consent; to approve"], "a": 0, "e": "うなずく is the physical gesture of nodding to show understanding or agreement (深くうなずく = to nod deeply, 思わずうなずく = to nod involuntarily in agreement)."}
+    ]
+  },
+  {
+    "w": "見舞う",
+    "r": "みまう",
+    "m": "to visit (sb ill or in difficulty); to strike; to befall",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "入院している友人をお見舞いに行った。", "en": "I went to visit my friend who was in the hospital."}],
+    "qs": [
+      {"t": "fitb", "s": "大雪が地域を＿＿＿＿い、交通機関がすべて止まった。", "en": "Heavy snowfall struck the region and all transportation came to a halt.", "o": ["見舞", "襲", "直撃し", "降り注"], "a": 0, "e": "見舞う(みまう) = to visit (a sick person) or to befall/strike (a disaster). 襲う(おそう) = to attack/strike. 直撃する(ちょくげきする) = to hit directly. 降り注ぐ(ふりそそぐ) = to pour down."},
+      {"t": "meaning", "s": "「見舞う」の意味は？", "o": ["to visit (sb ill); to befall (disaster)", "to attack; to strike", "to hit directly", "to pour down"], "a": 0, "e": "見舞う has two uses: お見舞い(おみまい)に行く = to pay a visit to someone who is sick/in trouble; and 災害に見舞われる = to be struck by a disaster."}
+    ]
+  },
+  {
+    "w": "思い浮かべる",
+    "r": "おもいうかべる",
+    "m": "to picture; to call to mind; to imagine",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "故郷の景色を思い浮かべると、自然と笑顔になれる。", "en": "When I picture the scenery of my hometown, I naturally find myself smiling."}],
+    "qs": [
+      {"t": "fitb", "s": "その曲を聴くと、学生時代の思い出が自然と＿＿＿＿れる。", "en": "When I hear that song, memories of my student days naturally come to mind.", "o": ["思い浮かべら", "思い出さ", "想起さ", "よみがえ"], "a": 0, "e": "思い浮かべる(おもいうかべる) = to picture/visualize (deliberately). 思い出す(おもいだす) = to recall/remember (a memory comes back). 想起する(そうきする) = to recall/evoke (formal). よみがえる(蘇る) = to revive/come flooding back."},
+      {"t": "meaning", "s": "「思い浮かべる」の意味は？", "o": ["to picture; to call to mind (deliberately)", "to recall; to remember (a memory)", "to evoke; to recall (formal)", "to revive; to come flooding back"], "a": 0, "e": "思い浮かべる = actively visualizing something in the mind (顔を思い浮かべる = to picture someone's face, 具体例を思い浮かべる = to picture a concrete example)."}
+    ]
+  },
+  {
+    "w": "差し支える",
+    "r": "さしつかえる",
+    "m": "to be a problem; to interfere; to cause inconvenience",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "もし差し支えなければ、お名前を教えていただけますか？", "en": "If it is not a problem, could you tell me your name?"}],
+    "qs": [
+      {"t": "fitb", "s": "明日の会議の時間を変更しても＿＿＿＿ないでしょうか？", "en": "Would it not cause any inconvenience if we change the time of tomorrow's meeting?", "o": ["差し支え", "支障が", "問題が", "困り"], "a": 0, "e": "差し支える(さしつかえる) = to cause inconvenience / be a problem. 支障をきたす(ししょうをきたす) = to cause an obstacle/problem. 問題がある(もんだいがある) = to be a problem. 困る(こまる) = to be troubled."},
+      {"t": "meaning", "s": "「差し支える」の意味は？", "o": ["to be a problem; to cause inconvenience", "to cause an obstacle; to hinder", "to be a problem (neutral)", "to be troubled; to be at a loss"], "a": 0, "e": "差し支える is used politely to ask if something is inconvenient (差し支えなければ = if it is not inconvenient, 差し支えない = no problem / no objection)."}
+    ]
+  },
+  {
+    "w": "出来事",
+    "r": "できごと",
+    "m": "event; happening; incident",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "今日は忘れられない出来事があった。", "en": "Today an unforgettable event occurred."}],
+    "qs": [
+      {"t": "fitb", "s": "その日の＿＿＿＿は、その後の人生に大きな影響を与えた。", "en": "The happenings of that day had a great influence on the rest of his life.", "o": ["出来事", "事件", "事象", "出来"], "a": 0, "e": "出来事(できごと) = an event/happening (neutral, everyday). 事件(じけん) = an incident/case (noteworthy, often negative). 事象(じしょう) = phenomenon/event (scientific/formal). 出来(でき) = result/quality (e.g. 出来がいい = well made)."},
+      {"t": "meaning", "s": "「出来事」の意味は？", "o": ["event; happening; incident (neutral)", "incident; case (noteworthy)", "phenomenon; event (scientific)", "result; quality"], "a": 0, "e": "出来事 is a neutral word for something that happened (日常の出来事 = everyday happenings, 歴史的な出来事 = a historic event)."}
+    ]
+  },
+  {
+    "w": "年齢",
+    "r": "ねんれい",
+    "m": "age; one's years",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "採用にあたって年齢は問いませんと求人票に書いてあった。", "en": "The job listing stated that age would not be a factor in hiring."}],
+    "qs": [
+      {"t": "fitb", "s": "彼女は＿＿＿＿のわりに落ち着いていて、年上に見られることが多い。", "en": "She is calm for her age and is often taken to be older.", "o": ["年齢", "年", "歳", "年代"], "a": 0, "e": "年齢(ねんれい) = age (formal noun, used in documents). 年(とし) = age (colloquial: 年のわりに = for one's age). 歳(さい) = age (numerical counter). 年代(ねんだい) = generation/era."},
+      {"t": "meaning", "s": "「年齢」の意味は？", "o": ["age; one's years (formal)", "age (colloquial)", "age (counter)", "generation; era"], "a": 0, "e": "年齢 is the formal term for age (年齢制限 = age limit, 年齢確認 = age verification, 平均年齢 = average age)."}
+    ]
+  },
+  {
+    "w": "物事",
+    "r": "ものごと",
+    "m": "things; matters; everything",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "物事をポジティブに考える習慣をつけることが大切だ。", "en": "It is important to develop the habit of thinking about things positively."}],
+    "qs": [
+      {"t": "fitb", "s": "＿＿＿＿には必ず表と裏がある。", "en": "Everything has two sides.", "o": ["物事", "物", "事柄", "こと"], "a": 0, "e": "物事(ものごと) = things in general / matters (abstract and concrete combined). 物(もの) = a thing (physical). 事柄(ことがら) = a matter/subject (abstract). こと = a thing/fact (abstract)."},
+      {"t": "meaning", "s": "「物事」の意味は？", "o": ["things; matters (abstract & concrete)", "a thing (physical)", "a matter; a subject (abstract)", "a fact; an abstract thing"], "a": 0, "e": "物事 is a general term for 'things in general' (物事を深く考える = to think deeply about things, 物事の本質 = the essence of things)."}
+    ]
+  },
+  {
+    "w": "見本",
+    "r": "みほん",
+    "m": "sample; specimen; model; example",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "購入前に見本を見せてもらえますか？", "en": "Could you show me a sample before I purchase?"}],
+    "qs": [
+      {"t": "fitb", "s": "新製品の＿＿＿＿を配布して、顧客の反応を確かめた。", "en": "We distributed samples of the new product and confirmed customer reactions.", "o": ["見本", "サンプル", "試供品", "モデル"], "a": 0, "e": "見本(みほん) = a sample/specimen/model (something representing the real thing). サンプル = sample (loanword). 試供品(しきゅうひん) = a free sample/giveaway. モデル = model (person or object)."},
+      {"t": "meaning", "s": "「見本」の意味は？", "o": ["sample; specimen; model", "sample (loanword)", "free sample; giveaway", "fashion model; exemplary person"], "a": 0, "e": "見本 is something shown as a representative example (見本市 = trade fair/expo, 見本を見せる = to show a sample, 手本 = a model to copy/follow)."}
+    ]
+  },
+  {
+    "w": "後回し",
+    "r": "あとまわし",
+    "m": "putting off; deferring; leaving for later",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "重要な課題を後回しにする癖がついてしまっている。", "en": "I have developed the habit of putting off important tasks."}],
+    "qs": [
+      {"t": "fitb", "s": "健康のことを仕事の＿＿＿＿にし続けた結果、体を壊してしまった。", "en": "As a result of constantly putting health behind work, I broke down my body.", "o": ["後回し", "二の次", "先送り", "棚上げ"], "a": 0, "e": "後回し(あとまわし) = pushing something to later / not doing it now. 二の次(にのつぎ) = of secondary importance. 先送り(さきおくり) = postponing/deferring. 棚上げ(たなあげ) = shelving/putting on the back burner (indefinitely)."},
+      {"t": "meaning", "s": "「後回し」の意味は？", "o": ["putting off; leaving for later", "of secondary importance", "postponing; deferring", "shelving; putting on the back burner"], "a": 0, "e": "後回しにする = to push something to later (後回しにしてはいけない = must not put off). 先送り is more formal/political. 棚上げ implies the issue is suspended indefinitely."}
+    ]
+  },
+  {
+    "w": "取り扱い",
+    "r": "とりあつかい",
+    "m": "handling; treatment; dealing with",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この機器の取り扱いには十分な注意が必要だ。", "en": "Sufficient care is required when handling this device."}],
+    "qs": [
+      {"t": "fitb", "s": "危険物の＿＿＿＿には資格が必要な場合がある。", "en": "Handling hazardous materials may require a license.", "o": ["取り扱い", "扱い", "処理", "操作"], "a": 0, "e": "取り扱い(とりあつかい) = handling/treatment (formal; 取り扱い説明書 = instruction manual). 扱い(あつかい) = treatment/handling (general). 処理(しょり) = processing/dealing with (data, waste). 操作(そうさ) = operation/manipulation (a device)."},
+      {"t": "meaning", "s": "「取り扱い」の意味は？", "o": ["handling; treatment (formal)", "treatment; handling (general)", "processing; dealing with", "operation; manipulation"], "a": 0, "e": "取り扱い is the formal term for handling or dealing with something (個人情報の取り扱い = handling of personal information, 取り扱い注意 = handle with care)."}
+    ]
+  },
+  {
+    "w": "欠点",
+    "r": "けってん",
+    "m": "fault; defect; shortcoming; weak point",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "自分の欠点を認めて改善しようとすることは、成長につながる。", "en": "Acknowledging your own shortcomings and trying to improve them leads to growth."}],
+    "qs": [
+      {"t": "fitb", "s": "この計画の＿＿＿＿は、コストが高すぎる点だ。", "en": "The shortcoming of this plan is that the costs are too high.", "o": ["欠点", "弱点", "短所", "デメリット"], "a": 0, "e": "欠点(けってん) = a fault/defect (something that should not be there). 弱点(じゃくてん) = a weak point (already in earlier batches). 短所(たんしょ) = a shortcoming/weakness (opposite of 長所). デメリット = disadvantage (loanword)."},
+      {"t": "meaning", "s": "「欠点」の意味は？", "o": ["fault; defect; shortcoming", "weak point; vulnerability", "weakness; shortcoming (vs. strength)", "disadvantage (loanword)"], "a": 0, "e": "欠点 is a flaw or defect (欠点を補う = to make up for one's faults). 短所 pairs with 長所(ちょうしょ) = strong point, in the context of personal pros and cons."}
+    ]
+  },
+  {
+    "w": "長所",
+    "r": "ちょうしょ",
+    "m": "strong point; merit; advantage",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "面接で長所と短所を聞かれるのは定番の質問だ。", "en": "Being asked about your strengths and weaknesses in an interview is a standard question."}],
+    "qs": [
+      {"t": "fitb", "s": "彼の最大の＿＿＿＿は、どんな人とも仲良くなれる社交性だ。", "en": "His greatest strength is his sociability — he can get along with anyone.", "o": ["長所", "強み", "メリット", "利点"], "a": 0, "e": "長所(ちょうしょ) = a strong point (personal quality, pairs with 短所). 強み(つよみ) = strength/edge (competitive). メリット = merit/advantage (loanword). 利点(りてん) = advantage/benefit (of a plan/option)."},
+      {"t": "meaning", "s": "「長所」の意味は？", "o": ["strong point (personal quality)", "competitive strength; edge", "merit; advantage (loanword)", "advantage; benefit (of a plan)"], "a": 0, "e": "長所 is used in personal context (長所を伸ばす = to develop one's strengths). 強み is more about competitive advantage. 利点 is practical benefit."}
+    ]
+  },
+  {
+    "w": "物価",
+    "r": "ぶっか",
+    "m": "prices; cost of living",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "近年、物価の上昇が家計を圧迫している。", "en": "In recent years, rising prices have been squeezing household budgets."}],
+    "qs": [
+      {"t": "fitb", "s": "この国は＿＿＿＿が高く、外国人観光客には出費が多い。", "en": "Prices in this country are high and foreign tourists have many expenses.", "o": ["物価", "物値", "価格", "料金"], "a": 0, "e": "物価(ぶっか) = the general price level / cost of living. 価格(かかく) = the price of a specific item. 料金(りょうきん) = a fee/charge (for services). 物値(ものね) = the price of goods (colloquial variant)."},
+      {"t": "meaning", "s": "「物価」の意味は？", "o": ["general price level; cost of living", "price (of a specific item)", "fee; charge (for services)", "goods price (colloquial)"], "a": 0, "e": "物価 is a macro-economic term (物価上昇 = price rise/inflation, 物価安定 = price stability). 価格 is the individual price of one thing."}
+    ]
+  },
+  {
+    "w": "収納",
+    "r": "しゅうのう",
+    "m": "storage; putting away; storing",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この家具は収納スペースが多く、部屋がすっきり片付く。", "en": "This furniture has plenty of storage space and keeps the room tidy."}],
+    "qs": [
+      {"t": "fitb", "s": "狭い部屋を広く使うために、＿＿＿＿を工夫することが大切だ。", "en": "To make good use of a small room, it is important to be creative with storage.", "o": ["収納", "収蔵", "保管", "格納"], "a": 0, "e": "収納(しゅうのう) = everyday storage (of household items, clothing). 収蔵(しゅうぞう) = storing a collection (museum/archive). 保管(ほかん) = safekeeping/storage (important items). 格納(かくのう) = storage/housing (planes in a hangar, data)."},
+      {"t": "meaning", "s": "「収納」の意味は？", "o": ["everyday storage; putting away", "storing a collection (museum)", "safekeeping; storage (important items)", "housing; storage (technical)"], "a": 0, "e": "収納 is the daily-life word for storing things (収納スペース = storage space, 収納家具 = storage furniture, 上手な収納 = clever storage)."}
+    ]
+  },
+  {
+    "w": "出費",
+    "r": "しゅっぴ",
+    "m": "expenditure; outgoing expense",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "今月は急な出費が重なり、家計が苦しい。", "en": "Unexpected expenses piled up this month and the household budget is tight."}],
+    "qs": [
+      {"t": "fitb", "s": "子育てには何かと＿＿＿＿がかかる。", "en": "Raising children involves various expenses.", "o": ["出費", "費用", "支出", "経費"], "a": 0, "e": "出費(しゅっぴ) = an expense that goes out (急な出費 = an unexpected expense). 費用(ひよう) = cost/expense (of a project). 支出(ししゅつ) = expenditure (accounting/formal). 経費(けいひ) = business expenses."},
+      {"t": "meaning", "s": "「出費」の意味は？", "o": ["outgoing expense; money spent", "cost (of a project)", "expenditure (accounting)", "business expenses"], "a": 0, "e": "出費 is money that flows out (出費を抑える = to hold down expenses, 無駄な出費 = wasteful spending). More personal/household than 支出 which is an accounting term."}
+    ]
+  },
+  {
+    "w": "下請け",
+    "r": "したうけ",
+    "m": "subcontract; subcontractor",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "大手ゼネコンの下請けとして、建設工事を請け負っている。", "en": "We take on construction work as a subcontractor for a major general contractor."}],
+    "qs": [
+      {"t": "fitb", "s": "この製品の一部は海外の＿＿＿＿工場で製造されている。", "en": "Part of this product is manufactured at overseas subcontract factories.", "o": ["下請け", "外注", "委託", "提携"], "a": 0, "e": "下請け(したうけ) = a subcontractor (receives work from a prime contractor). 外注(がいちゅう) = outsourcing (to an external party). 委託(いたく) = consignment/entrusting. 提携(ていけい) = partnership/tie-up."},
+      {"t": "meaning", "s": "「下請け」の意味は？", "o": ["subcontract; subcontractor", "outsourcing (to external party)", "consignment; entrusting", "partnership; tie-up"], "a": 0, "e": "下請け is when a company takes on work passed down from a larger contractor (下請け業者 = subcontractor, 下請け構造 = subcontracting structure). 外注 is outsourcing to an outside company."}
+    ]
+  },
+  {
+    "w": "目処",
+    "r": "めど",
+    "m": "prospect; target; aim; rough schedule",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "来月末を目処に、プロジェクトを完了させたい。", "en": "I would like to complete the project with the end of next month as the target."}],
+    "qs": [
+      {"t": "fitb", "s": "修理が終わる＿＿＿＿が立たず、代替品を手配することにした。", "en": "With no clear prospect of when the repair would finish, I decided to arrange a replacement.", "o": ["目処", "見通し", "目安", "目標"], "a": 0, "e": "目処(めど) = a rough target or schedule (目処がつく = to get a rough idea of timing, 目処が立たない = no prospect in sight). 見通し(みとおし) = outlook. 目安(めやす) = a benchmark. 目標(もくひょう) = a goal."},
+      {"t": "meaning", "s": "「目処」の意味は？", "o": ["rough target; prospect; rough schedule", "outlook; future view", "benchmark; rough guide", "goal; concrete target"], "a": 0, "e": "目処 is a rough timing or completion target (完成の目処が立つ = a completion date is in sight, 目処をつける = to figure out a rough schedule)."}
+    ]
+  },
+  {
+    "w": "余地",
+    "r": "よち",
+    "m": "room; scope; margin; leeway",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この計画にはまだ改善の余地がある。", "en": "There is still room for improvement in this plan."}],
+    "qs": [
+      {"t": "fitb", "s": "彼の主張には疑いの＿＿＿＿がない。", "en": "There is no room for doubt in his argument.", "o": ["余地", "余裕", "余剰", "空き"], "a": 0, "e": "余地(よち) = scope/room for something (abstract: 余地がない = no room for). 余裕(よゆう) = margin/leeway (time, money, mental capacity). 余剰(よじょう) = surplus/excess. 空き(あき) = an opening/vacancy (physical)."},
+      {"t": "meaning", "s": "「余地」の意味は？", "o": ["room; scope (abstract)", "margin; leeway (time/money/mental)", "surplus; excess", "opening; vacancy (physical)"], "a": 0, "e": "余地 is always abstract scope or margin (改善の余地 = room for improvement, 疑いの余地なく = beyond doubt, 交渉の余地 = room to negotiate)."}
+    ]
+  },
+  {
+    "w": "重なる",
+    "r": "かさなる",
+    "m": "to pile up; to overlap; to coincide",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "不運なことが重なり、最悪の月になった。", "en": "Unfortunate things piled up and it became the worst month."}],
+    "qs": [
+      {"t": "fitb", "s": "今週は予定が＿＿＿＿っていて、忙しくて仕方がない。", "en": "My schedule is piling up this week and I am helplessly busy.", "o": ["重な", "詰ま", "積み重な", "集中し"], "a": 0, "e": "重なる(かさなる) = to pile up / overlap (events, misfortunes coinciding). 詰まる(つまる) = to get packed/blocked. 積み重なる(つみかさなる) = to accumulate layer by layer. 集中する(しゅうちゅうする) = to concentrate/converge."},
+      {"t": "meaning", "s": "「重なる」の意味は？", "o": ["to pile up; to overlap; to coincide", "to get packed; to be blocked", "to accumulate layer by layer", "to concentrate; to converge"], "a": 0, "e": "重なる = things happening on top of each other (不幸が重なる = misfortunes pile up, 日程が重なる = schedules overlap). Different from 重ねる(かさねる) = to stack/layer (transitive)."}
+    ]
+  },
+  {
+    "w": "掘り下げる",
+    "r": "ほりさげる",
+    "m": "to dig into; to delve deeper into; to pursue",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "表面的な理解で満足せず、テーマをもっと掘り下げることが大切だ。", "en": "It is important not to be satisfied with superficial understanding but to delve deeper into the theme."}],
+    "qs": [
+      {"t": "fitb", "s": "問題の根本原因を＿＿＿＿ために、追加調査が必要だ。", "en": "Additional investigation is necessary to dig deeper into the root cause of the problem.", "o": ["掘り下げる", "突き詰める", "探る", "分析する"], "a": 0, "e": "掘り下げる(ほりさげる) = to dig deeper/investigate thoroughly. 突き詰める(つきつめる) = to pursue to the very end / think through completely. 探る(さぐる) = to probe/explore. 分析する(ぶんせきする) = to analyze."},
+      {"t": "meaning", "s": "「掘り下げる」の意味は？", "o": ["to dig into; to delve deeper", "to pursue to the very end", "to probe; to explore", "to analyze; to break down"], "a": 0, "e": "掘り下げる = going deeper beneath the surface (問題を掘り下げる = to dig into an issue, 内容を掘り下げた議論 = an in-depth discussion)."}
+    ]
+  },
+  {
+    "w": "通じる",
+    "r": "つうじる",
+    "m": "to get through; to be understood; to connect",
+    "c": "verb",
+    "lv": 1,
+    "ex": [{"jp": "英語が通じる国なら、旅行に困らない。", "en": "If it's a country where English gets through, I won't have trouble traveling."}],
+    "qs": [
+      {"t": "fitb", "s": "どんなに言葉を尽くしても、気持ちが＿＿＿＿ないことがある。", "en": "No matter how many words you use, there are times when your feelings don't get through.", "o": ["通じ", "伝わら", "届か", "理解され"], "a": 0, "e": "通じる(つうじる) = to get through / be understood / be connected (言葉が通じる = language gets through, 電話が通じる = the call goes through). 伝わる(つたわる) = to be conveyed/transmitted. 届く(とどく) = to reach/arrive. 理解される = to be understood."},
+      {"t": "meaning", "s": "「通じる」の意味は？", "o": ["to get through; to be understood", "to be conveyed; to be transmitted", "to reach; to arrive", "to be understood (passive)"], "a": 0, "e": "通じる = a link or understanding being established (外国語が通じる = foreign language is understood, AはBに通じる = A connects to B, A is related to B)."}
+    ]
+  },
+  {
+    "w": "恐れ",
+    "r": "おそれ",
+    "m": "fear; risk; possibility (of something bad)",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "この地域には大雨による洪水の恐れがある。", "en": "There is a risk of flooding from heavy rain in this area."}],
+    "qs": [
+      {"t": "fitb", "s": "このままでは、プロジェクトが失敗する＿＿＿＿がある。", "en": "As things stand, there is a risk that the project will fail.", "o": ["恐れ", "危険", "可能性", "見込み"], "a": 0, "e": "恐れ(おそれ) = fear or the risk/possibility of something bad. 危険(きけん) = danger. 可能性(かのうせい) = possibility (neutral). 見込み(みこみ) = expectation/likelihood."},
+      {"t": "meaning", "s": "「恐れ」の意味は？", "o": ["fear; risk (of something bad)", "danger; hazard", "possibility (neutral)", "expectation; likelihood"], "a": 0, "e": "恐れ has two uses: fear (恐れをなす = to be afraid) and formal risk/possibility (崩壊の恐れがある = there is a risk of collapse). The second usage is common in news and formal writing."}
+    ]
+  },
+  {
+    "w": "依頼",
+    "r": "いらい",
+    "m": "request; commission; asking a favor",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "知人から翻訳の依頼を受け、快く引き受けた。", "en": "I received a translation request from an acquaintance and gladly accepted."}],
+    "qs": [
+      {"t": "fitb", "s": "弁護士に事件の調査を＿＿＿＿することにした。", "en": "I decided to commission a lawyer to investigate the case.", "o": ["依頼", "委託", "要請", "申し込み"], "a": 0, "e": "依頼(いらい)する = to request/ask (someone to do something for you). 委託(いたく)する = to entrust/consign (work to another). 要請(ようせい)する = to request (formally, often from authority to authority). 申し込む(もうしこむ) = to apply/register."},
+      {"t": "meaning", "s": "「依頼」の意味は？", "o": ["request; asking a favor", "entrustment; consignment", "formal request (authority to authority)", "application; registration"], "a": 0, "e": "依頼 = asking someone to do something on your behalf (依頼人 = client, 依頼書 = letter of request). 委託 is giving something into someone else's care. 要請 is an official call to action."}
+    ]
+  },
+  {
+    "w": "余分",
+    "r": "よぶん",
+    "m": "extra; surplus; unnecessary",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "余分な出費を避けるため、購入前によく考えるようにしている。", "en": "I try to think carefully before buying in order to avoid unnecessary expenditure."}],
+    "qs": [
+      {"t": "fitb", "s": "作りすぎた料理の＿＿＿＿分は、タッパーに入れて冷凍した。", "en": "The extra portion of the food I made too much of went into a container and was frozen.", "o": ["余分", "余剰", "余り", "余計"], "a": 0, "e": "余分(よぶん) = an extra/surplus amount (often unwanted). 余剰(よじょう) = surplus (economic/official term). 余り(あまり) = the remainder/leftover. 余計(よけい) = extra / unnecessary / making things worse."},
+      {"t": "meaning", "s": "「余分」の意味は？", "o": ["extra; surplus; unnecessary", "surplus (economic term)", "remainder; leftover", "unnecessary; unwanted; making it worse"], "a": 0, "e": "余分 = more than needed (余分に買う = to buy extra, 余分な説明 = an unnecessary explanation). 余計 is similar but stronger — it actively makes things worse (余計なお世話 = meddling)."}
+    ]
+  },
+  {
+    "w": "先行き",
+    "r": "さきゆき",
+    "m": "future prospects; outlook; what lies ahead",
+    "c": "noun",
+    "lv": 1,
+    "ex": [{"jp": "業績不振が続き、会社の先行きが不透明になってきた。", "en": "With poor business performance continuing, the company's future outlook has become unclear."}],
+    "qs": [
+      {"t": "fitb", "s": "不安定な経済状況の中、多くの企業が＿＿＿＿を懸念している。", "en": "In the unstable economic climate, many companies are concerned about what lies ahead.", "o": ["先行き", "将来", "見通し", "行方"], "a": 0, "e": "先行き(さきゆき) = the near-term outlook/future (of a business or economy). 将来(しょうらい) = the (longer-term) future. 見通し(みとおし) = outlook/prospect. 行方(ゆくえ) = whereabouts / where things are headed."},
+      {"t": "meaning", "s": "「先行き」の意味は？", "o": ["near-term outlook; what lies ahead", "the (long-term) future", "outlook; prospect", "whereabouts; direction things are headed"], "a": 0, "e": "先行き is used for the near-to-medium-term business or economic outlook (先行き不透明 = uncertain outlook, 先行きを楽観する = to be optimistic about the future)."}
+    ]
+  }
+]
