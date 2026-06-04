@@ -448,6 +448,12 @@
   function buildQueue(scope, cat, length) {
     let pool = poolFor(scope, cat);
     if (scope !== "weak") pool = shuffle(pool);
+    if (length === 0) {
+      // "Tous" : toutes les questions de chaque point (pas une seule)
+      const items = [];
+      pool.forEach((g) => (g.qs || []).forEach((_, qi) => items.push({ gid: g.id, qi })));
+      return shuffle(items);
+    }
     if (length && length > 0) pool = pool.slice(0, length);
     return pool.map((g) => pickExercise(g.id));
   }
@@ -460,7 +466,7 @@
     const scopes = [
       ["due", "Due"], ["all", "All"], ["weak", "Points à renforcer"], ["new", "Nouveaux"],
     ];
-    const lengths = [[10, "10"], [20, "20"], [30, "30"], [0, "Tout"]];
+    const lengths = [[10, "10"], [20, "20"], [30, "30"], [0, "Tous (730)"]];
     const catChips = [["all", "All"]].concat(Object.keys(CATS).map((c) => [c, CATS[c].label]));
 
     $("#view-practice").innerHTML = `
@@ -501,8 +507,14 @@
     };
     updatePoolInfo();
     function updatePoolInfo() {
-      const n = poolFor(practiceCfg.scope, practiceCfg.cat).length;
-      $("#poolInfo").textContent = n ? `${n} point${n > 1 ? "s" : ""} disponible${n > 1 ? "s" : ""}` : "Aucun point disponible";
+      const pool = poolFor(practiceCfg.scope, practiceCfg.cat);
+      if (practiceCfg.length === 0) {
+        const ex = pool.reduce((t, g) => t + (g.qs ? g.qs.length : 0), 0);
+        $("#poolInfo").textContent = ex ? `${ex} exercices` : "Aucun exercice disponible";
+      } else {
+        const n = pool.length;
+        $("#poolInfo").textContent = n ? `${n} point${n > 1 ? "s" : ""} disponible${n > 1 ? "s" : ""}` : "Aucun point disponible";
+      }
     }
   }
 
