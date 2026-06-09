@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover" />
+  <title>N5 道場 — Grammaire JLPT N5 + Boss Battle</title>
+  <meta name="description" content="Entraînement intensif à la grammaire japonaise JLPT N5 : 84 points, exercices, répétition espacée." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=1" />
+  <style>
+    .brand-mark,.tab.is-active,.btn.big,#pw-lvl,#pw-btn,.botnav-btn.is-active{background:linear-gradient(135deg,#43c97f,#22a05a)!important;box-shadow:0 4px 18px rgba(34,160,90,.38)!important}
+    .btn.big{color:#fff!important;border:none!important}
+    .chip.streak svg path{stroke:#43c97f!important}
+    /* ---- bannière Boss Battle (dashboard) ---- */
+    .boss-banner{position:relative;display:flex;align-items:center;gap:16px;margin-top:18px;cursor:pointer;
+      border-radius:20px;padding:18px 20px;overflow:hidden;border:1px solid #3a2b4e;
+      background:linear-gradient(125deg,#2a1d44 0%,#3a1f2a 60%,#4a2030 100%);
+      transition:transform .22s cubic-bezier(.2,.7,.3,1),box-shadow .22s}
+    .boss-banner:hover{transform:translateY(-3px);box-shadow:0 12px 38px rgba(120,60,160,.35)}
+    .boss-banner:active{transform:scale(.99)}
+    .boss-banner .bb-glow{position:absolute;inset:0;pointer-events:none;
+      background:radial-gradient(420px 180px at 12% 120%,rgba(255,180,84,.28),transparent 60%),
+                 radial-gradient(320px 160px at 95% -20%,rgba(180,90,220,.3),transparent 60%)}
+    .boss-banner-emoji{position:relative;flex-shrink:0;width:64px;height:64px;border-radius:18px;
+      display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#c93a2b,#7b2d2d);box-shadow:0 6px 20px rgba(201,58,43,.45)}
+    .boss-banner-emoji span{font-family:'Noto Sans JP',sans-serif;font-size:2rem;font-weight:700;color:#fff;
+      animation:bossBob 2.6s ease-in-out infinite}
+    @keyframes bossBob{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-5px) rotate(3deg)}}
+    .boss-banner-txt{position:relative;flex:1;min-width:0}
+    .boss-banner-txt .bb-kick{font-size:.68rem;font-weight:800;letter-spacing:.14em;color:#ffce54;font-family:'Noto Sans JP',sans-serif}
+    .boss-banner-txt h3{font-size:1.2rem;font-weight:800;color:#fff;margin:2px 0 3px}
+    .boss-banner-txt p{font-size:.84rem;color:#c9b8d8;line-height:1.45}
+    .boss-banner-cta{position:relative;flex-shrink:0;font-weight:800;font-size:.9rem;color:#1a1a1a;
+      background:#fff;padding:10px 16px;border-radius:12px;white-space:nowrap}
+    @media(max-width:540px){.boss-banner-cta{display:none}.boss-banner-txt p{display:none}}
+  </style>
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0c0f16" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="icon-180.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="N5 道場" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" id="brand" role="button" tabindex="0" title="Accueil">
+      <span class="brand-mark">N5</span>
+      <span class="brand-name">道場<small>Grammar</small></span>
+    </div>
+
+    <nav class="tabs" id="tabs" aria-label="Navigation principale">
+      <button class="tab is-active" data-view="dashboard">Dashboard</button>
+      <button class="tab" data-view="practice">Practice</button>
+      <button class="tab" data-view="flash">Cards</button>
+      <button class="tab" data-view="challenge">Challenge</button>
+      <button class="tab" data-view="boss">Boss</button>
+      <button class="tab" data-view="reference">Reference</button>
+    </nav>
+
+    <div class="topbar-right">
+      <button class="chip streak" id="streakChip" title="Série de jours d'étude consécutifs">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M12 2c1 3-1 4-2 6-1 2 0 4 2 4 1.5 0 2-1 2-2 2 1.5 3 3.5 3 5.5A5.5 5.5 0 0 1 6.5 21 6 6 0 0 1 4 13c0-3 2-5 3-7 1.5 1 2 2 2 3 1-2 2-4 3-7Z"/></svg>
+        <span id="streakNum">0</span>
+      </button>
+      <button class="icon-btn" id="themeBtn" title="Changer de thème (clair / sombre)" aria-label="Thème">
+        <svg viewBox="0 0 24 24" class="ic" id="themeIc"><path d="M21 12.8A8.5 8.5 0 0 1 11.2 3 7 7 0 1 0 21 12.8Z"/></svg>
+      </button>
+      <button class="icon-btn" id="settingsBtn" title="Réglages" aria-label="Réglages">
+        <svg viewBox="0 0 24 24" class="ic"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm9 4a7 7 0 0 0-.1-1.2l2-1.6-2-3.4-2.4 1a7 7 0 0 0-2-1.2l-.4-2.6H9.9l-.4 2.6a7 7 0 0 0-2 1.2l-2.4-1-2 3.4 2 1.6A7 7 0 0 0 3 12c0 .4 0 .8.1 1.2l-2 1.6 2 3.4 2.4-1a7 7 0 0 0 2 1.2l.4 2.6h4.2l.4-2.6a7 7 0 0 0 2-1.2l2.4 1 2-3.4-2-1.6c.1-.4.1-.8.1-1.2Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="view-dashboard" class="view"></section>
+    <section id="view-practice" class="view hidden"></section>
+    <section id="view-flash" class="view hidden"></section>
+    <section id="view-challenge" class="view hidden"></section>
+    <section id="view-boss" class="view hidden"></section>
+    <section id="view-reference" class="view hidden"></section>
+  </main>
+
+  <nav class="bottomnav" id="bottomnav" aria-label="Navigation mobile"></nav>
+
+  <div id="modalRoot"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <p style="padding:2rem;text-align:center">Ce site nécessite JavaScript pour fonctionner.</p>
+  </noscript>
+
+  <script>window.PAYWALL_CONFIG={level:"N5",appName:"N5 道場",storeKey:"n5dojo.unlocked",code:"N5-T8J1C4",stripeLink:"https://jlptdojo2026.gumroad.com/l/yvfnf",accent:"#43c97f",totalPoints:84,demoQs:[{q:"机の上に本＿＿＿あります。",ctx:"There's a book on the desk.",o:["が","は","を","に"],a:0,e:"ある (to exist) takes が for its subject."},{q:"りんご＿＿＿食べました。",ctx:"I ate an apple.",o:["を","が","は","で"],a:0,e:"食べる (transitive verb) takes を for its direct object."},{q:"図書館＿＿＿勉強します。",ctx:"I study at the library.",o:["で","に","を","が"],a:0,e:"で marks the place where an action takes place."},{q:"学校＿＿＿行きます。",ctx:"I go to school.",o:["に","で","を","が"],a:0,e:"に marks the destination of a movement verb."},{q:"田中さん＿＿＿先生です。",ctx:"Mr Tanaka is a teacher.",o:["は","が","を","で"],a:0,e:"は is the topic marker — it introduces what we're talking about."},{q:"友達＿＿＿一緒に映画を見ました。",ctx:"I watched a film together with friends.",o:["と","に","で","が"],a:0,e:"と marks doing something together with someone."},{q:"9時＿＿＿起きました。",ctx:"I woke up at 9 o'clock.",o:["に","で","を","が"],a:0,e:"に marks a specific point in time."},{q:"バス＿＿＿学校に来ました。",ctx:"I came to school by bus.",o:["で","に","を","と"],a:0,e:"で marks the means of transport used."},{q:"日本語＿＿＿話せますか。",ctx:"Can you speak Japanese?",o:["が","を","は","で"],a:0,e:"With potential verbs like 話せる, the object is marked by が."},{q:"この本＿＿＿面白いです。",ctx:"This book is interesting.",o:["は","が","を","に"],a:0,e:"は marks the topic being evaluated — 'as for this book, it is interesting.'"}]};</script>
+  <script src="paywall.js?v=4"></script>
+  <script src="grammar-n5.js?v=3"></script>
+  <script src="boss.js?v=6"></script>
+  <script src="app.js?v=9"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js").catch(function () {});
+      });
+    }
+  </script>
+</body>
+</html>
