@@ -469,7 +469,7 @@
     .bb-bar .fg{z-index:1;transition:width .45s cubic-bezier(.2,.7,.3,1);
       background:linear-gradient(90deg,#ff5d6c,#ff8a5b);box-shadow:0 0 8px rgba(255,120,90,.5)}
     /* barre boss = épée (la lame se vide de la pointe vers le joyau) */
-    .bb-sword{position:relative;width:100%;margin-top:5px;line-height:0;filter:drop-shadow(0 2px 5px rgba(0,0,0,.7))}
+    .bb-sword{position:relative;width:100%;max-width:340px;margin-top:5px;line-height:0;filter:drop-shadow(0 2px 5px rgba(0,0,0,.7))}
     .bb-sword img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
     .bb-sword .empty{filter:brightness(.32) saturate(.22) contrast(.92)}
     .bb-sword .fill{position:absolute;inset:0;clip-path:inset(0 0% 0 0);
@@ -505,16 +505,17 @@
       border-top:1px solid rgba(255,190,110,.16)}
     .bb-plrow{display:flex;align-items:center;gap:10px;margin-bottom:11px}
     .bb-plrow .av{width:34px;height:34px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
-      background:rgba(0,0,0,.42);border:1px solid rgba(120,200,160,.42)}
+      background:rgba(0,0,0,.45);border:1px solid rgba(255,200,120,.4)}
     .bb-plrow .col{flex:1}
-    .bb-plrow .lab{display:flex;justify-content:space-between;font-size:.7rem;font-weight:700;color:#e2ebe4;margin-bottom:3px;text-shadow:0 1px 3px rgba(0,0,0,.8)}
-    .bb-plrow .bb-bar{border-color:rgba(120,200,160,.42)}
-    .bb-plrow .bb-bar .fg{background:linear-gradient(90deg,#46d18b,#5b9cff);box-shadow:0 0 8px rgba(70,209,139,.5)}
+    .bb-plrow .lab{display:flex;justify-content:space-between;font-size:.7rem;font-weight:700;color:#e9dcc4;margin-bottom:3px;text-shadow:0 1px 3px rgba(0,0,0,.8)}
+    .bb-plrow .lab span:first-child{font-family:var(--font-jp);color:#cbb48c}
+    .bb-plrow .bb-bar .fg{background:linear-gradient(90deg,#2e9e6e,#5fd3a0);box-shadow:0 0 8px rgba(70,200,130,.55)}
 
     /* question */
     .bb-qtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
     .bb-qtop .turn{font-size:.66rem;font-weight:800;color:#bba98a;text-transform:uppercase;letter-spacing:.12em}
-    .bb-qtop .cat{font-size:.64rem;font-weight:800;padding:3px 9px;border-radius:100px;color:#fff}
+    .bb-qtop .cat{font-size:.64rem;font-weight:800;padding:3px 10px;border-radius:100px;
+      color:#e9c98a;background:rgba(40,30,20,.7);border:1px solid rgba(255,190,110,.35);font-family:var(--font-jp)}
     .bb-stem{font-family:var(--font-jp);font-size:clamp(1.15rem,4.4vw,1.42rem);line-height:1.55;font-weight:600;color:#f4ead4;
       margin:2px 0 4px;text-shadow:0 1px 5px rgba(0,0,0,.7)}
     .bb-stem .blk{display:inline-block;min-width:50px;border-bottom:3px solid #ffb454;margin:0 3px}
@@ -546,7 +547,7 @@
       color:#1a1306;background:linear-gradient(180deg,#ffce6e,#f0a838);box-shadow:0 4px 16px rgba(240,168,56,.4);
       transition:transform var(--t-fast)}
     .bb-next:hover{transform:translateY(-2px)}
-    .bb-next.gn{background:linear-gradient(180deg,#5fe0a0,#36b87a);color:#04261a}
+    .bb-next.gn{background:linear-gradient(180deg,#5fd3a0,#2e9e6e);color:#04261a}
     .bb-next.rd{background:linear-gradient(180deg,#ff8086,#e0454b);color:#fff}
 
     /* overlay intro / résultat */
@@ -695,7 +696,7 @@
       <div class="bb-combo" id="bbCombo"><b>x2</b><small>COMBO</small></div>
       <div class="bb-hud-bottom">
         <div class="bb-plrow">
-          <div class="av"><svg viewBox="0 0 24 24" style="width:20px;height:20px;stroke:#9af0c4;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M3 21l9-9M14 7l3-3 3 3-3 3M14 7l-3 3M17 4l-1-1"/></svg></div>
+          <div class="av"><svg viewBox="0 0 24 24" style="width:20px;height:20px;stroke:#e9c98a;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M3 21l9-9M14 7l3-3 3 3-3 3M14 7l-3 3M17 4l-1-1"/></svg></div>
           <div class="col">
             <div class="lab"><span>侍 ${lvl} Apprenti</span><span id="bbPlHpNum">100 / 100</span></div>
             <div class="bb-bar"><span class="fg" id="bbPlHp"></span></div>
@@ -986,7 +987,7 @@
     b.shufAns = idx.indexOf(q.a);
 
     const catObj = q.cat && API.CATS[q.cat];
-    const catChip = catObj ? `<span class="cat" style="background:${catObj.color}">${API.esc(catObj.label)}</span>` : "";
+    const catChip = catObj ? `<span class="cat">${API.esc(catObj.label)}</span>` : "";
     const stem = renderStem(q.stem);
     const ctxLine = q.ctx ? `<div class="bb-ctx">${API.esc(q.ctx)}</div>` : "";
     const opts = b.shufOpts.map((o, i) => `
