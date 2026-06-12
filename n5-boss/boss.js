@@ -707,11 +707,15 @@
     document.documentElement.style.overflow = "hidden";
 
     gameEl.querySelector("#bbBack").onclick = renderMap;
-    gameEl.querySelector("#bbMute").onclick = (e) => { setMuted(!muted()); e.currentTarget.innerHTML = muteIcon(); };
+    gameEl.querySelector("#bbMute").onclick = (e) => {
+      setMuted(!muted()); e.currentTarget.innerHTML = muteIcon();
+      if (muted()) { if (music) music.pause(); } else { playMusic(); }
+    };
 
     setupCanvas();
     onResize = () => setupCanvas();
     window.addEventListener("resize", onResize);
+    playMusic();
     loopStart();
 
     // fin de l'intro → première question
@@ -731,7 +735,31 @@
   }
 
   /* ----------------------------------------------------- canvas + boucle */
-  let canvas, ctx, buf, bufx, dpr = 1, gameEl = null, onResize = null;
+  let canvas, ctx, buf, bufx, dpr = 1, gameEl = null, onResize = null, music = null;
+
+  /* ----------------------------------------------------- musique de fond */
+  function ensureMusic() {
+    if (!music) { music = new Audio("assets/audio/battle-theme.m4a"); music.loop = true; music.preload = "auto"; music.volume = 0; }
+    return music;
+  }
+  function fadeMusic(target, ms) {
+    const m = music; if (!m) return;
+    const start = m.volume, t0 = performance.now();
+    (function step(now) {
+      if (!music) return;
+      const k = Math.min(1, (now - t0) / ms);
+      m.volume = Math.max(0, Math.min(1, start + (target - start) * k));
+      if (k < 1) requestAnimationFrame(step);
+    })(performance.now());
+  }
+  function playMusic() {
+    const m = ensureMusic();
+    if (muted()) { m.pause(); return; }
+    const p = m.play();
+    if (p && p.then) p.then(() => fadeMusic(0.32, 1000)).catch(() => {});
+    else fadeMusic(0.32, 1000);
+  }
+  function stopMusic() { if (music) { music.pause(); music.currentTime = 0; music.volume = 0; } }
   function setupCanvas() {
     if (!gameEl) return;
     canvas = gameEl.querySelector("#bbCanvas");
@@ -1158,6 +1186,7 @@
   function stop() {
     cancelAnimationFrame(raf); raf = 0;
     if (onResize) { window.removeEventListener("resize", onResize); onResize = null; }
+    stopMusic();
     if (gameEl) { gameEl.remove(); gameEl = null; }
     document.documentElement.style.overflow = "";
     if (battle) battle = null;

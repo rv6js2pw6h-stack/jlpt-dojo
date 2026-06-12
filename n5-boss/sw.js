@@ -1,12 +1,13 @@
 /* N5 道場 + Boss Battle — Service Worker (cache-first, vraiment hors-ligne) */
-const CACHE = "n5boss-v10";
+const CACHE = "n5boss-v11";
 const ASSETS = [
   "./",
   "./index.html",
   "./styles.css?v=1",
   "./paywall.js?v=4",
   "./grammar-n5.js?v=3",
-  "./boss.js?v=10",
+  "./boss.js?v=11",
+  "./assets/audio/battle-theme.m4a",
   "./app.js?v=9",
   "./manifest.json",
   "./icon-180.png",
