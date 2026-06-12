@@ -500,10 +500,10 @@
 
     /* HUD bas (joueur + question intégrée à la scène) */
     .bb-hud-bottom{position:absolute;left:0;right:0;bottom:0;z-index:6;
-      padding:14px 12px calc(12px + var(--safe-b));max-height:82vh;overflow-y:auto;
+      padding:14px 12px calc(12px + var(--safe-b));max-height:54vh;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;
       background:linear-gradient(to top,rgba(6,4,8,.95) 55%,rgba(6,4,8,.74) 82%,rgba(6,4,8,0));
       border-top:1px solid rgba(255,190,110,.16)}
-    .bb-plname{margin-bottom:11px}
+    .bb-plname{margin-bottom:9px}
     .bb-plname .nm{font-weight:800;font-size:.92rem;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.85);display:flex;gap:8px;align-items:center}
     .bb-plname .nm .k{font-family:var(--font-jp);color:#8fe0b6}
     .bb-plname .hpnum{margin-left:auto;font-size:.7rem;color:rgba(225,245,230,.85);font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,.85)}
@@ -514,15 +514,15 @@
     .bb-qtop .turn{font-size:.66rem;font-weight:800;color:#bba98a;text-transform:uppercase;letter-spacing:.12em}
     .bb-qtop .cat{font-size:.64rem;font-weight:800;padding:3px 10px;border-radius:100px;
       color:#e9c98a;background:rgba(40,30,20,.7);border:1px solid rgba(255,190,110,.35);font-family:var(--font-jp)}
-    .bb-stem{font-family:var(--font-jp);font-size:clamp(1.15rem,4.4vw,1.42rem);line-height:1.55;font-weight:600;color:#f4ead4;
+    .bb-stem{font-family:var(--font-jp);font-size:clamp(1.05rem,4vw,1.3rem);line-height:1.5;font-weight:600;color:#f4ead4;
       margin:2px 0 4px;text-shadow:0 1px 5px rgba(0,0,0,.7)}
     .bb-stem .blk{display:inline-block;min-width:50px;border-bottom:3px solid #ffb454;margin:0 3px}
-    .bb-ctx{color:#b9a888;font-size:.82rem;margin-bottom:11px}
-    .bb-opts{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+    .bb-ctx{color:#b9a888;font-size:.8rem;margin-bottom:9px}
+    .bb-opts{display:grid;grid-template-columns:1fr 1fr;gap:8px}
     .bb-opt{position:relative;display:flex;align-items:center;gap:9px;cursor:pointer;
       background:linear-gradient(180deg,rgba(42,31,22,.84),rgba(24,18,13,.88));
-      border:1.5px solid rgba(200,150,85,.4);border-radius:12px;padding:12px 13px;
-      font-size:clamp(1rem,3.6vw,1.12rem);font-family:var(--font-jp);font-weight:600;color:#f2e7d2;text-align:left;
+      border:1.5px solid rgba(200,150,85,.4);border-radius:12px;padding:10px 12px;
+      font-size:clamp(.92rem,3.3vw,1.05rem);line-height:1.3;font-family:var(--font-jp);font-weight:600;color:#f2e7d2;text-align:left;
       box-shadow:0 2px 10px rgba(0,0,0,.45),inset 0 0 0 1px rgba(0,0,0,.3);
       transition:transform var(--t-fast),border-color var(--t-fast),box-shadow var(--t-fast)}
     .bb-opt:not(:disabled):hover{transform:translateY(-2px);border-color:rgba(255,200,110,.9);
@@ -539,7 +539,7 @@
     .bb-shake{animation:bbShakeX .4s}
     @keyframes bbShakeX{0%,100%{transform:translateX(0)}25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
     .bb-expl{margin-top:10px;background:rgba(20,15,11,.82);border:1px solid rgba(200,150,85,.32);border-radius:11px;
-      padding:11px 13px;font-size:.86rem;line-height:1.55;color:#cdbfa6;animation:bbPop .25s;max-height:24vh;overflow:auto}
+      padding:10px 12px;font-size:.84rem;line-height:1.5;color:#cdbfa6;animation:bbPop .25s;max-height:16vh;overflow:auto}
     .bb-expl b{color:#f4ead4}
     .bb-next{margin-top:10px;width:100%;border:none;border-radius:12px;padding:14px;font-size:1rem;font-weight:800;cursor:pointer;
       color:#1a1306;background:linear-gradient(180deg,#ffce6e,#f0a838);box-shadow:0 4px 16px rgba(240,168,56,.4);
