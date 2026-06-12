@@ -468,6 +468,12 @@
     .bb-bar .lead{background:rgba(255,255,255,.32);transition:width .9s ease .15s;z-index:0}
     .bb-bar .fg{z-index:1;transition:width .45s cubic-bezier(.2,.7,.3,1);
       background:linear-gradient(90deg,#ff5d6c,#ff8a5b);box-shadow:0 0 8px rgba(255,120,90,.5)}
+    /* barre boss = épée (la lame se vide de la pointe vers le joyau) */
+    .bb-sword{position:relative;width:100%;margin-top:5px;line-height:0;filter:drop-shadow(0 2px 5px rgba(0,0,0,.7))}
+    .bb-sword img{display:block;width:100%;height:auto;user-select:none;-webkit-user-drag:none}
+    .bb-sword .empty{filter:brightness(.32) saturate(.22) contrast(.92)}
+    .bb-sword .fill{position:absolute;inset:0;clip-path:inset(0 0% 0 0);
+      transition:clip-path .55s cubic-bezier(.2,.7,.3,1);filter:drop-shadow(0 0 5px rgba(255,70,45,.55))}
 
     /* HUD haut */
     .bb-hud-top{position:absolute;top:0;left:0;right:0;z-index:6;
@@ -681,7 +687,7 @@
           <button class="bb-icbtn" id="bbBack" aria-label="Carte"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg></button>
           <div class="bb-bossname">
             <div class="nm"><span class="k">${boss.kanji}</span> ${boss.romaji}<span class="hpnum" id="bbBossHpNum" style="margin-left:auto">${boss.hp} / ${boss.hp}</span></div>
-            <div class="bb-bar"><span class="lead" id="bbBossLead"></span><span class="fg" id="bbBossHp"></span></div>
+            <div class="bb-sword"><img class="empty" src="assets/source/sword.png" alt=""><img class="fill" id="bbBossSword" src="assets/source/sword.png" alt=""></div>
           </div>
           <button class="bb-icbtn" id="bbMute" aria-label="Son">${muteIcon()}</button>
         </div>
@@ -915,10 +921,14 @@
     const b = battle; if (!b || !gameEl) return;
     const bp = clamp(b.hp / b.maxhp, 0, 1) * 100;
     const pp = clamp(b.php / b.pmax, 0, 1) * 100;
-    const bh = gq("#bbBossHp"), bl = gq("#bbBossLead"), ph = gq("#bbPlHp");
-    if (bh) bh.style.width = bp + "%";
+    const ph = gq("#bbPlHp");
     if (ph) ph.style.width = pp + "%";
-    if (bl) { if (instant) bl.style.width = bp + "%"; else setTimeout(() => { const l = gq("#bbBossLead"); if (l) l.style.width = bp + "%"; }, 30); }
+    // barre boss = épée : la lame se vide de la pointe (droite) vers le joyau (gauche)
+    const sword = gq("#bbBossSword");
+    if (sword) {
+      const vis = 0.21 + clamp(b.hp / b.maxhp, 0, 1) * 0.79; // garde le joyau (gauche) toujours visible
+      sword.style.clipPath = "inset(0 " + ((1 - vis) * 100).toFixed(1) + "% 0 0)";
+    }
     const bn = gq("#bbBossHpNum"); if (bn) bn.textContent = Math.max(0, Math.ceil(b.hp)) + " / " + b.maxhp;
     const pn = gq("#bbPlHpNum"); if (pn) pn.textContent = Math.max(0, Math.ceil(b.php)) + " / " + b.pmax;
   }
