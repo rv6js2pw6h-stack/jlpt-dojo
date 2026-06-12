@@ -503,13 +503,11 @@
       padding:14px 12px calc(12px + var(--safe-b));max-height:82vh;overflow-y:auto;
       background:linear-gradient(to top,rgba(6,4,8,.95) 55%,rgba(6,4,8,.74) 82%,rgba(6,4,8,0));
       border-top:1px solid rgba(255,190,110,.16)}
-    .bb-plrow{display:flex;align-items:center;gap:10px;margin-bottom:11px}
-    .bb-plrow .av{width:34px;height:34px;border-radius:10px;flex-shrink:0;display:flex;align-items:center;justify-content:center;
-      background:rgba(0,0,0,.45);border:1px solid rgba(255,200,120,.4)}
-    .bb-plrow .col{flex:1}
-    .bb-plrow .lab{display:flex;justify-content:space-between;font-size:.7rem;font-weight:700;color:#e9dcc4;margin-bottom:3px;text-shadow:0 1px 3px rgba(0,0,0,.8)}
-    .bb-plrow .lab span:first-child{font-family:var(--font-jp);color:#cbb48c}
-    .bb-plrow .bb-bar .fg{background:linear-gradient(90deg,#2e9e6e,#5fd3a0);box-shadow:0 0 8px rgba(70,200,130,.55)}
+    .bb-plname{margin-bottom:11px}
+    .bb-plname .nm{font-weight:800;font-size:.92rem;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.85);display:flex;gap:8px;align-items:center}
+    .bb-plname .nm .k{font-family:var(--font-jp);color:#8fe0b6}
+    .bb-plname .hpnum{margin-left:auto;font-size:.7rem;color:rgba(225,245,230,.85);font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,.85)}
+    .bb-sword.jade .fill{filter:drop-shadow(0 0 5px rgba(70,210,140,.6))}
 
     /* question */
     .bb-qtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:7px}
@@ -695,12 +693,9 @@
       </div>
       <div class="bb-combo" id="bbCombo"><b>x2</b><small>COMBO</small></div>
       <div class="bb-hud-bottom">
-        <div class="bb-plrow">
-          <div class="av"><svg viewBox="0 0 24 24" style="width:20px;height:20px;stroke:#e9c98a;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M3 21l9-9M14 7l3-3 3 3-3 3M14 7l-3 3M17 4l-1-1"/></svg></div>
-          <div class="col">
-            <div class="lab"><span>侍 ${lvl} Apprenti</span><span id="bbPlHpNum">100 / 100</span></div>
-            <div class="bb-bar"><span class="fg" id="bbPlHp"></span></div>
-          </div>
+        <div class="bb-plname">
+          <div class="nm"><span class="k">侍</span> ${lvl} Apprenti<span class="hpnum" id="bbPlHpNum">100 / 100</span></div>
+          <div class="bb-sword jade"><img class="empty" src="assets/source/sword-jade.png" alt=""><img class="fill" id="bbPlSword" src="assets/source/sword-jade.png" alt=""></div>
         </div>
         <div id="bbPanel"></div>
       </div>
@@ -921,15 +916,10 @@
   function syncBars(instant) {
     const b = battle; if (!b || !gameEl) return;
     const bp = clamp(b.hp / b.maxhp, 0, 1) * 100;
-    const pp = clamp(b.php / b.pmax, 0, 1) * 100;
-    const ph = gq("#bbPlHp");
-    if (ph) ph.style.width = pp + "%";
-    // barre boss = épée : la lame se vide de la pointe (droite) vers le joyau (gauche)
-    const sword = gq("#bbBossSword");
-    if (sword) {
-      const vis = 0.21 + clamp(b.hp / b.maxhp, 0, 1) * 0.79; // garde le joyau (gauche) toujours visible
-      sword.style.clipPath = "inset(0 " + ((1 - vis) * 100).toFixed(1) + "% 0 0)";
-    }
+    // barres = épées : la lame se vide de la pointe (droite) vers le joyau (gauche)
+    const swClip = (el, ratio) => { if (el) { const vis = 0.21 + clamp(ratio, 0, 1) * 0.79; el.style.clipPath = "inset(0 " + ((1 - vis) * 100).toFixed(1) + "% 0 0)"; } };
+    swClip(gq("#bbBossSword"), b.hp / b.maxhp);
+    swClip(gq("#bbPlSword"), b.php / b.pmax);
     const bn = gq("#bbBossHpNum"); if (bn) bn.textContent = Math.max(0, Math.ceil(b.hp)) + " / " + b.maxhp;
     const pn = gq("#bbPlHpNum"); if (pn) pn.textContent = Math.max(0, Math.ceil(b.php)) + " / " + b.pmax;
   }

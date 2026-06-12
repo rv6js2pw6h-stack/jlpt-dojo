@@ -6,7 +6,7 @@ const ASSETS = [
   "./styles.css?v=1",
   "./paywall.js?v=4",
   "./grammar-n5.js?v=3",
-  "./boss.js?v=8",
+  "./boss.js?v=9",
   "./app.js?v=9",
   "./manifest.json",
   "./icon-180.png",
