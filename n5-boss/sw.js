@@ -1,5 +1,5 @@
 /* N5 道場 + Boss Battle — Service Worker (cache-first, vraiment hors-ligne) */
-const CACHE = "n5boss-v1";
+const CACHE = "n5boss-v9";
 const ASSETS = [
   "./",
   "./index.html",
@@ -35,8 +35,13 @@ self.addEventListener("fetch", (e) => {
   if (url.origin !== self.location.origin) return;
 
   if (req.mode === "navigate") {
+    // réseau d'abord : toujours la dernière version en ligne, repli cache hors-ligne
     e.respondWith(
-      caches.match("./index.html").then((cached) => cached || fetch(req))
+      fetch(req).then((res) => {
+        const copy = res.clone();
+        caches.open(CACHE).then((c) => c.put("./index.html", copy));
+        return res;
+      }).catch(() => caches.match("./index.html").then((c) => c || caches.match("./")))
     );
     return;
   }
