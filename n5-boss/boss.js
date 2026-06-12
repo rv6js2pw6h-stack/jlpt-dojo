@@ -57,14 +57,19 @@
   let actx = null;
   function muted() { try { return localStorage.getItem("n5boss.mute") === "1"; } catch (e) { return false; } }
   function setMuted(v) { try { localStorage.setItem("n5boss.mute", v ? "1" : "0"); } catch (e) {} }
-  function ac() { if (!actx) { try { actx = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} } return actx; }
+  const SFX_GAIN = 1.6;   // les SFX claquent par-dessus la musique
+  function ac() {
+    if (!actx) { try { actx = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} }
+    if (actx && actx.state === "suspended") { try { actx.resume(); } catch (e) {} }  // réveille le contexte (mobile)
+    return actx;
+  }
   function tone(freq, t0, dur, type, vol, sweepTo) {
     const a = ac(); if (!a || muted()) return;
     const o = a.createOscillator(), g = a.createGain();
     o.type = type || "sine"; o.frequency.setValueAtTime(freq, a.currentTime + t0);
     if (sweepTo) o.frequency.exponentialRampToValueAtTime(sweepTo, a.currentTime + t0 + dur);
     g.gain.setValueAtTime(0.0001, a.currentTime + t0);
-    g.gain.exponentialRampToValueAtTime(vol || 0.18, a.currentTime + t0 + 0.012);
+    g.gain.exponentialRampToValueAtTime((vol || 0.18) * SFX_GAIN, a.currentTime + t0 + 0.012);
     g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + t0 + dur);
     o.connect(g); g.connect(a.destination);
     o.start(a.currentTime + t0); o.stop(a.currentTime + t0 + dur + 0.02);
@@ -76,7 +81,7 @@
     const d = buf.getChannelData(0);
     for (let i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / n);
     const src = a.createBufferSource(); src.buffer = buf;
-    const g = a.createGain(); g.gain.value = vol || 0.2;
+    const g = a.createGain(); g.gain.value = (vol || 0.2) * SFX_GAIN;
     const f = a.createBiquadFilter(); f.type = "highpass"; f.frequency.value = hp || 800;
     src.connect(f); f.connect(g); g.connect(a.destination);
     src.start(a.currentTime + t0);
@@ -709,7 +714,7 @@
     gameEl.querySelector("#bbBack").onclick = renderMap;
     gameEl.querySelector("#bbMute").onclick = (e) => {
       setMuted(!muted()); e.currentTarget.innerHTML = muteIcon();
-      if (muted()) { if (music) music.pause(); } else { playMusic(); }
+      if (muted()) { if (music) music.pause(); } else { ac(); playMusic(); }  // ac() réveille les SFX
     };
 
     setupCanvas();
@@ -756,8 +761,8 @@
     const m = ensureMusic();
     if (muted()) { m.pause(); return; }
     const p = m.play();
-    if (p && p.then) p.then(() => fadeMusic(0.32, 1000)).catch(() => {});
-    else fadeMusic(0.32, 1000);
+    if (p && p.then) p.then(() => fadeMusic(0.22, 1000)).catch(() => {});
+    else fadeMusic(0.22, 1000);
   }
   function stopMusic() { if (music) { music.pause(); music.currentTime = 0; music.volume = 0; } }
   function setupCanvas() {
