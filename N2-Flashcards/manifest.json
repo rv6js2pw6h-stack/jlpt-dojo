@@ -1,0 +1,14 @@
+{
+  "name": "N2 道場 ・ Flashcards",
+  "short_name": "N2 Flash",
+  "description": "195 flashcards de grammaire JLPT N2 — plan de 14 jours.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c0f16",
+  "theme_color": "#0c0f16",
+  "lang": "fr",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
