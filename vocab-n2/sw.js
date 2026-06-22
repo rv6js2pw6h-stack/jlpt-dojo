@@ -1,6 +1,6 @@
 /* N2 語彙 道場 — Service Worker */
-const CACHE = "n2vocab-v10";
-const ASSETS = ["./", "./index.html", "./styles.css", "./vocab-n2.js?v=520", "./app.js", "./manifest.json"];
+const CACHE = "n2vocab-v11";
+const ASSETS = ["./", "./index.html", "./styles.css", "./vocab-n2.js?v=600", "./app.js", "./manifest.json"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));

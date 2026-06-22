@@ -353,3 +353,47 @@ select.mini { border: 1px solid var(--border); background: var(--surface); borde
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* =========================================================================
+   PLAN 10 JOURS
+   ========================================================================= */
+.plan-card { border: 1px solid var(--border); }
+.plan-header {
+  display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; margin-bottom: 14px;
+}
+.plan-badge {
+  flex-shrink: 0; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 20px;
+  letter-spacing: .5px; text-transform: uppercase;
+}
+.plan-badge-idle { background: var(--surface2); color: var(--text-faint); }
+.plan-badge-active { background: color-mix(in srgb, var(--accent) 18%, transparent); color: var(--accent); }
+.plan-badge-done { background: color-mix(in srgb, var(--green) 18%, transparent); color: var(--green); }
+
+.plan-schedule {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;
+}
+.plan-day-chip {
+  display: flex; flex-direction: column; align-items: center;
+  padding: 6px 10px; border-radius: 8px; min-width: 42px;
+  font-size: 11px; font-weight: 700; transition: var(--t-fast);
+}
+.plan-day-num { font-size: 13px; font-weight: 800; line-height: 1.2; }
+.plan-day-cnt { font-size: 10px; opacity: .75; }
+
+.plan-day-locked { background: var(--surface2); color: var(--text-faint); }
+.plan-day-active {
+  background: var(--accent); color: #fff;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 30%, transparent);
+}
+.plan-day-done { background: color-mix(in srgb, var(--green) 15%, transparent); color: var(--green); }
+
+.plan-today-words {
+  display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 4px;
+}
+.plan-word-preview {
+  font-size: 15px; font-weight: 700; padding: 3px 8px;
+  background: var(--surface2); border-radius: 6px;
+  cursor: default; transition: var(--t-fast);
+}
+.plan-word-preview:hover { background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent); }
+.plan-word-preview.muted { font-size: 13px; color: var(--text-faint); font-weight: 500; }

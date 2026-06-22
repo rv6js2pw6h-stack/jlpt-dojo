@@ -10,6 +10,43 @@
   const DAY = 86400000;
   const STORE_KEY = "n2vocab.v1";
 
+  /* -------- Assign tiers dynamically by frequency rank -------- */
+  VOCAB.forEach((v, i) => { v.lv = i < 225 ? 1 : i < 450 ? 2 : 3; });
+
+  /* ====================================================================
+     10-DAY SRS PLAN
+     675 words ÷ 10 days = 67–68 new words per day.
+     Intervals SM-2 : J+1 → J+3 → J+8 → ...
+     Plan conservé dans state.plan.startDate (ISO).
+     ==================================================================== */
+  const PLAN_DAYS = 10;
+  const PLAN_SIZE = 675; // mots actifs après trim
+
+  function planDayBatch(day) {
+    // Retourne le tableau de mots à introduire le jour `day` (1-indexed).
+    const perDay = Math.ceil(PLAN_SIZE / PLAN_DAYS); // 68
+    const start = (day - 1) * perDay;
+    return VOCAB.slice(start, Math.min(start + perDay, PLAN_SIZE));
+  }
+
+  function currentPlanDay() {
+    // Retourne le jour courant du plan (1-10). Null si plan non démarré.
+    const sd = state.plan && state.plan.startDate;
+    if (!sd) return null;
+    const diff = Math.floor((Date.now() - new Date(sd).getTime()) / DAY);
+    return Math.min(diff + 1, PLAN_DAYS);
+  }
+
+  function planIsComplete() {
+    const d = currentPlanDay();
+    return d !== null && d >= PLAN_DAYS && VOCAB.filter(isNew).length === 0;
+  }
+
+  function startPlan() {
+    state.plan = { startDate: new Date().toISOString().slice(0, 10) };
+    save();
+  }
+
   /* ----------------------------- Helpers -------------------------------- */
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
@@ -36,7 +73,8 @@
   const DEFAULT_STATE = {
     srs: {},
     stats: { totalReviews: 0, totalCorrect: 0, totalWrong: 0, sessions: 0, streak: 0, lastStudyDay: null, challengeBest: 0, history: {} },
-    settings: { theme: "dark", dailyGoal: 20, sound: false },
+    settings: { theme: "dark", dailyGoal: 68, sound: false },
+    plan: { startDate: null },
   };
   let state = load();
   function load() {
@@ -44,7 +82,7 @@
       const raw = localStorage.getItem(STORE_KEY);
       if (!raw) return clone(DEFAULT_STATE);
       const p = JSON.parse(raw);
-      return { srs: p.srs || {}, stats: Object.assign({}, DEFAULT_STATE.stats, p.stats || {}), settings: Object.assign({}, DEFAULT_STATE.settings, p.settings || {}) };
+      return { srs: p.srs || {}, stats: Object.assign({}, DEFAULT_STATE.stats, p.stats || {}), settings: Object.assign({}, DEFAULT_STATE.settings, p.settings || {}), plan: Object.assign({}, DEFAULT_STATE.plan, p.plan || {}) };
     } catch (e) { return clone(DEFAULT_STATE); }
   }
   function clone(o) { return JSON.parse(JSON.stringify(o)); }
@@ -210,10 +248,11 @@
     const seen = total - newCount;
     const acc = state.stats.totalReviews ? Math.round((state.stats.totalCorrect / state.stats.totalReviews) * 100) : 0;
     const todayRev = (state.stats.history[todayStr()] || {}).reviews || 0;
-    const goal = state.settings.dailyGoal;
+    const planDay = currentPlanDay();
+    const goal = planDay ? Math.ceil(PLAN_SIZE / PLAN_DAYS) : state.settings.dailyGoal;
     const goalPct = goal ? clamp(todayRev / goal, 0, 1) : 0;
     const hour = new Date().getHours();
-    const greet = hour < 5 ? "Good night" : hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
+    const greet = hour < 5 ? "Bonne nuit" : hour < 12 ? "Bonjour" : hour < 18 ? "Bon après-midi" : "Bonsoir";
     const barColors = { new: "var(--text-faint)", learning: "var(--accent-2)", young: "var(--blue)", mastered: "var(--green)" };
     const masteryBar = ["new", "learning", "young", "mastered"]
       .map((k) => counts[k] ? `<span style="width:${(counts[k] / total) * 100}%;background:${barColors[k]}"></span>` : "").join("");
@@ -234,48 +273,107 @@
       ? `<div class="weak-list">${weak.map((x) => `<div class="weak-item" data-vid="${x.v.id}">
           <span class="g jp">${esc(x.v.w)}</span><span class="pct">${Math.round(x.a * 100)}%</span>
         </div>`).join("")}</div>`
-      : `<p class="faint" style="font-size:14px">No weak points yet — keep practicing!</p>`;
+      : `<p class="faint" style="font-size:14px">Pas encore de points faibles — continue !</p>`;
+
+    const planCardHTML = buildPlanCard(planDay, dueCount, seen, total);
+    const heroBlock = state.plan.startDate
+      ? `<div class="card pad hero" style="background:var(--surface2)"><div>
+          <h1 style="font-size:17px;margin-bottom:6px">${greet} !</h1>
+          <p style="margin:0">${dueCount > 0
+            ? `<b>${dueCount}</b> révision${dueCount > 1 ? "s" : ""} due${dueCount > 1 ? "s" : ""}${planDay && planDayBatch(planDay).filter(isNew).length ? ` · <b>${planDayBatch(planDay).filter(isNew).length}</b> nouveaux` : ""}`
+            : "Toutes les révisions sont à jour. Continue comme ça !"}</p>
+          </div>${ringSVG(goalPct, todayRev, `/ ${goal} auj.`)}</div>`
+      : `<div class="card pad hero"><div>
+          <h1>${greet} ! Prêt à maîtriser le vocab <span class="jp">N2</span> ?</h1>
+          <p>${dueCount > 0
+            ? `<b>${dueCount}</b> mot${dueCount > 1 ? "s" : ""} à revoir${newCount ? ` · <b>${newCount}</b> nouveaux à découvrir` : ""}.`
+            : newCount > 0 ? `<b>${newCount}</b> mot${newCount > 1 ? "s" : ""} t'attendent.`
+            : `Tout est à jour. Lance un défi vitesse !`}</p>
+          <div class="hero-cta">
+            <button class="btn primary big" id="startSmartHero">Étudier maintenant</button>
+            <button class="btn big ghost" data-go="challenge">Défi vitesse</button>
+          </div>
+          </div>${ringSVG(goalPct, todayRev, `/ ${goal} today`)}</div>`;
 
     $("#view-dashboard").innerHTML = `
-      <div class="card pad hero">
-        <div>
-          <h1>${greet}! Ready to master <span class="jp">N2</span> vocabulary?</h1>
-          <p>${dueCount > 0
-            ? `<b>${dueCount}</b> word${dueCount > 1 ? "s" : ""} to review${newCount ? ` · <b>${newCount}</b> new to discover` : ""}.`
-            : newCount > 0 ? `<b>${newCount}</b> word${newCount > 1 ? "s" : ""} waiting for you.`
-            : `All caught up. Keep reviewing or try a speed challenge.`}</p>
-          <div class="hero-cta">
-            <button class="btn primary big" id="startSmart">Study now</button>
-            <button class="btn big ghost" data-go="challenge">Speed challenge</button>
-          </div>
-        </div>
-        ${ringSVG(goalPct, todayRev, `/ ${goal} today`)}
-      </div>
-      <div class="stat-grid">
-        <div class="stat"><div class="v">${seen}<small> / ${total}</small></div><div class="k">Words studied</div></div>
-        <div class="stat"><div class="v">${counts.mastered}</div><div class="k">Words mastered</div></div>
-        <div class="stat"><div class="v">${acc}<small>%</small></div><div class="k">Accuracy</div></div>
-        <div class="stat"><div class="v">${state.stats.totalReviews}</div><div class="k">Total reviews</div></div>
+      ${heroBlock}
+      ${planCardHTML}
+      <div class="stat-grid" style="margin-top:18px">
+        <div class="stat"><div class="v">${seen}<small> / ${total}</small></div><div class="k">Mots étudiés</div></div>
+        <div class="stat"><div class="v">${counts.mastered}</div><div class="k">Maîtrisés</div></div>
+        <div class="stat"><div class="v">${acc}<small>%</small></div><div class="k">Précision</div></div>
+        <div class="stat"><div class="v">${state.stats.totalReviews}</div><div class="k">Révisions</div></div>
       </div>
       <div class="card pad" style="margin-top:18px">
-        <div class="section-title">Mastery progress</div>
+        <div class="section-title">Progression</div>
         <div class="bar-mastery">${masteryBar}</div>
         <div class="legend">
-          <div><span class="dot m-mastered"></span><b>${counts.mastered}</b> Mastered</div>
-          <div><span class="dot m-young"></span><b>${counts.young}</b> Consolidated</div>
-          <div><span class="dot m-learning"></span><b>${counts.learning}</b> In progress</div>
-          <div><span class="dot m-new"></span><b>${counts.new}</b> New</div>
+          <div><span class="dot m-mastered"></span><b>${counts.mastered}</b> Maîtrisé</div>
+          <div><span class="dot m-young"></span><b>${counts.young}</b> Consolidé</div>
+          <div><span class="dot m-learning"></span><b>${counts.learning}</b> En cours</div>
+          <div><span class="dot m-new"></span><b>${counts.new}</b> Nouveau</div>
         </div>
       </div>
       <div class="grid-2" style="margin-top:18px">
-        <div class="card pad"><div class="section-title">By category</div><div class="cat-rows">${catRows}</div></div>
-        <div class="card pad"><div class="section-title">Weak points</div>${weakHTML}</div>
+        <div class="card pad"><div class="section-title">Par catégorie</div><div class="cat-rows">${catRows}</div></div>
+        <div class="card pad"><div class="section-title">Points faibles</div>${weakHTML}</div>
       </div>`;
 
-    $("#startSmart").onclick = () => startSmartSession();
+    if ($("#startPlan")) $("#startPlan").onclick = () => { startPlan(); renderDashboard(); };
+    if ($("#startSmart")) $("#startSmart").onclick = () => startSmartSession();
+    if ($("#startSmartHero")) $("#startSmartHero").onclick = () => startSmartSession();
     $$("#view-dashboard [data-go]").forEach((b) => (b.onclick = () => go(b.dataset.go)));
     $$("#view-dashboard .cat-row").forEach((r) => (r.onclick = () => { refState.cat = r.dataset.cat; refState.q = ""; go("reference"); }));
     $$("#view-dashboard .weak-item").forEach((w) => (w.onclick = () => { const vid = w.dataset.vid; startSession([pickQuestion(vid)].concat(buildQueue("all", byId(vid).c, 10))); }));
+  }
+
+  function buildPlanCard(planDay, dueCount, seen, total) {
+    if (!state.plan.startDate) {
+      const chips = Array.from({length: PLAN_DAYS}, (_, i) => {
+        const b = planDayBatch(i + 1);
+        return `<div class="plan-day-chip plan-day-locked"><span class="plan-day-num">J${i+1}</span><span class="plan-day-cnt">${b.length}</span></div>`;
+      }).join("");
+      return `<div class="card pad plan-card" style="margin-top:18px">
+        <div class="plan-header">
+          <div>
+            <div class="section-title" style="margin-bottom:4px">Plan 10 jours · N2語彙</div>
+            <p class="muted" style="font-size:13px;margin:0">675 mots essentiels · ~68 nouveaux/jour · répétition espacée SM-2</p>
+          </div>
+          <div class="plan-badge plan-badge-idle">Non démarré</div>
+        </div>
+        <div class="plan-schedule">${chips}</div>
+        <button class="btn primary big" id="startPlan" style="margin-top:16px;width:100%">Démarrer le plan dès aujourd'hui</button>
+        <p class="muted" style="font-size:12px;margin:8px 0 0;text-align:center">Une séance par jour · ne saute pas un jour · les révisions s'accumulent automatiquement</p>
+      </div>`;
+    }
+    const d = planDay || PLAN_DAYS;
+    const batch = planDayBatch(d);
+    const batchNew = batch.filter(isNew).length;
+    const progressPct = Math.round((seen / total) * 100);
+    const chips = Array.from({length: PLAN_DAYS}, (_, i) => {
+      const di = i + 1;
+      const cls = di < d ? "plan-day-done" : di === d ? "plan-day-active" : "plan-day-locked";
+      const b = planDayBatch(di);
+      return `<div class="plan-day-chip ${cls}"><span class="plan-day-num">J${di}</span><span class="plan-day-cnt">${b.length}</span></div>`;
+    }).join("");
+    const wordPreview = batch.slice(0, 8).map(v => `<span class="plan-word-preview jp" title="${esc(v.m)}">${esc(v.w)}</span>`).join("")
+      + (batch.length > 8 ? `<span class="plan-word-preview muted">+${batch.length - 8}</span>` : "");
+    return `<div class="card pad plan-card" style="margin-top:18px">
+      <div class="plan-header">
+        <div>
+          <div class="section-title" style="margin-bottom:4px">Jour ${d} / ${PLAN_DAYS}</div>
+          <p class="muted" style="font-size:13px;margin:0">
+            <b>${batchNew}</b> nouveaux · <b>${dueCount}</b> révisions dues
+          </p>
+        </div>
+        <div class="plan-badge plan-badge-active">${progressPct}% vu</div>
+      </div>
+      <div class="plan-schedule">${chips}</div>
+      <div class="plan-today-words">${wordPreview}</div>
+      <button class="btn primary big" id="startSmart" style="margin-top:14px;width:100%">
+        Étudier — Jour ${d}
+      </button>
+    </div>`;
   }
 
   /* =====================================================================
@@ -350,9 +448,19 @@
     }
   }
   function startSmartSession() {
-    const q = buildQueue("due", "all", state.settings.dailyGoal || 20);
-    if (!q.length) { toast("Nothing to review — start a free session."); go("practice"); return; }
-    go("practice"); startSession(q);
+    const planDay = currentPlanDay();
+    let queue = [];
+    if (planDay) {
+      // Plan mode: today's new words + all due reviews
+      const todayBatch = planDayBatch(planDay);
+      const newItems = todayBatch.filter(isNew).map(v => pickQuestion(v.id));
+      const dueItems = VOCAB.filter(v => isDue(v) && !todayBatch.includes(v)).map(v => pickQuestion(v.id));
+      queue = shuffle(newItems).concat(shuffle(dueItems));
+    } else {
+      queue = buildQueue("due", "all", state.settings.dailyGoal || 20);
+    }
+    if (!queue.length) { toast("Rien à réviser — lance une session libre."); go("practice"); return; }
+    go("practice"); startSession(queue);
   }
 
   /* =====================================================================
